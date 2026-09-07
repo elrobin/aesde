@@ -1,0 +1,26 @@
+---
+title: "Presentación de la asignatura"
+---
+
+::: {.diapo-box}
+Diapositivas de clase — *(enlace a las slides de este tema)*
+:::
+
+## Contenidos teoricos
+
+*(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)*
+
+```{r}
+#| eval: false
+#| echo: true
+# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)
+# library(tidyverse)
+```
+
+## Ejercicio: *(titulo del ejercicio)*
+
+::: {.ejercicio}
+**Objetivo.** *(que debe aprender/practicar el alumno)*
+
+**Instrucciones.** *(enunciado del ejercicio, tabla o pasos a seguir)*
+:::

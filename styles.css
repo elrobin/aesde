@@ -1,0 +1,41 @@
+/* Tarjeta de "Diapositivas de clase" */
+.diapo-box {
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  padding: 0.8rem 1.2rem;
+  background-color: #f7f7f7;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* Bloques de ejercicio */
+.ejercicio {
+  border-left: 4px solid #c0392b;
+  background-color: #fdf3f2;
+  padding: 0.9rem 1.2rem;
+  margin: 1.2rem 0;
+  border-radius: 0 6px 6px 0;
+}
+
+.ejercicio h3, .ejercicio h4 {
+  margin-top: 0;
+}
+
+/* Bloque tipo "consejo" o "bonus" */
+.consejo {
+  border-left: 4px solid #2980b9;
+  background-color: #eef6fb;
+  padding: 0.9rem 1.2rem;
+  margin: 1.2rem 0;
+  border-radius: 0 6px 6px 0;
+}
+
+.bonus {
+  border-left: 4px solid #8e44ad;
+  background-color: #f5eefa;
+  padding: 0.9rem 1.2rem;
+  margin: 1.2rem 0;
+  border-radius: 0 6px 6px 0;
+}

@@ -1,0 +1,71 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "AESDE"
+  site-url: "https://elrobin.github.io/aesde/"
+  repo-url: "https://github.com/elrobin/aesde"
+  repo-actions: [edit, issue]
+  page-navigation: true
+  navbar:
+    # left:
+    #   - href: index.qmd
+    #     text: "Bienvenida"
+    right:
+      - icon: github
+        href: https://github.com/elrobin/aesde
+        aria-label: "Source Code"
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - href: index.qmd
+        text: "Bienvenida a AESDE"
+      - section: "Presentación"
+        contents:
+          - tema0/sesion1.qmd
+      - section: "1. El sistema de información empresarial"
+        contents:
+          - tema1/sesion1.qmd
+      - section: "2.Calidad: concepto y evaluación"
+        contents:
+          - tema2/sesion1.qmd
+      - section: "3. Benchmarking"
+        contents:
+          - tema3/sesion1.qmd
+      - section: "4. La organización y su entorno"
+        contents:
+          - tema4/sesion1.qmd
+      - section: "5. Sistemas de indicadores"
+        contents:
+          - tema5/sesion1.qmd
+      - section: "6. Del indicador al dashboard"
+        contents:
+          - tema6/sesion1.qmd
+      - section: "7. Normativa ISO 9000/9001"
+        contents:
+          - tema7/sesion1.qmd
+
+format:
+  html:
+    theme:
+      light: [flatly, styles.scss]
+      dark: [darkly, styles.scss]
+    css: styles.css
+    toc: true
+    number-sections: false
+    code-fold: false
+    code-tools: true
+    highlight-style: github
+    fig-align: center
+    grid:
+      sidebar-width: 300px
+      body-width: 850px
+      margin-width: 250px
+
+lang: es
+
+execute:
+  freeze: auto

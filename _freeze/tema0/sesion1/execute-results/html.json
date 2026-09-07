@@ -1,0 +1,15 @@
+{
+  "hash": "9af7ce129aee8ab15eff2dc5b0c0d71c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Presentación de la asignatura\"\n---\n\n::: {.diapo-box}\nDiapositivas de clase — *(enlace a las slides de este tema)*\n:::\n\n## Contenidos teoricos\n\n*(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)*\n\n\n::: {.cell}\n\n```{.r .cell-code}\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)\n```\n:::\n\n\n## Ejercicio: *(titulo del ejercicio)*\n\n::: {.ejercicio}\n**Objetivo.** *(que debe aprender/practicar el alumno)*\n\n**Instrucciones.** *(enunciado del ejercicio, tabla o pasos a seguir)*\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
