@@ -3,132 +3,123 @@ title: "Documentación aplicada a la traducción"
 subtitle: "Cuaderno de trabajo"
 author: "Nicolás Robinson-García"
 affiliation: "Universidad de Granada"
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 # Bienvenida a AESDE
 
-Este cuaderno contiene toda la información que necesitas para poder seguir la
-asignatura de **Análisis y Evaluación de los Sistemas de Documentación para las
-Empresas (AESDE)**. Si es la primera vez que aterrizas aquí, te recomiendo que te
-leas este apartado para ponerte rápidamente al día.
-
-*(Sustituye este párrafo por tu propia presentación de la asignatura.)*
-
-## Cómo usar estos materiales
-
-Cada tema está organizado en sesiones que combinan contenido teórico y
-prácticas. Los ejercicios y entregables individuales están descritos al final de
-cada sesión, tal y como se recoge en el programa de contenidos de la guía
-docente.
-
-Los materiales se actualizan de forma continua. Si encuentras algún error o
-tienes sugerencias, puedes abrir un *issue* en el repositorio usando el enlace
-de la barra superior.
+Este cuaderno contiene toda la información que necesitas para poder
+seguir la asignatura de **Análisis y Evaluación de los Sistemas de
+Documentación para las Empresas (AESDE)**. Si es la primera vez que
+aterrizas aquí, te recomiendo que te leas este apartado para ponerte
+rápidamente al día.
 
 ## Filosofía de trabajo
 
-Esta asignatura tiene una fuerte carga práctica, especialmente en el manejo de
-hojas de cálculo, indicadores y herramientas de IA para la construcción de
-cuadros de mando. Para que todo fluya, esta es la filosofía de trabajo que
-adoptaremos en clase y mis compromisos contigo.
+Somos poquitos, así que es importante que será especialmente importante
+la participación activa durante las clases a fin de poder aprovechar al
+máximo la asignatura y hacerla amena y entretenido. Para que todo fluya,
+adoptaremos los siguientes compromisos en clase
 
-| | |
-|---|---|
-| **Aprendizaje activo y participativo** | No vengo a daros la "chapa", quiero hablar con vosotros. Espero que participes, cuestiones, comentes y seas parte de la clase. |
-| **Flexibilidad en el proceso \| Claridad en las normas** | No paso lista, pero muchas actividades se hacen solo en clase. El calendario es tentativo, lo único fijo son las fechas de los exámenes (salvo fuerza mayor). |
-| **Empatía y compromiso** | Estoy aquí para ayudarte a aprender, no para ponerte trabas. Puedes contar conmigo cuando te atasques, pero espero a cambio implicación y esfuerzo. |
-| **Actualización continua** | Me gusta mantener los materiales vivos y actualizados, traer ejemplos reales y vincular lo que vemos en clase con situaciones profesionales. |
-| **Diversidad, respeto y pensamiento crítico** | Fomento el respeto a todas las ideas y trayectorias vitales, así como el desarrollo del juicio crítico y la argumentación fundamentada. |
+1.  **Aprendizaje activo y participativo**. Mi intención es que las
+    clases sean un diálogo y no un monólogo. Espero que partipes,
+    cuestiones, comentes y seas parte de la clase.
 
-## Cómo contactar conmigo
+2.  **Flexibidad dentro de los márgenes**. No paso lista ni tengo en
+    cuenta si asistes más o menos, pero toda la parte práctica o gran
+    parte de ella tiene lugar en el aula. Las actividades que te
+    pierdas, no son recuperables.
 
-Aunque siempre tendrás tiempo en clase para hablar conmigo tanto durante como
-al final, siempre puedes venir a una tutoría para tratar de manera más pausada
-cualquier cuestión que requieras.
+3.  **Empatía y compromiso**. Mi labor es ayudarte a aprender, no
+    ponerte trabas. Habla conmigo cuando te atasques y las cosas no
+    salgan. Eso sí, a cambio espero implicación y esfuerzo
 
-**Consultas o tutorías en línea**
+4.  **Actualización continua**. Siempre estoy revisando materiales, así
+    que no te adelantes, pues seguramente irán modificándose conforme
+    avancemos
 
-- Escríbeme a través de la aplicación de mensajería de la plataforma Moodle
-  (mensaje directo o chat).
-- Escribe a [elrobin@go.ugr.es](mailto:elrobin@go.ugr.es) y pon en el asunto
-  AESDE y el grupo al que perteneces. No olvides decirme quién eres.
+5.  **Diversidad, respeto y pensamiento crítico.** Es esencial para mí
+    el respeto a todas las ideas y trayectorias vitales, así como el
+    desarrollo del juicio crítico y bien fundamentado.
 
-**Tutorías**
+## Planificación y temario
 
-Horario de tutorías (según guía docente): Lunes y Miércoles de 09:00 a 12:00,
-Despacho I, Facultad de Comunicación y Documentación. Si este horario te viene
-mal, siempre podemos buscar otro horario o hablar online si lo acordamos
-previamente.
-
-## Temario y planificación
-
-| Tema | Contenidos |
-|------|------------|
-| 0 | Presentación de la asignatura: bienvenida, planificación y evaluación |
-| 1 | El sistema de información empresarial: tipos de documentos y datos, organización y entorno |
-| 2 | Calidad: concepto, evaluación objetiva y subjetiva. El modelo ServQual |
-| 3 | El benchmarking como herramienta de evaluación comparativa |
-| 4 | La organización y su entorno: vigilancia e inteligencia competitiva, fuentes de información |
-| 5 | Sistemas de indicadores: fundamentos, tipos y diseño |
-| 6 | Del indicador al dashboard: cuadros de mando, visualización de datos y herramientas de IA aplicadas |
-| 7 | La familia de normas ISO 9000/9001 |
-| ** | Seminarios/Talleres y trabajo en equipo |
-
-*(Rellena fechas concretas cuando tengas el calendario oficial del curso.)*
+| Tema   | Contenidos                            |                     |
+|--------|---------------------------------------|---------------------|
+| 0      | Presentación de la asignatura         | 14 de sept, 2026    |
+| 1      | El sistema de información empresarial | 15-21 sept, 2026    |
+| 2      | Calidad: rendimiento y satisfacción   | 22-29 sept, 2026    |
+| 3      | Normativa ISO 9000/9001               | 5-6 oct, 2026       |
+| 4      | Benchmarking                          | 13-26 oct, 2026     |
+| \*\*\* | **Examen Bloque I**                   | **27 oct, 2026**    |
+| 5      | Vigilancia e inteligencia competitiva | 3-9 nov, 2026       |
+| 6      | Sistemas de indicadores               | 10-23 nov, 2026     |
+| 7      | Del indicador al dashboard            | 24 nov-15 dic, 2026 |
+| \*\*\* | **Presentación caso práctico**        | 21 dic, 2026        |
+| \*\*\* | **Examen Bloque II**                  | **22 dic, 2026**    |
 
 ## Evaluación y exámenes
 
 **Evaluación ordinaria (evaluación continua)**
 
-| Instrumento | % calificación |
-|---|---|
-| Pruebas teóricas tipo test (intermedia y final) | 45% |
-| Mini-entregas prácticas | 35% |
-| Trabajo en equipo | 10% |
-| Participación activa | 10% |
+| Instrumento             | \% calificación |
+|-------------------------|-----------------|
+| 2 Pruebas teóricas      | 45%             |
+| Mini-entregas prácticas | 35%             |
+| Trabajo en equipo       | 10%             |
+| Participación activa    | 10%             |
 
-- Pruebas teóricas: carácter intermedio y final, sobre los contenidos de la
-  asignatura. La nota es la media de ambos exámenes.
-- Mini-entregas prácticas: ejercicios individuales resueltos y corregidos en
-  las sesiones prácticas.
-- Trabajo en equipo: desarrollado a lo largo del semestre, presentado en las
-  últimas sesiones de clase.
-- Participación: debe ser voluntaria; no cuenta si se solicita de manera
-  forzada.
+- **Pruebas teóricas**: La nota final es la media de ambos exámenes. La
+  fecha es inamovible salvo causa de fuerza mayor bien justificada y con
+  antelación
+- **Mini-entregas prácticas**: Entregas diarias y corregidas en clase.
+  Plazo de entrega muy breves. Entregas fuera de plazo y antes del
+  examen correspondiente tienen una penalización del 50%. Pasado ese
+  segundo plazo no se aceptan entregas.
+- **Trabajo en equipo**: Se desarrolla a lo largo del semestre, y se
+  presenta en clase en la última sesión.
+- **Participación activa**: Debe ser voluntaria; no cuenta si se
+  solicita de manera forzada.
 
-::: {.consejo}
-**Consejo** | Asiste a clase, entrega las tareas prácticas en los plazos
-establecidos, practica con R/RStudio y las hojas de cálculo, y todo irá bien.
+::: consejo
+**Consejo** \| Asiste a clase, entrega las tareas prácticas en los
+plazos establecidos, practica con R/RStudio y las hojas de cálculo, y
+todo irá bien 🥰.
 :::
 
 **Evaluación extraordinaria**
 
-Examen teórico y examen práctico relativos a los contenidos desarrollados en
-el temario, cada uno al 50% de la nota.
+Examen teórico y examen práctico relativos a los contenidos
+desarrollados en el temario, cada uno al 50% de la nota.
 
 **Evaluación única final**
 
 De acuerdo con el artículo 6.2 de la Normativa de Evaluación y de
-Calificación de los Estudiantes de la UGR, consiste en un examen teórico y un
-examen práctico, cada uno al 50% de la nota. Toda la información está
-disponible en la guía docente. Si contactas conmigo a tiempo (inicio de
-curso) podemos ver cómo abordar esto.
+Calificación de los Estudiantes de la UGR, consiste en un examen teórico
+y un examen práctico, cada uno al 50% de la nota. Toda la información
+está disponible en la guía docente. Si contactas conmigo a tiempo
+(inicio de curso) podemos ver cómo abordar esto.
 
 ## Uso de IA en la asignatura
 
 Esta asignatura incorpora el uso de herramientas de IA como parte de las
-actividades prácticas (p. ej. construcción asistida de cuadros de mando). Se
-espera un uso ético y responsable de las mismas, siguiendo las
-[Recomendaciones para el uso de la inteligencia artificial en la
+actividades prácticas (p. ej. construcción asistida de cuadros de
+mando). Se espera un uso ético y responsable de las mismas, siguiendo
+las [Recomendaciones para el uso de la inteligencia artificial en la
 UGR](https://ceprud.ugr.es/formacion-tic/inteligencia-artificial/recomendaciones-ia#contenido0).
 
 ## Software libre
 
-Se podrá emplear software libre como R/RStudio para el análisis de datos y la
-elaboración de indicadores y cuadros de mando, combinado en su caso con hojas
-de cálculo y herramientas de inteligencia artificial.
+Se podrá emplear software libre como R/RStudio para el análisis de datos
+y la elaboración de indicadores y cuadros de mando, combinado en su caso
+con hojas de cálculo y herramientas de inteligencia artificial.
 
 ## Contacto
 
-Para dudas sobre el contenido, usa el foro de la asignatura en Moodle. Para
-cuestiones administrativas, contacta por correo institucional.
+Toda la comunicación, entrega de ejercicios y prácticas, etc. la vamos a
+canalizar a través de [PRADO](https://pradogrado2627.ugr.es/) o en las
+clases. También tienes la opción de acudir a tutoría presencial. Estoy
+en el despacho I y mi horario de tutorías es lunes y miércoles de 9 a
+12, pero podemos acordar otros horarios si esos no os vienen bien.
