@@ -46,19 +46,39 @@ adoptaremos los siguientes compromisos en clase
 
 ## Planificación y temario
 
-| Tema   | Contenidos                            |                     |
-|--------|---------------------------------------|---------------------|
-| 0      | Presentación de la asignatura         | 14 de sept, 2026    |
-| 1      | El sistema de información empresarial | 15-21 sept, 2026    |
-| 2      | Calidad: rendimiento y satisfacción   | 22-29 sept, 2026    |
-| 3      | Normativa ISO 9000/9001               | 5-6 oct, 2026       |
-| 4      | Benchmarking                          | 13-26 oct, 2026     |
-| \*\*\* | **Examen Bloque I**                   | **27 oct, 2026**    |
-| 5      | Vigilancia e inteligencia competitiva | 3-9 nov, 2026       |
-| 6      | Sistemas de indicadores               | 10-23 nov, 2026     |
-| 7      | Del indicador al dashboard            | 24 nov-15 dic, 2026 |
-| \*\*\* | **Presentación caso práctico**        | 21 dic, 2026        |
-| \*\*\* | **Examen Bloque II**                  | **22 dic, 2026**    |
++---------------------+------------------------------------------------+
+| Quincena            | Contenidos                                     |
++=====================+================================================+
+| 14-29 de septiembre | - Presentación y taller                        |
+|                     |                                                |
+|                     | - Tema 1. El sistema de información            |
+|                     |   empresarial                                  |
+|                     |                                                |
+|                     | - Tema 2. Calidad: Rendimiento y satisfacción  |
++---------------------+------------------------------------------------+
+| 5-13 de octubre     | - Tema 2. Calidad: Rendimiento y satisfacción  |
+|                     |                                                |
+|                     | - Tema 3. Normativa ISO 9000/9001              |
++---------------------+------------------------------------------------+
+| 19-27 de octubre    | - Tema 4. Benchmarking                         |
++---------------------+------------------------------------------------+
+| **3 de noviembre**  | **Examen Bloque I 💀**                         |
++---------------------+------------------------------------------------+
+| 9-16 de noviembre   | - Tema 5. Vigilancia en inteligencia           |
+|                     |   competitiva                                  |
+|                     |                                                |
+|                     | - Tema 6. Sistemas de indicadores              |
++---------------------+------------------------------------------------+
+| 17-30 de noviembre  | - Tema 6. Sistemas de indicadores              |
+|                     |                                                |
+|                     | - Tema 7. Del indicador al Dasboard            |
++---------------------+------------------------------------------------+
+| 1-15 de diciembre   | - Tema 7. Del indicador al dashboard           |
++---------------------+------------------------------------------------+
+| **21 de diciembre** | **Presentación caso práctico 🗣️**              |
++---------------------+------------------------------------------------+
+| **22 de diciembre** | **Examen Bloque II 🔚**                        |
++---------------------+------------------------------------------------+
 
 ## Evaluación y exámenes
 
@@ -74,19 +94,19 @@ adoptaremos los siguientes compromisos en clase
 - **Pruebas teóricas**: La nota final es la media de ambos exámenes. La
   fecha es inamovible salvo causa de fuerza mayor bien justificada y con
   antelación
-- **Mini-entregas prácticas**: Entregas diarias y corregidas en clase.
-  Plazo de entrega muy breves. Entregas fuera de plazo y antes del
-  examen correspondiente tienen una penalización del 50%. Pasado ese
-  segundo plazo no se aceptan entregas.
+- **Mini-entregas prácticas**: Se evalúan a través de los commits al
+  repositorio del caso práctico. En cada clase se fijan unos objetivos
+  que deben cumplirse antes de su finalización. Los commits realizados
+  después de la clase pero antes del examen del bloque correspondiente
+  tienen una penalización de 50%; pasado ese examen, no se consideran.
 - **Trabajo en equipo**: Se desarrolla a lo largo del semestre, y se
   presenta en clase en la última sesión.
 - **Participación activa**: Debe ser voluntaria; no cuenta si se
   solicita de manera forzada.
 
 ::: consejo
-**Consejo** \| Asiste a clase, entrega las tareas prácticas en los
-plazos establecidos, practica con R/RStudio y las hojas de cálculo, y
-todo irá bien 🥰.
+**Consejo** \| Asiste a clase, trabaja en tiempo y forma, haz tus
+lecturas y participa, y todo irá bien 🥰.
 :::
 
 **Evaluación extraordinaria**

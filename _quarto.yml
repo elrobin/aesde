@@ -13,12 +13,14 @@ website:
     #   - href: index.qmd
     #     text: "Bienvenida"
     right:
+      - href: https://elrobin.github.io
+        text: "Más sobre mí"
       - icon: github
         href: https://github.com/elrobin/aesde
         aria-label: "Source Code"
 
   sidebar:
-    style: "docked"
+    style: "floating"
     search: true
     contents:
       - href: index.qmd
