@@ -1,84 +1,59 @@
 ---
-title: "Documentación aplicada a la traducción"
-subtitle: "Cuaderno de trabajo"
+title: "Análisis y Evaluación de Sistemas de Documentación para la Empresa"
 author: "Nicolás Robinson-García"
-affiliation: "Universidad de Granada"
-editor: 
-  markdown: 
-    wrap: 72
 ---
 
 # Bienvenida a AESDE
 
-Este cuaderno contiene toda la información que necesitas para poder
-seguir la asignatura de **Análisis y Evaluación de los Sistemas de
-Documentación para las Empresas (AESDE)**. Si es la primera vez que
-aterrizas aquí, te recomiendo que te leas este apartado para ponerte
-rápidamente al día.
+Este cuaderno contiene toda la información que necesitas para poder seguir la asignatura de **Análisis y Evaluación de los Sistemas de Documentación para las Empresas (AESDE)**. Si es la primera vez que aterrizas aquí, te recomiendo que te leas este apartado para ponerte rápidamente al día.
 
 ## Filosofía de trabajo
 
-Somos poquitos, así que es importante que será especialmente importante
-la participación activa durante las clases a fin de poder aprovechar al
-máximo la asignatura y hacerla amena y entretenido. Para que todo fluya,
-adoptaremos los siguientes compromisos en clase
+Somos poquitos, así que es importante que será especialmente importante la participación activa durante las clases a fin de poder aprovechar al máximo la asignatura y hacerla amena y entretenido. Para que todo fluya, adoptaremos los siguientes compromisos en clase:
 
-1.  **Aprendizaje activo y participativo**. Mi intención es que las
-    clases sean un diálogo y no un monólogo. Espero que partipes,
-    cuestiones, comentes y seas parte de la clase.
+1.  **Aprendizaje activo y participativo**. Mi intención es que las clases sean un diálogo y no un monólogo. Espero que partipes, cuestiones, comentes y seas parte de la clase.
 
-2.  **Flexibidad dentro de los márgenes**. No paso lista ni tengo en
-    cuenta si asistes más o menos, pero toda la parte práctica o gran
-    parte de ella tiene lugar en el aula. Las actividades que te
-    pierdas, no son recuperables.
+2.  **Flexibidad dentro de los márgenes**. No paso lista ni tengo en cuenta si asistes más o menos, pero toda la parte práctica o gran parte de ella tiene lugar en el aula. Las actividades que te pierdas, no son recuperables.
 
-3.  **Empatía y compromiso**. Mi labor es ayudarte a aprender, no
-    ponerte trabas. Habla conmigo cuando te atasques y las cosas no
-    salgan. Eso sí, a cambio espero implicación y esfuerzo
+3.  **Empatía y compromiso**. Mi labor es ayudarte a aprender, no ponerte trabas. Habla conmigo cuando te atasques y las cosas no salgan. Eso sí, a cambio espero implicación y esfuerzo
 
-4.  **Actualización continua**. Siempre estoy revisando materiales, así
-    que no te adelantes, pues seguramente irán modificándose conforme
-    avancemos
+4.  **Actualización continua**. Siempre estoy revisando materiales, así que no te adelantes, pues seguramente irán modificándose conforme avancemos
 
-5.  **Diversidad, respeto y pensamiento crítico.** Es esencial para mí
-    el respeto a todas las ideas y trayectorias vitales, así como el
-    desarrollo del juicio crítico y bien fundamentado.
+5.  **Diversidad, respeto y pensamiento crítico.** Es esencial para mí el respeto a todas las ideas y trayectorias vitales, así como el desarrollo del juicio crítico y bien fundamentado.
 
 ## Planificación y temario
 
-+---------------------+------------------------------------------------+
-| Quincena            | Contenidos                                     |
-+=====================+================================================+
-| 14-29 de septiembre | - Presentación y taller                        |
-|                     |                                                |
-|                     | - Tema 1. El sistema de información            |
-|                     |   empresarial                                  |
-|                     |                                                |
-|                     | - Tema 2. Calidad: Rendimiento y satisfacción  |
-+---------------------+------------------------------------------------+
-| 5-13 de octubre     | - Tema 2. Calidad: Rendimiento y satisfacción  |
-|                     |                                                |
-|                     | - Tema 3. Normativa ISO 9000/9001              |
-+---------------------+------------------------------------------------+
-| 19-27 de octubre    | - Tema 4. Benchmarking                         |
-+---------------------+------------------------------------------------+
-| **3 de noviembre**  | **Examen Bloque I 💀**                         |
-+---------------------+------------------------------------------------+
-| 9-16 de noviembre   | - Tema 5. Vigilancia en inteligencia           |
-|                     |   competitiva                                  |
-|                     |                                                |
-|                     | - Tema 6. Sistemas de indicadores              |
-+---------------------+------------------------------------------------+
-| 17-30 de noviembre  | - Tema 6. Sistemas de indicadores              |
-|                     |                                                |
-|                     | - Tema 7. Del indicador al Dasboard            |
-+---------------------+------------------------------------------------+
-| 1-15 de diciembre   | - Tema 7. Del indicador al dashboard           |
-+---------------------+------------------------------------------------+
-| **21 de diciembre** | **Presentación caso práctico 🗣️**              |
-+---------------------+------------------------------------------------+
-| **22 de diciembre** | **Examen Bloque II 🔚**                        |
-+---------------------+------------------------------------------------+
++---------------------+--------------------------------------------------+
+| Quincena            | Contenidos                                       |
++=====================+==================================================+
+| 14-29 de septiembre | - Presentación y taller                          |
+|                     |                                                  |
+|                     | - Tema 1. El sistema de información empresarial  |
+|                     |                                                  |
+|                     | - Tema 2. Calidad: Rendimiento y satisfacción    |
++---------------------+--------------------------------------------------+
+| 5-13 de octubre     | - Tema 2. Calidad: Rendimiento y satisfacción    |
+|                     |                                                  |
+|                     | - Tema 3. Normativa ISO 9000/9001                |
++---------------------+--------------------------------------------------+
+| 19-27 de octubre    | - Tema 4. Benchmarking                           |
++---------------------+--------------------------------------------------+
+| **3 de noviembre**  | **💀 Examen Bloque I**                           |
++---------------------+--------------------------------------------------+
+| 9-16 de noviembre   | - Tema 5. Vigilancia en inteligencia competitiva |
+|                     |                                                  |
+|                     | - Tema 6. Sistemas de indicadores                |
++---------------------+--------------------------------------------------+
+| 17-30 de noviembre  | - Tema 6. Sistemas de indicadores                |
+|                     |                                                  |
+|                     | - Tema 7. Del indicador al Dasboard              |
++---------------------+--------------------------------------------------+
+| 1-15 de diciembre   | - Tema 7. Del indicador al dashboard             |
++---------------------+--------------------------------------------------+
+| **21 de diciembre** | **🗣️ Presentación caso práctico** \|             |
++---------------------+--------------------------------------------------+
+| **22 de diciembre** | **🔚 Examen Bloque II**                          |
++---------------------+--------------------------------------------------+
 
 ## Evaluación y exámenes
 
@@ -91,55 +66,31 @@ adoptaremos los siguientes compromisos en clase
 | Trabajo en equipo       | 10%             |
 | Participación activa    | 10%             |
 
-- **Pruebas teóricas**: La nota final es la media de ambos exámenes. La
-  fecha es inamovible salvo causa de fuerza mayor bien justificada y con
-  antelación
-- **Mini-entregas prácticas**: Se evalúan a través de los commits al
-  repositorio del caso práctico. En cada clase se fijan unos objetivos
-  que deben cumplirse antes de su finalización. Los commits realizados
-  después de la clase pero antes del examen del bloque correspondiente
-  tienen una penalización de 50%; pasado ese examen, no se consideran.
-- **Trabajo en equipo**: Se desarrolla a lo largo del semestre, y se
-  presenta en clase en la última sesión.
-- **Participación activa**: Debe ser voluntaria; no cuenta si se
-  solicita de manera forzada.
+- **Pruebas teóricas**: La nota final es la media de ambos exámenes. La fecha es inamovible salvo causa de fuerza mayor bien justificada y con antelación
+- **Mini-entregas prácticas**: Se evalúan a través de los commits al repositorio del caso práctico. En cada clase se fijan unos objetivos que deben cumplirse antes de su finalización. Los commits realizados después de la clase pero antes del examen del bloque correspondiente tienen una penalización de 50%; pasado ese examen, no se consideran.
+- **Trabajo en equipo**: Se desarrolla a lo largo del semestre, y se presenta en clase en la última sesión.
+- **Participación activa**: Debe ser voluntaria; no cuenta si se solicita de manera forzada.
 
 ::: consejo
-**Consejo** \| Asiste a clase, trabaja en tiempo y forma, haz tus
-lecturas y participa, y todo irá bien 🥰.
+**Consejo** \| Asiste a clase, trabaja en tiempo y forma, haz tus lecturas y participa, y todo irá bien 🥰.
 :::
 
 **Evaluación extraordinaria**
 
-Examen teórico y examen práctico relativos a los contenidos
-desarrollados en el temario, cada uno al 50% de la nota.
+Examen teórico y examen práctico relativos a los contenidos desarrollados en el temario, cada uno al 50% de la nota.
 
 **Evaluación única final**
 
-De acuerdo con el artículo 6.2 de la Normativa de Evaluación y de
-Calificación de los Estudiantes de la UGR, consiste en un examen teórico
-y un examen práctico, cada uno al 50% de la nota. Toda la información
-está disponible en la guía docente. Si contactas conmigo a tiempo
-(inicio de curso) podemos ver cómo abordar esto.
+De acuerdo con el artículo 6.2 de la Normativa de Evaluación y de Calificación de los Estudiantes de la UGR, consiste en un examen teórico y un examen práctico, cada uno al 50% de la nota. Toda la información está disponible en la guía docente. Si contactas conmigo a tiempo (inicio de curso) podemos ver cómo abordar esto.
 
 ## Uso de IA en la asignatura
 
-Esta asignatura incorpora el uso de herramientas de IA como parte de las
-actividades prácticas (p. ej. construcción asistida de cuadros de
-mando). Se espera un uso ético y responsable de las mismas, siguiendo
-las [Recomendaciones para el uso de la inteligencia artificial en la
-UGR](https://ceprud.ugr.es/formacion-tic/inteligencia-artificial/recomendaciones-ia#contenido0).
+Esta asignatura incorpora el uso de herramientas de IA como parte de las actividades prácticas (p. ej. construcción asistida de cuadros de mando). Se espera un uso ético y responsable de las mismas, siguiendo las [Recomendaciones para el uso de la inteligencia artificial en la UGR](https://ceprud.ugr.es/formacion-tic/inteligencia-artificial/recomendaciones-ia#contenido0).
 
 ## Software libre
 
-Se podrá emplear software libre como R/RStudio para el análisis de datos
-y la elaboración de indicadores y cuadros de mando, combinado en su caso
-con hojas de cálculo y herramientas de inteligencia artificial.
+Se podrá emplear software libre como R/RStudio para el análisis de datos y la elaboración de indicadores y cuadros de mando, combinado en su caso con hojas de cálculo y herramientas de inteligencia artificial.
 
 ## Contacto
 
-Toda la comunicación, entrega de ejercicios y prácticas, etc. la vamos a
-canalizar a través de [PRADO](https://pradogrado2627.ugr.es/) o en las
-clases. También tienes la opción de acudir a tutoría presencial. Estoy
-en el despacho I y mi horario de tutorías es lunes y miércoles de 9 a
-12, pero podemos acordar otros horarios si esos no os vienen bien.
+Toda la comunicación, entrega de ejercicios y prácticas, etc. la vamos a canalizar a través de [PRADO](https://pradogrado2627.ugr.es/) o en las clases. También tienes la opción de acudir a tutoría presencial. Estoy en el despacho I y mi horario de tutorías es lunes y miércoles de 9 a 12, pero podemos acordar otros horarios si esos no os vienen bien.

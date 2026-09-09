@@ -20,35 +20,34 @@ website:
         aria-label: "Source Code"
 
   sidebar:
-    style: "floating"
+    style: "docked"
     search: true
     contents:
       - href: index.qmd
-        text: "Bienvenida a AESDE"
-      - section: "Presentación"
-        contents:
-          - tema0/sesion1.qmd
-      - section: "1. El sistema de información empresarial"
-        contents:
-          - tema1/sesion1.qmd
-      - section: "2.Calidad: concepto y evaluación"
-        contents:
-          - tema2/sesion1.qmd
-      - section: "3. Benchmarking"
-        contents:
-          - tema3/sesion1.qmd
-      - section: "4. La organización y su entorno"
-        contents:
-          - tema4/sesion1.qmd
-      - section: "5. Sistemas de indicadores"
-        contents:
-          - tema5/sesion1.qmd
-      - section: "6. Del indicador al dashboard"
-        contents:
-          - tema6/sesion1.qmd
-      - section: "7. Normativa ISO 9000/9001"
-        contents:
-          - tema7/sesion1.qmd
+        text: "Presentación de la asignatura"
+      # - section: "1. El sistema de información empresarial"
+      #   contents:
+      #     - tema1/sesion1.qmd
+      # - section: "2.Calidad: concepto y evaluación"
+      #   contents:
+      #     - tema2/sesion1.qmd
+      # - section: "3. Benchmarking"
+      #   contents:
+      #     - tema3/sesion1.qmd
+      # - section: "4. La organización y su entorno"
+      #   contents:
+      #     - tema4/sesion1.qmd
+      # - section: "5. Sistemas de indicadores"
+      #   contents:
+      #     - tema5/sesion1.qmd
+      # - section: "6. Del indicador al dashboard"
+      #   contents:
+      #     - tema6/sesion1.qmd
+      # - section: "7. Normativa ISO 9000/9001"
+      #   contents:
+      #     - tema7/sesion1.qmd
+      - href: TallerA/taller-github.qmd
+        text: "Taller de páginas web con Github+Quarto"
 
 format:
   html:
