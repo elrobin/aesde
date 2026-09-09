@@ -1,10 +1,7 @@
 /.quarto/
-/docs/
 .Rproj.user/
 .Rhistory
 .RData
-*_files/
-*_cache/
 .DS_Store
 
 **/*.quarto_ipynb

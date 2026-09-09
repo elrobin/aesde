@@ -1,0 +1,474 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "",
+    "text": "Este cuaderno contiene toda la información que necesitas para poder seguir la asignatura de Análisis y Evaluación de los Sistemas de Documentación para las Empresas (AESDE). Si es la primera vez que aterrizas aquí, te recomiendo que te leas este apartado para ponerte rápidamente al día.\n\n\nSomos poquitos, así que es importante que será especialmente importante la participación activa durante las clases a fin de poder aprovechar al máximo la asignatura y hacerla amena y entretenido. Para que todo fluya, adoptaremos los siguientes compromisos en clase:\n\nAprendizaje activo y participativo. Mi intención es que las clases sean un diálogo y no un monólogo. Espero que partipes, cuestiones, comentes y seas parte de la clase.\nFlexibidad dentro de los márgenes. No paso lista ni tengo en cuenta si asistes más o menos, pero toda la parte práctica o gran parte de ella tiene lugar en el aula. Las actividades que te pierdas, no son recuperables.\nEmpatía y compromiso. Mi labor es ayudarte a aprender, no ponerte trabas. Habla conmigo cuando te atasques y las cosas no salgan. Eso sí, a cambio espero implicación y esfuerzo\nActualización continua. Siempre estoy revisando materiales, así que no te adelantes, pues seguramente irán modificándose conforme avancemos\nDiversidad, respeto y pensamiento crítico. Es esencial para mí el respeto a todas las ideas y trayectorias vitales, así como el desarrollo del juicio crítico y bien fundamentado.\n\n\n\n\n\n\n\n\n\n\n\nQuincena\nContenidos\n\n\n\n\n14-29 de septiembre\n\nPresentación y taller\nTema 1. El sistema de información empresarial\nTema 2. Calidad: Rendimiento y satisfacción\n\n\n\n5-13 de octubre\n\nTema 2. Calidad: Rendimiento y satisfacción\nTema 3. Normativa ISO 9000/9001\n\n\n\n19-27 de octubre\n\nTema 4. Benchmarking\n\n\n\n3 de noviembre\n💀 Examen Bloque I\n\n\n9-16 de noviembre\n\nTema 5. Vigilancia en inteligencia competitiva\nTema 6. Sistemas de indicadores\n\n\n\n17-30 de noviembre\n\nTema 6. Sistemas de indicadores\nTema 7. Del indicador al Dasboard\n\n\n\n1-15 de diciembre\n\nTema 7. Del indicador al dashboard\n\n\n\n21 de diciembre\n🗣️ Presentación caso práctico | |\n\n\n22 de diciembre\n🔚 Examen Bloque II\n\n\n\n\n\n\nEvaluación ordinaria (evaluación continua)\n\n\n\nInstrumento\n% calificación\n\n\n\n\n2 Pruebas teóricas\n45%\n\n\nMini-entregas prácticas\n35%\n\n\nTrabajo en equipo\n10%\n\n\nParticipación activa\n10%\n\n\n\n\nPruebas teóricas: La nota final es la media de ambos exámenes. La fecha es inamovible salvo causa de fuerza mayor bien justificada y con antelación\nMini-entregas prácticas: Se evalúan a través de los commits al repositorio del caso práctico. En cada clase se fijan unos objetivos que deben cumplirse antes de su finalización. Los commits realizados después de la clase pero antes del examen del bloque correspondiente tienen una penalización de 50%; pasado ese examen, no se consideran.\nTrabajo en equipo: Se desarrolla a lo largo del semestre, y se presenta en clase en la última sesión.\nParticipación activa: Debe ser voluntaria; no cuenta si se solicita de manera forzada.\n\n\nConsejo | Asiste a clase, trabaja en tiempo y forma, haz tus lecturas y participa, y todo irá bien 🥰.\n\nEvaluación extraordinaria\nExamen teórico y examen práctico relativos a los contenidos desarrollados en el temario, cada uno al 50% de la nota.\nEvaluación única final\nDe acuerdo con el artículo 6.2 de la Normativa de Evaluación y de Calificación de los Estudiantes de la UGR, consiste en un examen teórico y un examen práctico, cada uno al 50% de la nota. Toda la información está disponible en la guía docente. Si contactas conmigo a tiempo (inicio de curso) podemos ver cómo abordar esto.\n\n\n\nEsta asignatura incorpora el uso de herramientas de IA como parte de las actividades prácticas (p. ej. construcción asistida de cuadros de mando). Se espera un uso ético y responsable de las mismas, siguiendo las Recomendaciones para el uso de la inteligencia artificial en la UGR.\n\n\n\nSe podrá emplear software libre como R/RStudio para el análisis de datos y la elaboración de indicadores y cuadros de mando, combinado en su caso con hojas de cálculo y herramientas de inteligencia artificial.\n\n\n\nToda la comunicación, entrega de ejercicios y prácticas, etc. la vamos a canalizar a través de PRADO o en las clases. También tienes la opción de acudir a tutoría presencial. Estoy en el despacho I y mi horario de tutorías es lunes y miércoles de 9 a 12, pero podemos acordar otros horarios si esos no os vienen bien.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#cómo-usar-estos-materiales",
+    "href": "index.html#cómo-usar-estos-materiales",
+    "title": "Documentación aplicada a la traducción",
+    "section": "",
+    "text": "Cada tema está organizado en sesiones que combinan contenido teórico y prácticas. Los ejercicios y entregables individuales están descritos al final de cada sesión, tal y como se recoge en el programa de contenidos de la guía docente.\nLos materiales se actualizan de forma continua. Si encuentras algún error o tienes sugerencias, puedes abrir un issue en el repositorio usando el enlace de la barra superior.",
+    "crumbs": [
+      "Bienvenida a AESDE"
+    ]
+  },
+  {
+    "objectID": "index.html#filosofía-de-trabajo",
+    "href": "index.html#filosofía-de-trabajo",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "",
+    "text": "Somos poquitos, así que es importante que será especialmente importante la participación activa durante las clases a fin de poder aprovechar al máximo la asignatura y hacerla amena y entretenido. Para que todo fluya, adoptaremos los siguientes compromisos en clase:\n\nAprendizaje activo y participativo. Mi intención es que las clases sean un diálogo y no un monólogo. Espero que partipes, cuestiones, comentes y seas parte de la clase.\nFlexibidad dentro de los márgenes. No paso lista ni tengo en cuenta si asistes más o menos, pero toda la parte práctica o gran parte de ella tiene lugar en el aula. Las actividades que te pierdas, no son recuperables.\nEmpatía y compromiso. Mi labor es ayudarte a aprender, no ponerte trabas. Habla conmigo cuando te atasques y las cosas no salgan. Eso sí, a cambio espero implicación y esfuerzo\nActualización continua. Siempre estoy revisando materiales, así que no te adelantes, pues seguramente irán modificándose conforme avancemos\nDiversidad, respeto y pensamiento crítico. Es esencial para mí el respeto a todas las ideas y trayectorias vitales, así como el desarrollo del juicio crítico y bien fundamentado.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#cómo-contactar-conmigo",
+    "href": "index.html#cómo-contactar-conmigo",
+    "title": "Documentación aplicada a la traducción",
+    "section": "",
+    "text": "Aunque siempre tendrás tiempo en clase para hablar conmigo tanto durante como al final, siempre puedes venir a una tutoría para tratar de manera más pausada cualquier cuestión que requieras.\nConsultas o tutorías en línea\n\nEscríbeme a través de la aplicación de mensajería de la plataforma Moodle (mensaje directo o chat).\nEscribe a elrobin@go.ugr.es y pon en el asunto AESDE y el grupo al que perteneces. No olvides decirme quién eres.\n\nTutorías\nHorario de tutorías (según guía docente): Lunes y Miércoles de 09:00 a 12:00, Despacho I, Facultad de Comunicación y Documentación. Si este horario te viene mal, siempre podemos buscar otro horario o hablar online si lo acordamos previamente.",
+    "crumbs": [
+      "Bienvenida a AESDE"
+    ]
+  },
+  {
+    "objectID": "index.html#temario-y-planificación",
+    "href": "index.html#temario-y-planificación",
+    "title": "Documentación aplicada a la traducción",
+    "section": "",
+    "text": "Tema\nContenidos\n\n\n\n\n0\nPresentación de la asignatura: bienvenida, planificación y evaluación\n\n\n1\nEl sistema de información empresarial: tipos de documentos y datos, organización y entorno\n\n\n2\nCalidad: concepto, evaluación objetiva y subjetiva. El modelo ServQual\n\n\n3\nEl benchmarking como herramienta de evaluación comparativa\n\n\n4\nLa organización y su entorno: vigilancia e inteligencia competitiva, fuentes de información\n\n\n5\nSistemas de indicadores: fundamentos, tipos y diseño\n\n\n6\nDel indicador al dashboard: cuadros de mando, visualización de datos y herramientas de IA aplicadas\n\n\n7\nLa familia de normas ISO 9000/9001\n\n\n**\nSeminarios/Talleres y trabajo en equipo\n\n\n\n(Rellena fechas concretas cuando tengas el calendario oficial del curso.)",
+    "crumbs": [
+      "Bienvenida a AESDE"
+    ]
+  },
+  {
+    "objectID": "index.html#evaluación-y-exámenes",
+    "href": "index.html#evaluación-y-exámenes",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "",
+    "text": "Evaluación ordinaria (evaluación continua)\n\n\n\nInstrumento\n% calificación\n\n\n\n\n2 Pruebas teóricas\n45%\n\n\nMini-entregas prácticas\n35%\n\n\nTrabajo en equipo\n10%\n\n\nParticipación activa\n10%\n\n\n\n\nPruebas teóricas: La nota final es la media de ambos exámenes. La fecha es inamovible salvo causa de fuerza mayor bien justificada y con antelación\nMini-entregas prácticas: Se evalúan a través de los commits al repositorio del caso práctico. En cada clase se fijan unos objetivos que deben cumplirse antes de su finalización. Los commits realizados después de la clase pero antes del examen del bloque correspondiente tienen una penalización de 50%; pasado ese examen, no se consideran.\nTrabajo en equipo: Se desarrolla a lo largo del semestre, y se presenta en clase en la última sesión.\nParticipación activa: Debe ser voluntaria; no cuenta si se solicita de manera forzada.\n\n\nConsejo | Asiste a clase, trabaja en tiempo y forma, haz tus lecturas y participa, y todo irá bien 🥰.\n\nEvaluación extraordinaria\nExamen teórico y examen práctico relativos a los contenidos desarrollados en el temario, cada uno al 50% de la nota.\nEvaluación única final\nDe acuerdo con el artículo 6.2 de la Normativa de Evaluación y de Calificación de los Estudiantes de la UGR, consiste en un examen teórico y un examen práctico, cada uno al 50% de la nota. Toda la información está disponible en la guía docente. Si contactas conmigo a tiempo (inicio de curso) podemos ver cómo abordar esto.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#uso-de-ia-en-la-asignatura",
+    "href": "index.html#uso-de-ia-en-la-asignatura",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "",
+    "text": "Esta asignatura incorpora el uso de herramientas de IA como parte de las actividades prácticas (p. ej. construcción asistida de cuadros de mando). Se espera un uso ético y responsable de las mismas, siguiendo las Recomendaciones para el uso de la inteligencia artificial en la UGR.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#software-libre",
+    "href": "index.html#software-libre",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "",
+    "text": "Se podrá emplear software libre como R/RStudio para el análisis de datos y la elaboración de indicadores y cuadros de mando, combinado en su caso con hojas de cálculo y herramientas de inteligencia artificial.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "",
+    "text": "Toda la comunicación, entrega de ejercicios y prácticas, etc. la vamos a canalizar a través de PRADO o en las clases. También tienes la opción de acudir a tutoría presencial. Estoy en el despacho I y mi horario de tutorías es lunes y miércoles de 9 a 12, pero podemos acordar otros horarios si esos no os vienen bien.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "tema7/sesion1.html",
+    "href": "tema7/sesion1.html",
+    "title": "La familia de normas ISO 9000/9001",
+    "section": "",
+    "text": "Diapositivas de clase — (enlace a las slides de este tema)",
+    "crumbs": [
+      "Bienvenida",
+      "7 | Normativa ISO 9000/9001",
+      "La familia de normas ISO 9000/9001"
+    ]
+  },
+  {
+    "objectID": "tema7/sesion1.html#contenidos-teoricos",
+    "href": "tema7/sesion1.html#contenidos-teoricos",
+    "title": "La familia de normas ISO 9000/9001",
+    "section": "Contenidos teoricos",
+    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)",
+    "crumbs": [
+      "Bienvenida",
+      "7 | Normativa ISO 9000/9001",
+      "La familia de normas ISO 9000/9001"
+    ]
+  },
+  {
+    "objectID": "tema7/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "href": "tema7/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "title": "La familia de normas ISO 9000/9001",
+    "section": "Ejercicio: (titulo del ejercicio)",
+    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)",
+    "crumbs": [
+      "Bienvenida",
+      "7 | Normativa ISO 9000/9001",
+      "La familia de normas ISO 9000/9001"
+    ]
+  },
+  {
+    "objectID": "tema5/sesion1.html",
+    "href": "tema5/sesion1.html",
+    "title": "Sistemas de indicadores",
+    "section": "",
+    "text": "Diapositivas de clase — (enlace a las slides de este tema)",
+    "crumbs": [
+      "Bienvenida",
+      "5 | Sistemas de indicadores",
+      "Sistemas de indicadores"
+    ]
+  },
+  {
+    "objectID": "tema5/sesion1.html#contenidos-teoricos",
+    "href": "tema5/sesion1.html#contenidos-teoricos",
+    "title": "Sistemas de indicadores",
+    "section": "Contenidos teoricos",
+    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)",
+    "crumbs": [
+      "Bienvenida",
+      "5 | Sistemas de indicadores",
+      "Sistemas de indicadores"
+    ]
+  },
+  {
+    "objectID": "tema5/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "href": "tema5/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "title": "Sistemas de indicadores",
+    "section": "Ejercicio: (titulo del ejercicio)",
+    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)",
+    "crumbs": [
+      "Bienvenida",
+      "5 | Sistemas de indicadores",
+      "Sistemas de indicadores"
+    ]
+  },
+  {
+    "objectID": "tema3/sesion1.html",
+    "href": "tema3/sesion1.html",
+    "title": "El benchmarking como herramienta de evaluación comparativa",
+    "section": "",
+    "text": "Diapositivas de clase — (enlace a las slides de este tema)",
+    "crumbs": [
+      "Bienvenida",
+      "3 | Benchmarking",
+      "El benchmarking como herramienta de evaluación comparativa"
+    ]
+  },
+  {
+    "objectID": "tema3/sesion1.html#contenidos-teoricos",
+    "href": "tema3/sesion1.html#contenidos-teoricos",
+    "title": "El benchmarking como herramienta de evaluación comparativa",
+    "section": "Contenidos teoricos",
+    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)",
+    "crumbs": [
+      "Bienvenida",
+      "3 | Benchmarking",
+      "El benchmarking como herramienta de evaluación comparativa"
+    ]
+  },
+  {
+    "objectID": "tema3/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "href": "tema3/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "title": "El benchmarking como herramienta de evaluación comparativa",
+    "section": "Ejercicio: (titulo del ejercicio)",
+    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)",
+    "crumbs": [
+      "Bienvenida",
+      "3 | Benchmarking",
+      "El benchmarking como herramienta de evaluación comparativa"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html",
+    "href": "tema1/sesion1.html",
+    "title": "El sistema de información empresarial",
+    "section": "",
+    "text": "Diapositivas de clase — (enlace a las slides de este tema)",
+    "crumbs": [
+      "Bienvenida",
+      "1 | El sistema de información empresarial",
+      "El sistema de información empresarial"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html#contenidos-teoricos",
+    "href": "tema1/sesion1.html#contenidos-teoricos",
+    "title": "El sistema de información empresarial",
+    "section": "Contenidos teoricos",
+    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)",
+    "crumbs": [
+      "Bienvenida",
+      "1 | El sistema de información empresarial",
+      "El sistema de información empresarial"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "href": "tema1/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "title": "El sistema de información empresarial",
+    "section": "Ejercicio: (titulo del ejercicio)",
+    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)",
+    "crumbs": [
+      "Bienvenida",
+      "1 | El sistema de información empresarial",
+      "El sistema de información empresarial"
+    ]
+  },
+  {
+    "objectID": "tema0/sesion1.html",
+    "href": "tema0/sesion1.html",
+    "title": "Presentación de la asignatura",
+    "section": "",
+    "text": "Diapositivas de clase — (enlace a las slides de este tema)",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "tema0/sesion1.html#contenidos-teoricos",
+    "href": "tema0/sesion1.html#contenidos-teoricos",
+    "title": "Presentación de la asignatura",
+    "section": "Contenidos teoricos",
+    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "tema0/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "href": "tema0/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "title": "Presentación de la asignatura",
+    "section": "Ejercicio: (titulo del ejercicio)",
+    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion1.html",
+    "href": "tema2/sesion1.html",
+    "title": "Calidad: concepto y evaluación",
+    "section": "",
+    "text": "Diapositivas de clase — (enlace a las slides de este tema)",
+    "crumbs": [
+      "Bienvenida",
+      "2 | Calidad: concepto y evaluación",
+      "Calidad: concepto y evaluación"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion1.html#contenidos-teoricos",
+    "href": "tema2/sesion1.html#contenidos-teoricos",
+    "title": "Calidad: concepto y evaluación",
+    "section": "Contenidos teoricos",
+    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)",
+    "crumbs": [
+      "Bienvenida",
+      "2 | Calidad: concepto y evaluación",
+      "Calidad: concepto y evaluación"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "href": "tema2/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "title": "Calidad: concepto y evaluación",
+    "section": "Ejercicio: (titulo del ejercicio)",
+    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)",
+    "crumbs": [
+      "Bienvenida",
+      "2 | Calidad: concepto y evaluación",
+      "Calidad: concepto y evaluación"
+    ]
+  },
+  {
+    "objectID": "tema4/sesion1.html",
+    "href": "tema4/sesion1.html",
+    "title": "La organización y su entorno",
+    "section": "",
+    "text": "Diapositivas de clase — (enlace a las slides de este tema)",
+    "crumbs": [
+      "Bienvenida",
+      "4 | La organización y su entorno",
+      "La organización y su entorno"
+    ]
+  },
+  {
+    "objectID": "tema4/sesion1.html#contenidos-teoricos",
+    "href": "tema4/sesion1.html#contenidos-teoricos",
+    "title": "La organización y su entorno",
+    "section": "Contenidos teoricos",
+    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)",
+    "crumbs": [
+      "Bienvenida",
+      "4 | La organización y su entorno",
+      "La organización y su entorno"
+    ]
+  },
+  {
+    "objectID": "tema4/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "href": "tema4/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "title": "La organización y su entorno",
+    "section": "Ejercicio: (titulo del ejercicio)",
+    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)",
+    "crumbs": [
+      "Bienvenida",
+      "4 | La organización y su entorno",
+      "La organización y su entorno"
+    ]
+  },
+  {
+    "objectID": "tema6/sesion1.html",
+    "href": "tema6/sesion1.html",
+    "title": "Del indicador al dashboard",
+    "section": "",
+    "text": "Diapositivas de clase — (enlace a las slides de este tema)",
+    "crumbs": [
+      "Bienvenida",
+      "6 | Del indicador al dashboard",
+      "Del indicador al dashboard"
+    ]
+  },
+  {
+    "objectID": "tema6/sesion1.html#contenidos-teoricos",
+    "href": "tema6/sesion1.html#contenidos-teoricos",
+    "title": "Del indicador al dashboard",
+    "section": "Contenidos teoricos",
+    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)",
+    "crumbs": [
+      "Bienvenida",
+      "6 | Del indicador al dashboard",
+      "Del indicador al dashboard"
+    ]
+  },
+  {
+    "objectID": "tema6/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "href": "tema6/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "title": "Del indicador al dashboard",
+    "section": "Ejercicio: (titulo del ejercicio)",
+    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)",
+    "crumbs": [
+      "Bienvenida",
+      "6 | Del indicador al dashboard",
+      "Del indicador al dashboard"
+    ]
+  },
+  {
+    "objectID": "index.html#planificación-y-temario",
+    "href": "index.html#planificación-y-temario",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "",
+    "text": "Quincena\nContenidos\n\n\n\n\n14-29 de septiembre\n\nPresentación y taller\nTema 1. El sistema de información empresarial\nTema 2. Calidad: Rendimiento y satisfacción\n\n\n\n5-13 de octubre\n\nTema 2. Calidad: Rendimiento y satisfacción\nTema 3. Normativa ISO 9000/9001\n\n\n\n19-27 de octubre\n\nTema 4. Benchmarking\n\n\n\n3 de noviembre\n💀 Examen Bloque I\n\n\n9-16 de noviembre\n\nTema 5. Vigilancia en inteligencia competitiva\nTema 6. Sistemas de indicadores\n\n\n\n17-30 de noviembre\n\nTema 6. Sistemas de indicadores\nTema 7. Del indicador al Dasboard\n\n\n\n1-15 de diciembre\n\nTema 7. Del indicador al dashboard\n\n\n\n21 de diciembre\n🗣️ Presentación caso práctico | |\n\n\n22 de diciembre\n🔚 Examen Bloque II",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html",
+    "href": "TallerA/taller-github.html",
+    "title": "Taller de Github y Quarto",
+    "section": "",
+    "text": "Familiarizarte con el uso de Github, Github Desktop y Quarto\nPoner a punto las herramientas y entorno de trabajo que vamos a emplear a lo largo de esta asignatura\nTener un lugar de consulta de dudas recurrentes",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller de páginas web con Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#github",
+    "href": "TallerA/taller-github.html#github",
+    "title": "Taller de Github y Quarto",
+    "section": "Github",
+    "text": "Github\nEn github.com, botón “Sign up”. Recomendaciones para el nombre de usuario:\n\nAlgo profesional y estable. Lo vais a usar el resto del curso (y probablemente después). Nada de apodos de los que os podáis arrepentir en el futuro 🫣.\nEvitad números raros o el usuario por defecto que sugiere GitHub.\n\n\nNo te compliques la vida. Ve a por opciones clásicas tipo nombre + apellido(s), o inicial + apellido(s), todo en minúsculas y sin espacios.\n\n\nPrincipales características\n\nEs donde vive la copia remota de vuestro repositorio (el remote).\nCada repositorio tiene su propia página con el código, el historial de commits y el README. 🌐 Un ejemplo\nGitHub Pages: publica el contenido de un repositorio como web pública gratuita, en usuario.github.io/nombre-repo. Es lo que usaremos hoy.\nLo que no vemos hoy (issues, pull requests, actions) se verá más adelante, cuando trabajéis en el repo compartido del caso.\n\n\n\n\n\n\n\n\nComando\nDescripción\n\n\n\n\ngit clone &lt;url&gt;\nDescarga una copia completa de un repositorio remoto, con todo su historial\n\n\ngit status\nMuestra qué archivos han cambiado desde el último commit y si están o no en staging\n\n\ngit add &lt;archivo&gt;\nMarca un cambio para incluirlo en el próximo commit (staging)\n\n\ngit commit -m \"mensaje\"\nGuarda una “fotografía” de los cambios marcados como un punto del historial, con un mensaje que explica qué se hizo\n\n\ngit push\nSube los commits locales al repositorio remoto (GitHub)\n\n\ngit pull\nTrae al repositorio local los cambios que hay en el remoto",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller de páginas web con Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#github-desktop",
+    "href": "TallerA/taller-github.html#github-desktop",
+    "title": "Taller de Github y Quarto",
+    "section": "Github Desktop",
+    "text": "Github Desktop\nDescarga desde desktop.github.com. Instalación estándar. Al abrirlo pedirá iniciar sesión con vuestra cuenta de GitHub.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller de páginas web con Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#r",
+    "href": "TallerA/taller-github.html#r",
+    "title": "Taller de Github y Quarto",
+    "section": "R",
+    "text": "R\nDescarga la última versión de R desde CRAN. Dale a instalar y acepta todas las opciones por defecto.\n\nConsejo R se actualiza varias veces al año. Revisa de vez en cuando par aque luego no haya problemas con incompatibilidades al instalar paquetes nuevos.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller de páginas web con Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#rstudio",
+    "href": "TallerA/taller-github.html#rstudio",
+    "title": "Taller de Github y Quarto",
+    "section": "RStudio",
+    "text": "RStudio\nDescarga la versión RStudio Desktop (free) desde posit.co/download/rstudio-desktop.\n\n\n\n\n\nRStudio se organiza en cuatro paneles:\n\n\n\n\n\n\n\n\nPanel\nUbicación\nPara qué sirve\n\n\n\n\nScript/Editor\narriba-izquierda\nDonde escribís y editáis código y documentos (.R, .qmd…)\n\n\nConsola\nabajo-izquierda\nDonde se ejecuta el código, línea a línea, y aparecen los resultados\n\n\nEnvironment/History\narriba-derecha\nVariables y objetos cargados en la memoria de la sesión actual\n\n\nFiles/Plots/Packages/Viewer\nabajo-derecha\nExplorador de archivos, gráficos generados, paquetes instalados, etc.\n\n\n\n\nEl orden importa.\nR y RStudio no son lo mismo\n\nR es el motor de cálculo,\nRStudio es solo la interfaz que lo controla.\n\nAl abrirse, RStudio busca automáticamente las intalaciones de R que encuentre en el sistema. Si no la encuentra no funciona. Si más adelante instalas una nueva versión de R, deberás ir a Tools &gt; Global Options &gt; General y en el desplegable seleccionar la opción de R más reciente.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller de páginas web con Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#cómo-crear-documentos-con-quarto",
+    "href": "TallerA/taller-github.html#cómo-crear-documentos-con-quarto",
+    "title": "Taller de Github y Quarto",
+    "section": "¿Cómo crear documentos con Quarto?",
+    "text": "¿Cómo crear documentos con Quarto?\nQuarto es un formato (.qmd) ya plenamente integrado en RStudio. Se trata de un formato que combina texto en Markdown con código ejecutable. Es relativamente sencillo de aprender y hay mogollón de sitios en la web donde encontrar tablas con comandos y sintaxis básica. Además RStudio incorpora un editor básico de textos.\n\n\n\nSintaxis\nResultado\n\n\n\n\n# Título / ## Subtítulo\nEncabezados (nivel 1, nivel 2…)\n\n\n**texto**\nNegrita\n\n\n*texto*\nCursiva\n\n\n[texto](url)\nEnlace\n\n\n![alt](ruta.png)\nImagen\n\n\n- item\nLista con viñetas\n\n\n`código`\nCódigo en línea\n\n\n```{r} ... ```\nBloque de código ejecutable en R\n\n\n`#\neval: false`\n\n\n`#\necho: false`\n\n\n`#\nwarning: false`\n\n\n\nAl principio de cada documento, se incluye una cabecera YAML con la info básica de la página web, tipo:\n---\ntitle: \"Título de la página\"\n---\n\n¿Y una página web?\nAdemás, para crear una web y no un documento suelto, hacen falta otros ficheros. Por suerte, RStudio ya te ayuda bastante con lo básico.\n\n\n\n\n\n\n\nArchivo\nPara qué sirve\n\n\n\n\n_quarto.yml\nConfiguración global: título del sitio, navegación (navbar/sidebar), tema, qué carpeta de salida usar\n\n\nindex.qmd\nLa página de inicio del sitio (equivalente al index.html)\n\n\nstyles.css\nCSS personalizado, para ajustar colores, cajas, tipografía… por encima del tema base\n\n\nUn .qmd por página\nCada archivo .qmd del proyecto se convierte en una página HTML independiente\n\n\n\nAl pulsar Render (o quarto render en terminal), Quarto:\n\nEjecuta el código de cada .qmd (si lo tiene) y captura sus resultados.\nConvierte el Markdown resultante a HTML.\nAplica el tema y el styles.css.\nVuelca todo en la carpeta de salida indicada en _quarto.yml (típicamente docs/ o _site/) — esta es la carpeta que luego publica GitHub Pages.\n\n\nConsejo\nSi el proyecto no tiene plantilla propia, Quarto usa una por defecto razonable (tema cosmo o similar, navbar simple). No hace falta diseñar nada desde cero para tener algo publicable, se puede ir personalizando después.\n\n\nAntes de tocar _quarto.yml, mirad el output-dir. Si dice output-dir: docs, GitHub Pages debe apuntar a la carpeta /docs. Si no hay ningún output-dir especificado, Quarto usará _site/ por defecto y hay que configurar Pages para esa carpeta en su lugar. Es la causa más común de “he publicado pero la web da 404”.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller de páginas web con Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#publicación-y-actualización-de-una-web-con-github-pages",
+    "href": "TallerA/taller-github.html#publicación-y-actualización-de-una-web-con-github-pages",
+    "title": "Taller de Github y Quarto",
+    "section": "Publicación y actualización de una web con GitHub Pages",
+    "text": "Publicación y actualización de una web con GitHub Pages",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller de páginas web con Github+Quarto"
+    ]
+  }
+]
