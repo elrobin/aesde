@@ -12,7 +12,7 @@ title: "Taller de Github y Quarto"
 
 Git
 
-:   Sistema de control de versiones: un programa que registra el historial de cambios de un proyecto (quién cambió qué y cuándo), permite volver a versiones anteriores y trabajar en paralelo mediante ramas. Funciona en local, en tu propio ordenador, sin necesidad de estar conectado a ningún servicio online.
+:   Sistema de control de versiones, es decir, un programa que registra el historial de cambios de un proyecto (quién cambió qué y cuándo). Permite volver a versiones anteriores y trabajar en paralelo mediante ramas. Funciona en local, en tu propio ordenador, sin necesidad de estar conectado a ningún servicio online.
 
 Github
 
@@ -20,7 +20,7 @@ Github
 
 R
 
-:   Lenguaje de programación orientado al análisis estadístico y de datos. Es el que usaremos en para trabajar con indicadores y cuadros de mandos. 🌐<https://cran.r-project.org/>
+:   Lenguaje de programación orientado al análisis estadístico y de datos. Es el que usaremos en para trabajar con indicadores y cuadros de mandos. 🌐 <https://cran.r-project.org/>
 
 RStudio
 
@@ -57,7 +57,7 @@ En [github.com](https://github.com), botón "Sign up". Recomendaciones para el n
 - Lo que no vemos hoy (issues, pull requests, actions) se verá más adelante, cuando trabajéis en el repo compartido del caso.
 
 | Comando | Descripción |
-|----|----|
+|------------------------------------|------------------------------------|
 | `git clone <url>` | Descarga una copia completa de un repositorio remoto, con todo su historial |
 | `git status` | Muestra qué archivos han cambiado desde el último commit y si están o no en staging |
 | `git add <archivo>` | Marca un cambio para incluirlo en el próximo commit (staging) |
@@ -76,7 +76,7 @@ Descarga desde [desktop.github.com](https://desktop.github.com). Instalación es
 Descarga la última versión de `R` desde [CRAN](https://cloud.r-project.org/). Dale a instalar y acepta todas las opciones por defecto.
 
 ::: consejo
-**Consejo** R se actualiza varias veces al año. Revisa de vez en cuando par aque luego no haya problemas con incompatibilidades al instalar paquetes nuevos.
+**Consejo** R se actualiza varias veces al año. Revisa de vez en cuando para que luego no haya problemas con incompatibilidades al instalar paquetes nuevos.
 :::
 
 ## RStudio
@@ -97,7 +97,7 @@ RStudio se organiza en cuatro paneles:
 ::: alerta
 **El orden importa**.
 
-R y RStudio no son lo mismo
+R y RStudio no son lo mismo:
 
 - R es el motor de cálculo,
 - RStudio es solo la interfaz que lo controla.
@@ -127,18 +127,20 @@ Quarto es un formato (.qmd) ya plenamente integrado en RStudio. Se trata de un f
 
 Al principio de cada documento, se incluye una cabecera YAML con la info básica de la página web, tipo:
 
-```yaml
+``` yaml
 ---
 title: "Título de la página"
+author: "Autor de la página"
+date: "dd/mm/yyyy"
 ---
 ```
 
-### ¿Y una página web?
+## ¿Y una página web?
 
 Además, para crear una web y no un documento suelto, hacen falta otros ficheros. Por suerte, RStudio ya te ayuda bastante con lo básico.
 
 | Archivo | Para qué sirve |
-|----|----|
+|------------------------------------|------------------------------------|
 | `_quarto.yml` | Configuración global: título del sitio, navegación (navbar/sidebar), tema, qué carpeta de salida usar |
 | `index.qmd` | La página de inicio del sitio (equivalente al `index.html`) |
 | `styles.css` | CSS personalizado, para ajustar colores, cajas, tipografía... por encima del tema base |
@@ -146,22 +148,71 @@ Además, para crear una web y no un documento suelto, hacen falta otros ficheros
 
 Al pulsar **Render** (o `quarto render` en terminal), Quarto:
 
-1.   Ejecuta el código de cada `.qmd` (si lo tiene) y captura sus resultados.
+1.  Ejecuta el código de cada `.qmd` (si lo tiene) y captura sus resultados.
 
-2.   Convierte el Markdown resultante a HTML.
+2.  Convierte el Markdown resultante a HTML.
 
-3.   Aplica el tema y el `styles.css`.
+3.  Aplica el tema y el `styles.css`.
 
-4.   Vuelca todo en la carpeta de salida indicada en `_quarto.yml` (típicamente `docs/` o `_site/`) — **esta es la carpeta que luego publica GitHub Pages**.
+4.  Vuelca todo en la carpeta de salida indicada en `_quarto.yml` (típicamente `docs/` o `_site/`) — **esta es la carpeta que luego publica GitHub Pages**.
 
-::: {.consejo}
-**Consejo** 
+::: consejo
+**Consejo**
 
 Si el proyecto no tiene plantilla propia, Quarto usa una por defecto razonable (tema cosmo o similar, navbar simple). No hace falta diseñar nada desde cero para tener algo publicable, se puede ir personalizando después.
 :::
 
-::: {.alerta}
-Antes de tocar _quarto.yml, mirad el output-dir. Si dice output-dir: docs, GitHub Pages debe apuntar a la carpeta /docs. Si no hay ningún output-dir especificado, Quarto usará _site/ por defecto y hay que configurar Pages para esa carpeta en su lugar. Es la causa más común de *"he publicado pero la web da 404"*.
+::: alerta
+Antes de tocar \_quarto.yml, mirad el output-dir. Si dice output-dir: docs, GitHub Pages debe apuntar a la carpeta /docs. Si no hay ningún output-dir especificado, Quarto usará \_site/ por defecto y hay que configurar Pages para esa carpeta en su lugar. Es la causa más común de *"he publicado pero la web da 404"*.
 :::
 
-## Publicación y actualización de una web con GitHub Pages
+# Publicación y actualización de una web
+
+## Creación de repositorio y vinculación con RStudio
+
+A.  **Crea el repositorio** (desde Github Desktop o RStudio).
+    1.  *File ➡️ New Repository*
+    2.  El nombre del repositorio no debe contener espacios (e.g., `mi-primer-repo`)
+    3.  Importante, marca la opción de *"Initialize with a README"*.
+    4.  Elige la carpeta local donde lo guardas
+    5.  *Create Repository ➡️ Publish repository* Déjalo público (Github Pages sólo funciona con          repositorios públicos)
+
+::: consejo
+💡 Crea una carpeta en mis documentos que utilices para todos los proyectos que tengas alojados en Github
+:::
+
+B.  **Crea el proyecto Quarto en la misma carpeta.**
+    1. En RStudio: _File ➡️ New Project ➡️ Existing Directory ➡️_  selecciona la carpeta 
+    que creaste en el Paso A
+    2. _File ➡️ New File ➡️ Quarto Website_
+    3. Guarda todo dentro de esa misma carpeta
+
+Al hacerlo así, el proyecto de RStudio y el repositorio Git son la misma carpeta: no hace falta vincular nada aparte, RStudio detecta el .git automáticamente.
+
+::: {.alerta}
+Cuando haces un `commit`, debes de poner un mensaje obligatoriamente. Es importante que este mensaje sea significativo y breve, no sólo poner cosas tipo "cambios" o "update". Un buen mensaje describe qué cambió, en imperativo y corto: "Añade página de inicio", "Corrige enlace roto en navbar".
+:::
+
+## Publicar la web con Github Pages
+A.  Ve a Github ➡️ Repositorio ➡️ _Settings_ ➡️ _Pages_
+B.  En _Build and deployment_ ➡️ _Source_: elige la rama principal y la carpeta `docs`. 
+**Recuerda que para que funcione debes haber indicado previamente en `_quarto.yml` que esta sea la carpeta de salida. Tiene que tener: `output-dir: docs`.**
+
+::: bonus
+En muchos repositorios existe un fichero llamado `.gitignore`. En este fichero se indican los ficheros o carpetas que no queremos que se suban al repositorio. Todo lo que aparezca aquí, no se sincronizará con tu carpeta local.
+:::
+
+## Actualizaciones y republicaciones
+A.  Abre Github Desktop y haz un `pull` para asegurarte de que cuentas con la última versión del 
+repositorio.
+B.  Haz primero las modificaciones que consideres en tus ficheros `.qmd`, `.yaml` o el que sea.
+B.  Graba y **renderiza* desde RStudio para que se generen los ficheros `html`.
+C.  Desde Github Desktop haz un `commit` indicando las modificaciones que has realizado. Si has modificado más de un fichero, puedes realizar varios `commits` distintos.
+D.  Una vez marcados todos los cambios haz un `push` para subir la nueva versión del repositorio a la web. Pasados unos minutos, la web se actualizará.
+
+::: {.ejercicio}
+# Entregable
+
+Demuestra tu manejo con estas herramientas. Date de alta en Github, instálate todo lo que necesites y crea tu primer repositorio con una pequeña página web básica. El contenido me da igual. Una vez esté funcionando, mándame a través de PRADO cuando habilite la entrega, la URL de tu página web.
+
+:::

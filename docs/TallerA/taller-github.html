@@ -375,12 +375,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#rstudio-y-quarto" id="toc-rstudio-y-quarto" class="nav-link" data-scroll-target="#rstudio-y-quarto">RStudio y Quarto</a>
   <ul class="collapse">
-  <li><a href="#cómo-crear-documentos-con-quarto" id="toc-cómo-crear-documentos-con-quarto" class="nav-link" data-scroll-target="#cómo-crear-documentos-con-quarto">¿Cómo crear documentos con Quarto?</a>
-  <ul class="collapse">
+  <li><a href="#cómo-crear-documentos-con-quarto" id="toc-cómo-crear-documentos-con-quarto" class="nav-link" data-scroll-target="#cómo-crear-documentos-con-quarto">¿Cómo crear documentos con Quarto?</a></li>
   <li><a href="#y-una-página-web" id="toc-y-una-página-web" class="nav-link" data-scroll-target="#y-una-página-web">¿Y una página web?</a></li>
   </ul></li>
-  <li><a href="#publicación-y-actualización-de-una-web-con-github-pages" id="toc-publicación-y-actualización-de-una-web-con-github-pages" class="nav-link" data-scroll-target="#publicación-y-actualización-de-una-web-con-github-pages">Publicación y actualización de una web con GitHub Pages</a></li>
+  <li><a href="#publicación-y-actualización-de-una-web" id="toc-publicación-y-actualización-de-una-web" class="nav-link" data-scroll-target="#publicación-y-actualización-de-una-web">Publicación y actualización de una web</a>
+  <ul class="collapse">
+  <li><a href="#creación-de-repositorio-y-vinculación-con-rstudio" id="toc-creación-de-repositorio-y-vinculación-con-rstudio" class="nav-link" data-scroll-target="#creación-de-repositorio-y-vinculación-con-rstudio">Creación de repositorio y vinculación con RStudio</a></li>
+  <li><a href="#publicar-la-web-con-github-pages" id="toc-publicar-la-web-con-github-pages" class="nav-link" data-scroll-target="#publicar-la-web-con-github-pages">Publicar la web con Github Pages</a></li>
+  <li><a href="#actualizaciones-y-republicaciones" id="toc-actualizaciones-y-republicaciones" class="nav-link" data-scroll-target="#actualizaciones-y-republicaciones">Actualizaciones y republicaciones</a></li>
   </ul></li>
+  <li><a href="#entregable" id="toc-entregable" class="nav-link" data-scroll-target="#entregable">Entregable</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/elrobin/aesde/edit/main/TallerA/taller-github.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/elrobin/aesde/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></nav>
     </div>
@@ -420,7 +424,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <dl>
 <dt>Git</dt>
 <dd>
-<p>Sistema de control de versiones: un programa que registra el historial de cambios de un proyecto (quién cambió qué y cuándo), permite volver a versiones anteriores y trabajar en paralelo mediante ramas. Funciona en local, en tu propio ordenador, sin necesidad de estar conectado a ningún servicio online.</p>
+<p>Sistema de control de versiones, es decir, un programa que registra el historial de cambios de un proyecto (quién cambió qué y cuándo). Permite volver a versiones anteriores y trabajar en paralelo mediante ramas. Funciona en local, en tu propio ordenador, sin necesidad de estar conectado a ningún servicio online.</p>
 </dd>
 <dt>Github</dt>
 <dd>
@@ -428,7 +432,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </dd>
 <dt>R</dt>
 <dd>
-<p>Lenguaje de programación orientado al análisis estadístico y de datos. Es el que usaremos en para trabajar con indicadores y cuadros de mandos. 🌐<a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></p>
+<p>Lenguaje de programación orientado al análisis estadístico y de datos. Es el que usaremos en para trabajar con indicadores y cuadros de mandos. 🌐 <a href="https://cran.r-project.org/" class="uri">https://cran.r-project.org/</a></p>
 </dd>
 <dt>RStudio</dt>
 <dd>
@@ -519,7 +523,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="r">R</h2>
 <p>Descarga la última versión de <code>R</code> desde <a href="https://cloud.r-project.org/">CRAN</a>. Dale a instalar y acepta todas las opciones por defecto.</p>
 <div class="consejo">
-<p><strong>Consejo</strong> R se actualiza varias veces al año. Revisa de vez en cuando par aque luego no haya problemas con incompatibilidades al instalar paquetes nuevos.</p>
+<p><strong>Consejo</strong> R se actualiza varias veces al año. Revisa de vez en cuando para que luego no haya problemas con incompatibilidades al instalar paquetes nuevos.</p>
 </div>
 </section>
 <section id="rstudio" class="level2">
@@ -569,7 +573,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </table>
 <div class="alerta">
 <p><strong>El orden importa</strong>.</p>
-<p>R y RStudio no son lo mismo</p>
+<p>R y RStudio no son lo mismo:</p>
 <ul>
 <li>R es el motor de cálculo,</li>
 <li>RStudio es solo la interfaz que lo controla.</li>
@@ -640,9 +644,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Al principio de cada documento, se incluye una cabecera YAML con la info básica de la página web, tipo:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Título de la página"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
-<section id="y-una-página-web" class="level3">
-<h3 class="anchored" data-anchor-id="y-una-página-web">¿Y una página web?</h3>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Autor de la página"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> </span><span class="st">"dd/mm/yyyy"</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="y-una-página-web" class="level2">
+<h2 class="anchored" data-anchor-id="y-una-página-web">¿Y una página web?</h2>
 <p>Además, para crear una web y no un documento suelto, hacen falta otros ficheros. Por suerte, RStudio ya te ayuda bastante con lo básico.</p>
 <table class="caption-top table">
 <colgroup>
@@ -690,14 +697,65 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </section>
 </section>
-<section id="publicación-y-actualización-de-una-web-con-github-pages" class="level2">
-<h2 class="anchored" data-anchor-id="publicación-y-actualización-de-una-web-con-github-pages">Publicación y actualización de una web con GitHub Pages</h2>
+<section id="publicación-y-actualización-de-una-web" class="level1">
+<h1>Publicación y actualización de una web</h1>
+<section id="creación-de-repositorio-y-vinculación-con-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="creación-de-repositorio-y-vinculación-con-rstudio">Creación de repositorio y vinculación con RStudio</h2>
+<ol type="A">
+<li><strong>Crea el repositorio</strong> (desde Github Desktop o RStudio).
+<ol type="1">
+<li><em>File ➡️ New Repository</em></li>
+<li>El nombre del repositorio no debe contener espacios (e.g., <code>mi-primer-repo</code>)</li>
+<li>Importante, marca la opción de <em>“Initialize with a README”</em>.</li>
+<li>Elige la carpeta local donde lo guardas</li>
+<li><em>Create Repository ➡️ Publish repository</em> Déjalo público (Github Pages sólo funciona con repositorios públicos)</li>
+</ol></li>
+</ol>
+<div class="consejo">
+<p>💡 Crea una carpeta en mis documentos que utilices para todos los proyectos que tengas alojados en Github</p>
+</div>
+<ol start="2" type="A">
+<li><strong>Crea el proyecto Quarto en la misma carpeta.</strong>
+<ol type="1">
+<li>En RStudio: <em>File ➡️ New Project ➡️ Existing Directory ➡️</em> selecciona la carpeta que creaste en el Paso A</li>
+<li><em>File ➡️ New File ➡️ Quarto Website</em></li>
+<li>Guarda todo dentro de esa misma carpeta</li>
+</ol></li>
+</ol>
+<p>Al hacerlo así, el proyecto de RStudio y el repositorio Git son la misma carpeta: no hace falta vincular nada aparte, RStudio detecta el .git automáticamente.</p>
+<div class="alerta">
+<p>Cuando haces un <code>commit</code>, debes de poner un mensaje obligatoriamente. Es importante que este mensaje sea significativo y breve, no sólo poner cosas tipo “cambios” o “update”. Un buen mensaje describe qué cambió, en imperativo y corto: “Añade página de inicio”, “Corrige enlace roto en navbar”.</p>
+</div>
+</section>
+<section id="publicar-la-web-con-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="publicar-la-web-con-github-pages">Publicar la web con Github Pages</h2>
+<ol type="A">
+<li>Ve a Github ➡️ Repositorio ➡️ <em>Settings</em> ➡️ <em>Pages</em></li>
+<li>En <em>Build and deployment</em> ➡️ <em>Source</em>: elige la rama principal y la carpeta <code>docs</code>. <strong>Recuerda que para que funcione debes haber indicado previamente en <code>_quarto.yml</code> que esta sea la carpeta de salida. Tiene que tener: <code>output-dir: docs</code>.</strong></li>
+</ol>
+<div class="bonus">
+<p>En muchos repositorios existe un fichero llamado <code>.gitignore</code>. En este fichero se indican los ficheros o carpetas que no queremos que se suban al repositorio. Todo lo que aparezca aquí, no se sincronizará con tu carpeta local.</p>
+</div>
+</section>
+<section id="actualizaciones-y-republicaciones" class="level2">
+<h2 class="anchored" data-anchor-id="actualizaciones-y-republicaciones">Actualizaciones y republicaciones</h2>
+<ol type="A">
+<li>Abre Github Desktop y haz un <code>pull</code> para asegurarte de que cuentas con la última versión del repositorio.</li>
+<li>Haz primero las modificaciones que consideres en tus ficheros <code>.qmd</code>, <code>.yaml</code> o el que sea.</li>
+<li>Graba y **renderiza* desde RStudio para que se generen los ficheros <code>html</code>.</li>
+<li>Desde Github Desktop haz un <code>commit</code> indicando las modificaciones que has realizado. Si has modificado más de un fichero, puedes realizar varios <code>commits</code> distintos.</li>
+<li>Una vez marcados todos los cambios haz un <code>push</code> para subir la nueva versión del repositorio a la web. Pasados unos minutos, la web se actualizará.</li>
+</ol>
+</section>
+</section>
+<section id="entregable" class="level1 ejercicio">
+<h1>Entregable</h1>
+<p>Demuestra tu manejo con estas herramientas. Date de alta en Github, instálate todo lo que necesites y crea tu primer repositorio con una pequeña página web básica. El contenido me da igual. Una vez esté funcionando, mándame a través de PRADO cuando habilite la entrega, la URL de tu página web.</p>
+</section>
 
 
 <!-- -->
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1187,7 +1245,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>Git</span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>:   Sistema de control de versiones: un programa que registra el historial de cambios de un proyecto (quién cambió qué y cuándo), permite volver a versiones anteriores y trabajar en paralelo mediante ramas. Funciona en local, en tu propio ordenador, sin necesidad de estar conectado a ningún servicio online.</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>:   Sistema de control de versiones, es decir, un programa que registra el historial de cambios de un proyecto (quién cambió qué y cuándo). Permite volver a versiones anteriores y trabajar en paralelo mediante ramas. Funciona en local, en tu propio ordenador, sin necesidad de estar conectado a ningún servicio online.</span>
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>Github</span>
 <span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a></span>
@@ -1195,7 +1253,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>R</span>
 <span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>:   Lenguaje de programación orientado al análisis estadístico y de datos. Es el que usaremos en para trabajar con indicadores y cuadros de mandos. 🌐<span class="ot">&lt;https://cran.r-project.org/&gt;</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>:   Lenguaje de programación orientado al análisis estadístico y de datos. Es el que usaremos en para trabajar con indicadores y cuadros de mandos. 🌐 <span class="ot">&lt;https://cran.r-project.org/&gt;</span></span>
 <span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>RStudio</span>
 <span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a></span>
@@ -1232,7 +1290,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-57"><a href="#cb2-57" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Lo que no vemos hoy (issues, pull requests, actions) se verá más adelante, cuando trabajéis en el repo compartido del caso.</span>
 <span id="cb2-58"><a href="#cb2-58" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-59"><a href="#cb2-59" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Comando <span class="pp">|</span> Descripción <span class="pp">|</span></span>
-<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="pp">|----|----|</span></span>
+<span id="cb2-60"><a href="#cb2-60" aria-hidden="true" tabindex="-1"></a><span class="pp">|------------------------------------|------------------------------------|</span></span>
 <span id="cb2-61"><a href="#cb2-61" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`git clone &lt;url&gt;`</span> <span class="pp">|</span> Descarga una copia completa de un repositorio remoto, con todo su historial <span class="pp">|</span></span>
 <span id="cb2-62"><a href="#cb2-62" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`git status`</span> <span class="pp">|</span> Muestra qué archivos han cambiado desde el último commit y si están o no en staging <span class="pp">|</span></span>
 <span id="cb2-63"><a href="#cb2-63" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`git add &lt;archivo&gt;`</span> <span class="pp">|</span> Marca un cambio para incluirlo en el próximo commit (staging) <span class="pp">|</span></span>
@@ -1251,7 +1309,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-76"><a href="#cb2-76" aria-hidden="true" tabindex="-1"></a>Descarga la última versión de <span class="in">`R`</span> desde <span class="co">[</span><span class="ot">CRAN</span><span class="co">](https://cloud.r-project.org/)</span>. Dale a instalar y acepta todas las opciones por defecto.</span>
 <span id="cb2-77"><a href="#cb2-77" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-78"><a href="#cb2-78" aria-hidden="true" tabindex="-1"></a>::: consejo</span>
-<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>**Consejo** R se actualiza varias veces al año. Revisa de vez en cuando par aque luego no haya problemas con incompatibilidades al instalar paquetes nuevos.</span>
+<span id="cb2-79"><a href="#cb2-79" aria-hidden="true" tabindex="-1"></a>**Consejo** R se actualiza varias veces al año. Revisa de vez en cuando para que luego no haya problemas con incompatibilidades al instalar paquetes nuevos.</span>
 <span id="cb2-80"><a href="#cb2-80" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb2-81"><a href="#cb2-81" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-82"><a href="#cb2-82" aria-hidden="true" tabindex="-1"></a><span class="fu">## RStudio</span></span>
@@ -1272,7 +1330,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-97"><a href="#cb2-97" aria-hidden="true" tabindex="-1"></a>::: alerta</span>
 <span id="cb2-98"><a href="#cb2-98" aria-hidden="true" tabindex="-1"></a>**El orden importa**.</span>
 <span id="cb2-99"><a href="#cb2-99" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a>R y RStudio no son lo mismo</span>
+<span id="cb2-100"><a href="#cb2-100" aria-hidden="true" tabindex="-1"></a>R y RStudio no son lo mismo:</span>
 <span id="cb2-101"><a href="#cb2-101" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-102"><a href="#cb2-102" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>R es el motor de cálculo,</span>
 <span id="cb2-103"><a href="#cb2-103" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>RStudio es solo la interfaz que lo controla.</span>
@@ -1302,44 +1360,95 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-127"><a href="#cb2-127" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-128"><a href="#cb2-128" aria-hidden="true" tabindex="-1"></a>Al principio de cada documento, se incluye una cabecera YAML con la info básica de la página web, tipo:</span>
 <span id="cb2-129"><a href="#cb2-129" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a><span class="in">```yaml</span></span>
+<span id="cb2-130"><a href="#cb2-130" aria-hidden="true" tabindex="-1"></a><span class="in">``` yaml</span></span>
 <span id="cb2-131"><a href="#cb2-131" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
 <span id="cb2-132"><a href="#cb2-132" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Título de la página"</span></span>
-<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
-<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a><span class="fu">### ¿Y una página web?</span></span>
+<span id="cb2-133"><a href="#cb2-133" aria-hidden="true" tabindex="-1"></a><span class="fu">author</span><span class="kw">:</span><span class="at"> </span><span class="st">"Autor de la página"</span></span>
+<span id="cb2-134"><a href="#cb2-134" aria-hidden="true" tabindex="-1"></a><span class="fu">date</span><span class="kw">:</span><span class="at"> </span><span class="st">"dd/mm/yyyy"</span></span>
+<span id="cb2-135"><a href="#cb2-135" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb2-136"><a href="#cb2-136" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
 <span id="cb2-137"><a href="#cb2-137" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a>Además, para crear una web y no un documento suelto, hacen falta otros ficheros. Por suerte, RStudio ya te ayuda bastante con lo básico.</span>
+<span id="cb2-138"><a href="#cb2-138" aria-hidden="true" tabindex="-1"></a><span class="fu">## ¿Y una página web?</span></span>
 <span id="cb2-139"><a href="#cb2-139" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Archivo <span class="pp">|</span> Para qué sirve <span class="pp">|</span></span>
-<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a><span class="pp">|----|----|</span></span>
-<span id="cb2-142"><a href="#cb2-142" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`_quarto.yml`</span> <span class="pp">|</span> Configuración global: título del sitio, navegación (navbar/sidebar), tema, qué carpeta de salida usar <span class="pp">|</span></span>
-<span id="cb2-143"><a href="#cb2-143" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`index.qmd`</span> <span class="pp">|</span> La página de inicio del sitio (equivalente al <span class="in">`index.html`</span>) <span class="pp">|</span></span>
-<span id="cb2-144"><a href="#cb2-144" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`styles.css`</span> <span class="pp">|</span> CSS personalizado, para ajustar colores, cajas, tipografía... por encima del tema base <span class="pp">|</span></span>
-<span id="cb2-145"><a href="#cb2-145" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Un <span class="in">`.qmd`</span> por página <span class="pp">|</span> Cada archivo <span class="in">`.qmd`</span> del proyecto se convierte en una página HTML independiente <span class="pp">|</span></span>
-<span id="cb2-146"><a href="#cb2-146" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-147"><a href="#cb2-147" aria-hidden="true" tabindex="-1"></a>Al pulsar **Render** (o <span class="in">`quarto render`</span> en terminal), Quarto:</span>
+<span id="cb2-140"><a href="#cb2-140" aria-hidden="true" tabindex="-1"></a>Además, para crear una web y no un documento suelto, hacen falta otros ficheros. Por suerte, RStudio ya te ayuda bastante con lo básico.</span>
+<span id="cb2-141"><a href="#cb2-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-142"><a href="#cb2-142" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Archivo <span class="pp">|</span> Para qué sirve <span class="pp">|</span></span>
+<span id="cb2-143"><a href="#cb2-143" aria-hidden="true" tabindex="-1"></a><span class="pp">|------------------------------------|------------------------------------|</span></span>
+<span id="cb2-144"><a href="#cb2-144" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`_quarto.yml`</span> <span class="pp">|</span> Configuración global: título del sitio, navegación (navbar/sidebar), tema, qué carpeta de salida usar <span class="pp">|</span></span>
+<span id="cb2-145"><a href="#cb2-145" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`index.qmd`</span> <span class="pp">|</span> La página de inicio del sitio (equivalente al <span class="in">`index.html`</span>) <span class="pp">|</span></span>
+<span id="cb2-146"><a href="#cb2-146" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`styles.css`</span> <span class="pp">|</span> CSS personalizado, para ajustar colores, cajas, tipografía... por encima del tema base <span class="pp">|</span></span>
+<span id="cb2-147"><a href="#cb2-147" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Un <span class="in">`.qmd`</span> por página <span class="pp">|</span> Cada archivo <span class="in">`.qmd`</span> del proyecto se convierte en una página HTML independiente <span class="pp">|</span></span>
 <span id="cb2-148"><a href="#cb2-148" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-149"><a href="#cb2-149" aria-hidden="true" tabindex="-1"></a><span class="ss">1.   </span>Ejecuta el código de cada <span class="in">`.qmd`</span> (si lo tiene) y captura sus resultados.</span>
+<span id="cb2-149"><a href="#cb2-149" aria-hidden="true" tabindex="-1"></a>Al pulsar **Render** (o <span class="in">`quarto render`</span> en terminal), Quarto:</span>
 <span id="cb2-150"><a href="#cb2-150" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-151"><a href="#cb2-151" aria-hidden="true" tabindex="-1"></a><span class="ss">2.   </span>Convierte el Markdown resultante a HTML.</span>
+<span id="cb2-151"><a href="#cb2-151" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>Ejecuta el código de cada <span class="in">`.qmd`</span> (si lo tiene) y captura sus resultados.</span>
 <span id="cb2-152"><a href="#cb2-152" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-153"><a href="#cb2-153" aria-hidden="true" tabindex="-1"></a><span class="ss">3.   </span>Aplica el tema y el <span class="in">`styles.css`</span>.</span>
+<span id="cb2-153"><a href="#cb2-153" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>Convierte el Markdown resultante a HTML.</span>
 <span id="cb2-154"><a href="#cb2-154" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-155"><a href="#cb2-155" aria-hidden="true" tabindex="-1"></a><span class="ss">4.   </span>Vuelca todo en la carpeta de salida indicada en <span class="in">`_quarto.yml`</span> (típicamente <span class="in">`docs/`</span> o <span class="in">`_site/`</span>) — **esta es la carpeta que luego publica GitHub Pages**.</span>
+<span id="cb2-155"><a href="#cb2-155" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>Aplica el tema y el <span class="in">`styles.css`</span>.</span>
 <span id="cb2-156"><a href="#cb2-156" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-157"><a href="#cb2-157" aria-hidden="true" tabindex="-1"></a>::: {.consejo}</span>
-<span id="cb2-158"><a href="#cb2-158" aria-hidden="true" tabindex="-1"></a>**Consejo** </span>
-<span id="cb2-159"><a href="#cb2-159" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-160"><a href="#cb2-160" aria-hidden="true" tabindex="-1"></a>Si el proyecto no tiene plantilla propia, Quarto usa una por defecto razonable (tema cosmo o similar, navbar simple). No hace falta diseñar nada desde cero para tener algo publicable, se puede ir personalizando después.</span>
-<span id="cb2-161"><a href="#cb2-161" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb2-162"><a href="#cb2-162" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-163"><a href="#cb2-163" aria-hidden="true" tabindex="-1"></a>::: {.alerta}</span>
-<span id="cb2-164"><a href="#cb2-164" aria-hidden="true" tabindex="-1"></a>Antes de tocar _quarto.yml, mirad el output-dir. Si dice output-dir: docs, GitHub Pages debe apuntar a la carpeta /docs. Si no hay ningún output-dir especificado, Quarto usará _site/ por defecto y hay que configurar Pages para esa carpeta en su lugar. Es la causa más común de *"he publicado pero la web da 404"*.</span>
-<span id="cb2-165"><a href="#cb2-165" aria-hidden="true" tabindex="-1"></a>:::</span>
-<span id="cb2-166"><a href="#cb2-166" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-167"><a href="#cb2-167" aria-hidden="true" tabindex="-1"></a><span class="fu">## Publicación y actualización de una web con GitHub Pages</span></span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb2-157"><a href="#cb2-157" aria-hidden="true" tabindex="-1"></a><span class="ss">4.  </span>Vuelca todo en la carpeta de salida indicada en <span class="in">`_quarto.yml`</span> (típicamente <span class="in">`docs/`</span> o <span class="in">`_site/`</span>) — **esta es la carpeta que luego publica GitHub Pages**.</span>
+<span id="cb2-158"><a href="#cb2-158" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-159"><a href="#cb2-159" aria-hidden="true" tabindex="-1"></a>::: consejo</span>
+<span id="cb2-160"><a href="#cb2-160" aria-hidden="true" tabindex="-1"></a>**Consejo**</span>
+<span id="cb2-161"><a href="#cb2-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-162"><a href="#cb2-162" aria-hidden="true" tabindex="-1"></a>Si el proyecto no tiene plantilla propia, Quarto usa una por defecto razonable (tema cosmo o similar, navbar simple). No hace falta diseñar nada desde cero para tener algo publicable, se puede ir personalizando después.</span>
+<span id="cb2-163"><a href="#cb2-163" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-164"><a href="#cb2-164" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-165"><a href="#cb2-165" aria-hidden="true" tabindex="-1"></a>::: alerta</span>
+<span id="cb2-166"><a href="#cb2-166" aria-hidden="true" tabindex="-1"></a>Antes de tocar <span class="sc">\_</span>quarto.yml, mirad el output-dir. Si dice output-dir: docs, GitHub Pages debe apuntar a la carpeta /docs. Si no hay ningún output-dir especificado, Quarto usará <span class="sc">\_</span>site/ por defecto y hay que configurar Pages para esa carpeta en su lugar. Es la causa más común de *"he publicado pero la web da 404"*.</span>
+<span id="cb2-167"><a href="#cb2-167" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-168"><a href="#cb2-168" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-169"><a href="#cb2-169" aria-hidden="true" tabindex="-1"></a><span class="fu"># Publicación y actualización de una web</span></span>
+<span id="cb2-170"><a href="#cb2-170" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-171"><a href="#cb2-171" aria-hidden="true" tabindex="-1"></a><span class="fu">## Creación de repositorio y vinculación con RStudio</span></span>
+<span id="cb2-172"><a href="#cb2-172" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-173"><a href="#cb2-173" aria-hidden="true" tabindex="-1"></a>A.  **Crea el repositorio** (desde Github Desktop o RStudio).</span>
+<span id="cb2-174"><a href="#cb2-174" aria-hidden="true" tabindex="-1"></a><span class="ss">    1.  </span>*File ➡️ New Repository*</span>
+<span id="cb2-175"><a href="#cb2-175" aria-hidden="true" tabindex="-1"></a><span class="ss">    2.  </span>El nombre del repositorio no debe contener espacios (e.g., <span class="in">`mi-primer-repo`</span>)</span>
+<span id="cb2-176"><a href="#cb2-176" aria-hidden="true" tabindex="-1"></a><span class="ss">    3.  </span>Importante, marca la opción de *"Initialize with a README"*.</span>
+<span id="cb2-177"><a href="#cb2-177" aria-hidden="true" tabindex="-1"></a><span class="ss">    4.  </span>Elige la carpeta local donde lo guardas</span>
+<span id="cb2-178"><a href="#cb2-178" aria-hidden="true" tabindex="-1"></a><span class="ss">    5.  </span>*Create Repository ➡️ Publish repository* Déjalo público (Github Pages sólo funciona con          repositorios públicos)</span>
+<span id="cb2-179"><a href="#cb2-179" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-180"><a href="#cb2-180" aria-hidden="true" tabindex="-1"></a>::: consejo</span>
+<span id="cb2-181"><a href="#cb2-181" aria-hidden="true" tabindex="-1"></a>💡 Crea una carpeta en mis documentos que utilices para todos los proyectos que tengas alojados en Github</span>
+<span id="cb2-182"><a href="#cb2-182" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-183"><a href="#cb2-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-184"><a href="#cb2-184" aria-hidden="true" tabindex="-1"></a>B.  **Crea el proyecto Quarto en la misma carpeta.**</span>
+<span id="cb2-185"><a href="#cb2-185" aria-hidden="true" tabindex="-1"></a><span class="ss">    1. </span>En RStudio: _File ➡️ New Project ➡️ Existing Directory ➡️_  selecciona la carpeta </span>
+<span id="cb2-186"><a href="#cb2-186" aria-hidden="true" tabindex="-1"></a>    que creaste en el Paso A</span>
+<span id="cb2-187"><a href="#cb2-187" aria-hidden="true" tabindex="-1"></a><span class="ss">    2. </span>_File ➡️ New File ➡️ Quarto Website_</span>
+<span id="cb2-188"><a href="#cb2-188" aria-hidden="true" tabindex="-1"></a><span class="ss">    3. </span>Guarda todo dentro de esa misma carpeta</span>
+<span id="cb2-189"><a href="#cb2-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-190"><a href="#cb2-190" aria-hidden="true" tabindex="-1"></a>Al hacerlo así, el proyecto de RStudio y el repositorio Git son la misma carpeta: no hace falta vincular nada aparte, RStudio detecta el .git automáticamente.</span>
+<span id="cb2-191"><a href="#cb2-191" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-192"><a href="#cb2-192" aria-hidden="true" tabindex="-1"></a>::: {.alerta}</span>
+<span id="cb2-193"><a href="#cb2-193" aria-hidden="true" tabindex="-1"></a>Cuando haces un <span class="in">`commit`</span>, debes de poner un mensaje obligatoriamente. Es importante que este mensaje sea significativo y breve, no sólo poner cosas tipo "cambios" o "update". Un buen mensaje describe qué cambió, en imperativo y corto: "Añade página de inicio", "Corrige enlace roto en navbar".</span>
+<span id="cb2-194"><a href="#cb2-194" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-195"><a href="#cb2-195" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-196"><a href="#cb2-196" aria-hidden="true" tabindex="-1"></a><span class="fu">## Publicar la web con Github Pages</span></span>
+<span id="cb2-197"><a href="#cb2-197" aria-hidden="true" tabindex="-1"></a>A.  Ve a Github ➡️ Repositorio ➡️ _Settings_ ➡️ _Pages_</span>
+<span id="cb2-198"><a href="#cb2-198" aria-hidden="true" tabindex="-1"></a>B.  En _Build and deployment_ ➡️ _Source_: elige la rama principal y la carpeta <span class="in">`docs`</span>. </span>
+<span id="cb2-199"><a href="#cb2-199" aria-hidden="true" tabindex="-1"></a>**Recuerda que para que funcione debes haber indicado previamente en `_quarto.yml` que esta sea la carpeta de salida. Tiene que tener: `output-dir: docs`.**</span>
+<span id="cb2-200"><a href="#cb2-200" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-201"><a href="#cb2-201" aria-hidden="true" tabindex="-1"></a>::: bonus</span>
+<span id="cb2-202"><a href="#cb2-202" aria-hidden="true" tabindex="-1"></a>En muchos repositorios existe un fichero llamado <span class="in">`.gitignore`</span>. En este fichero se indican los ficheros o carpetas que no queremos que se suban al repositorio. Todo lo que aparezca aquí, no se sincronizará con tu carpeta local.</span>
+<span id="cb2-203"><a href="#cb2-203" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb2-204"><a href="#cb2-204" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-205"><a href="#cb2-205" aria-hidden="true" tabindex="-1"></a><span class="fu">## Actualizaciones y republicaciones</span></span>
+<span id="cb2-206"><a href="#cb2-206" aria-hidden="true" tabindex="-1"></a>A.  Abre Github Desktop y haz un <span class="in">`pull`</span> para asegurarte de que cuentas con la última versión del </span>
+<span id="cb2-207"><a href="#cb2-207" aria-hidden="true" tabindex="-1"></a>repositorio.</span>
+<span id="cb2-208"><a href="#cb2-208" aria-hidden="true" tabindex="-1"></a>B.  Haz primero las modificaciones que consideres en tus ficheros <span class="in">`.qmd`</span>, <span class="in">`.yaml`</span> o el que sea.</span>
+<span id="cb2-209"><a href="#cb2-209" aria-hidden="true" tabindex="-1"></a>B.  Graba y **renderiza* desde RStudio para que se generen los ficheros <span class="in">`html`</span>.</span>
+<span id="cb2-210"><a href="#cb2-210" aria-hidden="true" tabindex="-1"></a>C.  Desde Github Desktop haz un <span class="in">`commit`</span> indicando las modificaciones que has realizado. Si has modificado más de un fichero, puedes realizar varios <span class="in">`commits`</span> distintos.</span>
+<span id="cb2-211"><a href="#cb2-211" aria-hidden="true" tabindex="-1"></a>D.  Una vez marcados todos los cambios haz un <span class="in">`push`</span> para subir la nueva versión del repositorio a la web. Pasados unos minutos, la web se actualizará.</span>
+<span id="cb2-212"><a href="#cb2-212" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-213"><a href="#cb2-213" aria-hidden="true" tabindex="-1"></a>::: {.ejercicio}</span>
+<span id="cb2-214"><a href="#cb2-214" aria-hidden="true" tabindex="-1"></a><span class="fu"># Entregable</span></span>
+<span id="cb2-215"><a href="#cb2-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-216"><a href="#cb2-216" aria-hidden="true" tabindex="-1"></a>Demuestra tu manejo con estas herramientas. Date de alta en Github, instálate todo lo que necesites y crea tu primer repositorio con una pequeña página web básica. El contenido me da igual. Una vez esté funcionando, mándame a través de PRADO cuando habilite la entrega, la URL de tu página web.</span>
+<span id="cb2-217"><a href="#cb2-217" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-218"><a href="#cb2-218" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
