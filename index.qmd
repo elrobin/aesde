@@ -3,6 +3,8 @@ title: "Análisis y Evaluación de Sistemas de Documentación para la Empresa"
 author: "Nicolás Robinson-García"
 ---
 
+![](images/portada-aesde.jpeg){fig-align="center" width="419"}
+
 # Bienvenida a AESDE
 
 Este cuaderno contiene toda la información que necesitas para poder seguir la asignatura de **Análisis y Evaluación de los Sistemas de Documentación para las Empresas (AESDE)**. Si es la primera vez que aterrizas aquí, te recomiendo que te leas este apartado para ponerte rápidamente al día.
@@ -50,7 +52,7 @@ Somos poquitos, así que es importante que será especialmente importante la par
 +---------------------+--------------------------------------------------+
 | 1-15 de diciembre   | - Tema 7. Del indicador al dashboard             |
 +---------------------+--------------------------------------------------+
-| **21 de diciembre** | **🗣️ Presentación caso práctico** \| \|          |
+| **21 de diciembre** | **🗣️ Presentación caso práctico** \| \| \| \|    |
 +---------------------+--------------------------------------------------+
 | **22 de diciembre** | **🔚 Examen Bloque II**                          |
 +---------------------+--------------------------------------------------+

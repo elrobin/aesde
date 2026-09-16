@@ -1,26 +1,80 @@
 ---
-title: "El sistema de información empresarial"
+title: "Dato, información y documento"
 ---
 
+En esta sesión nos introducimos en la distinción entre los conceptos de
+_dato_, _información_, _conocimiento_ y _documento_. Al final de esta sesión
+no solo deberías entender dicha distinción, sino además ser capaz de
+identificarlos en un caso real, así como describir los diferentes flujos de
+información que tienen lugar en una organización y cómo se canalizan.
+
 ::: {.diapo-box}
-Diapositivas de clase — *(enlace a las slides de este tema)*
+## Lectura para hoy
+
+**Chávez Montejo, Y., & Pérez Sousa, H. (2013). Gestión documental, Gestión de información y Gestión del conocimiento: Nociones e interrelaciones. Bibliotecas. Anales de Investigación, (8-9), 222-227.**
+
+El artículo recorre cómo definen dato/información/conocimiento/documento varios autores (Ponjuán,
+Saffady, Rodríguez Cruz, Martín) y recoge la cita de Fleming (1996) sobre la
+cadena dato→información→conocimiento→sabiduría.
+
+Mientras lees, quédate con una pregunta: **¿con qué definición de "dato" y
+de "información" te quedas tú, y por qué esa y no otra?** Lo comentamos
+antes de seguir.
 :::
 
-## Contenidos teoricos
+## Conceptos básicos
 
-*(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)*
+- **Dato**: un hecho o valor suelto, sin contexto — un número, una fecha,
+  un nombre aislado. No dice nada por sí mismo.
+- **Información**: el dato ya con estructura y contexto, que responde a una
+  pregunta concreta (quién, cuánto, cuándo).
+- **Conocimiento**: información interiorizada e integrada con la
+  experiencia, que permite entender implicaciones y actuar — no solo saber
+  el dato, sino saber qué significa y cuándo usarlo (o no usarlo).
+- **Documento**: soporte fijo y formal que registra información para su
+  transmisión y recuperación posterior — con autoría, fecha, identificable
+  y recuperable por cualquiera, no solo por quien lo generó.
 
-```{r}
-#| eval: false
-#| echo: true
-# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)
-# library(tidyverse)
+## Sistema de información vs. sistema de documentación
+
+**Sistema de información**: conjunto organizado de personas, procesos y
+tecnología que capta, procesa, almacena y distribuye información dentro de
+una organización para apoyar la toma de decisiones. Incluye tanto flujos
+**formales** (registrados, indexados) como **informales** (verbales, no
+registrados).
+
+**Sistema de documentación**: subconjunto especializado del sistema de
+información, centrado en el ciclo de vida de los documentos —creación,
+clasificación, almacenamiento, recuperación y conservación— como soportes
+formales y estables.
+
+```{mermaid}
+flowchart LR
+    ENT(("Entorno organizativo"))
+
+    E[Entrada]
+    P[Proceso]
+    S[Salida]
+
+    E -->|formal: dato, documento| P
+    E -.->|informal: comentario, aviso verbal| P
+    P --> S
+    S -->|Retroalimentación| E
+
+    ENT -.-> E
+    S -.-> ENT
 ```
 
-## Ejercicio: *(titulo del ejercicio)*
-
+## Ejercicio
 ::: {.ejercicio}
-**Objetivo.** *(que debe aprender/practicar el alumno)*
+Caso de trabajo: **Biblioteca del Colegio Máximo** (UGR), que atiende
+conjuntamente a las Facultades de Comunicación y Documentación y de
+Odontología. *(enlace a la ficha oficial)*
 
-**Instrucciones.** *(enunciado del ejercicio, tabla o pasos a seguir)*
+En parejas, en vuestra página del wiki:
+
+1. Identificad **1 dato real** y **1 documento real** de la biblioteca.
+2. Clasificadlos según los conceptos de hoy (dato/información/documento).
+3. Buscad **1 ejemplo de flujo formal** y **1 de flujo informal** que
+   creáis que existe en esa biblioteca.
 :::
