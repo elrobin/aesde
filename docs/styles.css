@@ -10,6 +10,12 @@
   gap: 0.6rem;
 }
 
+/* Alinear a la derecha*/
+.right
+{
+  text-align: right;
+}
+
 /* Bloques de ejercicio */
 .ejercicio {
   border-left: 4px solid #c0392b;

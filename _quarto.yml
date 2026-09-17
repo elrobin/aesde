@@ -25,9 +25,9 @@ website:
     contents:
       - href: index.qmd
         text: "Presentación de la asignatura"
-      # - section: "1. El sistema de información empresarial"
-      #   contents:
-      #     - tema1/sesion1.qmd
+      - section: "T1 El sistema de información empresarial"
+        contents:
+          - tema1/sesion1.qmd
       # - section: "2.Calidad: concepto y evaluación"
       #   contents:
       #     - tema2/sesion1.qmd
@@ -47,7 +47,7 @@ website:
       #   contents:
       #     - tema7/sesion1.qmd
       - href: TallerA/taller-github.qmd
-        text: "Taller de páginas web con Github+Quarto"
+        text: "Taller Github+Quarto"
 
 format:
   html:

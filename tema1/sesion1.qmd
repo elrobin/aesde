@@ -26,51 +26,97 @@ Para ello se establecen sistemas de gestión que no se centren únicamente en el
 Para ello es importante tener muy clara la distinción entre los siguientes conceptos:
 
 **Documento**
-:   Soporte fijo y formal que registra información para su transmisión y recuperación posterior. Normalmente a través de los metadatos del mismo es posible establecer la  autoría, fecha, etc., haciéndolo identificable y recuperable por cualquiera, no solo por quien lo generó.
+
+: Soporte fijo y formal que registra información para su transmisión y recuperación posterior. Normalmente a través de los metadatos del mismo es posible establecer la autoría, fecha, etc., haciéndolo identificable y recuperable por cualquiera, no solo por quien lo generó.
 
 **Dato**
 
-:   Hecho o valor suelto, sin contexto: un número, una fecha, un nombre aislado. No dice nada por sí mismo.
+: Hecho o valor suelto, sin contexto: un número, una fecha, un nombre aislado. No dice nada por sí mismo.
 
 **Información**
-:   El dato ya con estructura y contexto, que responde a una pregunta concreta (quién, cuánto, cuándo).
+
+: El dato ya con estructura y contexto, que responde a una pregunta concreta (quién, cuánto, cuándo).
 
 **Conocimiento**
-:   Información interiorizada e integrada con la experiencia y conocimiento tácito de quien la consume, que permite entender implicaciones y actuar a la misma.
+
+: Información interiorizada e integrada con la experiencia y conocimiento tácito de quien la consume, que permite entender implicaciones y actuar a la misma.
 
 ## De los sistemas documentales a los sistemas de gestión del conocimiento
 
-En primera instancia, 
+**Los sistemas de gestión documental**. Los sistemas documentales surgen a mediados del S. XX como una respuesta a la "explosión documental" de posguerra, en parte vinculada con la asimilación por parte de Estados Unidos de la literatura científica y técnica que desarrollaron por un lado y que por otro incautaron a la Alemania Nazi.
 
-**Sistema de información**: conjunto organizado de personas, procesos y tecnología que capta, procesa, almacena y distribuye información dentro de una organización para apoyar la toma de decisiones. Incluye tanto flujos **formales** (registrados, indexados) como **informales** (verbales, no registrados).
+El problema es de organización puramente documental. El objetivo es organizar, clasificar y recuperar toda la documentación de la manera más efectiva. Es el momento de máximo desarrollo de lenguajes documentales y el inicio de los sistemas de recuperación de información.
 
-**Sistema de documentación**: subconjunto especializado del sistema de información, centrado en el ciclo de vida de los documentos —creación, clasificación, almacenamiento, recuperación y conservación— como soportes formales y estables.
+|  |  |
+|----|----|
+| ![](/images/t1-vannevarbush.jpg){width="152"} | [Vannevar Bush](https://en.wikipedia.org/wiki/Vannevar_Bush) fue director de la *U.S. Office of Scientific Research and Development* y el responsable de la creación y modernización del sistema científico nacional de los Estados Unidos. Además, fue uno de los grandes actores en el desarrollo de la gestión de la información científica, además, su ensayo [*As we may think*](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/) sirvió de inspiración para el futuro desarrollo de la *World Wide Web.* |
 
-```{mermaid}
-flowchart LR
-    ENT(("Entorno organizativo"))
+**Los sistemas de gestión de información**. Sin embargo, la industrialización y el gran crecimiento económico de los 80 llevan a las empresas a ampliar el nivel de alcance de los flujos documentales, desarrollando sistemas que pretenden gestionar la **información** más allá del soporte en el que ésta se encuentre. Todo esto también tiene lugar en un momento de desarrollo tecnológico con la expansión de la computadora previo al salto al ordenador personal de los años 90.
 
-    E[Entrada]
-    P[Proceso]
-    S[Salida]
+Conviven dos tradiciones distintas:
 
-    E -->|formal: dato, documento| P
-    E -.->|informal: comentario, aviso verbal| P
-    P --> S
-    S -->|Retroalimentación| E
+1.  Una gestión de información orientada a la tecnología: gestión de datos, sistemas de información, uso estratégico de las Tecnologías de la Información.
 
-    ENT -.-> E
-    S -.-> ENT
-```
+2.  Una gestión orientada al contenido: gestión de registros (*records management*), servicios de recuperación de información, gestión centrada en el usuario.
 
-## Ejercicio
+Estas dos corrientes confluyen en los actuales sistemas de información.
+
+**Los sistemas de gestión del conocimiento**. A mediados de los 90 se añade una nueva capa que ya no se limita a monitorizar y controlar los flujos de información en la empresa, sino que busca gestionar las prácticas de trabajo que permiten generar y compartir conocimiento a partir de esa información: cómo aprende la organización, cómo se retiene el saber hacer cuando alguien se va, y cómo se convierte experiencia individual en activo colectivo. Es también el momento en que se empieza a hablar de gestionar activos intangibles (capital humano, capital estructural) como parte del valor real de la empresa, más allá de sus activos físicos y financieros
+
+### Nueva tecnología para la gestión de conocimiento
+
+A cada uno de estos cambios le acompaña el desarrollo de software (mucho del cuál se emplea actualmente en las empresas) dirigido a cada una de las capas que se van añadiendo.
+
+| Cambio ➡️ Solución | Nueva tecnología | Ejemplo |
+|----|----|----|
+| Del documento a la información | Digitalización del papel (imaging) y gestión de contenido no textual (multimedia). Aparecen las funciones básicas del EDMS: capturar, indexar, almacenar, recuperar y distribuir documentos. | [OpenKM](https://www.openkm.com/) |
+| Recuperación de información | Indexación manual o automática, operadores booleanos, medidas de precisión y exhaustividad. | [Dialog](https://en.wikipedia.org/wiki/ProQuest_Dialog) \| [Solr](https://solr.apache.org/) \| [Elasticsearch](https://www.elastic.co/elasticsearch) |
+| *GroupWare* | Comunicación, trabajo colaborativo, gestión de clientes, gestión de equipos | [Slack](https://slack.com/) \| [Nextcloud](https://nextcloud.com/) |
+| Automatización de rpocesos | Gestión de transacción, gestión administrativa y documnetal | [Camunda](https://camunda.com/) |
+| Gestión del conocimiento y recuperación de información interna | Herramientas de KM desarrolladas específicamente para generación de conocimiento y no tanto *GroupWare* (que también las incluyen | [Notion](https://www.notion.com/) \| [Wiki.js](https://js.wiki/) |
+
+## Sistemas de gestión y principales características
+
+**Sistema documental**
+
+: Conjunto organizado de procesos y recursos para producir, clasificar, almacenar, recuperar y conservar documentos; unidad de gestión = el documento como soporte formal.
+
+**Sistema de información**
+
+: Conjunto que integra infraestructura tecnológica, sistemas y uso de la información; unidad de gestión = la información, estructurada o no, con el objetivo de ponerla en el lugar y momento adecuados. A diferencia del sistema documental, no se limita a la información ya registrada;
+
+- *flujo formal*, un informe, una base de datos sino que tiene que dar cuenta también de la que circula sin canal oficial
+- *flujo informal*, un comentario de pasillo, un aviso verbal. De ahí que su alcance sea mayor pero también más difícil de controlar.
+
+**Sistema de conocimiento**
+
+|   | Sistema documental | Sistema de información | Sistema de conocimiento |
+|----|----|----|----|
+| **Unidad de gestión** | El documento | La información (datos + documentos) | Las prácticas de trabajo |
+| **Foco** | Ciclo de vida del documento | Infraestructura, sistemas y uso | Generación y compartición |
+| **Tecnología típica** | Imaging, indexación, IR | Bases de datos, sistemas de información | GroupWare, KM tools, agentes |
+| **Disciplina de origen** | Records management / Documentación | Information Systems / Business Informatics | Ciencias organizacionales |
+| **Formalización** | Alta (soporte estable) | Media-alta | Baja (Wersig: solo formalizar donde es esencial) |
+| **Limitación principal** | No cubre información no documental (verbal, informal) | No garantiza que la información se convierta en conocimiento usable | No es gestionable directamente — solo se gestiona su entorno |
+
+: Conjunto de prácticas, procesos y tecnologías para capturar, compartir y generar conocimiento organizativo. Matiz importante para clase: en sentido estricto el conocimiento solo existe en la mente (Wilson 2002), así que lo que realmente se gestiona son las prácticas de trabajo y los repositorios de información codificada que facilitan que ese conocimiento circule.
+
+## Tareas
 
 ::: ejercicio
-Caso de trabajo: **Biblioteca del Colegio Máximo** (UGR), que atiende conjuntamente a las Facultades de Comunicación y Documentación y de Odontología. *(enlace a la ficha oficial)*
+Caso de trabajo: **Biblioteca del Colegio Máximo** (UGR).
 
-En parejas, en vuestra página del wiki:
+Antes de empezar, familiarizaos con la biblioteca a través de:
 
-1.  Identificad **1 dato real** y **1 documento real** de la biblioteca.
-2.  Clasificadlos según los conceptos de hoy (dato/información/documento).
-3.  Buscad **1 ejemplo de flujo formal** y **1 de flujo informal** que creáis que existe en esa biblioteca.
+- [Ficha oficial de la biblioteca](https://biblioteca.ugr.es/pages/biblioteca_ugr/bibliotecas_centros/colegio_maximo)
+- [Estructura, equipamiento y fondos](https://biblioteca.ugr.es/print/pdf/node/7060) (superficie, nº de ordenadores y puestos, temáticas por facultad, sistema de clasificación)
+
+De forma individual, en vuestra página del wiki:
+
+1.  **Un dato real**: un valor suelto que podáis extraer de la ficha o de una consulta al catálogo (por ejemplo, una cifra, una fecha, un código de clasificación). Debe ser un dato concreto, no una descripción.
+2.  **Un documento real**: algo con soporte, autoría y metadatos identificables — puede ser del propio catálogo de la biblioteca, o un documento de la propia ficha oficial que acabáis de consultar.
+3.  **Clasificación**: justificad en 2-3 líneas por qué lo que habéis elegido en 1 es dato y no información, y por qué lo de 2 es documento y no solo información.
+4.  **Un flujo formal y uno informal**: pensad en cómo funciona realmente una biblioteca de este tipo (préstamo, catalogación, consultas al personal, quejas, recomendaciones entre estudiantes...) y proponed un ejemplo de cada uno, explicando por qué lo clasificáis así.
+
+No hace falta que uséis literalmente algo de los enlaces — son punto de partida para que no partáis de cero, no la respuesta ya dada. Si encontráis otra fuente sobre la biblioteca que os sirva mejor, usadla y citadla.
 :::
