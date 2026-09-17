@@ -2,51 +2,49 @@
 title: "Dato, información y documento"
 ---
 
-En esta sesión nos introducimos en la distinción entre los conceptos de
-_dato_, _información_, _conocimiento_ y _documento_. Al final de esta sesión
-no solo deberías entender dicha distinción, sino además ser capaz de
-identificarlos en un caso real, así como describir los diferentes flujos de
-información que tienen lugar en una organización y cómo se canalizan.
+En esta sesión nos introducimos en la distinción entre los conceptos de *dato*, *información*, *conocimiento* y *documento*. Al final de esta sesión no solo deberías entender dicha distinción, sino además ser capaz de identificarlos en un caso real, así como describir los diferentes flujos de información que tienen lugar en una organización y cómo se canalizan.
 
-::: {.diapo-box}
-## Lectura para hoy
+::: diapo-box
+## Lectura y debate en clase
 
-**Chávez Montejo, Y., & Pérez Sousa, H. (2013). Gestión documental, Gestión de información y Gestión del conocimiento: Nociones e interrelaciones. Bibliotecas. Anales de Investigación, (8-9), 222-227.**
+[**Chávez Montejo, Y., & Pérez Sousa, H. (2013). Gestión documental, Gestión de información y Gestión del conocimiento: Nociones e interrelaciones. Bibliotecas. Anales de Investigación, (8-9), 222-227**](https://dialnet.unirioja.es/servlet/articulo?codigo=5704452)**.**
 
-El artículo recorre cómo definen dato/información/conocimiento/documento varios autores (Ponjuán,
-Saffady, Rodríguez Cruz, Martín) y recoge la cita de Fleming (1996) sobre la
-cadena dato→información→conocimiento→sabiduría.
-
-Mientras lees, quédate con una pregunta: **¿con qué definición de "dato" y
-de "información" te quedas tú, y por qué esa y no otra?** Lo comentamos
-antes de seguir.
+Adopta una actitud crítica durante su lectura y presta especial atención a su distinción entre conceptos *¿estás de acuerdo con las definiciones que ofrece de dato, información y conocimiento?*, *¿puedes pensar en ejemplos aplicados a un contexto real?*
 :::
 
-## Conceptos básicos
+## La necesidad de gestionar flujos de información
 
-- **Dato**: un hecho o valor suelto, sin contexto — un número, una fecha,
-  un nombre aislado. No dice nada por sí mismo.
-- **Información**: el dato ya con estructura y contexto, que responde a una
-  pregunta concreta (quién, cuánto, cuándo).
-- **Conocimiento**: información interiorizada e integrada con la
-  experiencia, que permite entender implicaciones y actuar — no solo saber
-  el dato, sino saber qué significa y cuándo usarlo (o no usarlo).
-- **Documento**: soporte fijo y formal que registra información para su
-  transmisión y recuperación posterior — con autoría, fecha, identificable
-  y recuperable por cualquiera, no solo por quien lo generó.
+La creación, gestión y evaluación de sistemas de información en la empresa surge de la necesidad de controlar flujos de información con el fin de:
 
-## Sistema de información vs. sistema de documentación
+- Maximizar esfuerzos y auditar servicios
+- Asegurar transparencia y reproducibilidad de procesos
+- Aprovechar el capital humano de la organización
+- Controlar satisfacción del personal y clientes
 
-**Sistema de información**: conjunto organizado de personas, procesos y
-tecnología que capta, procesa, almacena y distribuye información dentro de
-una organización para apoyar la toma de decisiones. Incluye tanto flujos
-**formales** (registrados, indexados) como **informales** (verbales, no
-registrados).
+Para ello se establecen sistemas de gestión que no se centren únicamente en el control de flujos de documentos, sino que vayan un poco más allá y permitan la gestión de información con el fin de facilitar la toma de decisiones estratégica.
 
-**Sistema de documentación**: subconjunto especializado del sistema de
-información, centrado en el ciclo de vida de los documentos —creación,
-clasificación, almacenamiento, recuperación y conservación— como soportes
-formales y estables.
+Para ello es importante tener muy clara la distinción entre los siguientes conceptos:
+
+**Documento**
+:   Soporte fijo y formal que registra información para su transmisión y recuperación posterior. Normalmente a través de los metadatos del mismo es posible establecer la  autoría, fecha, etc., haciéndolo identificable y recuperable por cualquiera, no solo por quien lo generó.
+
+**Dato**
+
+:   Hecho o valor suelto, sin contexto: un número, una fecha, un nombre aislado. No dice nada por sí mismo.
+
+**Información**
+:   El dato ya con estructura y contexto, que responde a una pregunta concreta (quién, cuánto, cuándo).
+
+**Conocimiento**
+:   Información interiorizada e integrada con la experiencia y conocimiento tácito de quien la consume, que permite entender implicaciones y actuar a la misma.
+
+## De los sistemas documentales a los sistemas de gestión del conocimiento
+
+En primera instancia, 
+
+**Sistema de información**: conjunto organizado de personas, procesos y tecnología que capta, procesa, almacena y distribuye información dentro de una organización para apoyar la toma de decisiones. Incluye tanto flujos **formales** (registrados, indexados) como **informales** (verbales, no registrados).
+
+**Sistema de documentación**: subconjunto especializado del sistema de información, centrado en el ciclo de vida de los documentos —creación, clasificación, almacenamiento, recuperación y conservación— como soportes formales y estables.
 
 ```{mermaid}
 flowchart LR
@@ -66,15 +64,13 @@ flowchart LR
 ```
 
 ## Ejercicio
-::: {.ejercicio}
-Caso de trabajo: **Biblioteca del Colegio Máximo** (UGR), que atiende
-conjuntamente a las Facultades de Comunicación y Documentación y de
-Odontología. *(enlace a la ficha oficial)*
+
+::: ejercicio
+Caso de trabajo: **Biblioteca del Colegio Máximo** (UGR), que atiende conjuntamente a las Facultades de Comunicación y Documentación y de Odontología. *(enlace a la ficha oficial)*
 
 En parejas, en vuestra página del wiki:
 
-1. Identificad **1 dato real** y **1 documento real** de la biblioteca.
-2. Clasificadlos según los conceptos de hoy (dato/información/documento).
-3. Buscad **1 ejemplo de flujo formal** y **1 de flujo informal** que
-   creáis que existe en esa biblioteca.
+1.  Identificad **1 dato real** y **1 documento real** de la biblioteca.
+2.  Clasificadlos según los conceptos de hoy (dato/información/documento).
+3.  Buscad **1 ejemplo de flujo formal** y **1 de flujo informal** que creáis que existe en esa biblioteca.
 :::
