@@ -1,3 +1,9 @@
 ---
 title: "Tipos y funciones de los sistemas de información"
 ---
+
+## Fases de la gestión de información
+
+## Tipos de sistemas de información
+
+## Principales funciones
