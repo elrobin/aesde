@@ -28,6 +28,7 @@ website:
       - section: "T1 El sistema de información empresarial"
         contents:
           - tema1/sesion1.qmd
+          - tema1/sesion2.qmd
       # - section: "2.Calidad: concepto y evaluación"
       #   contents:
       #     - tema2/sesion1.qmd
