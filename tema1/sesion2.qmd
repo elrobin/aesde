@@ -1,0 +1,3 @@
+---
+title: "Tipos y funciones de los sistemas de información"
+---
