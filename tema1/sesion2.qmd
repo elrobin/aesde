@@ -2,8 +2,96 @@
 title: "Tipos y funciones de los sistemas de información"
 ---
 
+## Consideraciones previas
+
+La clave de contar con un sistema de información que mejore los procesos de trabajo y ayude a la toma estratégica de decisiones de una organización no es tanto la tecnología empleada, sino un diseño coherente y adaptado a los objetivos y los procesos de trabajo de la organización. De esta manera, antes de poder analizar y evaluar el funcionamiento de un sistema de información dentro de una empresa, es esencial identificar dichos procesos y ver cómo son recogidos por el sistema de información.
+
+No hay un modelo único de organización del sistema de información de una organización, ya que estos variarán en función de la naturaleza la organización (no es lo mismo una zapatería de barrio, que una fábrica textil o una multinacional tecnológica). Por ello lo primero será identificar:
+
+1.  Los **productos y servicios** que ofrece la organización.
+2.  Los **objetivos** estratégicos y económicos que persigue la empresa en el corto, medio y largo plazo.
+3.  Los **procesos operativos y organizacionales** que lleva a cabo la institución.
+4.  Con qué **recursos** cuenta la institución y cómo se distribuyen.
+5.  Cómo se **monitoriza el rendimiento y funcionamiento** de la organización.
+
+A esta visión del funcionamiento interno de la organización habrá que añadir una visión externa de los principales agentes con los que interacciona y coexiste la institución. Algo que McGee y Prusak (1993) mapean del siguiente modo:
+
+![McGee, J. V., & Prusak, L. (1993). *Managing information strategically*. John Wiley & Sons, pp. 26](/images/t1-competitive-forces.png){fig-align="center"}
+
 ## Fases de la gestión de información
+
+Una vez identificados los agentes, habría que identificar las diferentes tareas del proceso de gestión de la información.
+
+- **Identificación de necesidades y requisitos.** La tarea más importante (¡y olvidada en muchas ocasiones!). No hay que presuponer nada *a priori*, sino empezar buscando de qué información disponemos y hasta qué punto es recuperable.
+
+- **Análisis documental.** Se trata de la parte de procesamiento, categorización y organización de la información para hacerla recuperable. Aquí es clave que *el sistema se adapte al usuario y no al revés*.
+
+- **Desarrollo de servicios.** No basta con que la información sea recuperable, sino digerible y utilizable. Para ello habrá que contemplar el desarrollo de informes, sistemas de alertas, guías, etc. Es lo que tradicionalmente en bibliotecas se conoce como [*Difusión Selectiva de la Información*](https://doi.org/10.3989/redc.2003.v26.i3.229) (DSI).
+
+- **Distribución y difusión de servicios.** Esta fase final consiste en la adopción de una aproximación proactiva al usuario, en muchos casos anticipándonos a sus necesidades y haciéndoles llegar los servicios que se ofrecen.
+
+Se trata de un modelo cíclico y no lineal, donde una vez se distribuyen servicios, se analiza y evalúan nuevamente las necesidades de información para seguir mejorando, modificando y readaptando los servicios al usuario.
 
 ## Tipos de sistemas de información
 
-## Principales funciones
+Dentro de una misma organización, no toda la informaicón se necesita de la misma forma.
+
+- 🛒 Un cajero de supermercado necesita que el sistema registra la venta al instante,
+
+- 👩‍💼el gerente necesita ver esas ventas agregadas por supermercado a fin de mes,
+
+- 🏪la dirección necesita curzar esas cifras con lo que está pasando en el mercado para ver si es viable abrir otro supermercado.
+
+Son tres necesidades de información completamente distintas, y por eso se suelen resolver con **sistemas distintos de gestión de la información**, aunque muchas veces beban de la misma fuente.
+
+Hay tres tipos de sistemas de información:
+
+1.  **Sistemas transaccionales** (*Transaction Processing Systems, TPS*). Registran las operaciones rutinarias del día a día, una por una, con rapidez y exactitud. No interpretan ni resumen nada; solo dejan constancia de que algo ha ocurrido.
+2.  **Sistemas de gestión y apoyo de decisiones** (*Management Information Systems/Decision Support Systems*, *MIS/DSS*). Toman los datos que generan los sistemas transaccionales y los agregan en informes útiles para quien gestiona un área.
+3.  **Sistemas de apoyo ejecutivo** (*Executive Support Systems, ESS*). Combinan información interna ya agregada con información externa para decisiones estratégicas de medio-largo plazo.
+
+| Tipo | Nivel | Qué hace | Ejemplo |
+|----|----|----|----|
+| **Transaccional (TPS)** | Operativo | Registra cada operación en el momento en que ocurre | Caja registradora de un supermercado |
+| **Gestión / apoyo a la decisión (MIS/DSS)** | Táctico | Agrega esos datos en informes para quien gestiona un área | Informe mensual de ventas por tienda para el gerente regional |
+| **Apoyo a ejecutivos (ESS)** | Estratégico | Cruza datos internos con información externa para decisiones de largo alcance | Informe para decidir la apertura de una nueva tienda |
+
+## Funciones de los sistemas de información
+
+Por funciones entendemos los requisitos que debe cumplir un sistema de gestión de la información, independientemente de la tipología. Aunque no todos los sistemas cumplirán todas las funciones, lo lógico es cumplan varias de ellas.
+
+- **Apoyo a la toma de decisiones.** Dotar de datos contextualizados al usuario para que pueda tomar una decisión informada ya sea rutinaria como de carácter estratégico. Desde reponer un producto, donde incluso la toma de decisiones puede automatizarse, hasta cuestiones de carácter estratégico para la organización.
+
+- **Memoria organizacional.** Preservación y trazabilidad del conocimiento y procesos acumulados por la organización, de manera que la organización no sea vulnerable, por ejemplo, a la pérdida de capital humano, o que sea capaz de recuperar y contrastar situaciones pasadas con la actual para repetir, reevaluar o modificar estrategias comerciales (e.g., una campaña publicitaria).
+
+- **Coordinación entre unidades.** Reducir la incertidumbre que surge cuando distintas partes de la organización dependen unas de otras. Por ejemplo cuando tienen lugar procesos en los deben intervenir diferentes departamentos dentro de una multinacional que están localizados en diferentes países y que no siempre interactúan dentro del mismo marco de trabajo.
+
+| Función | Qué resuelve | Ejemplo |
+|----|----|----|
+| **Apoyo a la decisión** | Dar la información que una decisión necesita | Aviso automático cuando un proyecto se acerca al límite de horas presupuestadas |
+| **Memoria organizacional** | Que el conocimiento no se pierda cuando alguien se va | Base de casos de proyectos anteriores, consultable por cualquier consultor nuevo |
+| **Coordinación entre unidades** | Que la información fluya entre partes interdependientes sin intervención manual | La asignación de un consultor a un proyecto activa automáticamente su facturación |
+
+## Tareas
+
+::: ejercicio
+Con esta tarea cerráis el Tema 1. Al terminar, deberíais poder describir sus servicios, identificar los flujos de información que la atraviesan, y caracterizar los sistemas y funciones que la sostienen.
+
+**Fase 1 — Individual, en el wiki**
+
+Cada uno, por separado, completa:
+
+1.**Servicios**: listad y describid brevemente 3 servicios reales que ofrece la biblioteca (consultad la [ficha de servicios de la BUG](http://biblioteca.ugr.es/servicios) y la [guía temática del Colegio Máximo](https://bibliotecaugr.libguides.com/maximo)).
+
+2.  **Tipos de sistema**: investigad qué sistema de gestión bibliotecaria (ILS) usa la BUG para catálogo y préstamo. ¿En cuál de los tres tipos (TPS / MIS-DSS / ESS) lo situaríais, y por qué? Pista: un mismo sistema puede tener módulos de más de un tipo — no busquéis una respuesta única y cerrada.
+
+3.  **Funciones**: encontrad un ejemplo real (o razonablemente inferido) de apoyo a la decisión, memoria organizacional y coordinación en el funcionamiento de esta biblioteca.
+
+**Fase 2 — En grupo**
+
+Poned en común vuestras respuestas, integradlas y discutid y acordad de cara a preparar la página de descripción de la Biblioteca del Colegio Máximo de Cartujo, servicios, tipos de sistemas de información y funciones.
+
+**Fase 3 — Página final**
+
+Entre todos, consolidáis una única síntesis en `index.qmd` (o la página que corresponda), integrando lo mejor de las aportaciones individuales. Esta página cierra el Tema 1.
+:::
