@@ -23,7 +23,7 @@ La creación, gestión y evaluación de sistemas de información en la empresa s
 
 Para ello se establecen sistemas de gestión que no se centren únicamente en el control de flujos de documentos, sino que vayan un poco más allá y permitan la gestión de información con el fin de facilitar la toma de decisiones estratégica.
 
-Para ello es importante tener muy clara la distinción entre los siguientes conceptos:
+Es importante tener muy clara la distinción entre los siguientes conceptos:
 
 **Documento**
 
@@ -90,7 +90,7 @@ A cada uno de estos cambios le acompaña el desarrollo de software (mucho del cu
 | Del documento a la información | Digitalización del papel (imaging) y gestión de contenido no textual (multimedia). Aparecen las funciones básicas del EDMS: capturar, indexar, almacenar, recuperar y distribuir documentos. | [OpenKM](https://www.openkm.com/) |
 | Recuperación de información | Indexación manual o automática, operadores booleanos, medidas de precisión y exhaustividad. | [Dialog](https://en.wikipedia.org/wiki/ProQuest_Dialog) \| [Solr](https://solr.apache.org/) \| [Elasticsearch](https://www.elastic.co/elasticsearch) |
 | *GroupWare* | Comunicación, trabajo colaborativo, gestión de clientes, gestión de equipos | [Slack](https://slack.com/) \| [Nextcloud](https://nextcloud.com/) |
-| Automatización de rpocesos | Gestión de transacción, gestión administrativa y documnetal | [Camunda](https://camunda.com/) |
+| Automatización de procesos | Gestión de transacción, gestión administrativa y documnetal | [Camunda](https://camunda.com/) |
 | Gestión del conocimiento y recuperación de información interna | Herramientas de KM desarrolladas específicamente para generación de conocimiento y no tanto *GroupWare* (que también las incluyen | [Notion](https://www.notion.com/) \| [Wiki.js](https://js.wiki/) |
 
 ## Sistemas de gestión y principales características
