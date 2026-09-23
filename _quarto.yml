@@ -13,6 +13,10 @@ website:
     #   - href: index.qmd
     #     text: "Bienvenida"
     right:
+      - text: "Prácticas"
+        menu:
+          - text: "26-27 Biblioteca Colegio Máximo"
+            href: https://elrobin.github.io/aesde-26
       - href: https://elrobin.github.io
         text: "Más sobre mí"
       - icon: github

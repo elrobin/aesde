@@ -1,101 +1,5 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "",
-    "text": "Este cuaderno contiene toda la información que necesitas para poder seguir la asignatura de Análisis y Evaluación de los Sistemas de Documentación para las Empresas (AESDE). Si es la primera vez que aterrizas aquí, te recomiendo que te leas este apartado para ponerte rápidamente al día.\n\n\nSomos poquitos, así que es importante que será especialmente importante la participación activa durante las clases a fin de poder aprovechar al máximo la asignatura y hacerla amena y entretenido. Para que todo fluya, adoptaremos los siguientes compromisos en clase:\n\nAprendizaje activo y participativo. Mi intención es que las clases sean un diálogo y no un monólogo. Espero que partipes, cuestiones, comentes y seas parte de la clase.\nFlexibidad dentro de los márgenes. No paso lista ni tengo en cuenta si asistes más o menos, pero toda la parte práctica o gran parte de ella tiene lugar en el aula. Las actividades que te pierdas, no son recuperables.\nEmpatía y compromiso. Mi labor es ayudarte a aprender, no ponerte trabas. Habla conmigo cuando te atasques y las cosas no salgan. Eso sí, a cambio espero implicación y esfuerzo\nActualización continua. Siempre estoy revisando materiales, así que no te adelantes, pues seguramente irán modificándose conforme avancemos\nDiversidad, respeto y pensamiento crítico. Es esencial para mí el respeto a todas las ideas y trayectorias vitales, así como el desarrollo del juicio crítico y bien fundamentado.\n\n\n\n\n\n\n\n\n\n\n\nQuincena\nContenidos\n\n\n\n\n14-29 de septiembre\n\nPresentación y taller\nTema 1. El sistema de información empresarial\nTema 2. Calidad: Rendimiento y satisfacción\n\n\n\n5-13 de octubre\n\nTema 2. Calidad: Rendimiento y satisfacción\nTema 3. Normativa ISO 9000/9001\n\n\n\n19-27 de octubre\n\nTema 4. Benchmarking\n\n\n\n3 de noviembre\n💀 Examen Bloque I\n\n\n9-16 de noviembre\n\nTema 5. Vigilancia en inteligencia competitiva\nTema 6. Sistemas de indicadores\n\n\n\n17-30 de noviembre\n\nTema 6. Sistemas de indicadores\nTema 7. Del indicador al Dasboard\n\n\n\n1-15 de diciembre\n\nTema 7. Del indicador al dashboard\n\n\n\n21 de diciembre\n🗣️ Presentación caso práctico | | |\n\n\n22 de diciembre\n🔚 Examen Bloque II\n\n\n\n\n\n\nEvaluación ordinaria (evaluación continua)\n\n\n\nInstrumento\n% calificación\n\n\n\n\n2 Pruebas teóricas\n45%\n\n\nMini-entregas prácticas\n35%\n\n\nTrabajo en equipo\n10%\n\n\nParticipación activa\n10%\n\n\n\n\nPruebas teóricas: La nota final es la media de ambos exámenes. La fecha es inamovible salvo causa de fuerza mayor bien justificada y con antelación\nMini-entregas prácticas: Se evalúan a través de los commits al repositorio del caso práctico. En cada clase se fijan unos objetivos que deben cumplirse antes de su finalización. Los commits realizados después de la clase pero antes del examen del bloque correspondiente tienen una penalización de 50%; pasado ese examen, no se consideran.\nTrabajo en equipo: Se desarrolla a lo largo del semestre, y se presenta en clase en la última sesión.\nParticipación activa: Debe ser voluntaria; no cuenta si se solicita de manera forzada.\n\n\nConsejo | Asiste a clase, trabaja en tiempo y forma, haz tus lecturas y participa, y todo irá bien 🥰.\n\nEvaluación extraordinaria\nExamen teórico y examen práctico relativos a los contenidos desarrollados en el temario, cada uno al 50% de la nota.\nEvaluación única final\nDe acuerdo con el artículo 6.2 de la Normativa de Evaluación y de Calificación de los Estudiantes de la UGR, consiste en un examen teórico y un examen práctico, cada uno al 50% de la nota. Toda la información está disponible en la guía docente. Si contactas conmigo a tiempo (inicio de curso) podemos ver cómo abordar esto.\n\n\n\nEsta asignatura incorpora el uso de herramientas de IA como parte de las actividades prácticas (p. ej. construcción asistida de cuadros de mando). Se espera un uso ético y responsable de las mismas, siguiendo las Recomendaciones para el uso de la inteligencia artificial en la UGR.\n\n\n\nSe podrá emplear software libre como R/RStudio para el análisis de datos y la elaboración de indicadores y cuadros de mando, combinado en su caso con hojas de cálculo y herramientas de inteligencia artificial.\n\n\n\nToda la comunicación, entrega de ejercicios y prácticas, etc. la vamos a canalizar a través de PRADO o en las clases. También tienes la opción de acudir a tutoría presencial. Estoy en el despacho I y mi horario de tutorías es lunes y miércoles de 9 a 12, pero podemos acordar otros horarios si esos no os vienen bien.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "index.html#cómo-usar-estos-materiales",
-    "href": "index.html#cómo-usar-estos-materiales",
-    "title": "Documentación aplicada a la traducción",
-    "section": "",
-    "text": "Cada tema está organizado en sesiones que combinan contenido teórico y prácticas. Los ejercicios y entregables individuales están descritos al final de cada sesión, tal y como se recoge en el programa de contenidos de la guía docente.\nLos materiales se actualizan de forma continua. Si encuentras algún error o tienes sugerencias, puedes abrir un issue en el repositorio usando el enlace de la barra superior.",
-    "crumbs": [
-      "Bienvenida a AESDE"
-    ]
-  },
-  {
-    "objectID": "index.html#filosofía-de-trabajo",
-    "href": "index.html#filosofía-de-trabajo",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Filosofía de trabajo",
-    "text": "Filosofía de trabajo\nSomos poquitos, así que es importante que será especialmente importante la participación activa durante las clases a fin de poder aprovechar al máximo la asignatura y hacerla amena y entretenido. Para que todo fluya, adoptaremos los siguientes compromisos en clase:\n\nAprendizaje activo y participativo. Mi intención es que las clases sean un diálogo y no un monólogo. Espero que partipes, cuestiones, comentes y seas parte de la clase.\nFlexibidad dentro de los márgenes. No paso lista ni tengo en cuenta si asistes más o menos, pero toda la parte práctica o gran parte de ella tiene lugar en el aula. Las actividades que te pierdas, no son recuperables.\nEmpatía y compromiso. Mi labor es ayudarte a aprender, no ponerte trabas. Habla conmigo cuando te atasques y las cosas no salgan. Eso sí, a cambio espero implicación y esfuerzo\nActualización continua. Siempre estoy revisando materiales, así que no te adelantes, pues seguramente irán modificándose conforme avancemos\nDiversidad, respeto y pensamiento crítico. Es esencial para mí el respeto a todas las ideas y trayectorias vitales, así como el desarrollo del juicio crítico y bien fundamentado.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "index.html#cómo-contactar-conmigo",
-    "href": "index.html#cómo-contactar-conmigo",
-    "title": "Documentación aplicada a la traducción",
-    "section": "",
-    "text": "Aunque siempre tendrás tiempo en clase para hablar conmigo tanto durante como al final, siempre puedes venir a una tutoría para tratar de manera más pausada cualquier cuestión que requieras.\nConsultas o tutorías en línea\n\nEscríbeme a través de la aplicación de mensajería de la plataforma Moodle (mensaje directo o chat).\nEscribe a elrobin@go.ugr.es y pon en el asunto AESDE y el grupo al que perteneces. No olvides decirme quién eres.\n\nTutorías\nHorario de tutorías (según guía docente): Lunes y Miércoles de 09:00 a 12:00, Despacho I, Facultad de Comunicación y Documentación. Si este horario te viene mal, siempre podemos buscar otro horario o hablar online si lo acordamos previamente.",
-    "crumbs": [
-      "Bienvenida a AESDE"
-    ]
-  },
-  {
-    "objectID": "index.html#temario-y-planificación",
-    "href": "index.html#temario-y-planificación",
-    "title": "Documentación aplicada a la traducción",
-    "section": "",
-    "text": "Tema\nContenidos\n\n\n\n\n0\nPresentación de la asignatura: bienvenida, planificación y evaluación\n\n\n1\nEl sistema de información empresarial: tipos de documentos y datos, organización y entorno\n\n\n2\nCalidad: concepto, evaluación objetiva y subjetiva. El modelo ServQual\n\n\n3\nEl benchmarking como herramienta de evaluación comparativa\n\n\n4\nLa organización y su entorno: vigilancia e inteligencia competitiva, fuentes de información\n\n\n5\nSistemas de indicadores: fundamentos, tipos y diseño\n\n\n6\nDel indicador al dashboard: cuadros de mando, visualización de datos y herramientas de IA aplicadas\n\n\n7\nLa familia de normas ISO 9000/9001\n\n\n**\nSeminarios/Talleres y trabajo en equipo\n\n\n\n(Rellena fechas concretas cuando tengas el calendario oficial del curso.)",
-    "crumbs": [
-      "Bienvenida a AESDE"
-    ]
-  },
-  {
-    "objectID": "index.html#evaluación-y-exámenes",
-    "href": "index.html#evaluación-y-exámenes",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Evaluación y exámenes",
-    "text": "Evaluación y exámenes\nEvaluación ordinaria (evaluación continua)\n\n\n\nInstrumento\n% calificación\n\n\n\n\n2 Pruebas teóricas\n45%\n\n\nMini-entregas prácticas\n35%\n\n\nTrabajo en equipo\n10%\n\n\nParticipación activa\n10%\n\n\n\n\nPruebas teóricas: La nota final es la media de ambos exámenes. La fecha es inamovible salvo causa de fuerza mayor bien justificada y con antelación\nMini-entregas prácticas: Se evalúan a través de los commits al repositorio del caso práctico. En cada clase se fijan unos objetivos que deben cumplirse antes de su finalización. Los commits realizados después de la clase pero antes del examen del bloque correspondiente tienen una penalización de 50%; pasado ese examen, no se consideran.\nTrabajo en equipo: Se desarrolla a lo largo del semestre, y se presenta en clase en la última sesión.\nParticipación activa: Debe ser voluntaria; no cuenta si se solicita de manera forzada.\n\n\nConsejo | Asiste a clase, trabaja en tiempo y forma, haz tus lecturas y participa, y todo irá bien 🥰.\n\nEvaluación extraordinaria\nExamen teórico y examen práctico relativos a los contenidos desarrollados en el temario, cada uno al 50% de la nota.\nEvaluación única final\nDe acuerdo con el artículo 6.2 de la Normativa de Evaluación y de Calificación de los Estudiantes de la UGR, consiste en un examen teórico y un examen práctico, cada uno al 50% de la nota. Toda la información está disponible en la guía docente. Si contactas conmigo a tiempo (inicio de curso) podemos ver cómo abordar esto.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "index.html#uso-de-ia-en-la-asignatura",
-    "href": "index.html#uso-de-ia-en-la-asignatura",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Uso de IA en la asignatura",
-    "text": "Uso de IA en la asignatura\nEsta asignatura incorpora el uso de herramientas de IA como parte de las actividades prácticas (p. ej. construcción asistida de cuadros de mando). Se espera un uso ético y responsable de las mismas, siguiendo las Recomendaciones para el uso de la inteligencia artificial en la UGR.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "index.html#software-libre",
-    "href": "index.html#software-libre",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Software libre",
-    "text": "Software libre\nSe podrá emplear software libre como R/RStudio para el análisis de datos y la elaboración de indicadores y cuadros de mando, combinado en su caso con hojas de cálculo y herramientas de inteligencia artificial.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "index.html#contacto",
-    "href": "index.html#contacto",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Contacto",
-    "text": "Contacto\nToda la comunicación, entrega de ejercicios y prácticas, etc. la vamos a canalizar a través de PRADO o en las clases. También tienes la opción de acudir a tutoría presencial. Estoy en el despacho I y mi horario de tutorías es lunes y miércoles de 9 a 12, pero podemos acordar otros horarios si esos no os vienen bien.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
     "objectID": "tema7/sesion1.html",
     "href": "tema7/sesion1.html",
     "title": "La familia de normas ISO 9000/9001",
@@ -159,35 +63,76 @@
     "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
   },
   {
-    "objectID": "tema1/sesion1.html",
-    "href": "tema1/sesion1.html",
-    "title": "Dato, información y documento",
+    "objectID": "tema1/sesion2.html",
+    "href": "tema1/sesion2.html",
+    "title": "Tipos y funciones de los sistemas de información",
     "section": "",
-    "text": "En esta sesión nos introducimos en la distinción entre los conceptos de dato, información, conocimiento y documento. Al final de esta sesión no solo deberías entender dicha distinción, sino además ser capaz de identificarlos en un caso real, así como describir los diferentes flujos de información que tienen lugar en una organización y cómo se canalizan.",
+    "text": "La clave de contar con un sistema de información que mejore los procesos de trabajo y ayude a la toma estratégica de decisiones de una organización no es tanto la tecnología empleada, sino un diseño coherente y adaptado a los objetivos y los procesos de trabajo de la organización. De esta manera, antes de poder analizar y evaluar el funcionamiento de un sistema de información dentro de una empresa, es esencial identificar dichos procesos y ver cómo son recogidos por el sistema de información.\nNo hay un modelo único de organización del sistema de información de una organización, ya que estos variarán en función de la naturaleza la organización (no es lo mismo una zapatería de barrio, que una fábrica textil o una multinacional tecnológica). Por ello lo primero será identificar:\n\nLos productos y servicios que ofrece la organización.\nLos objetivos estratégicos y económicos que persigue la empresa en el corto, medio y largo plazo.\nLos procesos operativos y organizacionales que lleva a cabo la institución.\nCon qué recursos cuenta la institución y cómo se distribuyen.\nCómo se monitoriza el rendimiento y funcionamiento de la organización.\n\nA esta visión del funcionamiento interno de la organización habrá que añadir una visión externa de los principales agentes con los que interacciona y coexiste la institución. Algo que McGee y Prusak (1993) mapean del siguiente modo:\n\n\n\nMcGee, J. V., & Prusak, L. (1993). Managing information strategically. John Wiley & Sons, pp. 26",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Dato, información y documento"
+      "Tipos y funciones de los sistemas de información"
     ]
   },
   {
-    "objectID": "tema1/sesion1.html#contenidos-teoricos",
-    "href": "tema1/sesion1.html#contenidos-teoricos",
-    "title": "El sistema de información empresarial",
-    "section": "Contenidos teoricos",
-    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)",
+    "objectID": "tema1/sesion2.html#consideraciones-previas",
+    "href": "tema1/sesion2.html#consideraciones-previas",
+    "title": "Tipos y funciones de los sistemas de información",
+    "section": "",
+    "text": "La clave de contar con un sistema de información que mejore los procesos de trabajo y ayude a la toma estratégica de decisiones de una organización no es tanto la tecnología empleada, sino un diseño coherente y adaptado a los objetivos y los procesos de trabajo de la organización. De esta manera, antes de poder analizar y evaluar el funcionamiento de un sistema de información dentro de una empresa, es esencial identificar dichos procesos y ver cómo son recogidos por el sistema de información.\nNo hay un modelo único de organización del sistema de información de una organización, ya que estos variarán en función de la naturaleza la organización (no es lo mismo una zapatería de barrio, que una fábrica textil o una multinacional tecnológica). Por ello lo primero será identificar:\n\nLos productos y servicios que ofrece la organización.\nLos objetivos estratégicos y económicos que persigue la empresa en el corto, medio y largo plazo.\nLos procesos operativos y organizacionales que lleva a cabo la institución.\nCon qué recursos cuenta la institución y cómo se distribuyen.\nCómo se monitoriza el rendimiento y funcionamiento de la organización.\n\nA esta visión del funcionamiento interno de la organización habrá que añadir una visión externa de los principales agentes con los que interacciona y coexiste la institución. Algo que McGee y Prusak (1993) mapean del siguiente modo:\n\n\n\nMcGee, J. V., & Prusak, L. (1993). Managing information strategically. John Wiley & Sons, pp. 26",
     "crumbs": [
-      "Bienvenida",
-      "1 | El sistema de información empresarial",
-      "El sistema de información empresarial"
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Tipos y funciones de los sistemas de información"
     ]
   },
   {
-    "objectID": "tema1/sesion1.html#ejercicio-titulo-del-ejercicio",
-    "href": "tema1/sesion1.html#ejercicio-titulo-del-ejercicio",
-    "title": "Dato, información y documentos",
-    "section": "Ejercicio: (titulo del ejercicio)",
-    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
+    "objectID": "tema1/sesion2.html#fases-de-la-gestión-de-información",
+    "href": "tema1/sesion2.html#fases-de-la-gestión-de-información",
+    "title": "Tipos y funciones de los sistemas de información",
+    "section": "Fases de la gestión de información",
+    "text": "Fases de la gestión de información\nUna vez identificados los agentes, habría que identificar las diferentes tareas del proceso de gestión de la información.\n\nIdentificación de necesidades y requisitos. La tarea más importante (¡y olvidada en muchas ocasiones!). No hay que presuponer nada a priori, sino empezar buscando de qué información disponemos y hasta qué punto es recuperable.\nAnálisis documental. Se trata de la parte de procesamiento, categorización y organización de la información para hacerla recuperable. Aquí es clave que el sistema se adapte al usuario y no al revés.\nDesarrollo de servicios. No basta con que la información sea recuperable, sino digerible y utilizable. Para ello habrá que contemplar el desarrollo de informes, sistemas de alertas, guías, etc. Es lo que tradicionalmente en bibliotecas se conoce como Difusión Selectiva de la Información (DSI).\nDistribución y difusión de servicios. Esta fase final consiste en la adopción de una aproximación proactiva al usuario, en muchos casos anticipándonos a sus necesidades y haciéndoles llegar los servicios que se ofrecen.\n\nSe trata de un modelo cíclico y no lineal, donde una vez se distribuyen servicios, se analiza y evalúan nuevamente las necesidades de información para seguir mejorando, modificando y readaptando los servicios al usuario.",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Tipos y funciones de los sistemas de información"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion2.html#tipos-de-sistemas-de-información",
+    "href": "tema1/sesion2.html#tipos-de-sistemas-de-información",
+    "title": "Tipos y funciones de los sistemas de información",
+    "section": "Tipos de sistemas de información",
+    "text": "Tipos de sistemas de información\nDentro de una misma organización, no toda la informaicón se necesita de la misma forma.\n\n🛒 Un cajero de supermercado necesita que el sistema registra la venta al instante,\n👩‍💼el gerente necesita ver esas ventas agregadas por supermercado a fin de mes,\n🏪la dirección necesita curzar esas cifras con lo que está pasando en el mercado para ver si es viable abrir otro supermercado.\n\nSon tres necesidades de información completamente distintas, y por eso se suelen resolver con sistemas distintos de gestión de la información, aunque muchas veces beban de la misma fuente.\nHay tres tipos de sistemas de información:\n\nSistemas transaccionales (Transaction Processing Systems, TPS). Registran las operaciones rutinarias del día a día, una por una, con rapidez y exactitud. No interpretan ni resumen nada; solo dejan constancia de que algo ha ocurrido.\nSistemas de gestión y apoyo de decisiones (Management Information Systems/Decision Support Systems, MIS/DSS). Toman los datos que generan los sistemas transaccionales y los agregan en informes útiles para quien gestiona un área.\nSistemas de apoyo ejecutivo (Executive Support Systems, ESS). Combinan información interna ya agregada con información externa para decisiones estratégicas de medio-largo plazo.\n\n\n\n\n\n\n\n\n\n\nTipo\nNivel\nQué hace\nEjemplo\n\n\n\n\nTransaccional (TPS)\nOperativo\nRegistra cada operación en el momento en que ocurre\nCaja registradora de un supermercado\n\n\nGestión / apoyo a la decisión (MIS/DSS)\nTáctico\nAgrega esos datos en informes para quien gestiona un área\nInforme mensual de ventas por tienda para el gerente regional\n\n\nApoyo a ejecutivos (ESS)\nEstratégico\nCruza datos internos con información externa para decisiones de largo alcance\nInforme para decidir la apertura de una nueva tienda",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Tipos y funciones de los sistemas de información"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion2.html#funciones-de-los-sistemas-de-información",
+    "href": "tema1/sesion2.html#funciones-de-los-sistemas-de-información",
+    "title": "Tipos y funciones de los sistemas de información",
+    "section": "Funciones de los sistemas de información",
+    "text": "Funciones de los sistemas de información\nPor funciones entendemos los requisitos que debe cumplir un sistema de gestión de la información, independientemente de la tipología. Aunque no todos los sistemas cumplirán todas las funciones, lo lógico es cumplan varias de ellas.\n\nApoyo a la toma de decisiones. Dotar de datos contextualizados al usuario para que pueda tomar una decisión informada ya sea rutinaria como de carácter estratégico. Desde reponer un producto, donde incluso la toma de decisiones puede automatizarse, hasta cuestiones de carácter estratégico para la organización.\nMemoria organizacional. Preservación y trazabilidad del conocimiento y procesos acumulados por la organización, de manera que la organización no sea vulnerable, por ejemplo, a la pérdida de capital humano, o que sea capaz de recuperar y contrastar situaciones pasadas con la actual para repetir, reevaluar o modificar estrategias comerciales (e.g., una campaña publicitaria).\nCoordinación entre unidades. Reducir la incertidumbre que surge cuando distintas partes de la organización dependen unas de otras. Por ejemplo cuando tienen lugar procesos en los deben intervenir diferentes departamentos dentro de una multinacional que están localizados en diferentes países y que no siempre interactúan dentro del mismo marco de trabajo.\n\n\n\n\n\n\n\n\n\nFunción\nQué resuelve\nEjemplo\n\n\n\n\nApoyo a la decisión\nDar la información que una decisión necesita\nAviso automático cuando un proyecto se acerca al límite de horas presupuestadas\n\n\nMemoria organizacional\nQue el conocimiento no se pierda cuando alguien se va\nBase de casos de proyectos anteriores, consultable por cualquier consultor nuevo\n\n\nCoordinación entre unidades\nQue la información fluya entre partes interdependientes sin intervención manual\nLa asignación de un consultor a un proyecto activa automáticamente su facturación",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Tipos y funciones de los sistemas de información"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion2.html#tareas",
+    "href": "tema1/sesion2.html#tareas",
+    "title": "Tipos y funciones de los sistemas de información",
+    "section": "Tareas",
+    "text": "Tareas\n\nCon esta tarea cerráis el Tema 1. Al terminar, deberíais poder describir sus servicios, identificar los flujos de información que la atraviesan, y caracterizar los sistemas y funciones que la sostienen.\nFase 1 — Individual, en el wiki\nCada uno, por separado, completa:\n1.Servicios: listad y describid brevemente 3 servicios reales que ofrece la biblioteca (consultad la ficha de servicios de la BUG y la guía temática del Colegio Máximo).\n\nTipos de sistema: investigad qué sistema de gestión bibliotecaria (ILS) usa la BUG para catálogo y préstamo. ¿En cuál de los tres tipos (TPS / MIS-DSS / ESS) lo situaríais, y por qué? Pista: un mismo sistema puede tener módulos de más de un tipo — no busquéis una respuesta única y cerrada.\nFunciones: encontrad un ejemplo real (o razonablemente inferido) de apoyo a la decisión, memoria organizacional y coordinación en el funcionamiento de esta biblioteca.\n\nFase 2 — En grupo\nPoned en común vuestras respuestas, integradlas y discutid y acordad de cara a preparar la página de descripción de la Biblioteca del Colegio Máximo de Cartujo, servicios, tipos de sistemas de información y funciones.\nFase 3 — Página final\nEntre todos, consolidáis una única síntesis en index.qmd (o la página que corresponda), integrando lo mejor de las aportaciones individuales. Esta página cierra el Tema 1.",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Tipos y funciones de los sistemas de información"
+    ]
   },
   {
     "objectID": "tema0/sesion1.html",
@@ -211,11 +156,259 @@
     "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
   },
   {
+    "objectID": "index.html#filosofía-de-trabajo",
+    "href": "index.html#filosofía-de-trabajo",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Filosofía de trabajo",
+    "text": "Filosofía de trabajo\nSomos poquitos, así que es importante que será especialmente importante la participación activa durante las clases a fin de poder aprovechar al máximo la asignatura y hacerla amena y entretenido. Para que todo fluya, adoptaremos los siguientes compromisos en clase:\n\nAprendizaje activo y participativo. Mi intención es que las clases sean un diálogo y no un monólogo. Espero que partipes, cuestiones, comentes y seas parte de la clase.\nFlexibidad dentro de los márgenes. No paso lista ni tengo en cuenta si asistes más o menos, pero toda la parte práctica o gran parte de ella tiene lugar en el aula. Las actividades que te pierdas, no son recuperables.\nEmpatía y compromiso. Mi labor es ayudarte a aprender, no ponerte trabas. Habla conmigo cuando te atasques y las cosas no salgan. Eso sí, a cambio espero implicación y esfuerzo\nActualización continua. Siempre estoy revisando materiales, así que no te adelantes, pues seguramente irán modificándose conforme avancemos\nDiversidad, respeto y pensamiento crítico. Es esencial para mí el respeto a todas las ideas y trayectorias vitales, así como el desarrollo del juicio crítico y bien fundamentado.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#planificación-y-temario",
+    "href": "index.html#planificación-y-temario",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Planificación y temario",
+    "text": "Planificación y temario\n\n\n\n\n\n\n\nQuincena\nContenidos\n\n\n\n\n14-29 de septiembre\n\nPresentación y taller\nTema 1. El sistema de información empresarial\nTema 2. Calidad: Rendimiento y satisfacción\n\n\n\n5-13 de octubre\n\nTema 2. Calidad: Rendimiento y satisfacción\nTema 3. Normativa ISO 9000/9001\n\n\n\n19-27 de octubre\n\nTema 4. Benchmarking\n\n\n\n3 de noviembre\n💀 Examen Bloque I\n\n\n9-16 de noviembre\n\nTema 5. Vigilancia en inteligencia competitiva\nTema 6. Sistemas de indicadores\n\n\n\n17-30 de noviembre\n\nTema 6. Sistemas de indicadores\nTema 7. Del indicador al Dasboard\n\n\n\n1-15 de diciembre\n\nTema 7. Del indicador al dashboard\n\n\n\n21 de diciembre\n🗣️ Presentación caso práctico | | | | | |\n\n\n22 de diciembre\n🔚 Examen Bloque II",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#evaluación-y-exámenes",
+    "href": "index.html#evaluación-y-exámenes",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Evaluación y exámenes",
+    "text": "Evaluación y exámenes\nEvaluación ordinaria (evaluación continua)\n\n\n\nInstrumento\n% calificación\n\n\n\n\n2 Pruebas teóricas\n45%\n\n\nMini-entregas prácticas\n35%\n\n\nTrabajo en equipo\n10%\n\n\nParticipación activa\n10%\n\n\n\n\nPruebas teóricas: La nota final es la media de ambos exámenes. La fecha es inamovible salvo causa de fuerza mayor bien justificada y con antelación\nMini-entregas prácticas: Se evalúan a través de los commits al repositorio del caso práctico. En cada clase se fijan unos objetivos que deben cumplirse antes de su finalización. Los commits realizados después de la clase pero antes del examen del bloque correspondiente tienen una penalización de 50%; pasado ese examen, no se consideran.\nTrabajo en equipo: Se desarrolla a lo largo del semestre, y se presenta en clase en la última sesión.\nParticipación activa: Debe ser voluntaria; no cuenta si se solicita de manera forzada.\n\n\nConsejo | Asiste a clase, trabaja en tiempo y forma, haz tus lecturas y participa, y todo irá bien 🥰.\n\nEvaluación extraordinaria\nExamen teórico y examen práctico relativos a los contenidos desarrollados en el temario, cada uno al 50% de la nota.\nEvaluación única final\nDe acuerdo con el artículo 6.2 de la Normativa de Evaluación y de Calificación de los Estudiantes de la UGR, consiste en un examen teórico y un examen práctico, cada uno al 50% de la nota. Toda la información está disponible en la guía docente. Si contactas conmigo a tiempo (inicio de curso) podemos ver cómo abordar esto.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#uso-de-ia-en-la-asignatura",
+    "href": "index.html#uso-de-ia-en-la-asignatura",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Uso de IA en la asignatura",
+    "text": "Uso de IA en la asignatura\nEsta asignatura incorpora el uso de herramientas de IA como parte de las actividades prácticas (p. ej. construcción asistida de cuadros de mando). Se espera un uso ético y responsable de las mismas, siguiendo las Recomendaciones para el uso de la inteligencia artificial en la UGR.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#software-libre",
+    "href": "index.html#software-libre",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Software libre",
+    "text": "Software libre\nSe podrá emplear software libre como R/RStudio para el análisis de datos y la elaboración de indicadores y cuadros de mando, combinado en su caso con hojas de cálculo y herramientas de inteligencia artificial.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Contacto",
+    "text": "Contacto\nToda la comunicación, entrega de ejercicios y prácticas, etc. la vamos a canalizar a través de PRADO o en las clases. También tienes la opción de acudir a tutoría presencial. Estoy en el despacho I y mi horario de tutorías es lunes y miércoles de 9 a 12, pero podemos acordar otros horarios si esos no os vienen bien.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html",
+    "href": "TallerA/taller-github.html",
+    "title": "Taller de Github y Quarto",
+    "section": "",
+    "text": "Familiarizarte con el uso de Github, Github Desktop y Quarto\nPoner a punto las herramientas y entorno de trabajo que vamos a emplear a lo largo de esta asignatura\nTener un lugar de consulta de dudas recurrentes",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#github",
+    "href": "TallerA/taller-github.html#github",
+    "title": "Taller de Github y Quarto",
+    "section": "Github",
+    "text": "Github\nEn github.com, botón “Sign up”. Recomendaciones para el nombre de usuario:\n\nAlgo profesional y estable. Lo vais a usar el resto del curso (y probablemente después). Nada de apodos de los que os podáis arrepentir en el futuro 🫣.\nEvitad números raros o el usuario por defecto que sugiere GitHub.\n\n\nNo te compliques la vida. Ve a por opciones clásicas tipo nombre + apellido(s), o inicial + apellido(s), todo en minúsculas y sin espacios.\n\n\nPrincipales características\n\nEs donde vive la copia remota de vuestro repositorio (el remote).\nCada repositorio tiene su propia página con el código, el historial de commits y el README. 🌐 Un ejemplo\nGitHub Pages: publica el contenido de un repositorio como web pública gratuita, en usuario.github.io/nombre-repo. Es lo que usaremos hoy.\nLo que no vemos hoy (issues, pull requests, actions) se verá más adelante, cuando trabajéis en el repo compartido del caso.\n\n\n\n\n\n\n\n\nComando\nDescripción\n\n\n\n\ngit clone &lt;url&gt;\nDescarga una copia completa de un repositorio remoto, con todo su historial\n\n\ngit status\nMuestra qué archivos han cambiado desde el último commit y si están o no en staging\n\n\ngit add &lt;archivo&gt;\nMarca un cambio para incluirlo en el próximo commit (staging)\n\n\ngit commit -m \"mensaje\"\nGuarda una “fotografía” de los cambios marcados como un punto del historial, con un mensaje que explica qué se hizo\n\n\ngit push\nSube los commits locales al repositorio remoto (GitHub)\n\n\ngit pull\nTrae al repositorio local los cambios que hay en el remoto",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#github-desktop",
+    "href": "TallerA/taller-github.html#github-desktop",
+    "title": "Taller de Github y Quarto",
+    "section": "Github Desktop",
+    "text": "Github Desktop\nDescarga desde desktop.github.com. Instalación estándar. Al abrirlo pedirá iniciar sesión con vuestra cuenta de GitHub.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#r",
+    "href": "TallerA/taller-github.html#r",
+    "title": "Taller de Github y Quarto",
+    "section": "R",
+    "text": "R\nDescarga la última versión de R desde CRAN. Dale a instalar y acepta todas las opciones por defecto.\n\nConsejo R se actualiza varias veces al año. Revisa de vez en cuando para que luego no haya problemas con incompatibilidades al instalar paquetes nuevos.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#rstudio",
+    "href": "TallerA/taller-github.html#rstudio",
+    "title": "Taller de Github y Quarto",
+    "section": "RStudio",
+    "text": "RStudio\nDescarga la versión RStudio Desktop (free) desde posit.co/download/rstudio-desktop.\n\n\n\n\n\nRStudio se organiza en cuatro paneles:\n\n\n\n\n\n\n\n\nPanel\nUbicación\nPara qué sirve\n\n\n\n\nScript/Editor\narriba-izquierda\nDonde escribís y editáis código y documentos (.R, .qmd…)\n\n\nConsola\nabajo-izquierda\nDonde se ejecuta el código, línea a línea, y aparecen los resultados\n\n\nEnvironment/History\narriba-derecha\nVariables y objetos cargados en la memoria de la sesión actual\n\n\nFiles/Plots/Packages/Viewer\nabajo-derecha\nExplorador de archivos, gráficos generados, paquetes instalados, etc.\n\n\n\n\nEl orden importa.\nR y RStudio no son lo mismo:\n\nR es el motor de cálculo,\nRStudio es solo la interfaz que lo controla.\n\nAl abrirse, RStudio busca automáticamente las intalaciones de R que encuentre en el sistema. Si no la encuentra no funciona. Si más adelante instalas una nueva versión de R, deberás ir a Tools &gt; Global Options &gt; General y en el desplegable seleccionar la opción de R más reciente.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#cómo-crear-documentos-con-quarto",
+    "href": "TallerA/taller-github.html#cómo-crear-documentos-con-quarto",
+    "title": "Taller de Github y Quarto",
+    "section": "¿Cómo crear documentos con Quarto?",
+    "text": "¿Cómo crear documentos con Quarto?\nQuarto es un formato (.qmd) ya plenamente integrado en RStudio. Se trata de un formato que combina texto en Markdown con código ejecutable. Es relativamente sencillo de aprender y hay mogollón de sitios en la web donde encontrar tablas con comandos y sintaxis básica. Además RStudio incorpora un editor básico de textos.\n\n\n\nSintaxis\nResultado\n\n\n\n\n# Título / ## Subtítulo\nEncabezados (nivel 1, nivel 2…)\n\n\n**texto**\nNegrita\n\n\n*texto*\nCursiva\n\n\n[texto](url)\nEnlace\n\n\n![alt](ruta.png)\nImagen\n\n\n- item\nLista con viñetas\n\n\n`código`\nCódigo en línea\n\n\n```{r} ... ```\nBloque de código ejecutable en R\n\n\n`#\neval: false`\n\n\n`#\necho: false`\n\n\n`#\nwarning: false`\n\n\n\nAl principio de cada documento, se incluye una cabecera YAML con la info básica de la página web, tipo:\n---\ntitle: \"Título de la página\"\nauthor: \"Autor de la página\"\ndate: \"dd/mm/yyyy\"\n---",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#y-una-página-web",
+    "href": "TallerA/taller-github.html#y-una-página-web",
+    "title": "Taller de Github y Quarto",
+    "section": "¿Y una página web?",
+    "text": "¿Y una página web?\nAdemás, para crear una web y no un documento suelto, hacen falta otros ficheros. Por suerte, RStudio ya te ayuda bastante con lo básico.\n\n\n\n\n\n\n\nArchivo\nPara qué sirve\n\n\n\n\n_quarto.yml\nConfiguración global: título del sitio, navegación (navbar/sidebar), tema, qué carpeta de salida usar\n\n\nindex.qmd\nLa página de inicio del sitio (equivalente al index.html)\n\n\nstyles.css\nCSS personalizado, para ajustar colores, cajas, tipografía… por encima del tema base\n\n\nUn .qmd por página\nCada archivo .qmd del proyecto se convierte en una página HTML independiente\n\n\n\nAl pulsar Render (o quarto render en terminal), Quarto:\n\nEjecuta el código de cada .qmd (si lo tiene) y captura sus resultados.\nConvierte el Markdown resultante a HTML.\nAplica el tema y el styles.css.\nVuelca todo en la carpeta de salida indicada en _quarto.yml (típicamente docs/ o _site/) — esta es la carpeta que luego publica GitHub Pages.\n\n\nConsejo\nSi el proyecto no tiene plantilla propia, Quarto usa una por defecto razonable (tema cosmo o similar, navbar simple). No hace falta diseñar nada desde cero para tener algo publicable, se puede ir personalizando después.\n\n\nAntes de tocar _quarto.yml, mirad el output-dir. Si dice output-dir: docs, GitHub Pages debe apuntar a la carpeta /docs. Si no hay ningún output-dir especificado, Quarto usará _site/ por defecto y hay que configurar Pages para esa carpeta en su lugar. Es la causa más común de “he publicado pero la web da 404”.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#creación-de-repositorio-y-vinculación-con-rstudio",
+    "href": "TallerA/taller-github.html#creación-de-repositorio-y-vinculación-con-rstudio",
+    "title": "Taller de Github y Quarto",
+    "section": "Creación de repositorio y vinculación con RStudio",
+    "text": "Creación de repositorio y vinculación con RStudio\n\nCrea el repositorio (desde Github Desktop o RStudio).\n\nFile ➡️ New Repository\nEl nombre del repositorio no debe contener espacios (e.g., mi-primer-repo)\nImportante, marca la opción de “Initialize with a README”.\nElige la carpeta local donde lo guardas\nCreate Repository ➡️ Publish repository Déjalo público (Github Pages sólo funciona con repositorios públicos)\n\n\n\n💡 Crea una carpeta en mis documentos que utilices para todos los proyectos que tengas alojados en Github\n\n\nCrea el proyecto Quarto en la misma carpeta.\n\nEn RStudio: File ➡️ New Project ➡️ Existing Directory ➡️ selecciona la carpeta que creaste en el Paso A\nFile ➡️ New File ➡️ Quarto Website\nGuarda todo dentro de esa misma carpeta\n\n\nAl hacerlo así, el proyecto de RStudio y el repositorio Git son la misma carpeta: no hace falta vincular nada aparte, RStudio detecta el .git automáticamente.\n\nCuando haces un commit, debes de poner un mensaje obligatoriamente. Es importante que este mensaje sea significativo y breve, no sólo poner cosas tipo “cambios” o “update”. Un buen mensaje describe qué cambió, en imperativo y corto: “Añade página de inicio”, “Corrige enlace roto en navbar”.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#publicar-la-web-con-github-pages",
+    "href": "TallerA/taller-github.html#publicar-la-web-con-github-pages",
+    "title": "Taller de Github y Quarto",
+    "section": "Publicar la web con Github Pages",
+    "text": "Publicar la web con Github Pages\n\nVe a Github ➡️ Repositorio ➡️ Settings ➡️ Pages\nEn Build and deployment ➡️ Source: elige la rama principal y la carpeta docs. Recuerda que para que funcione debes haber indicado previamente en _quarto.yml que esta sea la carpeta de salida. Tiene que tener: output-dir: docs.\n\n\nEn muchos repositorios existe un fichero llamado .gitignore. En este fichero se indican los ficheros o carpetas que no queremos que se suban al repositorio. Todo lo que aparezca aquí, no se sincronizará con tu carpeta local.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "TallerA/taller-github.html#actualizaciones-y-republicaciones",
+    "href": "TallerA/taller-github.html#actualizaciones-y-republicaciones",
+    "title": "Taller de Github y Quarto",
+    "section": "Actualizaciones y republicaciones",
+    "text": "Actualizaciones y republicaciones\n\nAbre Github Desktop y haz un pull para asegurarte de que cuentas con la última versión del repositorio.\nHaz primero las modificaciones que consideres en tus ficheros .qmd, .yaml o el que sea.\nGraba y **renderiza* desde RStudio para que se generen los ficheros html.\nDesde Github Desktop haz un commit indicando las modificaciones que has realizado. Si has modificado más de un fichero, puedes realizar varios commits distintos.\nUna vez marcados todos los cambios haz un push para subir la nueva versión del repositorio a la web. Pasados unos minutos, la web se actualizará.",
+    "crumbs": [
+      "Más sobre mí",
+      "Taller Github+Quarto"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html",
+    "href": "tema1/sesion1.html",
+    "title": "Dato, información y documento",
+    "section": "",
+    "text": "En esta sesión nos introducimos en la distinción entre los conceptos de dato, información, conocimiento y documento. Al final de esta sesión no solo deberías entender dicha distinción, sino además ser capaz de identificarlos en un caso real, así como describir los diferentes flujos de información que tienen lugar en una organización y cómo se canalizan.",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Dato, información y documento"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html#lectura-y-debate-en-clase",
+    "href": "tema1/sesion1.html#lectura-y-debate-en-clase",
+    "title": "Dato, información y documento",
+    "section": "Lectura y debate en clase",
+    "text": "Lectura y debate en clase\nChávez Montejo, Y., & Pérez Sousa, H. (2013). Gestión documental, Gestión de información y Gestión del conocimiento: Nociones e interrelaciones. Bibliotecas. Anales de Investigación, (8-9), 222-227.\nAdopta una actitud crítica durante su lectura y presta especial atención a su distinción entre conceptos ¿estás de acuerdo con las definiciones que ofrece de dato, información y conocimiento?, ¿puedes pensar en ejemplos aplicados a un contexto real?",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Dato, información y documento"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html#la-necesidad-de-gestionar-flujos-de-información",
+    "href": "tema1/sesion1.html#la-necesidad-de-gestionar-flujos-de-información",
+    "title": "Dato, información y documento",
+    "section": "La necesidad de gestionar flujos de información",
+    "text": "La necesidad de gestionar flujos de información\nLa creación, gestión y evaluación de sistemas de información en la empresa surge de la necesidad de controlar flujos de información con el fin de:\n\nMaximizar esfuerzos y auditar servicios\nAsegurar transparencia y reproducibilidad de procesos\nAprovechar el capital humano de la organización\nControlar satisfacción del personal y clientes\n\nPara ello se establecen sistemas de gestión que no se centren únicamente en el control de flujos de documentos, sino que vayan un poco más allá y permitan la gestión de información con el fin de facilitar la toma de decisiones estratégica.\nEs importante tener muy clara la distinción entre los siguientes conceptos:\n\nDocumento\n\nSoporte fijo y formal que registra información para su transmisión y recuperación posterior. Normalmente a través de los metadatos del mismo es posible establecer la autoría, fecha, etc., haciéndolo identificable y recuperable por cualquiera, no solo por quien lo generó.\n\nDato\n\nHecho o valor suelto, sin contexto: un número, una fecha, un nombre aislado. No dice nada por sí mismo.\n\nInformación\n\nEl dato ya con estructura y contexto, que responde a una pregunta concreta (quién, cuánto, cuándo).\n\nConocimiento\n\nInformación interiorizada e integrada con la experiencia y conocimiento tácito de quien la consume, que permite entender implicaciones y actuar a la misma.\n\n\n\nTipo de flujos de información\nDesde el punto de vista del análisis y la evaluación de sistemas de información, será importante considerar dos tipos de flujos de información:\nFlujos de información externa. Se refiere a información ajena a la organización pero que afecta directa o indirectamente a su devenir futuro y debe ser considerada de cara a la planificación estratégica de la misma. Aquí encontramos dos tipos de flujos de información:\n\nInformación ambiental. Aquella relacionada con aspectos importantes a monitorizar por parte de la empresa (e.g., desarrollos científico-técnicos, posibles competidores, identificación de talento).\nPercepción del usuario/cliente potencial y real. Sería todo lo relacionado con la satisfacción del usuario, percepción de la calidad de los servicios o el valor de la marca empresarial.\n\nFlujos de información interna. Se refiere a la información que transcurre dentro de la propia organización. Un sistema de información eficiente deberá contemplar la existencia de dos tipos de flujos de información:\n\nFlujos formales. Se trata de aquellos de carácter oficial como una notificación, un informe interno, una comunicación o una confirmación escrita de una decisión.\nFlujos informales. Se trata de aquellos que no siguen los cauces considerados como oficiales y por tanto, tienen menor trazabilidad. Desde conversaciones de cafetería a mensajes de WhatsApp o Slack a correos entre compañeros. Aunque no tenga una validez como tales, pueden tener en muchos casos un gran valor para la empresa.",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Dato, información y documento"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html#evolución-histórica-de-la-gestión-documental-al-conocimiento",
+    "href": "tema1/sesion1.html#evolución-histórica-de-la-gestión-documental-al-conocimiento",
+    "title": "Dato, información y documento",
+    "section": "Evolución histórica: de la gestión documental al conocimiento",
+    "text": "Evolución histórica: de la gestión documental al conocimiento\nLos sistemas de gestión documental. Los sistemas documentales surgen a mediados del S. XX como una respuesta a la “explosión documental” de posguerra, en parte vinculada con la asimilación por parte de Estados Unidos de la literatura científica y técnica que desarrollaron por un lado y que por otro incautaron a la Alemania Nazi.\nEl problema es de organización puramente documental. El objetivo es organizar, clasificar y recuperar toda la documentación de la manera más efectiva. Es el momento de máximo desarrollo de lenguajes documentales y el inicio de los sistemas de recuperación de información.\n\n\n\n\nVannevar Bush fue director de la U.S. Office of Scientific Research and Development y el responsable de la creación y modernización del sistema científico nacional de los Estados Unidos. Además, fue uno de los grandes actores en el desarrollo de la gestión de la información científica, además, su ensayo As we may think sirvió de inspiración para el futuro desarrollo de la World Wide Web.\n\n\n\nLos sistemas de gestión de información. Sin embargo, la industrialización y el gran crecimiento económico de los 80 llevan a las empresas a ampliar el nivel de alcance de los flujos documentales, desarrollando sistemas que pretenden gestionar la información más allá del soporte en el que ésta se encuentre. Todo esto también tiene lugar en un momento de desarrollo tecnológico con la expansión de la computadora previo al salto al ordenador personal de los años 90.\nConviven dos tradiciones distintas:\n\nUna gestión de información orientada a la tecnología: gestión de datos, sistemas de información, uso estratégico de las Tecnologías de la Información.\nUna gestión orientada al contenido: gestión de registros (records management), servicios de recuperación de información, gestión centrada en el usuario.\n\nEstas dos corrientes confluyen en los actuales sistemas de información.\nLos sistemas de gestión del conocimiento. A mediados de los 90 se añade una nueva capa que ya no se limita a monitorizar y controlar los flujos de información en la empresa, sino que busca gestionar las prácticas de trabajo que permiten generar y compartir conocimiento a partir de esa información: cómo aprende la organización, cómo se retiene el saber hacer cuando alguien se va, y cómo se convierte experiencia individual en activo colectivo. Es también el momento en que se empieza a hablar de gestionar activos intangibles (capital humano, capital estructural) como parte del valor real de la empresa, más allá de sus activos físicos y financieros\n\nNueva tecnología para la gestión de conocimiento\nA cada uno de estos cambios le acompaña el desarrollo de software (mucho del cuál se emplea actualmente en las empresas) dirigido a cada una de las capas que se van añadiendo.\n\n\n\nCambio ➡️ Solución\nNueva tecnología\nEjemplo\n\n\n\n\nDel documento a la información\nDigitalización del papel (imaging) y gestión de contenido no textual (multimedia). Aparecen las funciones básicas del EDMS: capturar, indexar, almacenar, recuperar y distribuir documentos.\nOpenKM\n\n\nRecuperación de información\nIndexación manual o automática, operadores booleanos, medidas de precisión y exhaustividad.\nDialog | Solr | Elasticsearch\n\n\nGroupWare\nComunicación, trabajo colaborativo, gestión de clientes, gestión de equipos\nSlack | Nextcloud\n\n\nAutomatización de procesos\nGestión de transacción, gestión administrativa y documnetal\nCamunda\n\n\nGestión del conocimiento y recuperación de información interna\nHerramientas de KM desarrolladas específicamente para generación de conocimiento y no tanto GroupWare (que también las incluyen\nNotion | Wiki.js",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Dato, información y documento"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html#sistemas-de-gestión-y-principales-características",
+    "href": "tema1/sesion1.html#sistemas-de-gestión-y-principales-características",
+    "title": "Dato, información y documento",
+    "section": "Sistemas de gestión y principales características",
+    "text": "Sistemas de gestión y principales características\n\nSistema documental\n\nConjunto organizado de procesos y recursos para producir, clasificar, almacenar, recuperar y conservar documentos; unidad de gestión = el documento como soporte formal.\n\nSistema de información\n\nConjunto que integra infraestructura tecnológica, sistemas y uso de la información; unidad de gestión = la información, estructurada o no, con el objetivo de ponerla en el lugar y momento adecuados. A diferencia del sistema documental, no se limita a la información ya registrada;\n\n\n\nflujo formal, un informe, una base de datos sino que tiene que dar cuenta también de la que circula sin canal oficial\nflujo informal, un comentario de pasillo, un aviso verbal. De ahí que su alcance sea mayor pero también más difícil de controlar.\n\nSistema de conocimiento\n\nConjunto de prácticas, procesos y tecnologías para capturar, compartir y generar conocimiento organizativo. Matiz importante para clase: en sentido estricto el conocimiento solo existe en la mente (Wilson 2002), así que lo que realmente se gestiona son las prácticas de trabajo y los repositorios de información codificada que facilitan que ese conocimiento circule.\n\n\n\n\n\n\n\n\n\nSistema documental\nSistema de información\nSistema de conocimiento\n\n\n\n\nUnidad de gestión\nEl documento\nLa información (datos + documentos)\nLas prácticas de trabajo\n\n\nFoco\nCiclo de vida del documento\nInfraestructura, sistemas y uso\nGeneración y compartición\n\n\nTecnología típica\nImaging, indexación, IR\nBases de datos, sistemas de información\nGroupWare, KM tools, agentes\n\n\nDisciplina de origen\nRecords management / Documentación\nInformation Systems / Business Informatics\nCiencias organizacionales\n\n\nFormalización\nAlta (soporte estable)\nMedia-alta\nBaja (Wersig: solo formalizar donde es esencial)\n\n\nLimitación principal\nNo cubre información no documental (verbal, informal)\nNo garantiza que la información se convierta en conocimiento usable\nNo es gestionable directamente — solo se gestiona su entorno",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Dato, información y documento"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html#tareas",
+    "href": "tema1/sesion1.html#tareas",
+    "title": "Dato, información y documento",
+    "section": "Tareas",
+    "text": "Tareas\n\nCaso de trabajo: Biblioteca del Colegio Máximo (UGR).\nAntes de empezar, familiarizaos con la biblioteca a través de:\n\nFicha oficial de la biblioteca\nEstructura, equipamiento y fondos (superficie, nº de ordenadores y puestos, temáticas por facultad, sistema de clasificación)\n\nDe forma individual, en vuestra página del wiki:\n\nUn dato real: un valor suelto que podáis extraer de la ficha o de una consulta al catálogo (por ejemplo, una cifra, una fecha, un código de clasificación). Debe ser un dato concreto, no una descripción.\nUn documento real: algo con soporte, autoría y metadatos identificables — puede ser del propio catálogo de la biblioteca, o un documento de la propia ficha oficial que acabáis de consultar.\nClasificación: justificad en 2-3 líneas por qué lo que habéis elegido en 1 es dato y no información, y por qué lo de 2 es documento y no solo información.\nUn flujo formal y uno informal: pensad en cómo funciona realmente una biblioteca de este tipo (préstamo, catalogación, consultas al personal, quejas, recomendaciones entre estudiantes…) y proponed un ejemplo de cada uno, explicando por qué lo clasificáis así.\n\nNo hace falta que uséis literalmente algo de los enlaces — son punto de partida para que no partáis de cero, no la respuesta ya dada. Si encontráis otra fuente sobre la biblioteca que os sirva mejor, usadla y citadla.",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Dato, información y documento"
+    ]
+  },
+  {
     "objectID": "tema2/sesion1.html",
     "href": "tema2/sesion1.html",
-    "title": "Calidad: concepto y evaluación",
+    "title": "El concepto de calidad y sus dimensiones",
     "section": "",
-    "text": "Diapositivas de clase — (enlace a las slides de este tema)"
+    "text": "Antes de entrar en modelos formales, conviene fijar por qué “calidad” es un término resbaladizo en sistemas de información: no es una propiedad única del sistema, sino el resultado de comparar el sistema con algo — una expectativa, un estándar, una necesidad. Esto ya lo intuyeron con el diagrama entrada-proceso-salida-retroalimentación de Tema 1: la calidad vive precisamente en ese bucle de retroalimentación, no en ninguna de las cajas del sistema por separado.\nDos maneras clásicas de acotar el concepto:\n\nCalidad como conformidad (Crosby): el sistema cumple lo que dijo que iba a cumplir. Es medible sin preguntar a nadie — es la cara objetiva.\nCalidad como adecuación al uso (Juran): el sistema sirve para lo que el usuario necesita, independientemente de si cumple una especificación formal. Es la cara subjetiva, y depende de a quién le preguntes.\n\nEsta doble cara — objetiva/subjetiva — es el hilo que van a encontrar en todo el tema, primero en Shannon & Weaver, después en DeLone & McLean, y en la Sesión 2 en Wang & Strong frente a ServQual.\nPregunta para abrir el debate en clase: si les preguntáramos por separado a un estudiante de Comunicación y Documentación y a uno de Odontología qué es “un buen servicio” en la Biblioteca del Colegio Máximo, ¿responderían lo mismo? Dejar la pregunta abierta, sin resolverla — se resuelve más adelante, cuando lleguen a Service Quality/User Satisfaction.\n\n\nShannon y Weaver, trabajando sobre teoría de la información y transmisión de señales, distinguieron tres niveles en los que un acto comunicativo puede fallar o tener éxito. No hablaban de bibliotecas ni de empresas, pero el esquema se ha convertido en la base de cómo entendemos “calidad de la información” en cualquier sistema:\n\n\n¿Se transmite la señal con precisión? Problema de infraestructura: ¿llega el dato del emisor al receptor sin pérdida, sin ruido, sin caídas? En un sistema de información real: ¿funciona el catálogo, hay ancho de banda suficiente, se cae el servidor?\n\n\n\n¿Se interpreta correctamente el significado transmitido? No basta con que la señal llegue intacta — el receptor tiene que entender lo que se le quiso decir. Un catálogo que funciona perfectamente (nivel técnico resuelto) pero cuya clasificación temática es incomprensible para el usuario falla en el nivel semántico.\n\n\n\n¿Provoca el mensaje el efecto deseado en el receptor? Es el nivel más exigente: no basta con transmitir bien ni con que se entienda — tiene que cambiar algo en el comportamiento o la decisión del receptor. Un informe de biblioteca que se entiende perfectamente pero que nadie usa para tomar ninguna decisión ha fallado en el nivel efectivo, aunque los dos anteriores estén resueltos.\nPor qué importa esta jerarquía: cada nivel presupone el anterior — no puede haber éxito semántico si falla el técnico, ni éxito efectivo si falla el semántico. Esto es exactamente lo que van a reencontrar en D&M.\n\n\n\n\n\n\nDeLone y McLean revisaron 180 estudios sobre “éxito de sistemas de información” y propusieron seis dimensiones para ordenar ese campo disperso:\n\n\n\n\n\n\n\n\nDimensión\nQué mide\nNivel de Shannon & Weaver\n\n\n\n\nSystem Quality\nRendimiento técnico del sistema (fiabilidad, tiempo de respuesta, facilidad de uso)\nTécnico\n\n\nInformation Quality\nCalidad del contenido que produce el sistema (exactitud, relevancia, formato)\nSemántico\n\n\nUse\nGrado y forma en que se usa el sistema\nEfectivo (inicio)\n\n\nUser Satisfaction\nGrado de satisfacción del usuario con el sistema\nEfectivo\n\n\nIndividual Impact\nEfecto del sistema en el desempeño de un usuario concreto\nEfectivo\n\n\nOrganizational Impact\nEfecto del sistema en el desempeño de la organización\nEfectivo\n\n\n\nSystem Quality e Information Quality son las dos dimensiones objetivas — se pueden medir sin encuestar a nadie. Las cuatro restantes son, en distinto grado, subjetivas o dependientes del usuario.\n\n\n\nLa versión de 1992 presentaba las dimensiones como un proceso: System Quality e Information Quality influyen en Use y en User Satisfaction, que a su vez influyen en Individual Impact, que finalmente influye en Organizational Impact. Es una cadena, no una lista.\nLa actualización de 2003 introdujo dos cambios importantes: - Añadió Service Quality como tercera dimensión objetivo/técnica (calidad del soporte y la atención que rodea al sistema, no solo el sistema en sí) — nótese que aquí es donde D&M se conecta con ServQual, que verán en Sesión 2. - Colapsó Individual Impact y Organizational Impact en una única dimensión, Net Benefits, y cerró el modelo con una flecha de retroalimentación desde Net Benefits hacia Use y User Satisfaction — formalizando explícitamente el bucle que ya intuyeron en el diagrama de Tema 1.\n\n\n\nEl punto que conviene remarcar en clase: las dimensiones no son intercambiables ni sustituibles. Un sistema puede tener System Quality alta (funciona rápido, sin caídas) y aun así fracasar si su Information Quality es mala (los datos que produce no sirven para nada) o si su Service Quality es mala (nadie ayuda al usuario a usarlo). El modelo obliga a evaluar por separado cada eslabón de la cadena en vez de conformarse con una valoración global de “funciona bien/mal”.\nConexión con bibliometría (mencionar, no desarrollar): la misma tensión objetivo/subjetivo aparece en evaluación de la investigación — indicadores bibliométricos (citas, factor de impacto) son la cara “System/Information Quality” de evaluar un sistema científico, mientras que peer review es la cara “Service Quality/User Satisfaction”. Ningún evaluador serio sustituye una por la otra; se usan como piezas complementarias, igual que aquí.\n\n\n\n\n\n\nTrabajo en parejas, en el wiki del caso (01-calidad/00-definicion.qmd).\n\n\nPara al menos tres flujos o servicios reales de la biblioteca (por ejemplo: préstamo, catalogación, consulta al catálogo online, formación de usuarios), identificar:\n\nUn elemento del nivel técnico: ¿qué tendría que fallar en la infraestructura para que este flujo no funcionara?\nUn elemento del nivel semántico: ¿qué podría hacer que, funcionando técnicamente, el usuario no entendiera o interpretara mal la información?\nUn elemento del nivel efectivo: ¿qué decisión o comportamiento del usuario depende de que este flujo funcione bien en los dos niveles anteriores?\n\n\n\n\nUsando las fuentes ya localizadas en Tema 1 (ficha oficial, memorias, cualquier estadística publicada), clasificar qué documentación existe que permita evaluar cada una de las seis dimensiones de D&M para el caso. Formato sugerido: tabla con columnas Dimensión | Hay datos reales (sí/no) | Fuente.\nSi usan IA (NotebookLM u otra) para ayudarse a rastrear o resumir esta documentación, condición explícita: deben marcar qué dimensiones se quedan sin dato real, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.\n\n\n\nAnticipar que en Sesión 2 van a retomar exactamente esta tabla para clasificar los datos objetivos según Wang & Strong, y que los huecos que dejen sin cubrir aquí son los que van a tener que resolver con un instrumento de encuesta en Sesión 3."
   },
   {
     "objectID": "tema2/sesion1.html#contenidos-teoricos",
@@ -274,336 +467,31 @@
     "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
   },
   {
-    "objectID": "index.html#planificación-y-temario",
-    "href": "index.html#planificación-y-temario",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Planificación y temario",
-    "text": "Planificación y temario\n\n\n\n\n\n\n\nQuincena\nContenidos\n\n\n\n\n14-29 de septiembre\n\nPresentación y taller\nTema 1. El sistema de información empresarial\nTema 2. Calidad: Rendimiento y satisfacción\n\n\n\n5-13 de octubre\n\nTema 2. Calidad: Rendimiento y satisfacción\nTema 3. Normativa ISO 9000/9001\n\n\n\n19-27 de octubre\n\nTema 4. Benchmarking\n\n\n\n3 de noviembre\n💀 Examen Bloque I\n\n\n9-16 de noviembre\n\nTema 5. Vigilancia en inteligencia competitiva\nTema 6. Sistemas de indicadores\n\n\n\n17-30 de noviembre\n\nTema 6. Sistemas de indicadores\nTema 7. Del indicador al Dasboard\n\n\n\n1-15 de diciembre\n\nTema 7. Del indicador al dashboard\n\n\n\n21 de diciembre\n🗣️ Presentación caso práctico | | | | | |\n\n\n22 de diciembre\n🔚 Examen Bloque II",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "TallerA/taller-github.html",
-    "href": "TallerA/taller-github.html",
-    "title": "Taller de Github y Quarto",
+    "objectID": "tema2/sesion1.html#los-niveles-de-comunicación-shannon-weaver-1949",
+    "href": "tema2/sesion1.html#los-niveles-de-comunicación-shannon-weaver-1949",
+    "title": "El concepto de calidad y sus dimensiones",
     "section": "",
-    "text": "Familiarizarte con el uso de Github, Github Desktop y Quarto\nPoner a punto las herramientas y entorno de trabajo que vamos a emplear a lo largo de esta asignatura\nTener un lugar de consulta de dudas recurrentes",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
+    "text": "Shannon y Weaver, trabajando sobre teoría de la información y transmisión de señales, distinguieron tres niveles en los que un acto comunicativo puede fallar o tener éxito. No hablaban de bibliotecas ni de empresas, pero el esquema se ha convertido en la base de cómo entendemos “calidad de la información” en cualquier sistema:\n\n\n¿Se transmite la señal con precisión? Problema de infraestructura: ¿llega el dato del emisor al receptor sin pérdida, sin ruido, sin caídas? En un sistema de información real: ¿funciona el catálogo, hay ancho de banda suficiente, se cae el servidor?\n\n\n\n¿Se interpreta correctamente el significado transmitido? No basta con que la señal llegue intacta — el receptor tiene que entender lo que se le quiso decir. Un catálogo que funciona perfectamente (nivel técnico resuelto) pero cuya clasificación temática es incomprensible para el usuario falla en el nivel semántico.\n\n\n\n¿Provoca el mensaje el efecto deseado en el receptor? Es el nivel más exigente: no basta con transmitir bien ni con que se entienda — tiene que cambiar algo en el comportamiento o la decisión del receptor. Un informe de biblioteca que se entiende perfectamente pero que nadie usa para tomar ninguna decisión ha fallado en el nivel efectivo, aunque los dos anteriores estén resueltos.\nPor qué importa esta jerarquía: cada nivel presupone el anterior — no puede haber éxito semántico si falla el técnico, ni éxito efectivo si falla el semántico. Esto es exactamente lo que van a reencontrar en D&M."
   },
   {
-    "objectID": "TallerA/taller-github.html#github",
-    "href": "TallerA/taller-github.html#github",
-    "title": "Taller de Github y Quarto",
-    "section": "Github",
-    "text": "Github\nEn github.com, botón “Sign up”. Recomendaciones para el nombre de usuario:\n\nAlgo profesional y estable. Lo vais a usar el resto del curso (y probablemente después). Nada de apodos de los que os podáis arrepentir en el futuro 🫣.\nEvitad números raros o el usuario por defecto que sugiere GitHub.\n\n\nNo te compliques la vida. Ve a por opciones clásicas tipo nombre + apellido(s), o inicial + apellido(s), todo en minúsculas y sin espacios.\n\n\nPrincipales características\n\nEs donde vive la copia remota de vuestro repositorio (el remote).\nCada repositorio tiene su propia página con el código, el historial de commits y el README. 🌐 Un ejemplo\nGitHub Pages: publica el contenido de un repositorio como web pública gratuita, en usuario.github.io/nombre-repo. Es lo que usaremos hoy.\nLo que no vemos hoy (issues, pull requests, actions) se verá más adelante, cuando trabajéis en el repo compartido del caso.\n\n\n\n\n\n\n\n\nComando\nDescripción\n\n\n\n\ngit clone &lt;url&gt;\nDescarga una copia completa de un repositorio remoto, con todo su historial\n\n\ngit status\nMuestra qué archivos han cambiado desde el último commit y si están o no en staging\n\n\ngit add &lt;archivo&gt;\nMarca un cambio para incluirlo en el próximo commit (staging)\n\n\ngit commit -m \"mensaje\"\nGuarda una “fotografía” de los cambios marcados como un punto del historial, con un mensaje que explica qué se hizo\n\n\ngit push\nSube los commits locales al repositorio remoto (GitHub)\n\n\ngit pull\nTrae al repositorio local los cambios que hay en el remoto",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
-  },
-  {
-    "objectID": "TallerA/taller-github.html#github-desktop",
-    "href": "TallerA/taller-github.html#github-desktop",
-    "title": "Taller de Github y Quarto",
-    "section": "Github Desktop",
-    "text": "Github Desktop\nDescarga desde desktop.github.com. Instalación estándar. Al abrirlo pedirá iniciar sesión con vuestra cuenta de GitHub.",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
-  },
-  {
-    "objectID": "TallerA/taller-github.html#r",
-    "href": "TallerA/taller-github.html#r",
-    "title": "Taller de Github y Quarto",
-    "section": "R",
-    "text": "R\nDescarga la última versión de R desde CRAN. Dale a instalar y acepta todas las opciones por defecto.\n\nConsejo R se actualiza varias veces al año. Revisa de vez en cuando para que luego no haya problemas con incompatibilidades al instalar paquetes nuevos.",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
-  },
-  {
-    "objectID": "TallerA/taller-github.html#rstudio",
-    "href": "TallerA/taller-github.html#rstudio",
-    "title": "Taller de Github y Quarto",
-    "section": "RStudio",
-    "text": "RStudio\nDescarga la versión RStudio Desktop (free) desde posit.co/download/rstudio-desktop.\n\n\n\n\n\nRStudio se organiza en cuatro paneles:\n\n\n\n\n\n\n\n\nPanel\nUbicación\nPara qué sirve\n\n\n\n\nScript/Editor\narriba-izquierda\nDonde escribís y editáis código y documentos (.R, .qmd…)\n\n\nConsola\nabajo-izquierda\nDonde se ejecuta el código, línea a línea, y aparecen los resultados\n\n\nEnvironment/History\narriba-derecha\nVariables y objetos cargados en la memoria de la sesión actual\n\n\nFiles/Plots/Packages/Viewer\nabajo-derecha\nExplorador de archivos, gráficos generados, paquetes instalados, etc.\n\n\n\n\nEl orden importa.\nR y RStudio no son lo mismo:\n\nR es el motor de cálculo,\nRStudio es solo la interfaz que lo controla.\n\nAl abrirse, RStudio busca automáticamente las intalaciones de R que encuentre en el sistema. Si no la encuentra no funciona. Si más adelante instalas una nueva versión de R, deberás ir a Tools &gt; Global Options &gt; General y en el desplegable seleccionar la opción de R más reciente.",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
-  },
-  {
-    "objectID": "TallerA/taller-github.html#cómo-crear-documentos-con-quarto",
-    "href": "TallerA/taller-github.html#cómo-crear-documentos-con-quarto",
-    "title": "Taller de Github y Quarto",
-    "section": "¿Cómo crear documentos con Quarto?",
-    "text": "¿Cómo crear documentos con Quarto?\nQuarto es un formato (.qmd) ya plenamente integrado en RStudio. Se trata de un formato que combina texto en Markdown con código ejecutable. Es relativamente sencillo de aprender y hay mogollón de sitios en la web donde encontrar tablas con comandos y sintaxis básica. Además RStudio incorpora un editor básico de textos.\n\n\n\nSintaxis\nResultado\n\n\n\n\n# Título / ## Subtítulo\nEncabezados (nivel 1, nivel 2…)\n\n\n**texto**\nNegrita\n\n\n*texto*\nCursiva\n\n\n[texto](url)\nEnlace\n\n\n![alt](ruta.png)\nImagen\n\n\n- item\nLista con viñetas\n\n\n`código`\nCódigo en línea\n\n\n```{r} ... ```\nBloque de código ejecutable en R\n\n\n`#\neval: false`\n\n\n`#\necho: false`\n\n\n`#\nwarning: false`\n\n\n\nAl principio de cada documento, se incluye una cabecera YAML con la info básica de la página web, tipo:\n---\ntitle: \"Título de la página\"\nauthor: \"Autor de la página\"\ndate: \"dd/mm/yyyy\"\n---",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
-  },
-  {
-    "objectID": "TallerA/taller-github.html#publicación-y-actualización-de-una-web-con-github-pages",
-    "href": "TallerA/taller-github.html#publicación-y-actualización-de-una-web-con-github-pages",
-    "title": "Taller de Github y Quarto",
-    "section": "Publicación y actualización de una web con GitHub Pages",
-    "text": "Publicación y actualización de una web con GitHub Pages\n\nCreación de repositorio y vinculación con RStudio\n\nCrea el repositorio (desde Github Desktop o RStudio).\n\nFile ➡️ New Repository\nEl nombre del repositorio no debe contener espacios (e.g., mi-primer-repo)\nImportante, marca la opción de “Initialize with a README”.\nElige la carpeta local donde lo guardas\nCreate Repository ➡️ Publish repository Déjalo público (Github Pages sólo funciona con repositorios públicos)\n\n\n\n💡 Crea una carpeta en mis documentos que utilices para todos los proyectos que tengas alojados en Github\n\n\nCrea el proyecto Quarto en la misma carpeta.\n\nEn RStudio: File ➡️ New Project ➡️ Existing Directory ➡️ selecciona la carpeta que creaste en el Paso A\nFile ➡️ New File ➡️ Quarto Website\nGuarda todo dentro de esa misma carpeta\n\n\nAl hacerlo así, el proyecto de RStudio y el repositorio Git son la misma carpeta: no hace falta vincular nada aparte, RStudio detecta el .git automáticamente.\n\nCuando haces un commit, debes de poner un mensaje obligatoriamente. Es importante que este mensaje sea significativo y breve, no sólo poner cosas tipo “cambios” o “update”. Un buen mensaje describe qué cambió, en imperativo y corto: “Añade página de inicio”, “Corrige enlace roto en navbar”.\n\n\n\nPublicar la web con Github Pages\n\nVe a Github ➡️ Repositorio ➡️ Settings ➡️ Pages\nEn Build and deployment ➡️ Source: elige la rama principal y la carpeta docs. Recuerda que para que funcione debes haber indicado previamente en _quarto.yml que esta sea la carpeta de salida. Tiene que tener: output-dir: docs.\n\n\nEn muchos repositorios existe un fichero llamado .gitignore. En este fichero se indican los ficheros o carpetas que no queremos que se suban al repositorio. Todo lo que aparezca aquí, no se sincronizará con tu carpeta local.",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
-  },
-  {
-    "objectID": "TallerA/taller-github.html#y-una-página-web",
-    "href": "TallerA/taller-github.html#y-una-página-web",
-    "title": "Taller de Github y Quarto",
-    "section": "¿Y una página web?",
-    "text": "¿Y una página web?\nAdemás, para crear una web y no un documento suelto, hacen falta otros ficheros. Por suerte, RStudio ya te ayuda bastante con lo básico.\n\n\n\n\n\n\n\nArchivo\nPara qué sirve\n\n\n\n\n_quarto.yml\nConfiguración global: título del sitio, navegación (navbar/sidebar), tema, qué carpeta de salida usar\n\n\nindex.qmd\nLa página de inicio del sitio (equivalente al index.html)\n\n\nstyles.css\nCSS personalizado, para ajustar colores, cajas, tipografía… por encima del tema base\n\n\nUn .qmd por página\nCada archivo .qmd del proyecto se convierte en una página HTML independiente\n\n\n\nAl pulsar Render (o quarto render en terminal), Quarto:\n\nEjecuta el código de cada .qmd (si lo tiene) y captura sus resultados.\nConvierte el Markdown resultante a HTML.\nAplica el tema y el styles.css.\nVuelca todo en la carpeta de salida indicada en _quarto.yml (típicamente docs/ o _site/) — esta es la carpeta que luego publica GitHub Pages.\n\n\nConsejo\nSi el proyecto no tiene plantilla propia, Quarto usa una por defecto razonable (tema cosmo o similar, navbar simple). No hace falta diseñar nada desde cero para tener algo publicable, se puede ir personalizando después.\n\n\nAntes de tocar _quarto.yml, mirad el output-dir. Si dice output-dir: docs, GitHub Pages debe apuntar a la carpeta /docs. Si no hay ningún output-dir especificado, Quarto usará _site/ por defecto y hay que configurar Pages para esa carpeta en su lugar. Es la causa más común de “he publicado pero la web da 404”.",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
-  },
-  {
-    "objectID": "TallerA/taller-github.html#creación-de-repositorio-y-vinculación-con-rstudio",
-    "href": "TallerA/taller-github.html#creación-de-repositorio-y-vinculación-con-rstudio",
-    "title": "Taller de Github y Quarto",
-    "section": "Creación de repositorio y vinculación con RStudio",
-    "text": "Creación de repositorio y vinculación con RStudio\n\nCrea el repositorio (desde Github Desktop o RStudio).\n\nFile ➡️ New Repository\nEl nombre del repositorio no debe contener espacios (e.g., mi-primer-repo)\nImportante, marca la opción de “Initialize with a README”.\nElige la carpeta local donde lo guardas\nCreate Repository ➡️ Publish repository Déjalo público (Github Pages sólo funciona con repositorios públicos)\n\n\n\n💡 Crea una carpeta en mis documentos que utilices para todos los proyectos que tengas alojados en Github\n\n\nCrea el proyecto Quarto en la misma carpeta.\n\nEn RStudio: File ➡️ New Project ➡️ Existing Directory ➡️ selecciona la carpeta que creaste en el Paso A\nFile ➡️ New File ➡️ Quarto Website\nGuarda todo dentro de esa misma carpeta\n\n\nAl hacerlo así, el proyecto de RStudio y el repositorio Git son la misma carpeta: no hace falta vincular nada aparte, RStudio detecta el .git automáticamente.\n\nCuando haces un commit, debes de poner un mensaje obligatoriamente. Es importante que este mensaje sea significativo y breve, no sólo poner cosas tipo “cambios” o “update”. Un buen mensaje describe qué cambió, en imperativo y corto: “Añade página de inicio”, “Corrige enlace roto en navbar”.",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
-  },
-  {
-    "objectID": "TallerA/taller-github.html#publicar-la-web-con-github-pages",
-    "href": "TallerA/taller-github.html#publicar-la-web-con-github-pages",
-    "title": "Taller de Github y Quarto",
-    "section": "Publicar la web con Github Pages",
-    "text": "Publicar la web con Github Pages\n\nVe a Github ➡️ Repositorio ➡️ Settings ➡️ Pages\nEn Build and deployment ➡️ Source: elige la rama principal y la carpeta docs. Recuerda que para que funcione debes haber indicado previamente en _quarto.yml que esta sea la carpeta de salida. Tiene que tener: output-dir: docs.\n\n\nEn muchos repositorios existe un fichero llamado .gitignore. En este fichero se indican los ficheros o carpetas que no queremos que se suban al repositorio. Todo lo que aparezca aquí, no se sincronizará con tu carpeta local.",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
-  },
-  {
-    "objectID": "TallerA/taller-github.html#actualizaciones-y-republicaciones",
-    "href": "TallerA/taller-github.html#actualizaciones-y-republicaciones",
-    "title": "Taller de Github y Quarto",
-    "section": "Actualizaciones y republicaciones",
-    "text": "Actualizaciones y republicaciones\n\nAbre Github Desktop y haz un pull para asegurarte de que cuentas con la última versión del repositorio.\nHaz primero las modificaciones que consideres en tus ficheros .qmd, .yaml o el que sea.\nGraba y **renderiza* desde RStudio para que se generen los ficheros html.\nDesde Github Desktop haz un commit indicando las modificaciones que has realizado. Si has modificado más de un fichero, puedes realizar varios commits distintos.\nUna vez marcados todos los cambios haz un push para subir la nueva versión del repositorio a la web. Pasados unos minutos, la web se actualizará.",
-    "crumbs": [
-      "Más sobre mí",
-      "Taller de páginas web con Github+Quarto"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion1.html#conceptos-básicos",
-    "href": "tema1/sesion1.html#conceptos-básicos",
-    "title": "Dato, información y documento",
-    "section": "Conceptos básicos",
-    "text": "Conceptos básicos\n\nDato: un hecho o valor suelto, sin contexto — un número, una fecha, un nombre aislado. No dice nada por sí mismo.\nInformación: el dato ya con estructura y contexto, que responde a una pregunta concreta (quién, cuánto, cuándo).\nConocimiento: información interiorizada e integrada con la experiencia, que permite entender implicaciones y actuar — no solo saber el dato, sino saber qué significa y cuándo usarlo (o no usarlo).\nDocumento: soporte fijo y formal que registra información para su transmisión y recuperación posterior — con autoría, fecha, identificable y recuperable por cualquiera, no solo por quien lo generó."
-  },
-  {
-    "objectID": "tema1/sesion1.html#lectura-para-hoy",
-    "href": "tema1/sesion1.html#lectura-para-hoy",
-    "title": "Dato, información y documento",
-    "section": "Lectura para hoy",
-    "text": "Lectura para hoy\nChávez Montejo, Y., & Pérez Sousa, H. (2013). Gestión documental, Gestión de información y Gestión del conocimiento: Nociones e interrelaciones. Bibliotecas. Anales de Investigación, (8-9), 222-227.\nEl artículo recorre cómo definen dato/información/conocimiento/documento varios autores (Ponjuán, Saffady, Rodríguez Cruz, Martín) y recoge la cita de Fleming (1996) sobre la cadena dato→información→conocimiento→sabiduría.\nMientras lees, quédate con una pregunta: ¿con qué definición de “dato” y de “información” te quedas tú, y por qué esa y no otra? Lo comentamos antes de seguir."
-  },
-  {
-    "objectID": "tema1/sesion1.html#sistema-de-información-vs.-sistema-de-documentación",
-    "href": "tema1/sesion1.html#sistema-de-información-vs.-sistema-de-documentación",
-    "title": "Dato, información y documento",
-    "section": "Sistema de información vs. sistema de documentación",
-    "text": "Sistema de información vs. sistema de documentación\nSistema de información: conjunto organizado de personas, procesos y tecnología que capta, procesa, almacena y distribuye información dentro de una organización para apoyar la toma de decisiones. Incluye tanto flujos formales (registrados, indexados) como informales (verbales, no registrados).\nSistema de documentación: subconjunto especializado del sistema de información, centrado en el ciclo de vida de los documentos —creación, clasificación, almacenamiento, recuperación y conservación— como soportes formales y estables.\n\n\n\n\n\nflowchart LR\n    ENT((\"Entorno organizativo\"))\n\n    E[Entrada]\n    P[Proceso]\n    S[Salida]\n\n    E --&gt;|formal: dato, documento| P\n    E -.-&gt;|informal: comentario, aviso verbal| P\n    P --&gt; S\n    S --&gt;|Retroalimentación| E\n\n    ENT -.-&gt; E\n    S -.-&gt; ENT"
-  },
-  {
-    "objectID": "tema1/sesion1.html#ejercicio",
-    "href": "tema1/sesion1.html#ejercicio",
-    "title": "Dato, información y documento",
-    "section": "Ejercicio",
-    "text": "Ejercicio",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Dato, información y documento"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion1.html#lectura-y-debate-en-clase",
-    "href": "tema1/sesion1.html#lectura-y-debate-en-clase",
-    "title": "Dato, información y documento",
-    "section": "Lectura y debate en clase",
-    "text": "Lectura y debate en clase\nChávez Montejo, Y., & Pérez Sousa, H. (2013). Gestión documental, Gestión de información y Gestión del conocimiento: Nociones e interrelaciones. Bibliotecas. Anales de Investigación, (8-9), 222-227.\nAdopta una actitud crítica durante su lectura y presta especial atención a su distinción entre conceptos ¿estás de acuerdo con las definiciones que ofrece de dato, información y conocimiento?, ¿puedes pensar en ejemplos aplicados a un contexto real?",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Dato, información y documento"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion1.html#la-necesidad-de-gestionar-flujos-de-información",
-    "href": "tema1/sesion1.html#la-necesidad-de-gestionar-flujos-de-información",
-    "title": "Dato, información y documento",
-    "section": "La necesidad de gestionar flujos de información",
-    "text": "La necesidad de gestionar flujos de información\nLa creación, gestión y evaluación de sistemas de información en la empresa surge de la necesidad de controlar flujos de información con el fin de:\n\nMaximizar esfuerzos y auditar servicios\nAsegurar transparencia y reproducibilidad de procesos\nAprovechar el capital humano de la organización\nControlar satisfacción del personal y clientes\n\nPara ello se establecen sistemas de gestión que no se centren únicamente en el control de flujos de documentos, sino que vayan un poco más allá y permitan la gestión de información con el fin de facilitar la toma de decisiones estratégica.\nEs importante tener muy clara la distinción entre los siguientes conceptos:\n\nDocumento\n\nSoporte fijo y formal que registra información para su transmisión y recuperación posterior. Normalmente a través de los metadatos del mismo es posible establecer la autoría, fecha, etc., haciéndolo identificable y recuperable por cualquiera, no solo por quien lo generó.\n\nDato\n\nHecho o valor suelto, sin contexto: un número, una fecha, un nombre aislado. No dice nada por sí mismo.\n\nInformación\n\nEl dato ya con estructura y contexto, que responde a una pregunta concreta (quién, cuánto, cuándo).\n\nConocimiento\n\nInformación interiorizada e integrada con la experiencia y conocimiento tácito de quien la consume, que permite entender implicaciones y actuar a la misma.\n\n\n\nTipo de flujos de información\nDesde el punto de vista del análisis y la evaluación de sistemas de información, será importante considerar dos tipos de flujos de información:\nFlujos de información externa. Se refiere a información ajena a la organización pero que afecta directa o indirectamente a su devenir futuro y debe ser considerada de cara a la planificación estratégica de la misma. Aquí encontramos dos tipos de flujos de información:\n\nInformación ambiental. Aquella relacionada con aspectos importantes a monitorizar por parte de la empresa (e.g., desarrollos científico-técnicos, posibles competidores, identificación de talento).\nPercepción del usuario/cliente potencial y real. Sería todo lo relacionado con la satisfacción del usuario, percepción de la calidad de los servicios o el valor de la marca empresarial.\n\nFlujos de información interna. Se refiere a la información que transcurre dentro de la propia organización. Un sistema de información eficiente deberá contemplar la existencia de dos tipos de flujos de información:\n\nFlujos formales. Se trata de aquellos de carácter oficial como una notificación, un informe interno, una comunicación o una confirmación escrita de una decisión.\nFlujos informales. Se trata de aquellos que no siguen los cauces considerados como oficiales y por tanto, tienen menor trazabilidad. Desde conversaciones de cafetería a mensajes de WhatsApp o Slack a correos entre compañeros. Aunque no tenga una validez como tales, pueden tener en muchos casos un gran valor para la empresa.",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Dato, información y documento"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion1.html#de-los-sistemas-documentales-a-los-sistemas-de-gestión-del-conocimiento",
-    "href": "tema1/sesion1.html#de-los-sistemas-documentales-a-los-sistemas-de-gestión-del-conocimiento",
-    "title": "Dato, información y documento",
-    "section": "De los sistemas documentales a los sistemas de gestión del conocimiento",
-    "text": "De los sistemas documentales a los sistemas de gestión del conocimiento\nLos sistemas de gestión documental. Los sistemas documentales surgen a mediados del S. XX como una respuesta a la “explosión documental” de posguerra, en parte vinculada con la asimilación por parte de Estados Unidos de la literatura científica y técnica que desarrollaron por un lado y que por otro incautaron a la Alemania Nazi.\nEl problema es de organización puramente documental. El objetivo es organizar, clasificar y recuperar toda la documentación de la manera más efectiva. Es el momento de máximo desarrollo de lenguajes documentales y el inicio de los sistemas de recuperación de información.\n\n\n\n\nVannevar Bush fue director de la U.S. Office of Scientific Research and Development y el responsable de la creación y modernización del sistema científico nacional de los Estados Unidos. Además, fue uno de los grandes actores en el desarrollo de la gestión de la información científica, además, su ensayo As we may think sirvió de inspiración para el futuro desarrollo de la World Wide Web.\n\n\n\nLos sistemas de gestión de información. Sin embargo, la industrialización y el gran crecimiento económico de los 80 llevan a las empresas a ampliar el nivel de alcance de los flujos documentales, desarrollando sistemas que pretenden gestionar la información más allá del soporte en el que ésta se encuentre. Todo esto también tiene lugar en un momento de desarrollo tecnológico con la expansión de la computadora previo al salto al ordenador personal de los años 90.\nConviven dos tradiciones distintas:\n\nUna gestión de información orientada a la tecnología: gestión de datos, sistemas de información, uso estratégico de las Tecnologías de la Información.\nUna gestión orientada al contenido: gestión de registros (records management), servicios de recuperación de información, gestión centrada en el usuario.\n\nEstas dos corrientes confluyen en los actuales sistemas de información.\nLos sistemas de gestión del conocimiento. A mediados de los 90 se añade una nueva capa que ya no se limita a monitorizar y controlar los flujos de información en la empresa, sino que busca gestionar las prácticas de trabajo que permiten generar y compartir conocimiento a partir de esa información: cómo aprende la organización, cómo se retiene el saber hacer cuando alguien se va, y cómo se convierte experiencia individual en activo colectivo. Es también el momento en que se empieza a hablar de gestionar activos intangibles (capital humano, capital estructural) como parte del valor real de la empresa, más allá de sus activos físicos y financieros\n\nNueva tecnología para la gestión de conocimiento\nA cada uno de estos cambios le acompaña el desarrollo de software (mucho del cuál se emplea actualmente en las empresas) dirigido a cada una de las capas que se van añadiendo.\n\n\n\nCambio ➡️ Solución\nNueva tecnología\nEjemplo\n\n\n\n\nDel documento a la información\nDigitalización del papel (imaging) y gestión de contenido no textual (multimedia). Aparecen las funciones básicas del EDMS: capturar, indexar, almacenar, recuperar y distribuir documentos.\nOpenKM\n\n\nRecuperación de información\nIndexación manual o automática, operadores booleanos, medidas de precisión y exhaustividad.\nDialog | Solr | Elasticsearch\n\n\nGroupWare\nComunicación, trabajo colaborativo, gestión de clientes, gestión de equipos\nSlack | Nextcloud\n\n\nAutomatización de rpocesos\nGestión de transacción, gestión administrativa y documnetal\nCamunda\n\n\nGestión del conocimiento y recuperación de información interna\nHerramientas de KM desarrolladas específicamente para generación de conocimiento y no tanto GroupWare (que también las incluyen\nNotion | Wiki.js",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Dato, información y documento"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion1.html#sistemas-de-gestión-y-principales-características",
-    "href": "tema1/sesion1.html#sistemas-de-gestión-y-principales-características",
-    "title": "Dato, información y documento",
-    "section": "Sistemas de gestión y principales características",
-    "text": "Sistemas de gestión y principales características\n\nSistema documental\n\nConjunto organizado de procesos y recursos para producir, clasificar, almacenar, recuperar y conservar documentos; unidad de gestión = el documento como soporte formal.\n\nSistema de información\n\nConjunto que integra infraestructura tecnológica, sistemas y uso de la información; unidad de gestión = la información, estructurada o no, con el objetivo de ponerla en el lugar y momento adecuados. A diferencia del sistema documental, no se limita a la información ya registrada;\n\n\n\nflujo formal, un informe, una base de datos sino que tiene que dar cuenta también de la que circula sin canal oficial\nflujo informal, un comentario de pasillo, un aviso verbal. De ahí que su alcance sea mayor pero también más difícil de controlar.\n\nSistema de conocimiento\n\nConjunto de prácticas, procesos y tecnologías para capturar, compartir y generar conocimiento organizativo. Matiz importante para clase: en sentido estricto el conocimiento solo existe en la mente (Wilson 2002), así que lo que realmente se gestiona son las prácticas de trabajo y los repositorios de información codificada que facilitan que ese conocimiento circule.\n\n\n\n\n\n\n\n\n\nSistema documental\nSistema de información\nSistema de conocimiento\n\n\n\n\nUnidad de gestión\nEl documento\nLa información (datos + documentos)\nLas prácticas de trabajo\n\n\nFoco\nCiclo de vida del documento\nInfraestructura, sistemas y uso\nGeneración y compartición\n\n\nTecnología típica\nImaging, indexación, IR\nBases de datos, sistemas de información\nGroupWare, KM tools, agentes\n\n\nDisciplina de origen\nRecords management / Documentación\nInformation Systems / Business Informatics\nCiencias organizacionales\n\n\nFormalización\nAlta (soporte estable)\nMedia-alta\nBaja (Wersig: solo formalizar donde es esencial)\n\n\nLimitación principal\nNo cubre información no documental (verbal, informal)\nNo garantiza que la información se convierta en conocimiento usable\nNo es gestionable directamente — solo se gestiona su entorno",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Dato, información y documento"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion1.html#ejercicio-1",
-    "href": "tema1/sesion1.html#ejercicio-1",
-    "title": "Dato, información y documento",
-    "section": "Ejercicio",
-    "text": "Ejercicio\n\nCaso de trabajo: Biblioteca del Colegio Máximo (UGR).\nAntes de empezar, familiarizaos con la biblioteca a través de:\n\nFicha oficial de la biblioteca\nEstructura, equipamiento y fondos (superficie, nº de ordenadores y puestos, temáticas por facultad, sistema de clasificación)\n\nDe forma individual, en vuestra página del wiki:\n\nUn dato real: un valor suelto que podáis extraer de la ficha o de una consulta al catálogo (por ejemplo, una cifra, una fecha, un código de clasificación). Debe ser un dato concreto, no una descripción.\nUn documento real: algo con soporte, autoría y metadatos identificables — puede ser del propio catálogo de la biblioteca, o un documento de la propia ficha oficial que acabáis de consultar.\nClasificación: justificad en 2-3 líneas por qué lo que habéis elegido en 1 es dato y no información, y por qué lo de 2 es documento y no solo información.\nUn flujo formal y uno informal: pensad en cómo funciona realmente una biblioteca de este tipo (préstamo, catalogación, consultas al personal, quejas, recomendaciones entre estudiantes…) y proponed un ejemplo de cada uno, explicando por qué lo clasificáis así.\n\nNo hace falta que uséis literalmente algo de los enlaces — son punto de partida para que no partáis de cero, no la respuesta ya dada. Si encontráis otra fuente sobre la biblioteca que os sirva mejor, usadla y citadla.",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Dato, información y documento"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion1.html#tareas",
-    "href": "tema1/sesion1.html#tareas",
-    "title": "Dato, información y documento",
-    "section": "Tareas",
-    "text": "Tareas\n\nCaso de trabajo: Biblioteca del Colegio Máximo (UGR).\nAntes de empezar, familiarizaos con la biblioteca a través de:\n\nFicha oficial de la biblioteca\nEstructura, equipamiento y fondos (superficie, nº de ordenadores y puestos, temáticas por facultad, sistema de clasificación)\n\nDe forma individual, en vuestra página del wiki:\n\nUn dato real: un valor suelto que podáis extraer de la ficha o de una consulta al catálogo (por ejemplo, una cifra, una fecha, un código de clasificación). Debe ser un dato concreto, no una descripción.\nUn documento real: algo con soporte, autoría y metadatos identificables — puede ser del propio catálogo de la biblioteca, o un documento de la propia ficha oficial que acabáis de consultar.\nClasificación: justificad en 2-3 líneas por qué lo que habéis elegido en 1 es dato y no información, y por qué lo de 2 es documento y no solo información.\nUn flujo formal y uno informal: pensad en cómo funciona realmente una biblioteca de este tipo (préstamo, catalogación, consultas al personal, quejas, recomendaciones entre estudiantes…) y proponed un ejemplo de cada uno, explicando por qué lo clasificáis así.\n\nNo hace falta que uséis literalmente algo de los enlaces — son punto de partida para que no partáis de cero, no la respuesta ya dada. Si encontráis otra fuente sobre la biblioteca que os sirva mejor, usadla y citadla.",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Dato, información y documento"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion1.html#evolución-histórica-de-la-gestión-documental-al-conocimiento",
-    "href": "tema1/sesion1.html#evolución-histórica-de-la-gestión-documental-al-conocimiento",
-    "title": "Dato, información y documento",
-    "section": "Evolución histórica: de la gestión documental al conocimiento",
-    "text": "Evolución histórica: de la gestión documental al conocimiento\nLos sistemas de gestión documental. Los sistemas documentales surgen a mediados del S. XX como una respuesta a la “explosión documental” de posguerra, en parte vinculada con la asimilación por parte de Estados Unidos de la literatura científica y técnica que desarrollaron por un lado y que por otro incautaron a la Alemania Nazi.\nEl problema es de organización puramente documental. El objetivo es organizar, clasificar y recuperar toda la documentación de la manera más efectiva. Es el momento de máximo desarrollo de lenguajes documentales y el inicio de los sistemas de recuperación de información.\n\n\n\n\nVannevar Bush fue director de la U.S. Office of Scientific Research and Development y el responsable de la creación y modernización del sistema científico nacional de los Estados Unidos. Además, fue uno de los grandes actores en el desarrollo de la gestión de la información científica, además, su ensayo As we may think sirvió de inspiración para el futuro desarrollo de la World Wide Web.\n\n\n\nLos sistemas de gestión de información. Sin embargo, la industrialización y el gran crecimiento económico de los 80 llevan a las empresas a ampliar el nivel de alcance de los flujos documentales, desarrollando sistemas que pretenden gestionar la información más allá del soporte en el que ésta se encuentre. Todo esto también tiene lugar en un momento de desarrollo tecnológico con la expansión de la computadora previo al salto al ordenador personal de los años 90.\nConviven dos tradiciones distintas:\n\nUna gestión de información orientada a la tecnología: gestión de datos, sistemas de información, uso estratégico de las Tecnologías de la Información.\nUna gestión orientada al contenido: gestión de registros (records management), servicios de recuperación de información, gestión centrada en el usuario.\n\nEstas dos corrientes confluyen en los actuales sistemas de información.\nLos sistemas de gestión del conocimiento. A mediados de los 90 se añade una nueva capa que ya no se limita a monitorizar y controlar los flujos de información en la empresa, sino que busca gestionar las prácticas de trabajo que permiten generar y compartir conocimiento a partir de esa información: cómo aprende la organización, cómo se retiene el saber hacer cuando alguien se va, y cómo se convierte experiencia individual en activo colectivo. Es también el momento en que se empieza a hablar de gestionar activos intangibles (capital humano, capital estructural) como parte del valor real de la empresa, más allá de sus activos físicos y financieros\n\nNueva tecnología para la gestión de conocimiento\nA cada uno de estos cambios le acompaña el desarrollo de software (mucho del cuál se emplea actualmente en las empresas) dirigido a cada una de las capas que se van añadiendo.\n\n\n\nCambio ➡️ Solución\nNueva tecnología\nEjemplo\n\n\n\n\nDel documento a la información\nDigitalización del papel (imaging) y gestión de contenido no textual (multimedia). Aparecen las funciones básicas del EDMS: capturar, indexar, almacenar, recuperar y distribuir documentos.\nOpenKM\n\n\nRecuperación de información\nIndexación manual o automática, operadores booleanos, medidas de precisión y exhaustividad.\nDialog | Solr | Elasticsearch\n\n\nGroupWare\nComunicación, trabajo colaborativo, gestión de clientes, gestión de equipos\nSlack | Nextcloud\n\n\nAutomatización de procesos\nGestión de transacción, gestión administrativa y documnetal\nCamunda\n\n\nGestión del conocimiento y recuperación de información interna\nHerramientas de KM desarrolladas específicamente para generación de conocimiento y no tanto GroupWare (que también las incluyen\nNotion | Wiki.js",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Dato, información y documento"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion2.html",
-    "href": "tema1/sesion2.html",
-    "title": "Tipos y funciones de los sistemas de información",
+    "objectID": "tema2/sesion1.html#el-modelo-delone-mclean-1992-actualizado-2003",
+    "href": "tema2/sesion1.html#el-modelo-delone-mclean-1992-actualizado-2003",
+    "title": "El concepto de calidad y sus dimensiones",
     "section": "",
-    "text": "La clave de contar con un sistema de información que mejore los procesos de trabajo y ayude a la toma estratégica de decisiones de una organización no es tanto la tecnología empleada, sino un diseño coherente y adaptado a los objetivos y los procesos de trabajo de la organización. De esta manera, antes de poder analizar y evaluar el funcionamiento de un sistema de información dentro de una empresa, es esencial identificar dichos procesos y ver cómo son recogidos por el sistema de información.\nNo hay un modelo único de organización del sistema de información de una organización, ya que estos variarán en función de la naturaleza la organización (no es lo mismo una zapatería de barrio, que una fábrica textil o una multinacional tecnológica). Por ello lo primero será identificar:\n\nLos productos y servicios que ofrece la organización.\nLos objetivos estratégicos y económicos que persigue la empresa en el corto, medio y largo plazo.\nLos procesos operativos y organizacionales que lleva a cabo la institución.\nCon qué recursos cuenta la institución y cómo se distribuyen.\nCómo se monitoriza el rendimiento y funcionamiento de la organización.\n\nA esta visión del funcionamiento interno de la organización habrá que añadir una visión externa de los principales agentes con los que interacciona y coexiste la institución. Algo que McGee y Prusak (1993) mapean del siguiente modo:\n\n\n\nMcGee, J. V., & Prusak, L. (1993). Managing information strategically. John Wiley & Sons, pp. 26",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
-    ]
+    "text": "DeLone y McLean revisaron 180 estudios sobre “éxito de sistemas de información” y propusieron seis dimensiones para ordenar ese campo disperso:\n\n\n\n\n\n\n\n\nDimensión\nQué mide\nNivel de Shannon & Weaver\n\n\n\n\nSystem Quality\nRendimiento técnico del sistema (fiabilidad, tiempo de respuesta, facilidad de uso)\nTécnico\n\n\nInformation Quality\nCalidad del contenido que produce el sistema (exactitud, relevancia, formato)\nSemántico\n\n\nUse\nGrado y forma en que se usa el sistema\nEfectivo (inicio)\n\n\nUser Satisfaction\nGrado de satisfacción del usuario con el sistema\nEfectivo\n\n\nIndividual Impact\nEfecto del sistema en el desempeño de un usuario concreto\nEfectivo\n\n\nOrganizational Impact\nEfecto del sistema en el desempeño de la organización\nEfectivo\n\n\n\nSystem Quality e Information Quality son las dos dimensiones objetivas — se pueden medir sin encuestar a nadie. Las cuatro restantes son, en distinto grado, subjetivas o dependientes del usuario.\n\n\n\nLa versión de 1992 presentaba las dimensiones como un proceso: System Quality e Information Quality influyen en Use y en User Satisfaction, que a su vez influyen en Individual Impact, que finalmente influye en Organizational Impact. Es una cadena, no una lista.\nLa actualización de 2003 introdujo dos cambios importantes: - Añadió Service Quality como tercera dimensión objetivo/técnica (calidad del soporte y la atención que rodea al sistema, no solo el sistema en sí) — nótese que aquí es donde D&M se conecta con ServQual, que verán en Sesión 2. - Colapsó Individual Impact y Organizational Impact en una única dimensión, Net Benefits, y cerró el modelo con una flecha de retroalimentación desde Net Benefits hacia Use y User Satisfaction — formalizando explícitamente el bucle que ya intuyeron en el diagrama de Tema 1.\n\n\n\nEl punto que conviene remarcar en clase: las dimensiones no son intercambiables ni sustituibles. Un sistema puede tener System Quality alta (funciona rápido, sin caídas) y aun así fracasar si su Information Quality es mala (los datos que produce no sirven para nada) o si su Service Quality es mala (nadie ayuda al usuario a usarlo). El modelo obliga a evaluar por separado cada eslabón de la cadena en vez de conformarse con una valoración global de “funciona bien/mal”.\nConexión con bibliometría (mencionar, no desarrollar): la misma tensión objetivo/subjetivo aparece en evaluación de la investigación — indicadores bibliométricos (citas, factor de impacto) son la cara “System/Information Quality” de evaluar un sistema científico, mientras que peer review es la cara “Service Quality/User Satisfaction”. Ningún evaluador serio sustituye una por la otra; se usan como piezas complementarias, igual que aquí."
   },
   {
-    "objectID": "tema1/sesion2.html#consideraciones-previas",
-    "href": "tema1/sesion2.html#consideraciones-previas",
-    "title": "Tipos y funciones de los sistemas de información",
+    "objectID": "tema2/sesion1.html#entregable-sobre-la-biblioteca-del-colegio-máximo",
+    "href": "tema2/sesion1.html#entregable-sobre-la-biblioteca-del-colegio-máximo",
+    "title": "El concepto de calidad y sus dimensiones",
     "section": "",
-    "text": "La clave de contar con un sistema de información que mejore los procesos de trabajo y ayude a la toma estratégica de decisiones de una organización no es tanto la tecnología empleada, sino un diseño coherente y adaptado a los objetivos y los procesos de trabajo de la organización. De esta manera, antes de poder analizar y evaluar el funcionamiento de un sistema de información dentro de una empresa, es esencial identificar dichos procesos y ver cómo son recogidos por el sistema de información.\nNo hay un modelo único de organización del sistema de información de una organización, ya que estos variarán en función de la naturaleza la organización (no es lo mismo una zapatería de barrio, que una fábrica textil o una multinacional tecnológica). Por ello lo primero será identificar:\n\nLos productos y servicios que ofrece la organización.\nLos objetivos estratégicos y económicos que persigue la empresa en el corto, medio y largo plazo.\nLos procesos operativos y organizacionales que lleva a cabo la institución.\nCon qué recursos cuenta la institución y cómo se distribuyen.\nCómo se monitoriza el rendimiento y funcionamiento de la organización.\n\nA esta visión del funcionamiento interno de la organización habrá que añadir una visión externa de los principales agentes con los que interacciona y coexiste la institución. Algo que McGee y Prusak (1993) mapean del siguiente modo:\n\n\n\nMcGee, J. V., & Prusak, L. (1993). Managing information strategically. John Wiley & Sons, pp. 26",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
-    ]
+    "text": "Trabajo en parejas, en el wiki del caso (01-calidad/00-definicion.qmd).\n\n\nPara al menos tres flujos o servicios reales de la biblioteca (por ejemplo: préstamo, catalogación, consulta al catálogo online, formación de usuarios), identificar:\n\nUn elemento del nivel técnico: ¿qué tendría que fallar en la infraestructura para que este flujo no funcionara?\nUn elemento del nivel semántico: ¿qué podría hacer que, funcionando técnicamente, el usuario no entendiera o interpretara mal la información?\nUn elemento del nivel efectivo: ¿qué decisión o comportamiento del usuario depende de que este flujo funcione bien en los dos niveles anteriores?\n\n\n\n\nUsando las fuentes ya localizadas en Tema 1 (ficha oficial, memorias, cualquier estadística publicada), clasificar qué documentación existe que permita evaluar cada una de las seis dimensiones de D&M para el caso. Formato sugerido: tabla con columnas Dimensión | Hay datos reales (sí/no) | Fuente.\nSi usan IA (NotebookLM u otra) para ayudarse a rastrear o resumir esta documentación, condición explícita: deben marcar qué dimensiones se quedan sin dato real, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.\n\n\n\nAnticipar que en Sesión 2 van a retomar exactamente esta tabla para clasificar los datos objetivos según Wang & Strong, y que los huecos que dejen sin cubrir aquí son los que van a tener que resolver con un instrumento de encuesta en Sesión 3. ## Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
   },
   {
-    "objectID": "tema1/sesion2.html#fases-de-la-gestión-de-información",
-    "href": "tema1/sesion2.html#fases-de-la-gestión-de-información",
-    "title": "Tipos y funciones de los sistemas de información",
-    "section": "Fases de la gestión de información",
-    "text": "Fases de la gestión de información\nUna vez identificados los agentes, habría que identificar las diferentes tareas del proceso de gestión de la información.\n\nIdentificación de necesidades y requisitos. La tarea más importante (¡y olvidada en muchas ocasiones!). No hay que presuponer nada a priori, sino empezar buscando de qué información disponemos y hasta qué punto es recuperable.\nAnálisis documental. Se trata de la parte de procesamiento, categorización y organización de la información para hacerla recuperable. Aquí es clave que el sistema se adapte al usuario y no al revés.\nDesarrollo de servicios. No basta con que la información sea recuperable, sino digerible y utilizable. Para ello habrá que contemplar el desarrollo de informes, sistemas de alertas, guías, etc. Es lo que tradicionalmente en bibliotecas se conoce como Difusión Selectiva de la Información (DSI).\nDistribución y difusión de servicios. Esta fase final consiste en la adopción de una aproximación proactiva al usuario, en muchos casos anticipándonos a sus necesidades y haciéndoles llegar los servicios que se ofrecen.\n\nSe trata de un modelo cíclico y no lineal, donde una vez se distribuyen servicios, se analiza y evalúan nuevamente las necesidades de información para seguir mejorando, modificando y readaptando los servicios al usuario.",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion2.html#tipos-de-sistemas-de-información",
-    "href": "tema1/sesion2.html#tipos-de-sistemas-de-información",
-    "title": "Tipos y funciones de los sistemas de información",
-    "section": "Tipos de sistemas de información",
-    "text": "Tipos de sistemas de información\nDentro de una misma organización, no toda la informaicón se necesita de la misma forma.\n\n🛒 Un cajero de supermercado necesita que el sistema registra la venta al instante,\n👩‍💼el gerente necesita ver esas ventas agregadas por supermercado a fin de mes,\n🏪la dirección necesita curzar esas cifras con lo que está pasando en el mercado para ver si es viable abrir otro supermercado.\n\nSon tres necesidades de información completamente distintas, y por eso se suelen resolver con sistemas distintos de gestión de la información, aunque muchas veces beban de la misma fuente.\nHay tres tipos de sistemas de información:\n\nSistemas transaccionales (Transaction Processing Systems, TPS). Registran las operaciones rutinarias del día a día, una por una, con rapidez y exactitud. No interpretan ni resumen nada; solo dejan constancia de que algo ha ocurrido.\nSistemas de gestión y apoyo de decisiones (Management Information Systems/Decision Support Systems, MIS/DSS). Toman los datos que generan los sistemas transaccionales y los agregan en informes útiles para quien gestiona un área.\nSistemas de apoyo ejecutivo (Executive Support Systems, ESS). Combinan información interna ya agregada con información externa para decisiones estratégicas de medio-largo plazo.\n\n\n\n\n\n\n\n\n\n\nTipo\nNivel\nQué hace\nEjemplo\n\n\n\n\nTransaccional (TPS)\nOperativo\nRegistra cada operación en el momento en que ocurre\nCaja registradora de un supermercado\n\n\nGestión / apoyo a la decisión (MIS/DSS)\nTáctico\nAgrega esos datos en informes para quien gestiona un área\nInforme mensual de ventas por tienda para el gerente regional\n\n\nApoyo a ejecutivos (ESS)\nEstratégico\nCruza datos internos con información externa para decisiones de largo alcance\nInforme para decidir la apertura de una nueva tienda",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion2.html#principales-funciones",
-    "href": "tema1/sesion2.html#principales-funciones",
-    "title": "Tipos y funciones de los sistemas de información",
-    "section": "Principales funciones",
-    "text": "Principales funciones",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion2.html#funciones-de-los-sistemas-de-información",
-    "href": "tema1/sesion2.html#funciones-de-los-sistemas-de-información",
-    "title": "Tipos y funciones de los sistemas de información",
-    "section": "Funciones de los sistemas de información",
-    "text": "Funciones de los sistemas de información\nPor funciones entendemos los requisitos que debe cumplir un sistema de gestión de la información, independientemente de la tipología. Aunque no todos los sistemas cumplirán todas las funciones, lo lógico es cumplan varias de ellas.\n\nApoyo a la toma de decisiones. Dotar de datos contextualizados al usuario para que pueda tomar una decisión informada ya sea rutinaria como de carácter estratégico. Desde reponer un producto, donde incluso la toma de decisiones puede automatizarse, hasta cuestiones de carácter estratégico para la organización.\nMemoria organizacional. Preservación y trazabilidad del conocimiento y procesos acumulados por la organización, de manera que la organización no sea vulnerable, por ejemplo, a la pérdida de capital humano, o que sea capaz de recuperar y contrastar situaciones pasadas con la actual para repetir, reevaluar o modificar estrategias comerciales (e.g., una campaña publicitaria).\nCoordinación entre unidades. Reducir la incertidumbre que surge cuando distintas partes de la organización dependen unas de otras. Por ejemplo cuando tienen lugar procesos en los deben intervenir diferentes departamentos dentro de una multinacional que están localizados en diferentes países y que no siempre interactúan dentro del mismo marco de trabajo.\n\n\n\n\n\n\n\n\n\nFunción\nQué resuelve\nEjemplo\n\n\n\n\nApoyo a la decisión\nDar la información que una decisión necesita\nAviso automático cuando un proyecto se acerca al límite de horas presupuestadas\n\n\nMemoria organizacional\nQue el conocimiento no se pierda cuando alguien se va\nBase de casos de proyectos anteriores, consultable por cualquier consultor nuevo\n\n\nCoordinación entre unidades\nQue la información fluya entre partes interdependientes sin intervención manual\nLa asignación de un consultor a un proyecto activa automáticamente su facturación",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
-    ]
-  },
-  {
-    "objectID": "tema1/sesion2.html#tareas",
-    "href": "tema1/sesion2.html#tareas",
-    "title": "Tipos y funciones de los sistemas de información",
-    "section": "Tareas",
-    "text": "Tareas\n\nCon esta tarea cerráis el Tema 1. Al terminar, deberíais poder describir sus servicios, identificar los flujos de información que la atraviesan, y caracterizar los sistemas y funciones que la sostienen.\nFase 1 — Individual, en el wiki\nCada uno, por separado, completa:\n1.Servicios: listad y describid brevemente 3 servicios reales que ofrece la biblioteca (consultad la ficha de servicios de la BUG y la guía temática del Colegio Máximo).\n\nTipos de sistema: investigad qué sistema de gestión bibliotecaria (ILS) usa la BUG para catálogo y préstamo. ¿En cuál de los tres tipos (TPS / MIS-DSS / ESS) lo situaríais, y por qué? Pista: un mismo sistema puede tener módulos de más de un tipo — no busquéis una respuesta única y cerrada.\nFunciones: encontrad un ejemplo real (o razonablemente inferido) de apoyo a la decisión, memoria organizacional y coordinación en el funcionamiento de esta biblioteca.\n\nFase 2 — En grupo\nPoned en común vuestras respuestas, integradlas y discutid y acordad de cara a preparar la página de descripción de la Biblioteca del Colegio Máximo de Cartujo, servicios, tipos de sistemas de información y funciones.\nFase 3 — Página final\nEntre todos, consolidáis una única síntesis en index.qmd (o la página que corresponda), integrando lo mejor de las aportaciones individuales. Esta página cierra el Tema 1.",
-    "crumbs": [
-      "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
-    ]
+    "objectID": "tema2/sesion1.html#entregable",
+    "href": "tema2/sesion1.html#entregable",
+    "title": "El concepto de calidad y sus dimensiones",
+    "section": "",
+    "text": "Trabajo en parejas, en el wiki del caso (01-calidad/00-definicion.qmd).\n\n\nPara al menos tres flujos o servicios reales de la biblioteca (por ejemplo: préstamo, catalogación, consulta al catálogo online, formación de usuarios), identificar:\n\nUn elemento del nivel técnico: ¿qué tendría que fallar en la infraestructura para que este flujo no funcionara?\nUn elemento del nivel semántico: ¿qué podría hacer que, funcionando técnicamente, el usuario no entendiera o interpretara mal la información?\nUn elemento del nivel efectivo: ¿qué decisión o comportamiento del usuario depende de que este flujo funcione bien en los dos niveles anteriores?\n\n\n\n\nUsando las fuentes ya localizadas en Tema 1 (ficha oficial, memorias, cualquier estadística publicada), clasificar qué documentación existe que permita evaluar cada una de las seis dimensiones de D&M para el caso. Formato sugerido: tabla con columnas Dimensión | Hay datos reales (sí/no) | Fuente.\nSi usan IA (NotebookLM u otra) para ayudarse a rastrear o resumir esta documentación, condición explícita: deben marcar qué dimensiones se quedan sin dato real, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.\n\n\n\nAnticipar que en Sesión 2 van a retomar exactamente esta tabla para clasificar los datos objetivos según Wang & Strong, y que los huecos que dejen sin cubrir aquí son los que van a tener que resolver con un instrumento de encuesta en Sesión 3."
   }
 ]

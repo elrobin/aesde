@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://elrobin.github.io/aesde/index.html</loc>
-    <lastmod>2026-09-17T14:32:23.730Z</lastmod>
-  </url>
-  <url>
     <loc>https://elrobin.github.io/aesde/tema7/sesion1.html</loc>
     <lastmod>2026-09-17T10:33:44.686Z</lastmod>
   </url>
@@ -17,16 +13,28 @@
     <lastmod>2026-09-17T10:33:44.675Z</lastmod>
   </url>
   <url>
-    <loc>https://elrobin.github.io/aesde/tema1/sesion1.html</loc>
-    <lastmod>2026-09-20T16:26:19.289Z</lastmod>
+    <loc>https://elrobin.github.io/aesde/tema1/sesion2.html</loc>
+    <lastmod>2026-09-22T09:59:14.089Z</lastmod>
   </url>
   <url>
     <loc>https://elrobin.github.io/aesde/tema0/sesion1.html</loc>
     <lastmod>2026-09-17T10:33:44.675Z</lastmod>
   </url>
   <url>
+    <loc>https://elrobin.github.io/aesde/index.html</loc>
+    <lastmod>2026-09-22T09:59:14.062Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elrobin.github.io/aesde/TallerA/taller-github.html</loc>
+    <lastmod>2026-09-17T10:33:44.505Z</lastmod>
+  </url>
+  <url>
+    <loc>https://elrobin.github.io/aesde/tema1/sesion1.html</loc>
+    <lastmod>2026-09-22T09:59:14.084Z</lastmod>
+  </url>
+  <url>
     <loc>https://elrobin.github.io/aesde/tema2/sesion1.html</loc>
-    <lastmod>2026-09-17T10:33:44.675Z</lastmod>
+    <lastmod>2026-09-23T11:53:31.258Z</lastmod>
   </url>
   <url>
     <loc>https://elrobin.github.io/aesde/tema4/sesion1.html</loc>
@@ -35,13 +43,5 @@
   <url>
     <loc>https://elrobin.github.io/aesde/tema6/sesion1.html</loc>
     <lastmod>2026-09-17T10:33:44.675Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elrobin.github.io/aesde/TallerA/taller-github.html</loc>
-    <lastmod>2026-09-10T10:53:09.472Z</lastmod>
-  </url>
-  <url>
-    <loc>https://elrobin.github.io/aesde/tema1/sesion2.html</loc>
-    <lastmod>2026-09-20T16:30:43.009Z</lastmod>
   </url>
 </urlset>
