@@ -63,162 +63,183 @@
     "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
   },
   {
-    "objectID": "tema1/sesion2.html",
-    "href": "tema1/sesion2.html",
-    "title": "Tipos y funciones de los sistemas de información",
+    "objectID": "tema2/sesion1.html",
+    "href": "tema2/sesion1.html",
+    "title": "El concepto de calidad y sus dimensiones",
     "section": "",
-    "text": "La clave de contar con un sistema de información que mejore los procesos de trabajo y ayude a la toma estratégica de decisiones de una organización no es tanto la tecnología empleada, sino un diseño coherente y adaptado a los objetivos y los procesos de trabajo de la organización. De esta manera, antes de poder analizar y evaluar el funcionamiento de un sistema de información dentro de una empresa, es esencial identificar dichos procesos y ver cómo son recogidos por el sistema de información.\nNo hay un modelo único de organización del sistema de información de una organización, ya que estos variarán en función de la naturaleza la organización (no es lo mismo una zapatería de barrio, que una fábrica textil o una multinacional tecnológica). Por ello lo primero será identificar:\n\nLos productos y servicios que ofrece la organización.\nLos objetivos estratégicos y económicos que persigue la empresa en el corto, medio y largo plazo.\nLos procesos operativos y organizacionales que lleva a cabo la institución.\nCon qué recursos cuenta la institución y cómo se distribuyen.\nCómo se monitoriza el rendimiento y funcionamiento de la organización.\n\nA esta visión del funcionamiento interno de la organización habrá que añadir una visión externa de los principales agentes con los que interacciona y coexiste la institución. Algo que McGee y Prusak (1993) mapean del siguiente modo:\n\n\n\nMcGee, J. V., & Prusak, L. (1993). Managing information strategically. John Wiley & Sons, pp. 26",
+    "text": "Como paso previo a analizar el funcionamiento de un sistema de información, es importante abordar el concepto de calidad, que deberemos definir de manera clara y unívoca de manera que tengamos claro qué es exactamente aquello que vamos a evaluar.\nLa calidad es normalmente definida como un conjunto de propiedades inherente a algo que nos permiten juzgar su valor. Ese conjunto de propiedades vendrá definido de manera relativa al objeto, de manera que buscaremos una serie de características distintas en un objeto en base al tipo de objeto a analizar.\n\nImagínate que estás analizando la calidad de un tenista 🎾. Para poder evaluar su rendimiento analizaríamos propiedades como:\n\nCondición física. Velocidad explosiva, aceleración, juego de pies, capacidad de reacción.\nTécnica y golpeo. Variedad de recursos, potencia de golpeo, consistencia (minimizando errores no forzados)\nInteligencia táctica y fortaleza mental. Anticipación, adaptabilidad, gestión emocional, resiliencia.\n\nAhora vamos a pensar en cómo analizar la calidad de un ajedrecista ♟️. Cambiaríamos por completo y miraríamos cosas tales como:\n\nVisión táctica. Capacidad de anticipación, identificación de patrones, velocidad mental.\nResistencia cognitiva. Capacidad de concentración extrema y trabajo bajo presión.\nReconocimiento de patrones visuales. Intuición para identificar patrones tácticos.\n\n\nPero además de variar según el tipo de objeto analizado, la calidad también puede variar según quién la juzgue. No es lo mismo preguntar si un sistema cumple su función que preguntar si quien lo usa queda satisfecho.En relación con el análisis de sistemas de gestión de la información, podríamos hablar de dos tipos de calidades o dimensiones de la misma:\n\nCalidad como requisito. Se trataría de la capacidad del sistema de responder a los objetivos para los que fue diseñado. Por ejemplo, un sistema de gestión de la información que permite archivar, clasificar y recuperar la información, cumpliría de manera formal con las expectativas que se tiene del mismo, independientemente de si la experiencia del usuario es mejor o peor.\nCalidad como adecuación al uso. En este caso nos centraríamos en la experiencia del usuario. Un ejemplo sería la satisfacción de los clientes de una compañía de telefonía con el servicio de atención al cliente.\n\nComo podéis ver hay un aspecto que se podría definir como objetivo, un sistema cumple con las funciones para las que se implantó o no funciona, y otro subjetivo, la satisfacción percibida. Ninguna de las dos dimensiones sustituye a la otra: un sistema puede cumplir perfectamente su especificación técnica y aun así generar insatisfacción en sus usuarios, o al contrario, ser percibido como satisfactorio pese a no cumplir del todo los requisitos para los que fue diseñado. Evaluar la calidad de un sistema de información exige, por tanto, atender a ambas caras por separado.",
     "crumbs": [
       "Más sobre mí",
-      "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
+      "T2 Calidad: concepto y evaluación",
+      "El concepto de calidad y sus dimensiones"
     ]
   },
   {
-    "objectID": "tema1/sesion2.html#consideraciones-previas",
-    "href": "tema1/sesion2.html#consideraciones-previas",
-    "title": "Tipos y funciones de los sistemas de información",
+    "objectID": "tema2/sesion1.html#nivel-técnico",
+    "href": "tema2/sesion1.html#nivel-técnico",
+    "title": "El concepto de calidad y sus dimensiones",
+    "section": "Nivel técnico",
+    "text": "Nivel técnico\nEste nivel tiene que ver con la capacidad del sistema de información para producir información. Es decir, analizará cuestiones tales como si se transmite una señal con precisión, si la información llega al receptor sin pérdida de calidad, sin caídas de red o ruido.\n\nEn un contexto de telecomunicaciones serían cosas tan básicas como si el servicio de videollamadas es estable y no corta la recepción, si el ancho de banda tiene la suficiente potencia para poder transmitir o si el sistema de recuperación de un catálogo carga rápido a la hora de responder a búsquedas de información.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "El concepto de calidad y sus dimensiones"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion1.html#nivel-semántico",
+    "href": "tema2/sesion1.html#nivel-semántico",
+    "title": "El concepto de calidad y sus dimensiones",
+    "section": "Nivel semántico",
+    "text": "Nivel semántico\nAquí pasamos a contenido, y lo que queremos evaluar no es sólo si el mensaje se ha transmitido y ha llegado del emisor al receptor, sino si el mensaje ha sido interpretado correctamente. Es decir, no basta con que la señal llegue intacta: el receptor tiene que entender lo que se le quiso decir.\n\nUn clásico ejemplo sería cuando intentas entrar en una página web y aparece el mensaje Error 404. Un usuario que no entienda el significado de este error puede pensar que se ha quedado sin Internet o que su ordenador está fallando y no que simplemente está intentando acceder a una página web que no existe. Para evitar este tipo de problemas a nivel semántico, mucho sitios rediseñan la página de error con mensajes tipo Ups, no encontramos esta página.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "El concepto de calidad y sus dimensiones"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion1.html#nivel-efectivo-o-de-influencia",
+    "href": "tema2/sesion1.html#nivel-efectivo-o-de-influencia",
+    "title": "El concepto de calidad y sus dimensiones",
+    "section": "Nivel efectivo (o de influencia)",
+    "text": "Nivel efectivo (o de influencia)\n¿Provoca el mensaje el efecto deseado en el receptor? Es el nivel más exigente: no basta con transmitir bien un mensaje ni con que se entienda, debería cambiar algo en el comportamiento o la decisión del receptor.\n\nLa biblioteca publica anualmente un informe analizando a su comunidad de usuarios, identificando necesidades, proponiendo nuevas iniciativas y planes de acción, pero la dirección de la biblioteca no utiliza dicho documento para la toma de decisiones. Esto sería un fallo a nivel efectivo.\n\n\n\n\n\n\nflowchart LR\n  A[Nivel técnico] --&gt; B[Nivel semántico] --&gt; C[Nivel efectivo]\n\n\n\n\n\n\n\nPor qué importa esta jerarquía\n\nCada nivel presupone el anterior, no puede haber éxito a nivel semántico si falla el nivel técnico, ni éxito en el nivel efectivo si falla el semántico.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "El concepto de calidad y sus dimensiones"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion1.html#las-seis-dimensiones-de-la-calidad",
+    "href": "tema2/sesion1.html#las-seis-dimensiones-de-la-calidad",
+    "title": "El concepto de calidad y sus dimensiones",
+    "section": "Las seis dimensiones de la calidad",
+    "text": "Las seis dimensiones de la calidad\n\n\n\n\n\n\n\n\nDimensión\nQué mide\nNivel de comunicación\n\n\n\n\nSystem Quality\nRendimiento técnico del sistema (fiabilidad, tiempo de respuesta, facilidad de uso)\nTécnico\n\n\nInformation Quality\nCalidad del contenido que produce el sistema (exactitud, relevancia, formato)\nSemántico\n\n\nUse\nGrado y forma en que se usa el sistema\nEfectivo\n\n\nUser Satisfaction\nGrado de satisfacción del usuario con el sistema\nEfectivo\n\n\nNet benefits\nImpacto neto, positivo o negativo para cada tipo de usuario\nEfectivo\n\n\n\nSystem Quality e Information Quality son las dos dimensiones objetivas de la calidad\nLas cuatro restantes son, en distinto grado, subjetivas o dependientes del usuario.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "El concepto de calidad y sus dimensiones"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion1.html#relación-entre-dimensiones",
+    "href": "tema2/sesion1.html#relación-entre-dimensiones",
+    "title": "El concepto de calidad y sus dimensiones",
+    "section": "Relación entre dimensiones",
+    "text": "Relación entre dimensiones\nLas seis dimensiones del modelo no son una lista de aspectos independientes que se evalúan por separado y se suman: están conectadas en una secuencia causal.\n\n\n\nModelo de Delone & McLean.\n\n\n\nLas tres calidades preceden al uso y la satisfacción\n\nSystem Quality, Information Quality y Service Quality son las variables de entrada del modelo. Describen el sistema tal como es, antes de que nadie lo use. Estas tres dimensiones influyen conjuntamente en dos variables:\n\n\n\nUse: en qué medida y de qué forma se usa el sistema.\nUser Satisfaction: el grado de satisfacción del usuario con esa experiencia.\n\n: Use y User Satisfaction se retroalimentan entre sí: usar más o mejor un sistema tiende a aumentar la satisfacción, y una mayor satisfacción tiende a incrementar el uso. No son la misma variable, pero tampoco son independientes.\n\nDe ahí a los beneficios\n\nEl uso y la satisfacción, combinados, generan Net Benefits: el impacto neto del sistema, positivo o negativo, para quien lo use.\n\n\nLa pregunta a responder sería “¿beneficio para quién, y a qué nivel de análisis?”. Puede ser un usuario individual, un departamento, toda la organización o, en contextos como el e-commerce, clientes, proveedores o la sociedad en su conjunto. El nivel de análisis no es un detalle menor: cambia qué cuenta como “beneficio”.\n\nEl bucle de retroalimentación\n\nEl modelo no termina en Net Benefits como un punto final. Los beneficios obtenidos (o la falta de ellos) condicionan si el usuario sigue utilizando el sistema y cómo de satisfecho sigue estando con él. Por tanto afectan a las dimensiones de Uso y Satisfacción del usuario.\n\nLa causalidad importa, no solo la lista\n\nUn sistema puede fallar en distintos puntos de la cadena y el diagnóstico cambia según dónde falle. Si la Calidad del sistema es baja, el problema es técnico y hay que corregirlo ahí. no tiene sentido mejorar la Calidad del servicio. Si las tres calidades son altas pero Uso es bajo, el problema no está en el sistema sino en la adopción y ahí la solución no es técnica, sino de formación, comunicación o incentivos.\n\nQué dimensión pesa más depende del contexto\n\nPara evaluar un sistema concreto, la Calidad del sistema y la Calidad de la información son determinantes, pero la importancia de cada una de estas dimensiones siempre dependerá del Sistema de Información evaluado.\n\n\n\n🏪 Un ejemplo con e-commerce\nEn una tienda online, System Quality (¿carga rápido, funciona sin errores?) e Information Quality (¿la ficha de producto es clara y completa?) determinan si el usuario navega y compra (Use) y si queda satisfecho con la experiencia (User Satisfaction).\nService Quality (¿responde bien el soporte si hay un problema con el pedido?) actúa en paralelo. El resultado (Net Benefits) se mide de forma distinta según para quién: ahorro de tiempo/dinero para el comprador, eficiencia de cadena de suministro para la empresa, crecimiento agregado si se mide a escala de toda una economía digital.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "El concepto de calidad y sus dimensiones"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion1.html#parte-1-caracterizar-flujos-y-servicios-por-nivel",
+    "href": "tema2/sesion1.html#parte-1-caracterizar-flujos-y-servicios-por-nivel",
+    "title": "El concepto de calidad y sus dimensiones",
+    "section": "Parte 1 — Caracterizar flujos y servicios por nivel",
+    "text": "Parte 1 — Caracterizar flujos y servicios por nivel\nPara al menos tres flujos o servicios reales de la biblioteca (por ejemplo: préstamo, catalogación, consulta al catálogo online, formación de usuarios), identificar:\n\nUn elemento del nivel técnico: ¿qué tendría que fallar en la infraestructura para que este flujo no funcionara?\nUn elemento del nivel semántico: ¿qué podría hacer que, funcionando técnicamente, el usuario no entendiera o interpretara mal la información?\nUn elemento del nivel efectivo: ¿qué decisión o comportamiento del usuario depende de que este flujo funcione bien en los dos niveles anteriores?",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "El concepto de calidad y sus dimensiones"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion1.html#parte-2-inventario-de-documentación-disponible-por-dimensión",
+    "href": "tema2/sesion1.html#parte-2-inventario-de-documentación-disponible-por-dimensión",
+    "title": "El concepto de calidad y sus dimensiones",
+    "section": "Parte 2 — Inventario de documentación disponible por dimensión",
+    "text": "Parte 2 — Inventario de documentación disponible por dimensión\nUsando las fuentes ya localizadas en Tema 1 (ficha oficial, memorias, cualquier estadística publicada), clasificar qué documentación existe que permita evaluar cada una de las seis dimensiones de D&M para el caso. Formato sugerido: tabla con columnas Dimensión | Hay datos reales (sí/no) | Fuente.\n⚠️ Para esto podéis usar la IA siempre y cuando verifiquéis (yo recomendaría NotebookLM) para ayudaros a rastrear o resumir esta documentación, condición explícita: deben marcar qué dimensiones se quedan sin dato real, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "El concepto de calidad y sus dimensiones"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion1.html#footnotes",
+    "href": "tema2/sesion1.html#footnotes",
+    "title": "El concepto de calidad y sus dimensiones",
+    "section": "Notas",
+    "text": "Notas\n\n\nShannon, C., & Weaver, W. (1949). The Mathematical Theory of Communication. Urbana: University of Illinois Press.↩︎\nThe DeLone and McLean Model of Information Systems Success: A Ten-Year Update. (2003). Journal of Management Information Systems, 19(4), 9-30. https://doi.org/10.1080/07421222.2003.11045748↩︎",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "El concepto de calidad y sus dimensiones"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html",
+    "href": "tema1/sesion1.html",
+    "title": "Dato, información y documento",
     "section": "",
-    "text": "La clave de contar con un sistema de información que mejore los procesos de trabajo y ayude a la toma estratégica de decisiones de una organización no es tanto la tecnología empleada, sino un diseño coherente y adaptado a los objetivos y los procesos de trabajo de la organización. De esta manera, antes de poder analizar y evaluar el funcionamiento de un sistema de información dentro de una empresa, es esencial identificar dichos procesos y ver cómo son recogidos por el sistema de información.\nNo hay un modelo único de organización del sistema de información de una organización, ya que estos variarán en función de la naturaleza la organización (no es lo mismo una zapatería de barrio, que una fábrica textil o una multinacional tecnológica). Por ello lo primero será identificar:\n\nLos productos y servicios que ofrece la organización.\nLos objetivos estratégicos y económicos que persigue la empresa en el corto, medio y largo plazo.\nLos procesos operativos y organizacionales que lleva a cabo la institución.\nCon qué recursos cuenta la institución y cómo se distribuyen.\nCómo se monitoriza el rendimiento y funcionamiento de la organización.\n\nA esta visión del funcionamiento interno de la organización habrá que añadir una visión externa de los principales agentes con los que interacciona y coexiste la institución. Algo que McGee y Prusak (1993) mapean del siguiente modo:\n\n\n\nMcGee, J. V., & Prusak, L. (1993). Managing information strategically. John Wiley & Sons, pp. 26",
+    "text": "En esta sesión nos introducimos en la distinción entre los conceptos de dato, información, conocimiento y documento. Al final de esta sesión no solo deberías entender dicha distinción, sino además ser capaz de identificarlos en un caso real, así como describir los diferentes flujos de información que tienen lugar en una organización y cómo se canalizan.",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
+      "Dato, información y documento"
     ]
   },
   {
-    "objectID": "tema1/sesion2.html#fases-de-la-gestión-de-información",
-    "href": "tema1/sesion2.html#fases-de-la-gestión-de-información",
-    "title": "Tipos y funciones de los sistemas de información",
-    "section": "Fases de la gestión de información",
-    "text": "Fases de la gestión de información\nUna vez identificados los agentes, habría que identificar las diferentes tareas del proceso de gestión de la información.\n\nIdentificación de necesidades y requisitos. La tarea más importante (¡y olvidada en muchas ocasiones!). No hay que presuponer nada a priori, sino empezar buscando de qué información disponemos y hasta qué punto es recuperable.\nAnálisis documental. Se trata de la parte de procesamiento, categorización y organización de la información para hacerla recuperable. Aquí es clave que el sistema se adapte al usuario y no al revés.\nDesarrollo de servicios. No basta con que la información sea recuperable, sino digerible y utilizable. Para ello habrá que contemplar el desarrollo de informes, sistemas de alertas, guías, etc. Es lo que tradicionalmente en bibliotecas se conoce como Difusión Selectiva de la Información (DSI).\nDistribución y difusión de servicios. Esta fase final consiste en la adopción de una aproximación proactiva al usuario, en muchos casos anticipándonos a sus necesidades y haciéndoles llegar los servicios que se ofrecen.\n\nSe trata de un modelo cíclico y no lineal, donde una vez se distribuyen servicios, se analiza y evalúan nuevamente las necesidades de información para seguir mejorando, modificando y readaptando los servicios al usuario.",
+    "objectID": "tema1/sesion1.html#lectura-y-debate-en-clase",
+    "href": "tema1/sesion1.html#lectura-y-debate-en-clase",
+    "title": "Dato, información y documento",
+    "section": "Lectura y debate en clase",
+    "text": "Lectura y debate en clase\nChávez Montejo, Y., & Pérez Sousa, H. (2013). Gestión documental, Gestión de información y Gestión del conocimiento: Nociones e interrelaciones. Bibliotecas. Anales de Investigación, (8-9), 222-227.\nAdopta una actitud crítica durante su lectura y presta especial atención a su distinción entre conceptos ¿estás de acuerdo con las definiciones que ofrece de dato, información y conocimiento?, ¿puedes pensar en ejemplos aplicados a un contexto real?",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
+      "Dato, información y documento"
     ]
   },
   {
-    "objectID": "tema1/sesion2.html#tipos-de-sistemas-de-información",
-    "href": "tema1/sesion2.html#tipos-de-sistemas-de-información",
-    "title": "Tipos y funciones de los sistemas de información",
-    "section": "Tipos de sistemas de información",
-    "text": "Tipos de sistemas de información\nDentro de una misma organización, no toda la informaicón se necesita de la misma forma.\n\n🛒 Un cajero de supermercado necesita que el sistema registra la venta al instante,\n👩‍💼el gerente necesita ver esas ventas agregadas por supermercado a fin de mes,\n🏪la dirección necesita curzar esas cifras con lo que está pasando en el mercado para ver si es viable abrir otro supermercado.\n\nSon tres necesidades de información completamente distintas, y por eso se suelen resolver con sistemas distintos de gestión de la información, aunque muchas veces beban de la misma fuente.\nHay tres tipos de sistemas de información:\n\nSistemas transaccionales (Transaction Processing Systems, TPS). Registran las operaciones rutinarias del día a día, una por una, con rapidez y exactitud. No interpretan ni resumen nada; solo dejan constancia de que algo ha ocurrido.\nSistemas de gestión y apoyo de decisiones (Management Information Systems/Decision Support Systems, MIS/DSS). Toman los datos que generan los sistemas transaccionales y los agregan en informes útiles para quien gestiona un área.\nSistemas de apoyo ejecutivo (Executive Support Systems, ESS). Combinan información interna ya agregada con información externa para decisiones estratégicas de medio-largo plazo.\n\n\n\n\n\n\n\n\n\n\nTipo\nNivel\nQué hace\nEjemplo\n\n\n\n\nTransaccional (TPS)\nOperativo\nRegistra cada operación en el momento en que ocurre\nCaja registradora de un supermercado\n\n\nGestión / apoyo a la decisión (MIS/DSS)\nTáctico\nAgrega esos datos en informes para quien gestiona un área\nInforme mensual de ventas por tienda para el gerente regional\n\n\nApoyo a ejecutivos (ESS)\nEstratégico\nCruza datos internos con información externa para decisiones de largo alcance\nInforme para decidir la apertura de una nueva tienda",
+    "objectID": "tema1/sesion1.html#la-necesidad-de-gestionar-flujos-de-información",
+    "href": "tema1/sesion1.html#la-necesidad-de-gestionar-flujos-de-información",
+    "title": "Dato, información y documento",
+    "section": "La necesidad de gestionar flujos de información",
+    "text": "La necesidad de gestionar flujos de información\nLa creación, gestión y evaluación de sistemas de información en la empresa surge de la necesidad de controlar flujos de información con el fin de:\n\nMaximizar esfuerzos y auditar servicios\nAsegurar transparencia y reproducibilidad de procesos\nAprovechar el capital humano de la organización\nControlar satisfacción del personal y clientes\n\nPara ello se establecen sistemas de gestión que no se centren únicamente en el control de flujos de documentos, sino que vayan un poco más allá y permitan la gestión de información con el fin de facilitar la toma de decisiones estratégica.\nEs importante tener muy clara la distinción entre los siguientes conceptos:\n\nDocumento\n\nSoporte fijo y formal que registra información para su transmisión y recuperación posterior. Normalmente a través de los metadatos del mismo es posible establecer la autoría, fecha, etc., haciéndolo identificable y recuperable por cualquiera, no solo por quien lo generó.\n\nDato\n\nHecho o valor suelto, sin contexto: un número, una fecha, un nombre aislado. No dice nada por sí mismo.\n\nInformación\n\nEl dato ya con estructura y contexto, que responde a una pregunta concreta (quién, cuánto, cuándo).\n\nConocimiento\n\nInformación interiorizada e integrada con la experiencia y conocimiento tácito de quien la consume, que permite entender implicaciones y actuar a la misma.\n\n\n\nTipo de flujos de información\nDesde el punto de vista del análisis y la evaluación de sistemas de información, será importante considerar dos tipos de flujos de información:\nFlujos de información externa. Se refiere a información ajena a la organización pero que afecta directa o indirectamente a su devenir futuro y debe ser considerada de cara a la planificación estratégica de la misma. Aquí encontramos dos tipos de flujos de información:\n\nInformación ambiental. Aquella relacionada con aspectos importantes a monitorizar por parte de la empresa (e.g., desarrollos científico-técnicos, posibles competidores, identificación de talento).\nPercepción del usuario/cliente potencial y real. Sería todo lo relacionado con la satisfacción del usuario, percepción de la calidad de los servicios o el valor de la marca empresarial.\n\nFlujos de información interna. Se refiere a la información que transcurre dentro de la propia organización. Un sistema de información eficiente deberá contemplar la existencia de dos tipos de flujos de información:\n\nFlujos formales. Se trata de aquellos de carácter oficial como una notificación, un informe interno, una comunicación o una confirmación escrita de una decisión.\nFlujos informales. Se trata de aquellos que no siguen los cauces considerados como oficiales y por tanto, tienen menor trazabilidad. Desde conversaciones de cafetería a mensajes de WhatsApp o Slack a correos entre compañeros. Aunque no tenga una validez como tales, pueden tener en muchos casos un gran valor para la empresa.",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
+      "Dato, información y documento"
     ]
   },
   {
-    "objectID": "tema1/sesion2.html#funciones-de-los-sistemas-de-información",
-    "href": "tema1/sesion2.html#funciones-de-los-sistemas-de-información",
-    "title": "Tipos y funciones de los sistemas de información",
-    "section": "Funciones de los sistemas de información",
-    "text": "Funciones de los sistemas de información\nPor funciones entendemos los requisitos que debe cumplir un sistema de gestión de la información, independientemente de la tipología. Aunque no todos los sistemas cumplirán todas las funciones, lo lógico es cumplan varias de ellas.\n\nApoyo a la toma de decisiones. Dotar de datos contextualizados al usuario para que pueda tomar una decisión informada ya sea rutinaria como de carácter estratégico. Desde reponer un producto, donde incluso la toma de decisiones puede automatizarse, hasta cuestiones de carácter estratégico para la organización.\nMemoria organizacional. Preservación y trazabilidad del conocimiento y procesos acumulados por la organización, de manera que la organización no sea vulnerable, por ejemplo, a la pérdida de capital humano, o que sea capaz de recuperar y contrastar situaciones pasadas con la actual para repetir, reevaluar o modificar estrategias comerciales (e.g., una campaña publicitaria).\nCoordinación entre unidades. Reducir la incertidumbre que surge cuando distintas partes de la organización dependen unas de otras. Por ejemplo cuando tienen lugar procesos en los deben intervenir diferentes departamentos dentro de una multinacional que están localizados en diferentes países y que no siempre interactúan dentro del mismo marco de trabajo.\n\n\n\n\n\n\n\n\n\nFunción\nQué resuelve\nEjemplo\n\n\n\n\nApoyo a la decisión\nDar la información que una decisión necesita\nAviso automático cuando un proyecto se acerca al límite de horas presupuestadas\n\n\nMemoria organizacional\nQue el conocimiento no se pierda cuando alguien se va\nBase de casos de proyectos anteriores, consultable por cualquier consultor nuevo\n\n\nCoordinación entre unidades\nQue la información fluya entre partes interdependientes sin intervención manual\nLa asignación de un consultor a un proyecto activa automáticamente su facturación",
+    "objectID": "tema1/sesion1.html#evolución-histórica-de-la-gestión-documental-al-conocimiento",
+    "href": "tema1/sesion1.html#evolución-histórica-de-la-gestión-documental-al-conocimiento",
+    "title": "Dato, información y documento",
+    "section": "Evolución histórica: de la gestión documental al conocimiento",
+    "text": "Evolución histórica: de la gestión documental al conocimiento\nLos sistemas de gestión documental. Los sistemas documentales surgen a mediados del S. XX como una respuesta a la “explosión documental” de posguerra, en parte vinculada con la asimilación por parte de Estados Unidos de la literatura científica y técnica que desarrollaron por un lado y que por otro incautaron a la Alemania Nazi.\nEl problema es de organización puramente documental. El objetivo es organizar, clasificar y recuperar toda la documentación de la manera más efectiva. Es el momento de máximo desarrollo de lenguajes documentales y el inicio de los sistemas de recuperación de información.\n\n\n\n\nVannevar Bush fue director de la U.S. Office of Scientific Research and Development y el responsable de la creación y modernización del sistema científico nacional de los Estados Unidos. Además, fue uno de los grandes actores en el desarrollo de la gestión de la información científica, además, su ensayo As we may think sirvió de inspiración para el futuro desarrollo de la World Wide Web.\n\n\n\nLos sistemas de gestión de información. Sin embargo, la industrialización y el gran crecimiento económico de los 80 llevan a las empresas a ampliar el nivel de alcance de los flujos documentales, desarrollando sistemas que pretenden gestionar la información más allá del soporte en el que ésta se encuentre. Todo esto también tiene lugar en un momento de desarrollo tecnológico con la expansión de la computadora previo al salto al ordenador personal de los años 90.\nConviven dos tradiciones distintas:\n\nUna gestión de información orientada a la tecnología: gestión de datos, sistemas de información, uso estratégico de las Tecnologías de la Información.\nUna gestión orientada al contenido: gestión de registros (records management), servicios de recuperación de información, gestión centrada en el usuario.\n\nEstas dos corrientes confluyen en los actuales sistemas de información.\nLos sistemas de gestión del conocimiento. A mediados de los 90 se añade una nueva capa que ya no se limita a monitorizar y controlar los flujos de información en la empresa, sino que busca gestionar las prácticas de trabajo que permiten generar y compartir conocimiento a partir de esa información: cómo aprende la organización, cómo se retiene el saber hacer cuando alguien se va, y cómo se convierte experiencia individual en activo colectivo. Es también el momento en que se empieza a hablar de gestionar activos intangibles (capital humano, capital estructural) como parte del valor real de la empresa, más allá de sus activos físicos y financieros\n\nNueva tecnología para la gestión de conocimiento\nA cada uno de estos cambios le acompaña el desarrollo de software (mucho del cuál se emplea actualmente en las empresas) dirigido a cada una de las capas que se van añadiendo.\n\n\n\nCambio ➡️ Solución\nNueva tecnología\nEjemplo\n\n\n\n\nDel documento a la información\nDigitalización del papel (imaging) y gestión de contenido no textual (multimedia). Aparecen las funciones básicas del EDMS: capturar, indexar, almacenar, recuperar y distribuir documentos.\nOpenKM\n\n\nRecuperación de información\nIndexación manual o automática, operadores booleanos, medidas de precisión y exhaustividad.\nDialog | Solr | Elasticsearch\n\n\nGroupWare\nComunicación, trabajo colaborativo, gestión de clientes, gestión de equipos\nSlack | Nextcloud\n\n\nAutomatización de procesos\nGestión de transacción, gestión administrativa y documnetal\nCamunda\n\n\nGestión del conocimiento y recuperación de información interna\nHerramientas de KM desarrolladas específicamente para generación de conocimiento y no tanto GroupWare (que también las incluyen\nNotion | Wiki.js",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
+      "Dato, información y documento"
     ]
   },
   {
-    "objectID": "tema1/sesion2.html#tareas",
-    "href": "tema1/sesion2.html#tareas",
-    "title": "Tipos y funciones de los sistemas de información",
+    "objectID": "tema1/sesion1.html#sistemas-de-gestión-y-principales-características",
+    "href": "tema1/sesion1.html#sistemas-de-gestión-y-principales-características",
+    "title": "Dato, información y documento",
+    "section": "Sistemas de gestión y principales características",
+    "text": "Sistemas de gestión y principales características\n\nSistema documental\n\nConjunto organizado de procesos y recursos para producir, clasificar, almacenar, recuperar y conservar documentos; unidad de gestión = el documento como soporte formal.\n\nSistema de información\n\nConjunto que integra infraestructura tecnológica, sistemas y uso de la información; unidad de gestión = la información, estructurada o no, con el objetivo de ponerla en el lugar y momento adecuados. A diferencia del sistema documental, no se limita a la información ya registrada;\n\n\n\nflujo formal, un informe, una base de datos sino que tiene que dar cuenta también de la que circula sin canal oficial\nflujo informal, un comentario de pasillo, un aviso verbal. De ahí que su alcance sea mayor pero también más difícil de controlar.\n\nSistema de conocimiento\n\nConjunto de prácticas, procesos y tecnologías para capturar, compartir y generar conocimiento organizativo. Matiz importante para clase: en sentido estricto el conocimiento solo existe en la mente (Wilson 2002), así que lo que realmente se gestiona son las prácticas de trabajo y los repositorios de información codificada que facilitan que ese conocimiento circule.\n\n\n\n\n\n\n\n\n\nSistema documental\nSistema de información\nSistema de conocimiento\n\n\n\n\nUnidad de gestión\nEl documento\nLa información (datos + documentos)\nLas prácticas de trabajo\n\n\nFoco\nCiclo de vida del documento\nInfraestructura, sistemas y uso\nGeneración y compartición\n\n\nTecnología típica\nImaging, indexación, IR\nBases de datos, sistemas de información\nGroupWare, KM tools, agentes\n\n\nDisciplina de origen\nRecords management / Documentación\nInformation Systems / Business Informatics\nCiencias organizacionales\n\n\nFormalización\nAlta (soporte estable)\nMedia-alta\nBaja (Wersig: solo formalizar donde es esencial)\n\n\nLimitación principal\nNo cubre información no documental (verbal, informal)\nNo garantiza que la información se convierta en conocimiento usable\nNo es gestionable directamente — solo se gestiona su entorno",
+    "crumbs": [
+      "Más sobre mí",
+      "T1 El sistema de información empresarial",
+      "Dato, información y documento"
+    ]
+  },
+  {
+    "objectID": "tema1/sesion1.html#tareas",
+    "href": "tema1/sesion1.html#tareas",
+    "title": "Dato, información y documento",
     "section": "Tareas",
-    "text": "Tareas\n\nCon esta tarea cerráis el Tema 1. Al terminar, deberíais poder describir sus servicios, identificar los flujos de información que la atraviesan, y caracterizar los sistemas y funciones que la sostienen.\nFase 1 — Individual, en el wiki\nCada uno, por separado, completa:\n1.Servicios: listad y describid brevemente 3 servicios reales que ofrece la biblioteca (consultad la ficha de servicios de la BUG y la guía temática del Colegio Máximo).\n\nTipos de sistema: investigad qué sistema de gestión bibliotecaria (ILS) usa la BUG para catálogo y préstamo. ¿En cuál de los tres tipos (TPS / MIS-DSS / ESS) lo situaríais, y por qué? Pista: un mismo sistema puede tener módulos de más de un tipo — no busquéis una respuesta única y cerrada.\nFunciones: encontrad un ejemplo real (o razonablemente inferido) de apoyo a la decisión, memoria organizacional y coordinación en el funcionamiento de esta biblioteca.\n\nFase 2 — En grupo\nPoned en común vuestras respuestas, integradlas y discutid y acordad de cara a preparar la página de descripción de la Biblioteca del Colegio Máximo de Cartujo, servicios, tipos de sistemas de información y funciones.\nFase 3 — Página final\nEntre todos, consolidáis una única síntesis en index.qmd (o la página que corresponda), integrando lo mejor de las aportaciones individuales. Esta página cierra el Tema 1.",
+    "text": "Tareas\n\nCaso de trabajo: Biblioteca del Colegio Máximo (UGR).\nAntes de empezar, familiarizaos con la biblioteca a través de:\n\nFicha oficial de la biblioteca\nEstructura, equipamiento y fondos (superficie, nº de ordenadores y puestos, temáticas por facultad, sistema de clasificación)\n\nDe forma individual, en vuestra página del wiki:\n\nUn dato real: un valor suelto que podáis extraer de la ficha o de una consulta al catálogo (por ejemplo, una cifra, una fecha, un código de clasificación). Debe ser un dato concreto, no una descripción.\nUn documento real: algo con soporte, autoría y metadatos identificables — puede ser del propio catálogo de la biblioteca, o un documento de la propia ficha oficial que acabáis de consultar.\nClasificación: justificad en 2-3 líneas por qué lo que habéis elegido en 1 es dato y no información, y por qué lo de 2 es documento y no solo información.\nUn flujo formal y uno informal: pensad en cómo funciona realmente una biblioteca de este tipo (préstamo, catalogación, consultas al personal, quejas, recomendaciones entre estudiantes…) y proponed un ejemplo de cada uno, explicando por qué lo clasificáis así.\n\nNo hace falta que uséis literalmente algo de los enlaces — son punto de partida para que no partáis de cero, no la respuesta ya dada. Si encontráis otra fuente sobre la biblioteca que os sirva mejor, usadla y citadla.",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Tipos y funciones de los sistemas de información"
-    ]
-  },
-  {
-    "objectID": "tema0/sesion1.html",
-    "href": "tema0/sesion1.html",
-    "title": "Presentación de la asignatura",
-    "section": "",
-    "text": "Diapositivas de clase — (enlace a las slides de este tema)"
-  },
-  {
-    "objectID": "tema0/sesion1.html#contenidos-teoricos",
-    "href": "tema0/sesion1.html#contenidos-teoricos",
-    "title": "Presentación de la asignatura",
-    "section": "Contenidos teoricos",
-    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)"
-  },
-  {
-    "objectID": "tema0/sesion1.html#ejercicio-titulo-del-ejercicio",
-    "href": "tema0/sesion1.html#ejercicio-titulo-del-ejercicio",
-    "title": "Presentación de la asignatura",
-    "section": "Ejercicio: (titulo del ejercicio)",
-    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
-  },
-  {
-    "objectID": "index.html#filosofía-de-trabajo",
-    "href": "index.html#filosofía-de-trabajo",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Filosofía de trabajo",
-    "text": "Filosofía de trabajo\nSomos poquitos, así que es importante que será especialmente importante la participación activa durante las clases a fin de poder aprovechar al máximo la asignatura y hacerla amena y entretenido. Para que todo fluya, adoptaremos los siguientes compromisos en clase:\n\nAprendizaje activo y participativo. Mi intención es que las clases sean un diálogo y no un monólogo. Espero que partipes, cuestiones, comentes y seas parte de la clase.\nFlexibidad dentro de los márgenes. No paso lista ni tengo en cuenta si asistes más o menos, pero toda la parte práctica o gran parte de ella tiene lugar en el aula. Las actividades que te pierdas, no son recuperables.\nEmpatía y compromiso. Mi labor es ayudarte a aprender, no ponerte trabas. Habla conmigo cuando te atasques y las cosas no salgan. Eso sí, a cambio espero implicación y esfuerzo\nActualización continua. Siempre estoy revisando materiales, así que no te adelantes, pues seguramente irán modificándose conforme avancemos\nDiversidad, respeto y pensamiento crítico. Es esencial para mí el respeto a todas las ideas y trayectorias vitales, así como el desarrollo del juicio crítico y bien fundamentado.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "index.html#planificación-y-temario",
-    "href": "index.html#planificación-y-temario",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Planificación y temario",
-    "text": "Planificación y temario\n\n\n\n\n\n\n\nQuincena\nContenidos\n\n\n\n\n14-29 de septiembre\n\nPresentación y taller\nTema 1. El sistema de información empresarial\nTema 2. Calidad: Rendimiento y satisfacción\n\n\n\n5-13 de octubre\n\nTema 2. Calidad: Rendimiento y satisfacción\nTema 3. Normativa ISO 9000/9001\n\n\n\n19-27 de octubre\n\nTema 4. Benchmarking\n\n\n\n3 de noviembre\n💀 Examen Bloque I\n\n\n9-16 de noviembre\n\nTema 5. Vigilancia en inteligencia competitiva\nTema 6. Sistemas de indicadores\n\n\n\n17-30 de noviembre\n\nTema 6. Sistemas de indicadores\nTema 7. Del indicador al Dasboard\n\n\n\n1-15 de diciembre\n\nTema 7. Del indicador al dashboard\n\n\n\n21 de diciembre\n🗣️ Presentación caso práctico | | | | | |\n\n\n22 de diciembre\n🔚 Examen Bloque II",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "index.html#evaluación-y-exámenes",
-    "href": "index.html#evaluación-y-exámenes",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Evaluación y exámenes",
-    "text": "Evaluación y exámenes\nEvaluación ordinaria (evaluación continua)\n\n\n\nInstrumento\n% calificación\n\n\n\n\n2 Pruebas teóricas\n45%\n\n\nMini-entregas prácticas\n35%\n\n\nTrabajo en equipo\n10%\n\n\nParticipación activa\n10%\n\n\n\n\nPruebas teóricas: La nota final es la media de ambos exámenes. La fecha es inamovible salvo causa de fuerza mayor bien justificada y con antelación\nMini-entregas prácticas: Se evalúan a través de los commits al repositorio del caso práctico. En cada clase se fijan unos objetivos que deben cumplirse antes de su finalización. Los commits realizados después de la clase pero antes del examen del bloque correspondiente tienen una penalización de 50%; pasado ese examen, no se consideran.\nTrabajo en equipo: Se desarrolla a lo largo del semestre, y se presenta en clase en la última sesión.\nParticipación activa: Debe ser voluntaria; no cuenta si se solicita de manera forzada.\n\n\nConsejo | Asiste a clase, trabaja en tiempo y forma, haz tus lecturas y participa, y todo irá bien 🥰.\n\nEvaluación extraordinaria\nExamen teórico y examen práctico relativos a los contenidos desarrollados en el temario, cada uno al 50% de la nota.\nEvaluación única final\nDe acuerdo con el artículo 6.2 de la Normativa de Evaluación y de Calificación de los Estudiantes de la UGR, consiste en un examen teórico y un examen práctico, cada uno al 50% de la nota. Toda la información está disponible en la guía docente. Si contactas conmigo a tiempo (inicio de curso) podemos ver cómo abordar esto.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "index.html#uso-de-ia-en-la-asignatura",
-    "href": "index.html#uso-de-ia-en-la-asignatura",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Uso de IA en la asignatura",
-    "text": "Uso de IA en la asignatura\nEsta asignatura incorpora el uso de herramientas de IA como parte de las actividades prácticas (p. ej. construcción asistida de cuadros de mando). Se espera un uso ético y responsable de las mismas, siguiendo las Recomendaciones para el uso de la inteligencia artificial en la UGR.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "index.html#software-libre",
-    "href": "index.html#software-libre",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Software libre",
-    "text": "Software libre\nSe podrá emplear software libre como R/RStudio para el análisis de datos y la elaboración de indicadores y cuadros de mando, combinado en su caso con hojas de cálculo y herramientas de inteligencia artificial.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
-    ]
-  },
-  {
-    "objectID": "index.html#contacto",
-    "href": "index.html#contacto",
-    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
-    "section": "Contacto",
-    "text": "Contacto\nToda la comunicación, entrega de ejercicios y prácticas, etc. la vamos a canalizar a través de PRADO o en las clases. También tienes la opción de acudir a tutoría presencial. Estoy en el despacho I y mi horario de tutorías es lunes y miércoles de 9 a 12, pero podemos acordar otros horarios si esos no os vienen bien.",
-    "crumbs": [
-      "Más sobre mí",
-      "Presentación de la asignatura"
+      "Dato, información y documento"
     ]
   },
   {
@@ -332,183 +353,282 @@
     ]
   },
   {
-    "objectID": "tema1/sesion1.html",
-    "href": "tema1/sesion1.html",
-    "title": "Dato, información y documento",
+    "objectID": "index.html#filosofía-de-trabajo",
+    "href": "index.html#filosofía-de-trabajo",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Filosofía de trabajo",
+    "text": "Filosofía de trabajo\nSomos poquitos, así que es importante que será especialmente importante la participación activa durante las clases a fin de poder aprovechar al máximo la asignatura y hacerla amena y entretenido. Para que todo fluya, adoptaremos los siguientes compromisos en clase:\n\nAprendizaje activo y participativo. Mi intención es que las clases sean un diálogo y no un monólogo. Espero que partipes, cuestiones, comentes y seas parte de la clase.\nFlexibidad dentro de los márgenes. No paso lista ni tengo en cuenta si asistes más o menos, pero toda la parte práctica o gran parte de ella tiene lugar en el aula. Las actividades que te pierdas, no son recuperables.\nEmpatía y compromiso. Mi labor es ayudarte a aprender, no ponerte trabas. Habla conmigo cuando te atasques y las cosas no salgan. Eso sí, a cambio espero implicación y esfuerzo\nActualización continua. Siempre estoy revisando materiales, así que no te adelantes, pues seguramente irán modificándose conforme avancemos\nDiversidad, respeto y pensamiento crítico. Es esencial para mí el respeto a todas las ideas y trayectorias vitales, así como el desarrollo del juicio crítico y bien fundamentado.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#planificación-y-temario",
+    "href": "index.html#planificación-y-temario",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Planificación y temario",
+    "text": "Planificación y temario\n\n\n\n\n\n\n\nQuincena\nContenidos\n\n\n\n\n14-29 de septiembre\n\nPresentación y taller\nTema 1. El sistema de información empresarial\nTema 2. Calidad: Rendimiento y satisfacción\n\n\n\n5-13 de octubre\n\nTema 2. Calidad: Rendimiento y satisfacción\nTema 3. Normativa ISO 9000/9001\n\n\n\n19-27 de octubre\n\nTema 4. Benchmarking\n\n\n\n3 de noviembre\n💀 Examen Bloque I\n\n\n9-16 de noviembre\n\nTema 5. Vigilancia en inteligencia competitiva\nTema 6. Sistemas de indicadores\n\n\n\n17-30 de noviembre\n\nTema 6. Sistemas de indicadores\nTema 7. Del indicador al Dasboard\n\n\n\n1-15 de diciembre\n\nTema 7. Del indicador al dashboard\n\n\n\n21 de diciembre\n🗣️ Presentación caso práctico | | | | | |\n\n\n22 de diciembre\n🔚 Examen Bloque II",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#evaluación-y-exámenes",
+    "href": "index.html#evaluación-y-exámenes",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Evaluación y exámenes",
+    "text": "Evaluación y exámenes\nEvaluación ordinaria (evaluación continua)\n\n\n\nInstrumento\n% calificación\n\n\n\n\n2 Pruebas teóricas\n45%\n\n\nMini-entregas prácticas\n35%\n\n\nTrabajo en equipo\n10%\n\n\nParticipación activa\n10%\n\n\n\n\nPruebas teóricas: La nota final es la media de ambos exámenes. La fecha es inamovible salvo causa de fuerza mayor bien justificada y con antelación\nMini-entregas prácticas: Se evalúan a través de los commits al repositorio del caso práctico. En cada clase se fijan unos objetivos que deben cumplirse antes de su finalización. Los commits realizados después de la clase pero antes del examen del bloque correspondiente tienen una penalización de 50%; pasado ese examen, no se consideran.\nTrabajo en equipo: Se desarrolla a lo largo del semestre, y se presenta en clase en la última sesión.\nParticipación activa: Debe ser voluntaria; no cuenta si se solicita de manera forzada.\n\n\nConsejo | Asiste a clase, trabaja en tiempo y forma, haz tus lecturas y participa, y todo irá bien 🥰.\n\nEvaluación extraordinaria\nExamen teórico y examen práctico relativos a los contenidos desarrollados en el temario, cada uno al 50% de la nota.\nEvaluación única final\nDe acuerdo con el artículo 6.2 de la Normativa de Evaluación y de Calificación de los Estudiantes de la UGR, consiste en un examen teórico y un examen práctico, cada uno al 50% de la nota. Toda la información está disponible en la guía docente. Si contactas conmigo a tiempo (inicio de curso) podemos ver cómo abordar esto.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#uso-de-ia-en-la-asignatura",
+    "href": "index.html#uso-de-ia-en-la-asignatura",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Uso de IA en la asignatura",
+    "text": "Uso de IA en la asignatura\nEsta asignatura incorpora el uso de herramientas de IA como parte de las actividades prácticas (p. ej. construcción asistida de cuadros de mando). Se espera un uso ético y responsable de las mismas, siguiendo las Recomendaciones para el uso de la inteligencia artificial en la UGR.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#software-libre",
+    "href": "index.html#software-libre",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Software libre",
+    "text": "Software libre\nSe podrá emplear software libre como R/RStudio para el análisis de datos y la elaboración de indicadores y cuadros de mando, combinado en su caso con hojas de cálculo y herramientas de inteligencia artificial.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "index.html#contacto",
+    "href": "index.html#contacto",
+    "title": "Análisis y Evaluación de Sistemas de Documentación para la Empresa",
+    "section": "Contacto",
+    "text": "Contacto\nToda la comunicación, entrega de ejercicios y prácticas, etc. la vamos a canalizar a través de PRADO o en las clases. También tienes la opción de acudir a tutoría presencial. Estoy en el despacho I y mi horario de tutorías es lunes y miércoles de 9 a 12, pero podemos acordar otros horarios si esos no os vienen bien.",
+    "crumbs": [
+      "Más sobre mí",
+      "Presentación de la asignatura"
+    ]
+  },
+  {
+    "objectID": "tema0/sesion1.html",
+    "href": "tema0/sesion1.html",
+    "title": "Presentación de la asignatura",
     "section": "",
-    "text": "En esta sesión nos introducimos en la distinción entre los conceptos de dato, información, conocimiento y documento. Al final de esta sesión no solo deberías entender dicha distinción, sino además ser capaz de identificarlos en un caso real, así como describir los diferentes flujos de información que tienen lugar en una organización y cómo se canalizan.",
+    "text": "Diapositivas de clase — (enlace a las slides de este tema)"
+  },
+  {
+    "objectID": "tema0/sesion1.html#contenidos-teoricos",
+    "href": "tema0/sesion1.html#contenidos-teoricos",
+    "title": "Presentación de la asignatura",
+    "section": "Contenidos teoricos",
+    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)"
+  },
+  {
+    "objectID": "tema0/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "href": "tema0/sesion1.html#ejercicio-titulo-del-ejercicio",
+    "title": "Presentación de la asignatura",
+    "section": "Ejercicio: (titulo del ejercicio)",
+    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
+  },
+  {
+    "objectID": "tema1/sesion2.html",
+    "href": "tema1/sesion2.html",
+    "title": "Tipos y funciones de los sistemas de información",
+    "section": "",
+    "text": "La clave de contar con un sistema de información que mejore los procesos de trabajo y ayude a la toma estratégica de decisiones de una organización no es tanto la tecnología empleada, sino un diseño coherente y adaptado a los objetivos y los procesos de trabajo de la organización. De esta manera, antes de poder analizar y evaluar el funcionamiento de un sistema de información dentro de una empresa, es esencial identificar dichos procesos y ver cómo son recogidos por el sistema de información.\nNo hay un modelo único de organización del sistema de información de una organización, ya que estos variarán en función de la naturaleza la organización (no es lo mismo una zapatería de barrio, que una fábrica textil o una multinacional tecnológica). Por ello lo primero será identificar:\n\nLos productos y servicios que ofrece la organización.\nLos objetivos estratégicos y económicos que persigue la empresa en el corto, medio y largo plazo.\nLos procesos operativos y organizacionales que lleva a cabo la institución.\nCon qué recursos cuenta la institución y cómo se distribuyen.\nCómo se monitoriza el rendimiento y funcionamiento de la organización.\n\nA esta visión del funcionamiento interno de la organización habrá que añadir una visión externa de los principales agentes con los que interacciona y coexiste la institución. Algo que McGee y Prusak (1993) mapean del siguiente modo:\n\n\n\nMcGee, J. V., & Prusak, L. (1993). Managing information strategically. John Wiley & Sons, pp. 26",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Dato, información y documento"
+      "Tipos y funciones de los sistemas de información"
     ]
   },
   {
-    "objectID": "tema1/sesion1.html#lectura-y-debate-en-clase",
-    "href": "tema1/sesion1.html#lectura-y-debate-en-clase",
-    "title": "Dato, información y documento",
-    "section": "Lectura y debate en clase",
-    "text": "Lectura y debate en clase\nChávez Montejo, Y., & Pérez Sousa, H. (2013). Gestión documental, Gestión de información y Gestión del conocimiento: Nociones e interrelaciones. Bibliotecas. Anales de Investigación, (8-9), 222-227.\nAdopta una actitud crítica durante su lectura y presta especial atención a su distinción entre conceptos ¿estás de acuerdo con las definiciones que ofrece de dato, información y conocimiento?, ¿puedes pensar en ejemplos aplicados a un contexto real?",
+    "objectID": "tema1/sesion2.html#consideraciones-previas",
+    "href": "tema1/sesion2.html#consideraciones-previas",
+    "title": "Tipos y funciones de los sistemas de información",
+    "section": "",
+    "text": "La clave de contar con un sistema de información que mejore los procesos de trabajo y ayude a la toma estratégica de decisiones de una organización no es tanto la tecnología empleada, sino un diseño coherente y adaptado a los objetivos y los procesos de trabajo de la organización. De esta manera, antes de poder analizar y evaluar el funcionamiento de un sistema de información dentro de una empresa, es esencial identificar dichos procesos y ver cómo son recogidos por el sistema de información.\nNo hay un modelo único de organización del sistema de información de una organización, ya que estos variarán en función de la naturaleza la organización (no es lo mismo una zapatería de barrio, que una fábrica textil o una multinacional tecnológica). Por ello lo primero será identificar:\n\nLos productos y servicios que ofrece la organización.\nLos objetivos estratégicos y económicos que persigue la empresa en el corto, medio y largo plazo.\nLos procesos operativos y organizacionales que lleva a cabo la institución.\nCon qué recursos cuenta la institución y cómo se distribuyen.\nCómo se monitoriza el rendimiento y funcionamiento de la organización.\n\nA esta visión del funcionamiento interno de la organización habrá que añadir una visión externa de los principales agentes con los que interacciona y coexiste la institución. Algo que McGee y Prusak (1993) mapean del siguiente modo:\n\n\n\nMcGee, J. V., & Prusak, L. (1993). Managing information strategically. John Wiley & Sons, pp. 26",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Dato, información y documento"
+      "Tipos y funciones de los sistemas de información"
     ]
   },
   {
-    "objectID": "tema1/sesion1.html#la-necesidad-de-gestionar-flujos-de-información",
-    "href": "tema1/sesion1.html#la-necesidad-de-gestionar-flujos-de-información",
-    "title": "Dato, información y documento",
-    "section": "La necesidad de gestionar flujos de información",
-    "text": "La necesidad de gestionar flujos de información\nLa creación, gestión y evaluación de sistemas de información en la empresa surge de la necesidad de controlar flujos de información con el fin de:\n\nMaximizar esfuerzos y auditar servicios\nAsegurar transparencia y reproducibilidad de procesos\nAprovechar el capital humano de la organización\nControlar satisfacción del personal y clientes\n\nPara ello se establecen sistemas de gestión que no se centren únicamente en el control de flujos de documentos, sino que vayan un poco más allá y permitan la gestión de información con el fin de facilitar la toma de decisiones estratégica.\nEs importante tener muy clara la distinción entre los siguientes conceptos:\n\nDocumento\n\nSoporte fijo y formal que registra información para su transmisión y recuperación posterior. Normalmente a través de los metadatos del mismo es posible establecer la autoría, fecha, etc., haciéndolo identificable y recuperable por cualquiera, no solo por quien lo generó.\n\nDato\n\nHecho o valor suelto, sin contexto: un número, una fecha, un nombre aislado. No dice nada por sí mismo.\n\nInformación\n\nEl dato ya con estructura y contexto, que responde a una pregunta concreta (quién, cuánto, cuándo).\n\nConocimiento\n\nInformación interiorizada e integrada con la experiencia y conocimiento tácito de quien la consume, que permite entender implicaciones y actuar a la misma.\n\n\n\nTipo de flujos de información\nDesde el punto de vista del análisis y la evaluación de sistemas de información, será importante considerar dos tipos de flujos de información:\nFlujos de información externa. Se refiere a información ajena a la organización pero que afecta directa o indirectamente a su devenir futuro y debe ser considerada de cara a la planificación estratégica de la misma. Aquí encontramos dos tipos de flujos de información:\n\nInformación ambiental. Aquella relacionada con aspectos importantes a monitorizar por parte de la empresa (e.g., desarrollos científico-técnicos, posibles competidores, identificación de talento).\nPercepción del usuario/cliente potencial y real. Sería todo lo relacionado con la satisfacción del usuario, percepción de la calidad de los servicios o el valor de la marca empresarial.\n\nFlujos de información interna. Se refiere a la información que transcurre dentro de la propia organización. Un sistema de información eficiente deberá contemplar la existencia de dos tipos de flujos de información:\n\nFlujos formales. Se trata de aquellos de carácter oficial como una notificación, un informe interno, una comunicación o una confirmación escrita de una decisión.\nFlujos informales. Se trata de aquellos que no siguen los cauces considerados como oficiales y por tanto, tienen menor trazabilidad. Desde conversaciones de cafetería a mensajes de WhatsApp o Slack a correos entre compañeros. Aunque no tenga una validez como tales, pueden tener en muchos casos un gran valor para la empresa.",
+    "objectID": "tema1/sesion2.html#fases-de-la-gestión-de-información",
+    "href": "tema1/sesion2.html#fases-de-la-gestión-de-información",
+    "title": "Tipos y funciones de los sistemas de información",
+    "section": "Fases de la gestión de información",
+    "text": "Fases de la gestión de información\nUna vez identificados los agentes, habría que identificar las diferentes tareas del proceso de gestión de la información.\n\nIdentificación de necesidades y requisitos. La tarea más importante (¡y olvidada en muchas ocasiones!). No hay que presuponer nada a priori, sino empezar buscando de qué información disponemos y hasta qué punto es recuperable.\nAnálisis documental. Se trata de la parte de procesamiento, categorización y organización de la información para hacerla recuperable. Aquí es clave que el sistema se adapte al usuario y no al revés.\nDesarrollo de servicios. No basta con que la información sea recuperable, sino digerible y utilizable. Para ello habrá que contemplar el desarrollo de informes, sistemas de alertas, guías, etc. Es lo que tradicionalmente en bibliotecas se conoce como Difusión Selectiva de la Información (DSI).\nDistribución y difusión de servicios. Esta fase final consiste en la adopción de una aproximación proactiva al usuario, en muchos casos anticipándonos a sus necesidades y haciéndoles llegar los servicios que se ofrecen.\n\nSe trata de un modelo cíclico y no lineal, donde una vez se distribuyen servicios, se analiza y evalúan nuevamente las necesidades de información para seguir mejorando, modificando y readaptando los servicios al usuario.",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Dato, información y documento"
+      "Tipos y funciones de los sistemas de información"
     ]
   },
   {
-    "objectID": "tema1/sesion1.html#evolución-histórica-de-la-gestión-documental-al-conocimiento",
-    "href": "tema1/sesion1.html#evolución-histórica-de-la-gestión-documental-al-conocimiento",
-    "title": "Dato, información y documento",
-    "section": "Evolución histórica: de la gestión documental al conocimiento",
-    "text": "Evolución histórica: de la gestión documental al conocimiento\nLos sistemas de gestión documental. Los sistemas documentales surgen a mediados del S. XX como una respuesta a la “explosión documental” de posguerra, en parte vinculada con la asimilación por parte de Estados Unidos de la literatura científica y técnica que desarrollaron por un lado y que por otro incautaron a la Alemania Nazi.\nEl problema es de organización puramente documental. El objetivo es organizar, clasificar y recuperar toda la documentación de la manera más efectiva. Es el momento de máximo desarrollo de lenguajes documentales y el inicio de los sistemas de recuperación de información.\n\n\n\n\nVannevar Bush fue director de la U.S. Office of Scientific Research and Development y el responsable de la creación y modernización del sistema científico nacional de los Estados Unidos. Además, fue uno de los grandes actores en el desarrollo de la gestión de la información científica, además, su ensayo As we may think sirvió de inspiración para el futuro desarrollo de la World Wide Web.\n\n\n\nLos sistemas de gestión de información. Sin embargo, la industrialización y el gran crecimiento económico de los 80 llevan a las empresas a ampliar el nivel de alcance de los flujos documentales, desarrollando sistemas que pretenden gestionar la información más allá del soporte en el que ésta se encuentre. Todo esto también tiene lugar en un momento de desarrollo tecnológico con la expansión de la computadora previo al salto al ordenador personal de los años 90.\nConviven dos tradiciones distintas:\n\nUna gestión de información orientada a la tecnología: gestión de datos, sistemas de información, uso estratégico de las Tecnologías de la Información.\nUna gestión orientada al contenido: gestión de registros (records management), servicios de recuperación de información, gestión centrada en el usuario.\n\nEstas dos corrientes confluyen en los actuales sistemas de información.\nLos sistemas de gestión del conocimiento. A mediados de los 90 se añade una nueva capa que ya no se limita a monitorizar y controlar los flujos de información en la empresa, sino que busca gestionar las prácticas de trabajo que permiten generar y compartir conocimiento a partir de esa información: cómo aprende la organización, cómo se retiene el saber hacer cuando alguien se va, y cómo se convierte experiencia individual en activo colectivo. Es también el momento en que se empieza a hablar de gestionar activos intangibles (capital humano, capital estructural) como parte del valor real de la empresa, más allá de sus activos físicos y financieros\n\nNueva tecnología para la gestión de conocimiento\nA cada uno de estos cambios le acompaña el desarrollo de software (mucho del cuál se emplea actualmente en las empresas) dirigido a cada una de las capas que se van añadiendo.\n\n\n\nCambio ➡️ Solución\nNueva tecnología\nEjemplo\n\n\n\n\nDel documento a la información\nDigitalización del papel (imaging) y gestión de contenido no textual (multimedia). Aparecen las funciones básicas del EDMS: capturar, indexar, almacenar, recuperar y distribuir documentos.\nOpenKM\n\n\nRecuperación de información\nIndexación manual o automática, operadores booleanos, medidas de precisión y exhaustividad.\nDialog | Solr | Elasticsearch\n\n\nGroupWare\nComunicación, trabajo colaborativo, gestión de clientes, gestión de equipos\nSlack | Nextcloud\n\n\nAutomatización de procesos\nGestión de transacción, gestión administrativa y documnetal\nCamunda\n\n\nGestión del conocimiento y recuperación de información interna\nHerramientas de KM desarrolladas específicamente para generación de conocimiento y no tanto GroupWare (que también las incluyen\nNotion | Wiki.js",
+    "objectID": "tema1/sesion2.html#tipos-de-sistemas-de-información",
+    "href": "tema1/sesion2.html#tipos-de-sistemas-de-información",
+    "title": "Tipos y funciones de los sistemas de información",
+    "section": "Tipos de sistemas de información",
+    "text": "Tipos de sistemas de información\nDentro de una misma organización, no toda la informaicón se necesita de la misma forma.\n\n🛒 Un cajero de supermercado necesita que el sistema registra la venta al instante,\n👩‍💼el gerente necesita ver esas ventas agregadas por supermercado a fin de mes,\n🏪la dirección necesita curzar esas cifras con lo que está pasando en el mercado para ver si es viable abrir otro supermercado.\n\nSon tres necesidades de información completamente distintas, y por eso se suelen resolver con sistemas distintos de gestión de la información, aunque muchas veces beban de la misma fuente.\nHay tres tipos de sistemas de información:\n\nSistemas transaccionales (Transaction Processing Systems, TPS). Registran las operaciones rutinarias del día a día, una por una, con rapidez y exactitud. No interpretan ni resumen nada; solo dejan constancia de que algo ha ocurrido.\nSistemas de gestión y apoyo de decisiones (Management Information Systems/Decision Support Systems, MIS/DSS). Toman los datos que generan los sistemas transaccionales y los agregan en informes útiles para quien gestiona un área.\nSistemas de apoyo ejecutivo (Executive Support Systems, ESS). Combinan información interna ya agregada con información externa para decisiones estratégicas de medio-largo plazo.\n\n\n\n\n\n\n\n\n\n\nTipo\nNivel\nQué hace\nEjemplo\n\n\n\n\nTransaccional (TPS)\nOperativo\nRegistra cada operación en el momento en que ocurre\nCaja registradora de un supermercado\n\n\nGestión / apoyo a la decisión (MIS/DSS)\nTáctico\nAgrega esos datos en informes para quien gestiona un área\nInforme mensual de ventas por tienda para el gerente regional\n\n\nApoyo a ejecutivos (ESS)\nEstratégico\nCruza datos internos con información externa para decisiones de largo alcance\nInforme para decidir la apertura de una nueva tienda",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Dato, información y documento"
+      "Tipos y funciones de los sistemas de información"
     ]
   },
   {
-    "objectID": "tema1/sesion1.html#sistemas-de-gestión-y-principales-características",
-    "href": "tema1/sesion1.html#sistemas-de-gestión-y-principales-características",
-    "title": "Dato, información y documento",
-    "section": "Sistemas de gestión y principales características",
-    "text": "Sistemas de gestión y principales características\n\nSistema documental\n\nConjunto organizado de procesos y recursos para producir, clasificar, almacenar, recuperar y conservar documentos; unidad de gestión = el documento como soporte formal.\n\nSistema de información\n\nConjunto que integra infraestructura tecnológica, sistemas y uso de la información; unidad de gestión = la información, estructurada o no, con el objetivo de ponerla en el lugar y momento adecuados. A diferencia del sistema documental, no se limita a la información ya registrada;\n\n\n\nflujo formal, un informe, una base de datos sino que tiene que dar cuenta también de la que circula sin canal oficial\nflujo informal, un comentario de pasillo, un aviso verbal. De ahí que su alcance sea mayor pero también más difícil de controlar.\n\nSistema de conocimiento\n\nConjunto de prácticas, procesos y tecnologías para capturar, compartir y generar conocimiento organizativo. Matiz importante para clase: en sentido estricto el conocimiento solo existe en la mente (Wilson 2002), así que lo que realmente se gestiona son las prácticas de trabajo y los repositorios de información codificada que facilitan que ese conocimiento circule.\n\n\n\n\n\n\n\n\n\nSistema documental\nSistema de información\nSistema de conocimiento\n\n\n\n\nUnidad de gestión\nEl documento\nLa información (datos + documentos)\nLas prácticas de trabajo\n\n\nFoco\nCiclo de vida del documento\nInfraestructura, sistemas y uso\nGeneración y compartición\n\n\nTecnología típica\nImaging, indexación, IR\nBases de datos, sistemas de información\nGroupWare, KM tools, agentes\n\n\nDisciplina de origen\nRecords management / Documentación\nInformation Systems / Business Informatics\nCiencias organizacionales\n\n\nFormalización\nAlta (soporte estable)\nMedia-alta\nBaja (Wersig: solo formalizar donde es esencial)\n\n\nLimitación principal\nNo cubre información no documental (verbal, informal)\nNo garantiza que la información se convierta en conocimiento usable\nNo es gestionable directamente — solo se gestiona su entorno",
+    "objectID": "tema1/sesion2.html#funciones-de-los-sistemas-de-información",
+    "href": "tema1/sesion2.html#funciones-de-los-sistemas-de-información",
+    "title": "Tipos y funciones de los sistemas de información",
+    "section": "Funciones de los sistemas de información",
+    "text": "Funciones de los sistemas de información\nPor funciones entendemos los requisitos que debe cumplir un sistema de gestión de la información, independientemente de la tipología. Aunque no todos los sistemas cumplirán todas las funciones, lo lógico es cumplan varias de ellas.\n\nApoyo a la toma de decisiones. Dotar de datos contextualizados al usuario para que pueda tomar una decisión informada ya sea rutinaria como de carácter estratégico. Desde reponer un producto, donde incluso la toma de decisiones puede automatizarse, hasta cuestiones de carácter estratégico para la organización.\nMemoria organizacional. Preservación y trazabilidad del conocimiento y procesos acumulados por la organización, de manera que la organización no sea vulnerable, por ejemplo, a la pérdida de capital humano, o que sea capaz de recuperar y contrastar situaciones pasadas con la actual para repetir, reevaluar o modificar estrategias comerciales (e.g., una campaña publicitaria).\nCoordinación entre unidades. Reducir la incertidumbre que surge cuando distintas partes de la organización dependen unas de otras. Por ejemplo cuando tienen lugar procesos en los deben intervenir diferentes departamentos dentro de una multinacional que están localizados en diferentes países y que no siempre interactúan dentro del mismo marco de trabajo.\n\n\n\n\n\n\n\n\n\nFunción\nQué resuelve\nEjemplo\n\n\n\n\nApoyo a la decisión\nDar la información que una decisión necesita\nAviso automático cuando un proyecto se acerca al límite de horas presupuestadas\n\n\nMemoria organizacional\nQue el conocimiento no se pierda cuando alguien se va\nBase de casos de proyectos anteriores, consultable por cualquier consultor nuevo\n\n\nCoordinación entre unidades\nQue la información fluya entre partes interdependientes sin intervención manual\nLa asignación de un consultor a un proyecto activa automáticamente su facturación",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Dato, información y documento"
+      "Tipos y funciones de los sistemas de información"
     ]
   },
   {
-    "objectID": "tema1/sesion1.html#tareas",
-    "href": "tema1/sesion1.html#tareas",
-    "title": "Dato, información y documento",
+    "objectID": "tema1/sesion2.html#tareas",
+    "href": "tema1/sesion2.html#tareas",
+    "title": "Tipos y funciones de los sistemas de información",
     "section": "Tareas",
-    "text": "Tareas\n\nCaso de trabajo: Biblioteca del Colegio Máximo (UGR).\nAntes de empezar, familiarizaos con la biblioteca a través de:\n\nFicha oficial de la biblioteca\nEstructura, equipamiento y fondos (superficie, nº de ordenadores y puestos, temáticas por facultad, sistema de clasificación)\n\nDe forma individual, en vuestra página del wiki:\n\nUn dato real: un valor suelto que podáis extraer de la ficha o de una consulta al catálogo (por ejemplo, una cifra, una fecha, un código de clasificación). Debe ser un dato concreto, no una descripción.\nUn documento real: algo con soporte, autoría y metadatos identificables — puede ser del propio catálogo de la biblioteca, o un documento de la propia ficha oficial que acabáis de consultar.\nClasificación: justificad en 2-3 líneas por qué lo que habéis elegido en 1 es dato y no información, y por qué lo de 2 es documento y no solo información.\nUn flujo formal y uno informal: pensad en cómo funciona realmente una biblioteca de este tipo (préstamo, catalogación, consultas al personal, quejas, recomendaciones entre estudiantes…) y proponed un ejemplo de cada uno, explicando por qué lo clasificáis así.\n\nNo hace falta que uséis literalmente algo de los enlaces — son punto de partida para que no partáis de cero, no la respuesta ya dada. Si encontráis otra fuente sobre la biblioteca que os sirva mejor, usadla y citadla.",
+    "text": "Tareas\n\nCon esta tarea cerráis el Tema 1. Al terminar, deberíais poder describir sus servicios, identificar los flujos de información que la atraviesan, y caracterizar los sistemas y funciones que la sostienen.\nFase 1 — Individual, en el wiki\nCada uno, por separado, completa:\n1.Servicios: listad y describid brevemente 3 servicios reales que ofrece la biblioteca (consultad la ficha de servicios de la BUG y la guía temática del Colegio Máximo).\n\nTipos de sistema: investigad qué sistema de gestión bibliotecaria (ILS) usa la BUG para catálogo y préstamo. ¿En cuál de los tres tipos (TPS / MIS-DSS / ESS) lo situaríais, y por qué? Pista: un mismo sistema puede tener módulos de más de un tipo — no busquéis una respuesta única y cerrada.\nFunciones: encontrad un ejemplo real (o razonablemente inferido) de apoyo a la decisión, memoria organizacional y coordinación en el funcionamiento de esta biblioteca.\n\nFase 2 — En grupo\nPoned en común vuestras respuestas, integradlas y discutid y acordad de cara a preparar la página de descripción de la Biblioteca del Colegio Máximo de Cartujo, servicios, tipos de sistemas de información y funciones.\nFase 3 — Página final\nEntre todos, consolidáis una única síntesis en index.qmd (o la página que corresponda), integrando lo mejor de las aportaciones individuales. Esta página cierra el Tema 1.",
     "crumbs": [
       "Más sobre mí",
       "T1 El sistema de información empresarial",
-      "Dato, información y documento"
+      "Tipos y funciones de los sistemas de información"
     ]
   },
   {
-    "objectID": "tema2/sesion1.html",
-    "href": "tema2/sesion1.html",
-    "title": "El concepto de calidad y sus dimensiones",
+    "objectID": "tema2/sesion2.html",
+    "href": "tema2/sesion2.html",
+    "title": "Gestión de la calidad",
     "section": "",
-    "text": "Como paso previo a analizar el funcionamiento de un sistema de información, es importante abordar el concepto de calidad, que deberemos definir de manera clara y unívoca de manera que tengamos claro qué es exactamente aquello que vamos a evaluar.\nLa calidad es normalmente definida como un conjunto de propiedades inherente a algo que nos permiten juzgar su valor. Ese conjunto de propiedades vendrá definido de manera relativa al objeto, de manera que buscaremos una serie de características distintas en un objeto en base al tipo de objeto a analizar.\n\nImagínate que estás analizando la calidad de un tenista 🎾. Para poder evaluar su rendimiento analizaríamos propiedades como:\n\nCondición física. Velocidad explosiva, aceleración, juego de pies, capacidad de reacción.\nTécnica y golpeo. Variedad de recursos, potencia de golpeo, consistencia (minimizando errores no forzados)\nInteligencia táctica y fortaleza mental. Anticipación, adaptabilidad, gestión emocional, resiliencia.\n\nAhora vamos a pensar en cómo analizar la calidad de un ajedrecista ♟️. Cambiaríamos por completo y miraríamos cosas tales como:\n\nVisión táctica. Capacidad de anticipación, identificación de patrones, velocidad mental.\nResistencia cognitiva. Capacidad de concentración extrema y trabajo bajo presión.\nReconocimiento de patrones visuales. Intuición para identificar patrones tácticos.\n\n\nPero además de variar según el tipo de objeto analizado, la calidad también puede variar según quién la juzgue. No es lo mismo preguntar si un sistema cumple su función que preguntar si quien lo usa queda satisfecho.En relación con el análisis de sistemas de gestión de la información, podríamos hablar de dos tipos de calidades o dimensiones de la misma:\n\nCalidad como requisito. Se trataría de la capacidad del sistema de responder a los objetivos para los que fue diseñado. Por ejemplo, un sistema de gestión de la información que permite archivar, clasificar y recuperar la información, cumpliría de manera formal con las expectativas que se tiene del mismo, independientemente de si la experiencia del usuario es mejor o peor.\nCalidad como adecuación al uso. En este caso nos centraríamos en la experiencia del usuario. Un ejemplo sería la satisfacción de los clientes de una compañía de telefonía con el servicio de atención al cliente.\n\nComo podéis ver hay un aspecto que se podría definir como objetivo, un sistema cumple con las funciones para las que se implantó o no funciona, y otro subjetivo, la satisfacción percibida. Ninguna de las dos dimensiones sustituye a la otra: un sistema puede cumplir perfectamente su especificación técnica y aun así generar insatisfacción en sus usuarios, o al contrario, ser percibido como satisfactorio pese a no cumplir del todo los requisitos para los que fue diseñado. Evaluar la calidad de un sistema de información exige, por tanto, atender a ambas caras por separado.",
+    "text": "Cuando una organización empieza a preocuparse por la calidad de su sistema de información, no aplica una evaluación profunda del sistema, sino que va analizando el sistema por etapas.\n\nInspección\n\nLa primera aproximación al sistema. Se revisan los flujos de información y se evalúa que funciona y qué no. Es un control reactivo y a posteriori, donde se identifican posibles problemas y sus causas. Todo el coste de haber generado flujos de información o procesos de registro de la información ya está asumido una vez se detecta el problema.\n\n\n\nEjemplo: un archivo revisa manualmente cada expediente antes de darlo por cerrado, detectando si falta algún documento o si la catalogación es incorrecta. El error ya se cometió al catalogar, solo se detecta y corrige al revisar.\n\n\nControl de calidad\n\nSe introducen procedimientos sistemáticos (checklists de validación, muestreo de registros, revisión por pares) para detectar desviaciones durante el proceso de gestión de la información, no solo al final. Sigue siendo un enfoque centrado en el proceso concreto (catalogación, indexación, archivo), pero ya permite corregir antes de que el error se propague a todo un lote de registros o documentos.\n\n\n\n\n\nEl salto siguiente es conceptual, no solo técnico: la calidad del sistema de información deja de ser un problema de un departamento (quien revisa) y pasa a entenderse como una responsabilidad de toda la organización que genera y usa esa información. Tres autores marcan este tránsito:\n\nW. Edwards Deming\n\nDifunde y sistematiza el ciclo PDCA (Plan-Do-Check-Act) como bucle de mejora continua, y la idea de que la mayoría de los errores de un sistema de información son responsabilidad del proceso o del diseño del flujo de trabajo, no del empleado que introduce el dato. Insiste en que la calidad se construye desde el diseño del proceso de gestión documental, no se inspecciona al final.\n\n\n\n\n\nCiclo iterativo PDCA\n\n\n\nJoseph Juran\n\nIntroduce la trilogía de la calidad: planificación, control y mejora de la calidad como tres procesos de gestión interrelacionados, y populariza la definición de calidad como “adecuación al uso” que ya vimos en Sesión 1 — su foco está en entender qué necesita realmente quien va a consultar o usar la información antes de fijar cómo debe organizarse o documentarse.\n\nPhilip Crosby\n\nFormula la idea de “cero defectos” y el principio de que “la calidad es gratis”: el coste de diseñar bien un proceso de catalogación o archivo desde el principio es siempre menor que el coste de corregir registros mal gestionados después (búsquedas fallidas, pérdida de documentos, decisiones basadas en información incorrecta). Es también quien más explícitamente define calidad como conformidad con los requisitos.\n\n\n\nLos tres coinciden en un punto que conviene remarcar: la calidad de un sistema de información no se analiza ni mejora “encontrando los registros mal hechos”, sino que se trata de una cuestión de diseño del sistema de gestión para evitar que se produzcan. Es el mismo desplazamiento que va de la inspección (reactiva) al control de calidad (durante el proceso) y, con ellos, a una gestión de la calidad que empieza antes de que exista el documento o registro.\n\nLa idea de incorporar en el diseño del sistema de información elementos que permitan mantener la calidad del mismo es lo que se desarrollará más adelante bajo el concepto de TQM o Gestión Total de la Calidad.",
     "crumbs": [
       "Más sobre mí",
       "T2 Calidad: concepto y evaluación",
-      "El concepto de calidad y sus dimensiones"
+      "Gestión de la calidad"
     ]
   },
   {
-    "objectID": "tema2/sesion1.html#nivel-técnico",
-    "href": "tema2/sesion1.html#nivel-técnico",
-    "title": "El concepto de calidad y sus dimensiones",
-    "section": "Nivel técnico",
-    "text": "Nivel técnico\nEste nivel tiene que ver con la capacidad del sistema de información para producir información. Es decir, analizará cuestiones tales como si se transmite una señal con precisión, si la información llega al receptor sin pérdida de calidad, sin caídas de red o ruido.\n\nEn un contexto de telecomunicaciones serían cosas tan básicas como si el servicio de videollamadas es estable y no corta la recepción, si el ancho de banda tiene la suficiente potencia para poder transmitir o si el sistema de recuperación de un catálogo carga rápido a la hora de responder a búsquedas de información.",
+    "objectID": "tema2/sesion2.html#de-la-inspección-al-control-de-calidad",
+    "href": "tema2/sesion2.html#de-la-inspección-al-control-de-calidad",
+    "title": "Gestión de la calidad",
+    "section": "",
+    "text": "Cuando una organización empieza a preocuparse por la calidad de su sistema de información, no aplica una evaluación profunda del sistema, sino que va analizando el sistema por etapas.\n\nInspección\n\nLa primera aproximación al sistema. Se revisan los flujos de información y se evalúa que funciona y qué no. Es un control reactivo y a posteriori, donde se identifican posibles problemas y sus causas. Todo el coste de haber generado flujos de información o procesos de registro de la información ya está asumido una vez se detecta el problema.\n\n\n\nEjemplo: un archivo revisa manualmente cada expediente antes de darlo por cerrado, detectando si falta algún documento o si la catalogación es incorrecta. El error ya se cometió al catalogar, solo se detecta y corrige al revisar.\n\n\nControl de calidad\n\nSe introducen procedimientos sistemáticos (checklists de validación, muestreo de registros, revisión por pares) para detectar desviaciones durante el proceso de gestión de la información, no solo al final. Sigue siendo un enfoque centrado en el proceso concreto (catalogación, indexación, archivo), pero ya permite corregir antes de que el error se propague a todo un lote de registros o documentos.",
     "crumbs": [
       "Más sobre mí",
       "T2 Calidad: concepto y evaluación",
-      "El concepto de calidad y sus dimensiones"
+      "Gestión de la calidad"
     ]
   },
   {
-    "objectID": "tema2/sesion1.html#nivel-semántico",
-    "href": "tema2/sesion1.html#nivel-semántico",
-    "title": "El concepto de calidad y sus dimensiones",
-    "section": "Nivel semántico",
-    "text": "Nivel semántico\nAquí pasamos a contenido, y lo que queremos evaluar no es sólo si el mensaje se ha transmitido y ha llegado del emisor al receptor, sino si el mensaje ha sido interpretado correctamente. Es decir, no basta con que la señal llegue intacta: el receptor tiene que entender lo que se le quiso decir.\n\nUn clásico ejemplo sería cuando intentas entrar en una página web y aparece el mensaje Error 404. Un usuario que no entienda el significado de este error puede pensar que se ha quedado sin Internet o que su ordenador está fallando y no que simplemente está intentando acceder a una página web que no existe. Para evitar este tipo de problemas a nivel semántico, mucho sitios rediseñan la página de error con mensajes tipo Ups, no encontramos esta página.",
+    "objectID": "tema2/sesion2.html#del-control-a-la-gestión-de-la-calidad",
+    "href": "tema2/sesion2.html#del-control-a-la-gestión-de-la-calidad",
+    "title": "Gestión de la calidad",
+    "section": "",
+    "text": "El salto siguiente es conceptual, no solo técnico: la calidad del sistema de información deja de ser un problema de un departamento (quien revisa) y pasa a entenderse como una responsabilidad de toda la organización que genera y usa esa información. Tres autores marcan este tránsito:\n\nW. Edwards Deming\n\nDifunde y sistematiza el ciclo PDCA (Plan-Do-Check-Act) como bucle de mejora continua, y la idea de que la mayoría de los errores de un sistema de información son responsabilidad del proceso o del diseño del flujo de trabajo, no del empleado que introduce el dato. Insiste en que la calidad se construye desde el diseño del proceso de gestión documental, no se inspecciona al final.\n\n\n\n\n\nCiclo iterativo PDCA\n\n\n\nJoseph Juran\n\nIntroduce la trilogía de la calidad: planificación, control y mejora de la calidad como tres procesos de gestión interrelacionados, y populariza la definición de calidad como “adecuación al uso” que ya vimos en Sesión 1 — su foco está en entender qué necesita realmente quien va a consultar o usar la información antes de fijar cómo debe organizarse o documentarse.\n\nPhilip Crosby\n\nFormula la idea de “cero defectos” y el principio de que “la calidad es gratis”: el coste de diseñar bien un proceso de catalogación o archivo desde el principio es siempre menor que el coste de corregir registros mal gestionados después (búsquedas fallidas, pérdida de documentos, decisiones basadas en información incorrecta). Es también quien más explícitamente define calidad como conformidad con los requisitos.\n\n\n\nLos tres coinciden en un punto que conviene remarcar: la calidad de un sistema de información no se analiza ni mejora “encontrando los registros mal hechos”, sino que se trata de una cuestión de diseño del sistema de gestión para evitar que se produzcan. Es el mismo desplazamiento que va de la inspección (reactiva) al control de calidad (durante el proceso) y, con ellos, a una gestión de la calidad que empieza antes de que exista el documento o registro.\n\nLa idea de incorporar en el diseño del sistema de información elementos que permitan mantener la calidad del mismo es lo que se desarrollará más adelante bajo el concepto de TQM o Gestión Total de la Calidad.",
     "crumbs": [
       "Más sobre mí",
       "T2 Calidad: concepto y evaluación",
-      "El concepto de calidad y sus dimensiones"
+      "Gestión de la calidad"
     ]
   },
   {
-    "objectID": "tema2/sesion1.html#nivel-efectivo-o-de-influencia",
-    "href": "tema2/sesion1.html#nivel-efectivo-o-de-influencia",
-    "title": "El concepto de calidad y sus dimensiones",
-    "section": "Nivel efectivo (o de influencia)",
-    "text": "Nivel efectivo (o de influencia)\n¿Provoca el mensaje el efecto deseado en el receptor? Es el nivel más exigente: no basta con transmitir bien un mensaje ni con que se entienda, debería cambiar algo en el comportamiento o la decisión del receptor.\n\nLa biblioteca publica anualmente un informe analizando a su comunidad de usuarios, identificando necesidades, proponiendo nuevas iniciativas y planes de acción, pero la dirección de la biblioteca no utiliza dicho documento para la toma de decisiones. Esto sería un fallo a nivel efectivo.\n\n\n\n\n\n\nflowchart LR\n  A[Nivel técnico] --&gt; B[Nivel semántico] --&gt; C[Nivel efectivo]\n\n\n\n\n\n\n\nPor qué importa esta jerarquía\n\nCada nivel presupone el anterior, no puede haber éxito a nivel semántico si falla el nivel técnico, ni éxito en el nivel efectivo si falla el semántico.",
+    "objectID": "tema2/sesion2.html#definición",
+    "href": "tema2/sesion2.html#definición",
+    "title": "Gestión de la calidad",
+    "section": "Definición",
+    "text": "Definición\nLa Gestión Total de la Calidad (Total Quality Management, TQM) es la generalización de las ideas de Deming, Juran y Crosby a toda la organización. No basta con que el departamento que gestiona la información (archivo, biblioteca, documentación) se preocupe por la calidad, tiene que ser un compromiso compartido por todas las áreas que generan, usan o dependen de esa información.\nSe puede definir como una filosofía de gestión que busca la mejora continua de todos los procesos de una organización mediante la implicación de todas las personas que la integran, con el objetivo último de satisfacer las necesidades de quienes usan lo que la organización produce. En nuestro caso, estos serán quienes consultan, archivan o toman decisiones a partir de un sistema de información.\n\nInspección vs. Control vs. Gestión\nLa inspección revisa el resultado; el control de calidad vigila el proceso; TQM implica a toda la organización, desde la dirección hasta quien introduce un registro en el sistema, en la prevención del error y en la mejora continua.",
     "crumbs": [
       "Más sobre mí",
       "T2 Calidad: concepto y evaluación",
-      "El concepto de calidad y sus dimensiones"
+      "Gestión de la calidad"
     ]
   },
   {
-    "objectID": "tema2/sesion1.html#las-seis-dimensiones-de-la-calidad",
-    "href": "tema2/sesion1.html#las-seis-dimensiones-de-la-calidad",
-    "title": "El concepto de calidad y sus dimensiones",
-    "section": "Las seis dimensiones de la calidad",
-    "text": "Las seis dimensiones de la calidad\n\n\n\n\n\n\n\n\nDimensión\nQué mide\nNivel de comunicación\n\n\n\n\nSystem Quality\nRendimiento técnico del sistema (fiabilidad, tiempo de respuesta, facilidad de uso)\nTécnico\n\n\nInformation Quality\nCalidad del contenido que produce el sistema (exactitud, relevancia, formato)\nSemántico\n\n\nUse\nGrado y forma en que se usa el sistema\nEfectivo\n\n\nUser Satisfaction\nGrado de satisfacción del usuario con el sistema\nEfectivo\n\n\nNet benefits\nImpacto neto, positivo o negativo para cada tipo de usuario\nEfectivo\n\n\n\nSystem Quality e Information Quality son las dos dimensiones objetivas de la calidad\nLas cuatro restantes son, en distinto grado, subjetivas o dependientes del usuario.",
+    "objectID": "tema2/sesion2.html#etapas-y-principios",
+    "href": "tema2/sesion2.html#etapas-y-principios",
+    "title": "Gestión de la calidad",
+    "section": "Etapas y principios",
+    "text": "Etapas y principios\nTQM no es una técnica única, sino un conjunto de principios que se aplican de forma conjunta1. Los más citados en la literatura son:\n\nOrientación al cliente/usuario\n\nToda decisión sobre cómo se organiza, cataloga o da acceso a la información debe partir de las necesidades reales de quien la va a usar, no de la comodidad interna de quien la gestiona.\n\nMejora continua\n\nNo se trata de alcanzar un estándar fijo y detenerse, sino de revisar y ajustar los procesos de forma constante. El ciclo PDCA que vimos con Deming aplicado de forma sistemática, no puntual.\n\nImplicación de todo el personal\n\nLa calidad no es responsabilidad exclusiva de un departamento de calidad o de quien supervisa el sistema: cada persona que introduce, cataloga o consulta información es corresponsable de que esa información mantenga un nivel de calidad adecuado.\n\nEnfoque basado en procesos\n\nSe gestiona la organización como una red de procesos interrelacionados (captura de información, catalogación, archivo, acceso, eliminación) en lugar de como departamentos aislados. Un fallo en un proceso se entiende en relación con los procesos anteriores y posteriores, no de forma aislada.\n\nGestión basada en hechos\n\nLas decisiones sobre cómo mejorar el sistema se basan en datos y evidencia recogida del propio sistema (volumen de errores, tiempos de respuesta, quejas de usuarios), no en intuición o costumbre.\n\nRelaciones mutuamente beneficiosas\n\nSe extiende también a quienes proveen información o servicios a la organización (proveedores de bases de datos, empresas de digitalización, consultoras externas). La calidad del sistema depende también de la calidad de lo que entra desde fuera.\n\n\n\nAplicado al caso que estáis trabajando: un sistema de información con TQM no sería solo “la biblioteca cataloga bien”, sino que implicaría que el profesorado que solicita bibliografía, el personal de administración que gestiona presupuesto de fondos, y los propios usuarios que reportan incidencias, están todos integrados en el ciclo de mejora del sistema, no solo el personal bibliotecario.",
     "crumbs": [
       "Más sobre mí",
       "T2 Calidad: concepto y evaluación",
-      "El concepto de calidad y sus dimensiones"
+      "Gestión de la calidad"
     ]
   },
   {
-    "objectID": "tema2/sesion1.html#relación-entre-dimensiones",
-    "href": "tema2/sesion1.html#relación-entre-dimensiones",
-    "title": "El concepto de calidad y sus dimensiones",
-    "section": "Relación entre dimensiones",
-    "text": "Relación entre dimensiones\nLas seis dimensiones del modelo no son una lista de aspectos independientes que se evalúan por separado y se suman: están conectadas en una secuencia causal.\n\n\n\nModelo de Delone & McLean.\n\n\n\nLas tres calidades preceden al uso y la satisfacción\n\nSystem Quality, Information Quality y Service Quality son las variables de entrada del modelo. Describen el sistema tal como es, antes de que nadie lo use. Estas tres dimensiones influyen conjuntamente en dos variables:\n\n\n\nUse: en qué medida y de qué forma se usa el sistema.\nUser Satisfaction: el grado de satisfacción del usuario con esa experiencia.\n\n: Use y User Satisfaction se retroalimentan entre sí: usar más o mejor un sistema tiende a aumentar la satisfacción, y una mayor satisfacción tiende a incrementar el uso. No son la misma variable, pero tampoco son independientes.\n\nDe ahí a los beneficios\n\nEl uso y la satisfacción, combinados, generan Net Benefits: el impacto neto del sistema, positivo o negativo, para quien lo use.\n\n\nLa pregunta a responder sería “¿beneficio para quién, y a qué nivel de análisis?”. Puede ser un usuario individual, un departamento, toda la organización o, en contextos como el e-commerce, clientes, proveedores o la sociedad en su conjunto. El nivel de análisis no es un detalle menor: cambia qué cuenta como “beneficio”.\n\nEl bucle de retroalimentación\n\nEl modelo no termina en Net Benefits como un punto final. Los beneficios obtenidos (o la falta de ellos) condicionan si el usuario sigue utilizando el sistema y cómo de satisfecho sigue estando con él. Por tanto afectan a las dimensiones de Uso y Satisfacción del usuario.\n\nLa causalidad importa, no solo la lista\n\nUn sistema puede fallar en distintos puntos de la cadena y el diagnóstico cambia según dónde falle. Si la Calidad del sistema es baja, el problema es técnico y hay que corregirlo ahí. no tiene sentido mejorar la Calidad del servicio. Si las tres calidades son altas pero Uso es bajo, el problema no está en el sistema sino en la adopción y ahí la solución no es técnica, sino de formación, comunicación o incentivos.\n\nQué dimensión pesa más depende del contexto\n\nPara evaluar un sistema concreto, la Calidad del sistema y la Calidad de la información son determinantes, pero la importancia de cada una de estas dimensiones siempre dependerá del Sistema de Información evaluado.\n\n\n\n🏪 Un ejemplo con e-commerce\nEn una tienda online, System Quality (¿carga rápido, funciona sin errores?) e Information Quality (¿la ficha de producto es clara y completa?) determinan si el usuario navega y compra (Use) y si queda satisfecho con la experiencia (User Satisfaction).\nService Quality (¿responde bien el soporte si hay un problema con el pedido?) actúa en paralelo. El resultado (Net Benefits) se mide de forma distinta según para quién: ahorro de tiempo/dinero para el comprador, eficiencia de cadena de suministro para la empresa, crecimiento agregado si se mide a escala de toda una economía digital.",
+    "objectID": "tema2/sesion2.html#calidad-de-rendimiento",
+    "href": "tema2/sesion2.html#calidad-de-rendimiento",
+    "title": "Gestión de la calidad",
+    "section": "Calidad de rendimiento",
+    "text": "Calidad de rendimiento\nAquí nos centramos en la calidad como una serie de propiedades objetivas. Para poder identificar esas propiedades seguimos el modelo de Wang y Strong (1996)2, que se compone de 4 dimensiones:\n\nCalidad intrínseca\n\nEl dato tiene calidad en sí mismo, independientemente del contexto de uso: exactitud, credibilidad, objetividad, reputación de la fuente.\n\nCalidad contextual\n\nLa calidad depende de la tarea concreta para la que se necesita el dato: relevancia, valor añadido, oportunidad (que esté disponible cuando se necesita), completitud, cantidad adecuada de datos.\n\nCalidad representacional\n\nTiene que ver con el formato en que se presenta el dato: interpretabilidad, facilidad de comprensión, representación concisa y consistente.\n\nCalidad de accesibilidad\n\nEl dato debe ser accesible y el sistema que lo aloja debe ser seguro: facilidad de acceso, seguridad de acceso.",
     "crumbs": [
       "Más sobre mí",
       "T2 Calidad: concepto y evaluación",
-      "El concepto de calidad y sus dimensiones"
+      "Gestión de la calidad"
     ]
   },
   {
-    "objectID": "tema2/sesion1.html#parte-1-caracterizar-flujos-y-servicios-por-nivel",
-    "href": "tema2/sesion1.html#parte-1-caracterizar-flujos-y-servicios-por-nivel",
-    "title": "El concepto de calidad y sus dimensiones",
-    "section": "Parte 1 — Caracterizar flujos y servicios por nivel",
-    "text": "Parte 1 — Caracterizar flujos y servicios por nivel\nPara al menos tres flujos o servicios reales de la biblioteca (por ejemplo: préstamo, catalogación, consulta al catálogo online, formación de usuarios), identificar:\n\nUn elemento del nivel técnico: ¿qué tendría que fallar en la infraestructura para que este flujo no funcionara?\nUn elemento del nivel semántico: ¿qué podría hacer que, funcionando técnicamente, el usuario no entendiera o interpretara mal la información?\nUn elemento del nivel efectivo: ¿qué decisión o comportamiento del usuario depende de que este flujo funcione bien en los dos niveles anteriores?",
+    "objectID": "tema2/sesion2.html#calidad-percibida",
+    "href": "tema2/sesion2.html#calidad-percibida",
+    "title": "Gestión de la calidad",
+    "section": "Calidad percibida",
+    "text": "Calidad percibida\n\nServQual\nAquí nos centramos en la calidad como una serie de propiedades percibidas por el usuario. Para poder evaluarla, uno de los modelos más difundidos es ServQual3. ServQual nace originalmente para evaluar bancos, telecomunicaciones o empresas de reparación. Se basa en un modelo de brechas (gap model): la calidad percibida es la diferencia entre lo que el usuario esperaba del servicio y lo que percibe haber recibido.\n\n\n\n\n\nflowchart LR\n    A[Expectativa del usuario] --&gt; C{Brecha / Gap}\n    B[Percepción del servicio recibido] --&gt; C\n    C --&gt; D[Calidad percibida]\n\n    D -.-&gt;|Percepción ≥ Expectativa| E[Calidad alta]\n    D -.-&gt;|Percepción &lt; Expectativa| F[Calidad baja]\n\n\n\n\n\n\nEl modelo se compone de 5 dimensiones:\n\nFiabilidad (Reliability): capacidad de prestar el servicio prometido de forma consistente y precisa.\nCapacidad de respuesta (Responsiveness): disposición a ayudar a los usuarios y ofrecer un servicio rápido.\nSeguridad (Assurance): conocimiento y cortesía del personal, y su capacidad de transmitir confianza.\nEmpatía (Empathy): atención individualizada que se ofrece a cada usuario.\nElementos tangibles (Tangibles): apariencia de las instalaciones, equipos, personal y materiales de comunicación.\n\n\n\nLibQual+\nPara el contexto bibliotecario existe un modelo adaptado, el cual se denomina LibQUAL+4. Este instrumento fue diseñado por la ARL (Association of Research Libraries) específicamente para bibliotecas universitarias y reorganiza las dimensiones anteriores en tres:\n\nTrato con el personal (Affect of Service), que fusiona de ServQual las dimensiones de fiabilidad, capacidad de respuesta, empatía y seguridad\nControl de la información (Information Control), que consiste en la facilidad para encontrar y acceder a la información que se necesita)\nLa biblioteca como espacio (Library as Place), que sería el espacio físico o virtual como lugar de estudio y trabajo; lo equivalente a los Elementos tangibles de ServQual.\n\n\nLibQUAL+ fusiona varias dimensiones de ServQual en una sola (Affect of Service) al observar en distintos estudios empíricos con usuarios que esas dimensiones tendían a percibirse juntas.\nLos usuarios rara vez distinguían entre si el personal fue fiable o si era empático al valorar el trato recibido. Es un ejemplo de cómo un instrumento genérico se ajusta con datos reales del sector al que se aplica, no solo por intuición.\n\n\n\n\n\nWang & Strong\nServQual / LibQUAL+\n\n\n\n\nQué mide\nCalidad del dato/sistema en sí\nCalidad percibida por el usuario\n\n\nTipo\nObjetiva\nSubjetiva\n\n\nCómo se mide\nAnálisis directo del sistema/datos\nEncuesta (expectativa vs. percepción)\n\n\nDimensiones\nIntrínseca, contextual, representacional, accesibilidad (4)\nFiabilidad, capacidad de respuesta, seguridad, empatía, tangibles (5) — o Affect of Service, Information Control, Library as Place en LibQUAL+ (3)\n\n\nOrigen\nSistemas de información (MIT, 1996)\nMarketing de servicios (1988), adaptado a bibliotecas por la ARL\n\n\nEnlace\nTexto completo (MIT)\nlibqual.org",
     "crumbs": [
       "Más sobre mí",
       "T2 Calidad: concepto y evaluación",
-      "El concepto de calidad y sus dimensiones"
+      "Gestión de la calidad"
     ]
   },
   {
-    "objectID": "tema2/sesion1.html#parte-2-inventario-de-documentación-disponible-por-dimensión",
-    "href": "tema2/sesion1.html#parte-2-inventario-de-documentación-disponible-por-dimensión",
-    "title": "El concepto de calidad y sus dimensiones",
-    "section": "Parte 2 — Inventario de documentación disponible por dimensión",
-    "text": "Parte 2 — Inventario de documentación disponible por dimensión\nUsando las fuentes ya localizadas en Tema 1 (ficha oficial, memorias, cualquier estadística publicada), clasificar qué documentación existe que permita evaluar cada una de las seis dimensiones de D&M para el caso. Formato sugerido: tabla con columnas Dimensión | Hay datos reales (sí/no) | Fuente.\n⚠️ Para esto podéis usar la IA siempre y cuando verifiquéis (yo recomendaría NotebookLM) para ayudaros a rastrear o resumir esta documentación, condición explícita: deben marcar qué dimensiones se quedan sin dato real, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.",
+    "objectID": "tema2/sesion2.html#parte-1-situar-el-caso-en-el-marco-tqm",
+    "href": "tema2/sesion2.html#parte-1-situar-el-caso-en-el-marco-tqm",
+    "title": "Gestión de la calidad",
+    "section": "Parte 1 — Situar el caso en el marco TQM",
+    "text": "Parte 1 — Situar el caso en el marco TQM\nSobre la Biblioteca del Colegio Máximo, identificar:\n\nQué etapa/principio de TQM reconocen ya en lo que saben del caso (por ejemplo: mejora continua vía memorias anuales, orientación a las dos comunidades de usuarios de Documentación y Odontología).\nQué principio falta por completo, o no hay evidencia de que se aplique (por ejemplo: implicación de todo el personal, relaciones con proveedores externos).",
     "crumbs": [
       "Más sobre mí",
       "T2 Calidad: concepto y evaluación",
-      "El concepto de calidad y sus dimensiones"
+      "Gestión de la calidad"
     ]
   },
   {
-    "objectID": "tema2/sesion1.html#footnotes",
-    "href": "tema2/sesion1.html#footnotes",
-    "title": "El concepto de calidad y sus dimensiones",
+    "objectID": "tema2/sesion2.html#parte-2-reclasificar-los-datos-objetivos-según-wang-strong",
+    "href": "tema2/sesion2.html#parte-2-reclasificar-los-datos-objetivos-según-wang-strong",
+    "title": "Gestión de la calidad",
+    "section": "Parte 2 — Reclasificar los datos objetivos según Wang & Strong",
+    "text": "Parte 2 — Reclasificar los datos objetivos según Wang & Strong\nUsando los datos objetivos ya recogidos (ficha oficial, memorias, estadísticas de Tema 1 y de la Sesión 1 de este tema), clasificarlos según las 4 dimensiones de Wang & Strong. Formato sugerido: tabla con columnas Dimensión | Hay datos reales que la respalden (sí/no) | Fuente.\nEl objetivo es identificar qué dimensión tiene datos reales y cuál no tiene ninguno. Ese hueco es la base directa de la tarea de Sesión 3, donde diseñaréis un instrumento tipo LibQUAL+ para cubrir precisamente lo que aquí quede sin dato objetivo.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Gestión de la calidad"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion2.html#footnotes",
+    "href": "tema2/sesion2.html#footnotes",
+    "title": "Gestión de la calidad",
     "section": "Notas",
-    "text": "Notas\n\n\nShannon, C., & Weaver, W. (1949). The Mathematical Theory of Communication. Urbana: University of Illinois Press.↩︎\nThe DeLone and McLean Model of Information Systems Success: A Ten-Year Update. (2003). Journal of Management Information Systems, 19(4), 9-30. https://doi.org/10.1080/07421222.2003.11045748↩︎",
+    "text": "Notas\n\n\nDale, B. G., Van der Wiele, T., & Van Iwaarden, J. (2007). Managing Quality (5th ed.). Blackwell↩︎\nWang, R. Y., & Strong, D. M. (1996). Beyond accuracy: What data quality means to data consumers. Journal of Management Information Systems, 12(4), 5–33. https://doi.org/10.1080/07421222.1996.11518099↩︎\nParasuraman, A., Zeithaml, V. A., & Berry, L. L. (1988). SERVQUAL: A multiple-item scale for measuring consumer perceptions of service quality. Journal of Retailing, 64(1), 12–40.↩︎\nAssociation of Research Libraries. LibQUAL+. https://www.libqual.org/↩︎",
     "crumbs": [
       "Más sobre mí",
       "T2 Calidad: concepto y evaluación",
-      "El concepto de calidad y sus dimensiones"
+      "Gestión de la calidad"
     ]
   },
   {

@@ -1,0 +1,198 @@
+---
+title: "Gestión de la calidad"
+---
+
+# Gestión de la Calidad
+
+## De la inspección al control de calidad
+
+Cuando una organización empieza a preocuparse por la calidad de su sistema de información, no aplica una evaluación profunda del sistema, sino que va analizando el sistema por etapas.
+
+**Inspección**
+
+: La primera aproximación al sistema. Se revisan los flujos de información y se evalúa que funciona y qué no. Es un control **reactivo** y *a posteriori*, donde se identifican posibles problemas y sus causas. Todo el coste de haber generado flujos de información o procesos de registro de la información ya está asumido una vez se detecta el problema.
+
+::: consejo
+Ejemplo: un archivo revisa manualmente cada expediente antes de darlo por cerrado, detectando si falta algún documento o si la catalogación es incorrecta. El error ya se cometió al catalogar, solo se detecta y corrige al revisar.
+:::
+
+**Control de calidad**
+
+: Se introducen procedimientos sistemáticos (checklists de validación, muestreo de registros, revisión por pares) para detectar desviaciones **durante** el proceso de gestión de la información, no solo al final. Sigue siendo un enfoque centrado en el proceso concreto (catalogación, indexación, archivo), pero ya permite corregir antes de que el error se propague a todo un lote de registros o documentos.
+
+## Del control a la gestión de la calidad
+
+El salto siguiente es conceptual, no solo técnico: la calidad del sistema de información deja de ser un problema de un departamento (quien revisa) y pasa a entenderse como una responsabilidad de toda la organización que genera y usa esa información. Tres autores marcan este tránsito:
+
+[**W. Edwards Deming**](https://en.wikipedia.org/wiki/W._Edwards_Deming)
+
+: Difunde y sistematiza el **ciclo PDCA** (Plan-Do-Check-Act) como bucle de mejora continua, y la idea de que la mayoría de los errores de un sistema de información son responsabilidad del proceso o del diseño del flujo de trabajo, no del empleado que introduce el dato. Insiste en que la calidad se construye desde el diseño del proceso de gestión documental, no se inspecciona al final.
+
+![Ciclo iterativo PDCA](/images/t2-pdca.png){fig-align="center" width="529"}
+
+[**Joseph Juran**](https://en.wikipedia.org/wiki/Joseph_M._Juran)
+
+: Introduce la **trilogía de la calidad**: planificación, control y mejora de la calidad como tres procesos de gestión interrelacionados, y populariza la definición de calidad como "adecuación al uso" que ya vimos en Sesión 1 — su foco está en entender qué necesita realmente quien va a consultar o usar la información antes de fijar cómo debe organizarse o documentarse.
+
+[**Philip Crosby**](https://en.wikipedia.org/wiki/Philip_B._Crosby)
+
+: Formula la idea de **"cero defectos"** y el principio de que "la calidad es gratis": el coste de diseñar bien un proceso de catalogación o archivo desde el principio es siempre menor que el coste de corregir registros mal gestionados después (búsquedas fallidas, pérdida de documentos, decisiones basadas en información incorrecta). Es también quien más explícitamente define calidad como **conformidad con los requisitos**.
+
+::: bonus
+Los tres coinciden en un punto que conviene remarcar: la calidad de un sistema de información no se analiza ni mejora "encontrando los registros mal hechos", sino que se trata de una cuestión de **diseño** **del sistema de gestión para evitar que se produzcan**. Es el mismo desplazamiento que va de la inspección (reactiva) al control de calidad (durante el proceso) y, con ellos, a una gestión de la calidad que empieza antes de que exista el documento o registro.
+:::
+
+La idea de incorporar en el diseño del sistema de información elementos que permitan mantener la calidad del mismo es lo que se desarrollará más adelante bajo el concepto de TQM o Gestión Total de la Calidad.
+
+# El sistema de Gestión Total de la Calidad (TQM)
+
+## Definición
+
+La Gestión Total de la Calidad (*Total Quality Management*, TQM) es la generalización de las ideas de Deming, Juran y Crosby a **toda la organización**. No basta con que el departamento que gestiona la información (archivo, biblioteca, documentación) se preocupe por la calidad, [tiene que ser un compromiso compartido por todas las áreas que generan, usan o dependen de esa información]{.mark}.
+
+Se puede definir como una filosofía de gestión que busca la mejora continua de todos los procesos de una organización mediante la implicación de todas las personas que la integran, con el objetivo último de satisfacer las necesidades de quienes usan lo que la organización produce. En nuestro caso, estos serán quienes consultan, archivan o toman decisiones a partir de un sistema de información.
+
+::: consejo
+**Inspección vs. Control vs. Gestión**
+
+La inspección revisa el resultado; el control de calidad vigila el proceso; TQM implica a **toda la organización**, desde la dirección hasta quien introduce un registro en el sistema, en la prevención del error y en la mejora continua.
+:::
+
+## Etapas y principios
+
+TQM no es una técnica única, sino un conjunto de principios que se aplican de forma conjunta^[Dale, B. G., Van der Wiele, T., & Van Iwaarden, J. (2007). *Managing Quality* (5th ed.). Blackwell]. Los más citados en la literatura son:
+
+**Orientación al cliente/usuario**
+
+: Toda decisión sobre cómo se organiza, cataloga o da acceso a la información debe partir de las necesidades reales de quien la va a usar, no de la comodidad interna de quien la gestiona.
+
+**Mejora continua**
+
+: No se trata de alcanzar un estándar fijo y detenerse, sino de revisar y ajustar los procesos de forma constante. El ciclo PDCA que vimos con Deming aplicado de forma sistemática, no puntual.
+
+**Implicación de todo el personal**
+
+: La calidad no es responsabilidad exclusiva de un departamento de calidad o de quien supervisa el sistema: cada persona que introduce, cataloga o consulta información es corresponsable de que esa información mantenga un nivel de calidad adecuado.
+
+**Enfoque basado en procesos**
+
+: Se gestiona la organización como una red de procesos interrelacionados (captura de información, catalogación, archivo, acceso, eliminación) en lugar de como departamentos aislados. Un fallo en un proceso se entiende en relación con los procesos anteriores y posteriores, no de forma aislada.
+
+**Gestión basada en hechos**
+
+: Las decisiones sobre cómo mejorar el sistema se basan en datos y evidencia recogida del propio sistema (volumen de errores, tiempos de respuesta, quejas de usuarios), no en intuición o costumbre.
+
+**Relaciones mutuamente beneficiosas**
+
+: Se extiende también a quienes proveen información o servicios a la organización (proveedores de bases de datos, empresas de digitalización, consultoras externas). La calidad del sistema depende también de la calidad de lo que entra desde fuera.
+
+::: bonus
+Aplicado al caso que estáis trabajando: un sistema de información con TQM no sería solo "la biblioteca cataloga bien", sino que implicaría que el profesorado que solicita bibliografía, el personal de administración que gestiona presupuesto de fondos, y los propios usuarios que reportan incidencias, están todos integrados en el ciclo de mejora del sistema, no solo el personal bibliotecario.
+:::
+
+# Instrumentos de medida de la calidad
+
+Hasta ahora hemos hablado de calidad de forma conceptual, TQM como filosofía de gestión. Pero para evaluar realmente un sistema de información necesitamos
+instrumentos concretos que permitan medirla. 
+
+⚠️ Recuerda: [la calidad tiene una cara objetiva y otra subjetiva, y cada una requiere un instrumento distinto]{.mark}.
+
+## Calidad de rendimiento
+
+Aquí nos centramos en la calidad como una serie de propiedades objetivas. Para poder identificar esas propiedades seguimos el modelo de Wang y Strong (1996)^[Wang, R. Y., & Strong, D. M. (1996). Beyond accuracy: What data quality means to data consumers. *Journal of Management Information Systems*, 12(4), 5–33. https://doi.org/10.1080/07421222.1996.11518099], que se compone de **4 dimensiones**:
+
+**Calidad intrínseca**
+
+: El dato tiene calidad en sí mismo, independientemente del contexto de uso: exactitud, credibilidad, objetividad, reputación de la fuente.
+
+**Calidad contextual**
+
+: La calidad depende de la tarea concreta para la que se necesita el dato: relevancia, valor añadido, oportunidad (que esté disponible cuando se
+necesita), completitud, cantidad adecuada de datos.
+
+**Calidad representacional**
+
+: Tiene que ver con el formato en que se presenta el dato: interpretabilidad, facilidad de comprensión, representación concisa y consistente.
+
+**Calidad de accesibilidad**
+
+: El dato debe ser accesible y el sistema que lo aloja debe ser seguro: facilidad de acceso, seguridad de acceso.
+
+## Calidad percibida
+
+### ServQual
+
+Aquí nos centramos en la calidad como una serie de propiedades percibidas por el usuario. Para poder evaluarla, uno de los modelos más difundidos es **ServQual**^[Parasuraman, A., Zeithaml, V. A., & Berry, L. L. (1988). SERVQUAL: A multiple-item scale for measuring consumer perceptions of service quality. Journal of Retailing, 64(1), 12–40.]. ServQual nace originalmente para evaluar bancos, telecomunicaciones o empresas de reparación. Se basa en un modelo de brechas (gap model): la calidad percibida es la diferencia entre lo que el usuario esperaba del servicio y lo que percibe haber recibido.
+
+```{mermaid}
+flowchart LR
+    A[Expectativa del usuario] --> C{Brecha / Gap}
+    B[Percepción del servicio recibido] --> C
+    C --> D[Calidad percibida]
+
+    D -.->|Percepción ≥ Expectativa| E[Calidad alta]
+    D -.->|Percepción < Expectativa| F[Calidad baja]
+```
+
+El modelo se compone de 5 dimensiones:
+
+- **Fiabilidad** (*Reliability*): capacidad de prestar el servicio prometido  de forma consistente y precisa.
+- **Capacidad de respuesta** (*Responsiveness*): disposición a ayudar a los  usuarios y ofrecer un servicio rápido.
+- **Seguridad** (*Assurance*): conocimiento y cortesía del personal, y su  capacidad de transmitir confianza.
+- **Empatía** (*Empathy*): atención individualizada que se ofrece a cada  usuario.
+- **Elementos tangibles** (*Tangibles*): apariencia de las instalaciones,  equipos, personal y materiales de comunicación.
+
+### LibQual+
+
+Para el contexto bibliotecario existe un modelo adaptado, el cual se denomina **LibQUAL+**^[Association of Research Libraries. LibQUAL+. https://www.libqual.org/]. Este instrumento fue diseñado por la ARL (Association of Research Libraries) específicamente para bibliotecas
+universitarias y reorganiza las dimensiones anteriores en tres:
+
+- *Trato con el personal* (**Affect of Service**), que fusiona de ServQual las dimensiones de fiabilidad, capacidad de respuesta, empatía y seguridad
+- *Control de la información* (**Information Control**), que consiste en la facilidad para encontrar y acceder a la información que se necesita)
+- *La biblioteca como espacio* (**Library as Place**), que sería el espacio físico o virtual como lugar de estudio y trabajo; lo equivalente a los Elementos tangibles de ServQual.
+
+::: bonus
+LibQUAL+ fusiona varias dimensiones de ServQual en una sola (*Affect
+of Service*) al observar en distintos estudios empíricos con usuarios que esas
+dimensiones tendían a percibirse juntas. 
+
+Los usuarios rara vez distinguían entre si el personal fue fiable o si era  empático al valorar el trato recibido. Es un ejemplo de cómo un instrumento genérico se ajusta con datos reales del sector al que se aplica, no solo por intuición.
+:::
+
+| | **Wang & Strong** | **ServQual / LibQUAL+** |
+|---|---|---|
+| **Qué mide** | Calidad del dato/sistema en sí | Calidad percibida por el usuario |
+| **Tipo** | Objetiva | Subjetiva |
+| **Cómo se mide** | Análisis directo del sistema/datos | Encuesta (expectativa vs. percepción) |
+| **Dimensiones** | Intrínseca, contextual, representacional, accesibilidad (4) | Fiabilidad, capacidad de respuesta, seguridad, empatía, tangibles (5) — o *Affect of Service*, *Information Control*, *Library as Place* en LibQUAL+ (3) |
+| **Origen** | Sistemas de información (MIT, 1996) | Marketing de servicios (1988), adaptado a bibliotecas por la ARL |
+| **Enlace** | [Texto completo (MIT)](https://web.mit.edu/tdqm/www/tdqmpub/beyondaccuracy_files/beyondaccuracy.html) | [libqual.org](https://www.libqual.org/) |
+
+---
+
+# Entregable
+
+::: ejercicio
+## Parte 1 — Situar el caso en el marco TQM
+
+Sobre la Biblioteca del Colegio Máximo, identificar:
+
+- Qué etapa/principio de TQM reconocen ya en lo que saben del caso (por
+  ejemplo: mejora continua vía memorias anuales, orientación a las dos
+  comunidades de usuarios de Documentación y Odontología).
+- Qué principio falta por completo, o no hay evidencia de que se aplique
+  (por ejemplo: implicación de todo el personal, relaciones con proveedores
+  externos).
+
+## Parte 2 — Reclasificar los datos objetivos según Wang & Strong
+
+Usando los datos objetivos ya recogidos (ficha oficial, memorias,
+estadísticas de Tema 1 y de la Sesión 1 de este tema), clasificarlos según
+las 4 dimensiones de Wang & Strong. Formato sugerido: tabla con columnas
+*Dimensión | Hay datos reales que la respalden (sí/no) | Fuente*.
+
+El objetivo es identificar qué dimensión tiene datos reales y cuál no tiene
+ninguno. Ese hueco es la base directa de la tarea de Sesión 3, donde
+diseñaréis un instrumento tipo LibQUAL+ para cubrir precisamente lo que aquí
+quede sin dato objetivo.
+:::

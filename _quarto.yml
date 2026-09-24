@@ -36,7 +36,7 @@ website:
       - section: "T2 Calidad: concepto y evaluación"
         contents:
           - tema2/sesion1.qmd
-          
+          - tema2/sesion2.qmd
       # - section: "3. Benchmarking"
       #   contents:
       #     - tema3/sesion1.qmd
