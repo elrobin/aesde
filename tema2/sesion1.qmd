@@ -6,12 +6,12 @@ title: "El concepto de calidad y sus dimensiones"
 
 Como paso previo a analizar el funcionamiento de un sistema de información, es importante abordar el concepto de *calidad*, que deberemos definir de manera clara y unívoca de manera que tengamos claro qué es exactamente aquello que vamos a evaluar.
 
-La calidad es normalmente definida como unconjunto de propiedades inherente a algo que nos permiten juzgar su valor. Ese conjunto de propiedades vendrá definido de manera relativa al objeto, de manera que buscaremos una serie de características distintas en un objeto en base al tipo de objeto a analizar.
+La calidad es normalmente definida como un conjunto de propiedades inherente a algo que nos permiten juzgar su valor. Ese conjunto de propiedades vendrá definido de manera relativa al objeto, de manera que buscaremos una serie de características distintas en un objeto en base al tipo de objeto a analizar.
 
 ::: bonus
 Imagínate que estás analizando la calidad de un tenista 🎾. Para poder evaluar su rendimiento analizaríamos propiedades como:
 
-- **Condición física**. Velocidad explosiva, acelración, juego de pies, capacidad de reacción.
+- **Condición física**. Velocidad explosiva, aceleración, juego de pies, capacidad de reacción.
 - **Técnica y golpeo**. Variedad de recursos, potencia de golpeo, consistencia (minimizando errores no forzados)
 - **Inteligencia táctica y fortaleza mental**. Anticipación, adaptabilidad, gestión emocional, resiliencia.
 
@@ -24,70 +24,117 @@ Ahora vamos a pensar en cómo analizar la calidad de un ajedrecista ♟️. Camb
 
 Pero además de variar según el tipo de objeto analizado, la calidad también puede variar según quién la juzgue. No es lo mismo preguntar si un sistema cumple su función que preguntar si quien lo usa queda satisfecho.En relación con el análisis de sistemas de gestión de la información, podríamos hablar de dos tipos de calidades o dimensiones de la misma:
 
-1. **Calidad como requisito**. Se trataría de la capacidad del sistema de responder a los objetivos para los que fue diseñado. Por ejemplo, un sistema de gestión de la información que permite archivar, clasificar y recuperar la información, cumpliría de manera formal con las expectativas que se tiene del mismo, independientemente de si la experiencia del usuario es mejor o peor.
-2. **Calidad como adecuación al uso**. En este caso nos centraríamos en la experiencia del usuario. Un ejemplo sería la satisfacción de los clientes de una compañía de telefonía con el servicio de atención al cliente.
+1.  **Calidad como requisito**. Se trataría de la capacidad del sistema de responder a los objetivos para los que fue diseñado. Por ejemplo, un sistema de gestión de la información que permite archivar, clasificar y recuperar la información, cumpliría de manera formal con las expectativas que se tiene del mismo, independientemente de si la experiencia del usuario es mejor o peor.
+2.  **Calidad como adecuación al uso**. En este caso nos centraríamos en la experiencia del usuario. Un ejemplo sería la satisfacción de los clientes de una compañía de telefonía con el servicio de atención al cliente.
 
-Como podéis ver hay un aspecto que se podría definir como _objetivo_ (un sistema cumple con las funciones para las que se implantó o no funciona) y otro _subjetivo_ (la satisfacción percibida). Ninguna de las dos dimensiones sustituye a la otra: un sistema puede cumplir perfectamente su especificación técnica y aun así generar insatisfacción en sus usuarios, o al contrario, ser percibido como satisfactorio pese a no cumplir del todo los requisitos para los que fue diseñado. **Evaluar la calidad de un sistema de información exige, por tanto, atender a ambas caras por separado**.
+Como podéis ver hay un aspecto que se podría definir como *objetivo*, [un sistema cumple con las funciones para las que se implantó o no funciona]{.mark}, y otro *subjetivo*, [la satisfacción percibida]{.mark}. Ninguna de las dos dimensiones sustituye a la otra: un sistema puede cumplir perfectamente su especificación técnica y aun así generar insatisfacción en sus usuarios, o al contrario, ser percibido como satisfactorio pese a no cumplir del todo los requisitos para los que fue diseñado. [**Evaluar la calidad de un sistema de información exige, por tanto, atender a ambas caras por separado**]{.underline}.
 
-Esta doble cara — objetiva/subjetiva — es el hilo que van a encontrar en todo el tema, primero en Shannon & Weaver, después en DeLone & McLean, y en la Sesión 2 en Wang & Strong frente a ServQual.
+# Los niveles de comunicación
 
-**Pregunta para abrir el debate en clase**: si les preguntáramos por separado a un estudiante de Comunicación y Documentación y a uno de Odontología qué es "un buen servicio" en la Biblioteca del Colegio Máximo, ¿responderían lo mismo? Dejar la pregunta abierta, sin resolverla — se resuelve más adelante, cuando lleguen a Service Quality/User Satisfaction.
+Para poder identificar esas distintas propiedades que tiene un servicio de gestión de la información, acudimos a la Teoría de la Comunicación de Shannon y Weaver[^1], que identifica tres niveles de comunicación: nivel técnico, semántico y efectivo.
 
-## 2. Los niveles de comunicación (Shannon & Weaver, 1949)
+[^1]: Shannon, C., & Weaver, W. (1949). The Mathematical Theory of Communication. Urbana: University of Illinois Press.
 
-Shannon y Weaver, trabajando sobre teoría de la información y transmisión de señales, distinguieron tres niveles en los que un acto comunicativo puede fallar o tener éxito. No hablaban de bibliotecas ni de empresas, pero el esquema se ha convertido en la base de cómo entendemos "calidad de la información" en cualquier sistema:
+## Nivel técnico
 
-### 2.1 Nivel técnico
+Este nivel tiene que ver con la capacidad del sistema de información para producir información. Es decir, analizará cuestiones tales como si se transmite una señal con precisión, si la información llega al receptor sin pérdida de calidad, sin caídas de red o ruido.
 
-¿Se transmite la señal con precisión? Problema de infraestructura: ¿llega el dato del emisor al receptor sin pérdida, sin ruido, sin caídas? En un sistema de información real: ¿funciona el catálogo, hay ancho de banda suficiente, se cae el servidor?
+::: consejo
+En un contexto de telecomunicaciones serían cosas tan básicas como si el servicio de videollamadas es estable y no corta la recepción, si el ancho de banda tiene la suficiente potencia para poder transmitir o si el sistema de recuperación de un catálogo carga rápido a la hora de responder a búsquedas de información.
+:::
 
-### 2.2 Nivel semántico
+## Nivel semántico
 
-¿Se interpreta correctamente el significado transmitido? No basta con que la señal llegue intacta — el receptor tiene que entender lo que se le quiso decir. Un catálogo que funciona perfectamente (nivel técnico resuelto) pero cuya clasificación temática es incomprensible para el usuario falla en el nivel semántico.
+Aquí pasamos a contenido, y lo que queremos evaluar no es sólo si el mensaje se ha transmitido y ha llegado del emisor al receptor, sino si el mensaje ha sido interpretado correctamente. Es decir, no basta con que la señal llegue intacta: el receptor tiene que entender lo que se le quiso decir.
 
-### 2.3 Nivel efectivo (o de influencia)
+::: consejo
+Un clásico ejemplo sería cuando intentas entrar en una página web y aparece el mensaje `Error 404`. Un usuario que no entienda el significado de este error puede pensar que se ha quedado sin Internet o que su ordenador está fallando y no que simplemente está intentando acceder a una página web que no existe. Para evitar este tipo de problemas a nivel semántico, mucho sitios rediseñan la página de error con mensajes tipo *Ups, no encontramos esta página*.
+:::
 
-¿Provoca el mensaje el efecto deseado en el receptor? Es el nivel más exigente: no basta con transmitir bien ni con que se entienda — tiene que cambiar algo en el comportamiento o la decisión del receptor. Un informe de biblioteca que se entiende perfectamente pero que nadie usa para tomar ninguna decisión ha fallado en el nivel efectivo, aunque los dos anteriores estén resueltos.
+## Nivel efectivo (o de influencia)
 
-**Por qué importa esta jerarquía**: cada nivel presupone el anterior — no puede haber éxito semántico si falla el técnico, ni éxito efectivo si falla el semántico. Esto es exactamente lo que van a reencontrar en D&M.
+¿Provoca el mensaje el efecto deseado en el receptor? Es el nivel más exigente: no basta con transmitir bien un mensaje ni con que se entienda, debería cambiar algo en el comportamiento o la decisión del receptor.
 
-## 3. El modelo DeLone & McLean (1992, actualizado 2003)
+::: consejo
+La biblioteca publica anualmente un informe analizando a su comunidad de usuarios, identificando necesidades, proponiendo nuevas iniciativas y planes de acción, pero la dirección de la biblioteca no utiliza dicho documento para la toma de decisiones. Esto sería un fallo a nivel efectivo.
+:::
 
-### 3.1 Las seis dimensiones del modelo
+```{mermaid}
+flowchart LR
+  A[Nivel técnico] --> B[Nivel semántico] --> C[Nivel efectivo]
+```
 
-DeLone y McLean revisaron 180 estudios sobre "éxito de sistemas de información" y propusieron seis dimensiones para ordenar ese campo disperso:
+**Por qué importa esta jerarquía**
 
-| Dimensión | Qué mide | Nivel de Shannon & Weaver |
+: Cada nivel presupone el anterior, no puede haber éxito a nivel semántico si falla el nivel técnico, ni éxito en el nivel efectivo si falla el semántico.
+
+# El modelo de éxito de DeLone & McCLean
+
+Delone y McClean[^2] se basan en estos niveles de comunicación para diseñar un modelo de evaluación de la calidad de un sistema de información en la empresa.
+
+[^2]: The DeLone and McLean Model of Information Systems Success: A Ten-Year Update. (2003). Journal of Management Information Systems, 19(4), 9-30. https://doi.org/10.1080/07421222.2003.11045748
+
+## Las seis dimensiones de la calidad
+
+| Dimensión | Qué mide | Nivel de comunicación |
 |------------------------|------------------------|------------------------|
 | **System Quality** | Rendimiento técnico del sistema (fiabilidad, tiempo de respuesta, facilidad de uso) | Técnico |
 | **Information Quality** | Calidad del contenido que produce el sistema (exactitud, relevancia, formato) | Semántico |
-| **Use** | Grado y forma en que se usa el sistema | Efectivo (inicio) |
+| **Use** | Grado y forma en que se usa el sistema | Efectivo |
 | **User Satisfaction** | Grado de satisfacción del usuario con el sistema | Efectivo |
-| **Individual Impact** | Efecto del sistema en el desempeño de un usuario concreto | Efectivo |
-| **Organizational Impact** | Efecto del sistema en el desempeño de la organización | Efectivo |
+| **Net benefits** | Impacto neto, positivo o negativo para cada tipo de usuario | Efectivo |
 
-System Quality e Information Quality son las dos dimensiones objetivas — se pueden medir sin encuestar a nadie. Las cuatro restantes son, en distinto grado, subjetivas o dependientes del usuario.
+*System Quality* e *Information Quality* son las dos dimensiones objetivas de la calidad
 
-### 3.2 De un modelo de procesos a un modelo causal
+Las cuatro restantes son, en distinto grado, subjetivas o dependientes del usuario.
 
-La versión de 1992 presentaba las dimensiones como un **proceso**: System Quality e Information Quality influyen en Use y en User Satisfaction, que a su vez influyen en Individual Impact, que finalmente influye en Organizational Impact. Es una cadena, no una lista.
+## Relación entre dimensiones
 
-La actualización de 2003 introdujo dos cambios importantes: - Añadió **Service Quality** como tercera dimensión objetivo/técnica (calidad del soporte y la atención que rodea al sistema, no solo el sistema en sí) — nótese que aquí es donde D&M se conecta con ServQual, que verán en Sesión 2. - Colapsó Individual Impact y Organizational Impact en una única dimensión, **Net Benefits**, y cerró el modelo con una flecha de retroalimentación desde Net Benefits hacia Use y User Satisfaction — formalizando explícitamente el bucle que ya intuyeron en el diagrama de Tema 1.
+Las seis dimensiones del modelo no son una lista de aspectos independientes que se evalúan por separado y se suman: están conectadas en una **secuencia causal**.
 
-### 3.3 Relación entre dimensiones
+![Modelo de Delone & McLean.](/images/t2-delonemclean.png){fig-align="center" width="561"}
 
-El punto que conviene remarcar en clase: las dimensiones **no son intercambiables ni sustituibles**. Un sistema puede tener System Quality alta (funciona rápido, sin caídas) y aun así fracasar si su Information Quality es mala (los datos que produce no sirven para nada) o si su Service Quality es mala (nadie ayuda al usuario a usarlo). El modelo obliga a evaluar por separado cada eslabón de la cadena en vez de conformarse con una valoración global de "funciona bien/mal".
+**Las tres calidades preceden al uso y la satisfacción**
 
-**Conexión con bibliometría** (mencionar, no desarrollar): la misma tensión objetivo/subjetivo aparece en evaluación de la investigación — indicadores bibliométricos (citas, factor de impacto) son la cara "System/Information Quality" de evaluar un sistema científico, mientras que peer review es la cara "Service Quality/User Satisfaction". Ningún evaluador serio sustituye una por la otra; se usan como piezas complementarias, igual que aquí.
+: *System Quality*, *Information Quality* y *Service Quality* son las variables de entrada del modelo. Describen el sistema tal como es, antes de que nadie lo use. Estas tres dimensiones influyen conjuntamente en dos variables:
+
+  - **Use**: en qué medida y de qué forma se usa el sistema.
+  - **User Satisfaction**: el grado de satisfacción del usuario con esa experiencia.
+
+: *Use* y *User Satisfaction* se retroalimentan entre sí: [usar más o mejor un sistema tiende a aumentar la satisfacción, y una mayor satisfacción tiende a incrementar el uso]{.underline}. No son la misma variable, pero tampoco son independientes.
+
+**De ahí a los beneficios**
+
+: El uso y la satisfacción, combinados, generan **Net Benefits**: el impacto neto del sistema, positivo o negativo, para quien lo use.
+
+  La pregunta a responder sería *"¿beneficio para quién, y a qué nivel de análisis?"*. Puede ser un usuario individual, un departamento, toda la organización o, en contextos como el e-commerce, clientes, proveedores o la sociedad en su conjunto. [El nivel de análisis no es un detalle menor: cambia qué cuenta como "beneficio"]{.mark}.
+
+**El bucle de retroalimentación**
+
+: El modelo no termina en *Net Benefits* como un punto final. Los beneficios obtenidos (o la falta de ellos) condicionan si el usuario sigue utilizando el sistema y cómo de satisfecho sigue estando con él. Por tanto afectan a las dimensiones de *Uso* y *Satisfacción del usuario*.
+
+**La causalidad importa, no solo la lista**
+
+: Un sistema puede fallar en distintos puntos de la cadena y el diagnóstico cambia según dónde falle. Si la *Calidad del sistema* es baja, el problema es técnico y hay que corregirlo ahí. no tiene sentido mejorar la *Calidad del servicio*. Si las tres calidades son altas pero *Uso* es bajo, el problema no está en el sistema sino en la adopción y ahí la solución no es técnica, sino de formación, comunicación o incentivos.
+
+**Qué dimensión pesa más depende del contexto**
+
+: Para evaluar un sistema concreto, la *Calidad del sistema* y la *Calidad de la información* son determinantes, pero la importancia de cada una de estas dimensiones siempre dependerá del Sistema de Información evaluado.
+
+::: bonus
+**🏪 Un ejemplo con e-commerce**
+
+En una tienda online, *System Quality* (¿carga rápido, funciona sin errores?) e *Information Quality* (¿la ficha de producto es clara y completa?) determinan si el usuario navega y compra (*Use*) y si queda satisfecho con la experiencia (*User Satisfaction*).
+
+*Service Quality* (¿responde bien el soporte si hay un problema con el pedido?) actúa en paralelo. El resultado (*Net Benefits*) se mide de forma distinta según para quién: ahorro de tiempo/dinero para el comprador, eficiencia de cadena de suministro para la empresa, crecimiento agregado si se mide a escala de toda una economía digital.
+:::
 
 ------------------------------------------------------------------------
 
-## Entregable
+# Entregable
 
 ::: ejercicio
-**Trabajo en parejas, en el wiki del caso (`01-calidad/00-definicion.qmd`).**
-
-### Parte 1 — Caracterizar flujos y servicios por nivel
+## Parte 1 — Caracterizar flujos y servicios por nivel
 
 Para al menos tres flujos o servicios reales de la biblioteca (por ejemplo: préstamo, catalogación, consulta al catálogo online, formación de usuarios), identificar:
 
@@ -95,13 +142,9 @@ Para al menos tres flujos o servicios reales de la biblioteca (por ejemplo: pré
 - Un elemento del **nivel semántico**: ¿qué podría hacer que, funcionando técnicamente, el usuario no entendiera o interpretara mal la información?
 - Un elemento del **nivel efectivo**: ¿qué decisión o comportamiento del usuario depende de que este flujo funcione bien en los dos niveles anteriores?
 
-### Parte 2 — Inventario de documentación disponible por dimensión
+## Parte 2 — Inventario de documentación disponible por dimensión
 
 Usando las fuentes ya localizadas en Tema 1 (ficha oficial, memorias, cualquier estadística publicada), clasificar qué documentación existe que permita evaluar cada una de las seis dimensiones de D&M para el caso. Formato sugerido: tabla con columnas *Dimensión \| Hay datos reales (sí/no) \| Fuente*.
 
-Si usan IA (NotebookLM u otra) para ayudarse a rastrear o resumir esta documentación, condición explícita: **deben marcar qué dimensiones se quedan sin dato real**, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.
-
-### Cierre de la sesión
-
-Anticipar que en Sesión 2 van a retomar exactamente esta tabla para clasificar los datos objetivos según Wang & Strong, y que los huecos que dejen sin cubrir aquí son los que van a tener que resolver con un instrumento de encuesta en Sesión 3.
+⚠️ Para esto podéis usar la IA siempre y cuando verifiquéis (yo recomendaría NotebookLM) para ayudaros a rastrear o resumir esta documentación, condición explícita: **deben marcar qué dimensiones se quedan sin dato real**, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.
 :::

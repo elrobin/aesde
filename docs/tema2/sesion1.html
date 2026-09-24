@@ -65,6 +65,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../TallerA/taller-github.html" rel="next">
+<link href="../tema1/sesion2.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -107,6 +109,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Buscar"
   }
 }</script>
+<script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -325,7 +330,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">El concepto de calidad y sus dimensiones</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tema2/sesion1.html">T2 Calidad: concepto y evaluación</a></li><li class="breadcrumb-item"><a href="../tema2/sesion1.html">El concepto de calidad y sus dimensiones</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Buscar" onclick="window.quartoOpenSearch();">
@@ -378,6 +383,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">T2 Calidad: concepto y evaluación</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tema2/sesion1.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">El concepto de calidad y sus dimensiones</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../TallerA/taller-github.html" class="sidebar-item-text sidebar-link">
@@ -394,22 +416,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#el-concepto-de-calidad" id="toc-el-concepto-de-calidad" class="nav-link active" data-scroll-target="#el-concepto-de-calidad">El concepto de calidad</a>
+  <li><a href="#el-concepto-de-calidad" id="toc-el-concepto-de-calidad" class="nav-link active" data-scroll-target="#el-concepto-de-calidad">El concepto de calidad</a></li>
+  <li><a href="#los-niveles-de-comunicación" id="toc-los-niveles-de-comunicación" class="nav-link" data-scroll-target="#los-niveles-de-comunicación">Los niveles de comunicación</a>
   <ul class="collapse">
-  <li><a href="#los-niveles-de-comunicación-shannon-weaver-1949" id="toc-los-niveles-de-comunicación-shannon-weaver-1949" class="nav-link" data-scroll-target="#los-niveles-de-comunicación-shannon-weaver-1949">2. Los niveles de comunicación (Shannon &amp; Weaver, 1949)</a>
-  <ul class="collapse">
-  <li><a href="#nivel-técnico" id="toc-nivel-técnico" class="nav-link" data-scroll-target="#nivel-técnico">2.1 Nivel técnico</a></li>
-  <li><a href="#nivel-semántico" id="toc-nivel-semántico" class="nav-link" data-scroll-target="#nivel-semántico">2.2 Nivel semántico</a></li>
-  <li><a href="#nivel-efectivo-o-de-influencia" id="toc-nivel-efectivo-o-de-influencia" class="nav-link" data-scroll-target="#nivel-efectivo-o-de-influencia">2.3 Nivel efectivo (o de influencia)</a></li>
+  <li><a href="#nivel-técnico" id="toc-nivel-técnico" class="nav-link" data-scroll-target="#nivel-técnico">Nivel técnico</a></li>
+  <li><a href="#nivel-semántico" id="toc-nivel-semántico" class="nav-link" data-scroll-target="#nivel-semántico">Nivel semántico</a></li>
+  <li><a href="#nivel-efectivo-o-de-influencia" id="toc-nivel-efectivo-o-de-influencia" class="nav-link" data-scroll-target="#nivel-efectivo-o-de-influencia">Nivel efectivo (o de influencia)</a></li>
   </ul></li>
-  <li><a href="#el-modelo-delone-mclean-1992-actualizado-2003" id="toc-el-modelo-delone-mclean-1992-actualizado-2003" class="nav-link" data-scroll-target="#el-modelo-delone-mclean-1992-actualizado-2003">3. El modelo DeLone &amp; McLean (1992, actualizado 2003)</a>
+  <li><a href="#el-modelo-de-éxito-de-delone-mcclean" id="toc-el-modelo-de-éxito-de-delone-mcclean" class="nav-link" data-scroll-target="#el-modelo-de-éxito-de-delone-mcclean">El modelo de éxito de DeLone &amp; McCLean</a>
   <ul class="collapse">
-  <li><a href="#las-seis-dimensiones-del-modelo" id="toc-las-seis-dimensiones-del-modelo" class="nav-link" data-scroll-target="#las-seis-dimensiones-del-modelo">3.1 Las seis dimensiones del modelo</a></li>
-  <li><a href="#de-un-modelo-de-procesos-a-un-modelo-causal" id="toc-de-un-modelo-de-procesos-a-un-modelo-causal" class="nav-link" data-scroll-target="#de-un-modelo-de-procesos-a-un-modelo-causal">3.2 De un modelo de procesos a un modelo causal</a></li>
-  <li><a href="#relación-entre-dimensiones" id="toc-relación-entre-dimensiones" class="nav-link" data-scroll-target="#relación-entre-dimensiones">3.3 Relación entre dimensiones</a></li>
+  <li><a href="#las-seis-dimensiones-de-la-calidad" id="toc-las-seis-dimensiones-de-la-calidad" class="nav-link" data-scroll-target="#las-seis-dimensiones-de-la-calidad">Las seis dimensiones de la calidad</a></li>
+  <li><a href="#relación-entre-dimensiones" id="toc-relación-entre-dimensiones" class="nav-link" data-scroll-target="#relación-entre-dimensiones">Relación entre dimensiones</a></li>
   </ul></li>
   <li><a href="#entregable" id="toc-entregable" class="nav-link" data-scroll-target="#entregable">Entregable</a></li>
-  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/elrobin/aesde/edit/main/tema2/sesion1.qmd" class="toc-action"><i class="bi bi-github"></i>Editar esta página</a></li><li><a href="https://github.com/elrobin/aesde/issues/new" class="toc-action"><i class="bi empty"></i>Informar sobre problema</a></li></ul></div></nav>
     </div>
@@ -417,7 +436,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../tema2/sesion1.html">T2 Calidad: concepto y evaluación</a></li><li class="breadcrumb-item"><a href="../tema2/sesion1.html">El concepto de calidad y sus dimensiones</a></li></ol></nav>
 <div class="quarto-title">
 <div class="quarto-title-block"><div><h1 class="title">El concepto de calidad y sus dimensiones</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
 </div>
@@ -439,11 +458,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="el-concepto-de-calidad" class="level1">
 <h1>El concepto de calidad</h1>
 <p>Como paso previo a analizar el funcionamiento de un sistema de información, es importante abordar el concepto de <em>calidad</em>, que deberemos definir de manera clara y unívoca de manera que tengamos claro qué es exactamente aquello que vamos a evaluar.</p>
-<p>La calidad es normalmente definida como unconjunto de propiedades inherente a algo que nos permiten juzgar su valor. Ese conjunto de propiedades vendrá definido de manera relativa al objeto, de manera que buscaremos una serie de características distintas en un objeto en base al tipo de objeto a analizar.</p>
+<p>La calidad es normalmente definida como un conjunto de propiedades inherente a algo que nos permiten juzgar su valor. Ese conjunto de propiedades vendrá definido de manera relativa al objeto, de manera que buscaremos una serie de características distintas en un objeto en base al tipo de objeto a analizar.</p>
 <div class="bonus">
 <p>Imagínate que estás analizando la calidad de un tenista 🎾. Para poder evaluar su rendimiento analizaríamos propiedades como:</p>
 <ul>
-<li><strong>Condición física</strong>. Velocidad explosiva, acelración, juego de pies, capacidad de reacción.</li>
+<li><strong>Condición física</strong>. Velocidad explosiva, aceleración, juego de pies, capacidad de reacción.</li>
 <li><strong>Técnica y golpeo</strong>. Variedad de recursos, potencia de golpeo, consistencia (minimizando errores no forzados)</li>
 <li><strong>Inteligencia táctica y fortaleza mental</strong>. Anticipación, adaptabilidad, gestión emocional, resiliencia.</li>
 </ul>
@@ -454,36 +473,62 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><strong>Reconocimiento de patrones visuales</strong>. Intuición para identificar patrones tácticos.</li>
 </ul>
 </div>
-<p>Antes de entrar en modelos formales, conviene fijar por qué “calidad” es un término resbaladizo en sistemas de información: no es una propiedad única del sistema, sino el resultado de comparar el sistema con algo — una expectativa, un estándar, una necesidad. Esto ya lo intuyeron con el diagrama entrada-proceso-salida-retroalimentación de Tema 1: la calidad vive precisamente en ese bucle de retroalimentación, no en ninguna de las cajas del sistema por separado.</p>
-<p>Dos maneras clásicas de acotar el concepto:</p>
-<ul>
-<li><strong>Calidad como conformidad</strong> (Crosby): el sistema cumple lo que dijo que iba a cumplir. Es medible sin preguntar a nadie — es la cara objetiva.</li>
-<li><strong>Calidad como adecuación al uso</strong> (Juran): el sistema sirve para lo que el usuario necesita, independientemente de si cumple una especificación formal. Es la cara subjetiva, y depende de a quién le preguntes.</li>
-</ul>
-<p>Esta doble cara — objetiva/subjetiva — es el hilo que van a encontrar en todo el tema, primero en Shannon &amp; Weaver, después en DeLone &amp; McLean, y en la Sesión 2 en Wang &amp; Strong frente a ServQual.</p>
-<p><strong>Pregunta para abrir el debate en clase</strong>: si les preguntáramos por separado a un estudiante de Comunicación y Documentación y a uno de Odontología qué es “un buen servicio” en la Biblioteca del Colegio Máximo, ¿responderían lo mismo? Dejar la pregunta abierta, sin resolverla — se resuelve más adelante, cuando lleguen a Service Quality/User Satisfaction.</p>
-<section id="los-niveles-de-comunicación-shannon-weaver-1949" class="level2">
-<h2 class="anchored" data-anchor-id="los-niveles-de-comunicación-shannon-weaver-1949">2. Los niveles de comunicación (Shannon &amp; Weaver, 1949)</h2>
-<p>Shannon y Weaver, trabajando sobre teoría de la información y transmisión de señales, distinguieron tres niveles en los que un acto comunicativo puede fallar o tener éxito. No hablaban de bibliotecas ni de empresas, pero el esquema se ha convertido en la base de cómo entendemos “calidad de la información” en cualquier sistema:</p>
-<section id="nivel-técnico" class="level3">
-<h3 class="anchored" data-anchor-id="nivel-técnico">2.1 Nivel técnico</h3>
-<p>¿Se transmite la señal con precisión? Problema de infraestructura: ¿llega el dato del emisor al receptor sin pérdida, sin ruido, sin caídas? En un sistema de información real: ¿funciona el catálogo, hay ancho de banda suficiente, se cae el servidor?</p>
+<p>Pero además de variar según el tipo de objeto analizado, la calidad también puede variar según quién la juzgue. No es lo mismo preguntar si un sistema cumple su función que preguntar si quien lo usa queda satisfecho.En relación con el análisis de sistemas de gestión de la información, podríamos hablar de dos tipos de calidades o dimensiones de la misma:</p>
+<ol type="1">
+<li><strong>Calidad como requisito</strong>. Se trataría de la capacidad del sistema de responder a los objetivos para los que fue diseñado. Por ejemplo, un sistema de gestión de la información que permite archivar, clasificar y recuperar la información, cumpliría de manera formal con las expectativas que se tiene del mismo, independientemente de si la experiencia del usuario es mejor o peor.</li>
+<li><strong>Calidad como adecuación al uso</strong>. En este caso nos centraríamos en la experiencia del usuario. Un ejemplo sería la satisfacción de los clientes de una compañía de telefonía con el servicio de atención al cliente.</li>
+</ol>
+<p>Como podéis ver hay un aspecto que se podría definir como <em>objetivo</em>, <mark>un sistema cumple con las funciones para las que se implantó o no funciona</mark>, y otro <em>subjetivo</em>, <mark>la satisfacción percibida</mark>. Ninguna de las dos dimensiones sustituye a la otra: un sistema puede cumplir perfectamente su especificación técnica y aun así generar insatisfacción en sus usuarios, o al contrario, ser percibido como satisfactorio pese a no cumplir del todo los requisitos para los que fue diseñado. <u><strong>Evaluar la calidad de un sistema de información exige, por tanto, atender a ambas caras por separado</strong></u>.</p>
 </section>
-<section id="nivel-semántico" class="level3">
-<h3 class="anchored" data-anchor-id="nivel-semántico">2.2 Nivel semántico</h3>
-<p>¿Se interpreta correctamente el significado transmitido? No basta con que la señal llegue intacta — el receptor tiene que entender lo que se le quiso decir. Un catálogo que funciona perfectamente (nivel técnico resuelto) pero cuya clasificación temática es incomprensible para el usuario falla en el nivel semántico.</p>
+<section id="los-niveles-de-comunicación" class="level1">
+<h1>Los niveles de comunicación</h1>
+<p>Para poder identificar esas distintas propiedades que tiene un servicio de gestión de la información, acudimos a la Teoría de la Comunicación de Shannon y Weaver<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, que identifica tres niveles de comunicación: nivel técnico, semántico y efectivo.</p>
+<section id="nivel-técnico" class="level2">
+<h2 class="anchored" data-anchor-id="nivel-técnico">Nivel técnico</h2>
+<p>Este nivel tiene que ver con la capacidad del sistema de información para producir información. Es decir, analizará cuestiones tales como si se transmite una señal con precisión, si la información llega al receptor sin pérdida de calidad, sin caídas de red o ruido.</p>
+<div class="consejo">
+<p>En un contexto de telecomunicaciones serían cosas tan básicas como si el servicio de videollamadas es estable y no corta la recepción, si el ancho de banda tiene la suficiente potencia para poder transmitir o si el sistema de recuperación de un catálogo carga rápido a la hora de responder a búsquedas de información.</p>
+</div>
 </section>
-<section id="nivel-efectivo-o-de-influencia" class="level3">
-<h3 class="anchored" data-anchor-id="nivel-efectivo-o-de-influencia">2.3 Nivel efectivo (o de influencia)</h3>
-<p>¿Provoca el mensaje el efecto deseado en el receptor? Es el nivel más exigente: no basta con transmitir bien ni con que se entienda — tiene que cambiar algo en el comportamiento o la decisión del receptor. Un informe de biblioteca que se entiende perfectamente pero que nadie usa para tomar ninguna decisión ha fallado en el nivel efectivo, aunque los dos anteriores estén resueltos.</p>
-<p><strong>Por qué importa esta jerarquía</strong>: cada nivel presupone el anterior — no puede haber éxito semántico si falla el técnico, ni éxito efectivo si falla el semántico. Esto es exactamente lo que van a reencontrar en D&amp;M.</p>
+<section id="nivel-semántico" class="level2">
+<h2 class="anchored" data-anchor-id="nivel-semántico">Nivel semántico</h2>
+<p>Aquí pasamos a contenido, y lo que queremos evaluar no es sólo si el mensaje se ha transmitido y ha llegado del emisor al receptor, sino si el mensaje ha sido interpretado correctamente. Es decir, no basta con que la señal llegue intacta: el receptor tiene que entender lo que se le quiso decir.</p>
+<div class="consejo">
+<p>Un clásico ejemplo sería cuando intentas entrar en una página web y aparece el mensaje <code>Error 404</code>. Un usuario que no entienda el significado de este error puede pensar que se ha quedado sin Internet o que su ordenador está fallando y no que simplemente está intentando acceder a una página web que no existe. Para evitar este tipo de problemas a nivel semántico, mucho sitios rediseñan la página de error con mensajes tipo <em>Ups, no encontramos esta página</em>.</p>
+</div>
+</section>
+<section id="nivel-efectivo-o-de-influencia" class="level2">
+<h2 class="anchored" data-anchor-id="nivel-efectivo-o-de-influencia">Nivel efectivo (o de influencia)</h2>
+<p>¿Provoca el mensaje el efecto deseado en el receptor? Es el nivel más exigente: no basta con transmitir bien un mensaje ni con que se entienda, debería cambiar algo en el comportamiento o la decisión del receptor.</p>
+<div class="consejo">
+<p>La biblioteca publica anualmente un informe analizando a su comunidad de usuarios, identificando necesidades, proponiendo nuevas iniciativas y planes de acción, pero la dirección de la biblioteca no utiliza dicho documento para la toma de decisiones. Esto sería un fallo a nivel efectivo.</p>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Nivel técnico] --&gt; B[Nivel semántico] --&gt; C[Nivel efectivo]
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<dl>
+<dt><strong>Por qué importa esta jerarquía</strong></dt>
+<dd>
+<p>Cada nivel presupone el anterior, no puede haber éxito a nivel semántico si falla el nivel técnico, ni éxito en el nivel efectivo si falla el semántico.</p>
+</dd>
+</dl>
 </section>
 </section>
-<section id="el-modelo-delone-mclean-1992-actualizado-2003" class="level2">
-<h2 class="anchored" data-anchor-id="el-modelo-delone-mclean-1992-actualizado-2003">3. El modelo DeLone &amp; McLean (1992, actualizado 2003)</h2>
-<section id="las-seis-dimensiones-del-modelo" class="level3">
-<h3 class="anchored" data-anchor-id="las-seis-dimensiones-del-modelo">3.1 Las seis dimensiones del modelo</h3>
-<p>DeLone y McLean revisaron 180 estudios sobre “éxito de sistemas de información” y propusieron seis dimensiones para ordenar ese campo disperso:</p>
+<section id="el-modelo-de-éxito-de-delone-mcclean" class="level1">
+<h1>El modelo de éxito de DeLone &amp; McCLean</h1>
+<p>Delone y McClean<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> se basan en estos niveles de comunicación para diseñar un modelo de evaluación de la calidad de un sistema de información en la empresa.</p>
+<section id="las-seis-dimensiones-de-la-calidad" class="level2">
+<h2 class="anchored" data-anchor-id="las-seis-dimensiones-de-la-calidad">Las seis dimensiones de la calidad</h2>
 <table class="caption-top table">
 <colgroup>
 <col style="width: 33%">
@@ -494,7 +539,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="header">
 <th>Dimensión</th>
 <th>Qué mide</th>
-<th>Nivel de Shannon &amp; Weaver</th>
+<th>Nivel de comunicación</th>
 </tr>
 </thead>
 <tbody>
@@ -511,7 +556,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="odd">
 <td><strong>Use</strong></td>
 <td>Grado y forma en que se usa el sistema</td>
-<td>Efectivo (inicio)</td>
+<td>Efectivo</td>
 </tr>
 <tr class="even">
 <td><strong>User Satisfaction</strong></td>
@@ -519,37 +564,69 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td>Efectivo</td>
 </tr>
 <tr class="odd">
-<td><strong>Individual Impact</strong></td>
-<td>Efecto del sistema en el desempeño de un usuario concreto</td>
-<td>Efectivo</td>
-</tr>
-<tr class="even">
-<td><strong>Organizational Impact</strong></td>
-<td>Efecto del sistema en el desempeño de la organización</td>
+<td><strong>Net benefits</strong></td>
+<td>Impacto neto, positivo o negativo para cada tipo de usuario</td>
 <td>Efectivo</td>
 </tr>
 </tbody>
 </table>
-<p>System Quality e Information Quality son las dos dimensiones objetivas — se pueden medir sin encuestar a nadie. Las cuatro restantes son, en distinto grado, subjetivas o dependientes del usuario.</p>
+<p><em>System Quality</em> e <em>Information Quality</em> son las dos dimensiones objetivas de la calidad</p>
+<p>Las cuatro restantes son, en distinto grado, subjetivas o dependientes del usuario.</p>
 </section>
-<section id="de-un-modelo-de-procesos-a-un-modelo-causal" class="level3">
-<h3 class="anchored" data-anchor-id="de-un-modelo-de-procesos-a-un-modelo-causal">3.2 De un modelo de procesos a un modelo causal</h3>
-<p>La versión de 1992 presentaba las dimensiones como un <strong>proceso</strong>: System Quality e Information Quality influyen en Use y en User Satisfaction, que a su vez influyen en Individual Impact, que finalmente influye en Organizational Impact. Es una cadena, no una lista.</p>
-<p>La actualización de 2003 introdujo dos cambios importantes: - Añadió <strong>Service Quality</strong> como tercera dimensión objetivo/técnica (calidad del soporte y la atención que rodea al sistema, no solo el sistema en sí) — nótese que aquí es donde D&amp;M se conecta con ServQual, que verán en Sesión 2. - Colapsó Individual Impact y Organizational Impact en una única dimensión, <strong>Net Benefits</strong>, y cerró el modelo con una flecha de retroalimentación desde Net Benefits hacia Use y User Satisfaction — formalizando explícitamente el bucle que ya intuyeron en el diagrama de Tema 1.</p>
-</section>
-<section id="relación-entre-dimensiones" class="level3">
-<h3 class="anchored" data-anchor-id="relación-entre-dimensiones">3.3 Relación entre dimensiones</h3>
-<p>El punto que conviene remarcar en clase: las dimensiones <strong>no son intercambiables ni sustituibles</strong>. Un sistema puede tener System Quality alta (funciona rápido, sin caídas) y aun así fracasar si su Information Quality es mala (los datos que produce no sirven para nada) o si su Service Quality es mala (nadie ayuda al usuario a usarlo). El modelo obliga a evaluar por separado cada eslabón de la cadena en vez de conformarse con una valoración global de “funciona bien/mal”.</p>
-<p><strong>Conexión con bibliometría</strong> (mencionar, no desarrollar): la misma tensión objetivo/subjetivo aparece en evaluación de la investigación — indicadores bibliométricos (citas, factor de impacto) son la cara “System/Information Quality” de evaluar un sistema científico, mientras que peer review es la cara “Service Quality/User Satisfaction”. Ningún evaluador serio sustituye una por la otra; se usan como piezas complementarias, igual que aquí.</p>
+<section id="relación-entre-dimensiones" class="level2">
+<h2 class="anchored" data-anchor-id="relación-entre-dimensiones">Relación entre dimensiones</h2>
+<p>Las seis dimensiones del modelo no son una lista de aspectos independientes que se evalúan por separado y se suman: están conectadas en una <strong>secuencia causal</strong>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="..\images/t2-delonemclean.png" class="img-fluid figure-img" width="561"></p>
+<figcaption>Modelo de Delone &amp; McLean.</figcaption>
+</figure>
+</div>
+<dl>
+<dt><strong>Las tres calidades preceden al uso y la satisfacción</strong></dt>
+<dd>
+<p><em>System Quality</em>, <em>Information Quality</em> y <em>Service Quality</em> son las variables de entrada del modelo. Describen el sistema tal como es, antes de que nadie lo use. Estas tres dimensiones influyen conjuntamente en dos variables:</p>
+</dd>
+</dl>
+<ul>
+<li><strong>Use</strong>: en qué medida y de qué forma se usa el sistema.</li>
+<li><strong>User Satisfaction</strong>: el grado de satisfacción del usuario con esa experiencia.</li>
+</ul>
+<p>: <em>Use</em> y <em>User Satisfaction</em> se retroalimentan entre sí: <u>usar más o mejor un sistema tiende a aumentar la satisfacción, y una mayor satisfacción tiende a incrementar el uso</u>. No son la misma variable, pero tampoco son independientes.</p>
+<dl>
+<dt><strong>De ahí a los beneficios</strong></dt>
+<dd>
+<p>El uso y la satisfacción, combinados, generan <strong>Net Benefits</strong>: el impacto neto del sistema, positivo o negativo, para quien lo use.</p>
+</dd>
+</dl>
+<p>La pregunta a responder sería <em>“¿beneficio para quién, y a qué nivel de análisis?”</em>. Puede ser un usuario individual, un departamento, toda la organización o, en contextos como el e-commerce, clientes, proveedores o la sociedad en su conjunto. <mark>El nivel de análisis no es un detalle menor: cambia qué cuenta como “beneficio”</mark>.</p>
+<dl>
+<dt><strong>El bucle de retroalimentación</strong></dt>
+<dd>
+<p>El modelo no termina en <em>Net Benefits</em> como un punto final. Los beneficios obtenidos (o la falta de ellos) condicionan si el usuario sigue utilizando el sistema y cómo de satisfecho sigue estando con él. Por tanto afectan a las dimensiones de <em>Uso</em> y <em>Satisfacción del usuario</em>.</p>
+</dd>
+<dt><strong>La causalidad importa, no solo la lista</strong></dt>
+<dd>
+<p>Un sistema puede fallar en distintos puntos de la cadena y el diagnóstico cambia según dónde falle. Si la <em>Calidad del sistema</em> es baja, el problema es técnico y hay que corregirlo ahí. no tiene sentido mejorar la <em>Calidad del servicio</em>. Si las tres calidades son altas pero <em>Uso</em> es bajo, el problema no está en el sistema sino en la adopción y ahí la solución no es técnica, sino de formación, comunicación o incentivos.</p>
+</dd>
+<dt><strong>Qué dimensión pesa más depende del contexto</strong></dt>
+<dd>
+<p>Para evaluar un sistema concreto, la <em>Calidad del sistema</em> y la <em>Calidad de la información</em> son determinantes, pero la importancia de cada una de estas dimensiones siempre dependerá del Sistema de Información evaluado.</p>
+</dd>
+</dl>
+<div class="bonus">
+<p><strong>🏪 Un ejemplo con e-commerce</strong></p>
+<p>En una tienda online, <em>System Quality</em> (¿carga rápido, funciona sin errores?) e <em>Information Quality</em> (¿la ficha de producto es clara y completa?) determinan si el usuario navega y compra (<em>Use</em>) y si queda satisfecho con la experiencia (<em>User Satisfaction</em>).</p>
+<p><em>Service Quality</em> (¿responde bien el soporte si hay un problema con el pedido?) actúa en paralelo. El resultado (<em>Net Benefits</em>) se mide de forma distinta según para quién: ahorro de tiempo/dinero para el comprador, eficiencia de cadena de suministro para la empresa, crecimiento agregado si se mide a escala de toda una economía digital.</p>
+</div>
 <hr>
 </section>
 </section>
-<section id="entregable" class="level2">
-<h2 class="anchored" data-anchor-id="entregable">Entregable</h2>
+<section id="entregable" class="level1">
+<h1>Entregable</h1>
 <div class="ejercicio">
-<p><strong>Trabajo en parejas, en el wiki del caso (<code>01-calidad/00-definicion.qmd</code>).</strong></p>
-<section id="parte-1-caracterizar-flujos-y-servicios-por-nivel" class="level3">
-<h3 class="anchored" data-anchor-id="parte-1-caracterizar-flujos-y-servicios-por-nivel">Parte 1 — Caracterizar flujos y servicios por nivel</h3>
+<section id="parte-1-caracterizar-flujos-y-servicios-por-nivel" class="level2">
+<h2 class="anchored" data-anchor-id="parte-1-caracterizar-flujos-y-servicios-por-nivel">Parte 1 — Caracterizar flujos y servicios por nivel</h2>
 <p>Para al menos tres flujos o servicios reales de la biblioteca (por ejemplo: préstamo, catalogación, consulta al catálogo online, formación de usuarios), identificar:</p>
 <ul>
 <li>Un elemento del <strong>nivel técnico</strong>: ¿qué tendría que fallar en la infraestructura para que este flujo no funcionara?</li>
@@ -557,14 +634,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Un elemento del <strong>nivel efectivo</strong>: ¿qué decisión o comportamiento del usuario depende de que este flujo funcione bien en los dos niveles anteriores?</li>
 </ul>
 </section>
-<section id="parte-2-inventario-de-documentación-disponible-por-dimensión" class="level3">
-<h3 class="anchored" data-anchor-id="parte-2-inventario-de-documentación-disponible-por-dimensión">Parte 2 — Inventario de documentación disponible por dimensión</h3>
+<section id="parte-2-inventario-de-documentación-disponible-por-dimensión" class="level2">
+<h2 class="anchored" data-anchor-id="parte-2-inventario-de-documentación-disponible-por-dimensión">Parte 2 — Inventario de documentación disponible por dimensión</h2>
 <p>Usando las fuentes ya localizadas en Tema 1 (ficha oficial, memorias, cualquier estadística publicada), clasificar qué documentación existe que permita evaluar cada una de las seis dimensiones de D&amp;M para el caso. Formato sugerido: tabla con columnas <em>Dimensión | Hay datos reales (sí/no) | Fuente</em>.</p>
-<p>Si usan IA (NotebookLM u otra) para ayudarse a rastrear o resumir esta documentación, condición explícita: <strong>deben marcar qué dimensiones se quedan sin dato real</strong>, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.</p>
-</section>
-<section id="cierre-de-la-sesión" class="level3">
-<h3 class="anchored" data-anchor-id="cierre-de-la-sesión">Cierre de la sesión</h3>
-<p>Anticipar que en Sesión 2 van a retomar exactamente esta tabla para clasificar los datos objetivos según Wang &amp; Strong, y que los huecos que dejen sin cubrir aquí son los que van a tener que resolver con un instrumento de encuesta en Sesión 3.</p>
+<p>⚠️ Para esto podéis usar la IA siempre y cuando verifiquéis (yo recomendaría NotebookLM) para ayudaros a rastrear o resumir esta documentación, condición explícita: <strong>deben marcar qué dimensiones se quedan sin dato real</strong>, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.</p>
 </section>
 </div>
 
@@ -572,9 +645,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- -->
 
 </section>
-</section>
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Notas</h2>
+
+<ol>
+<li id="fn1"><p>Shannon, C., &amp; Weaver, W. (1949). The Mathematical Theory of Communication. Urbana: University of Illinois Press.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>The DeLone and McLean Model of Information Systems Success: A Ten-Year Update. (2003). Journal of Management Information Systems, 19(4), 9-30. https://doi.org/10.1080/07421222.2003.11045748<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -1038,7 +1117,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       }
     }
   });
-  </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Ejecutar el código</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../tema1/sesion2.html" class="pagination-link" aria-label="Tipos y funciones de los sistemas de información">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Tipos y funciones de los sistemas de información</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../TallerA/taller-github.html" class="pagination-link" aria-label="Taller Github+Quarto">
+        <span class="nav-page-text">Taller Github+Quarto</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Ejecutar el código</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "El concepto de calidad y sus dimensiones"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
@@ -1047,12 +1138,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>Como paso previo a analizar el funcionamiento de un sistema de información, es importante abordar el concepto de *calidad*, que deberemos definir de manera clara y unívoca de manera que tengamos claro qué es exactamente aquello que vamos a evaluar.</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>La calidad es normalmente definida como unconjunto de propiedades inherente a algo que nos permiten juzgar su valor. Ese conjunto de propiedades vendrá definido de manera relativa al objeto, de manera que buscaremos una serie de características distintas en un objeto en base al tipo de objeto a analizar.</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>La calidad es normalmente definida como un conjunto de propiedades inherente a algo que nos permiten juzgar su valor. Ese conjunto de propiedades vendrá definido de manera relativa al objeto, de manera que buscaremos una serie de características distintas en un objeto en base al tipo de objeto a analizar.</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>::: bonus</span>
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>Imagínate que estás analizando la calidad de un tenista 🎾. Para poder evaluar su rendimiento analizaríamos propiedades como:</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Condición física**. Velocidad explosiva, acelración, juego de pies, capacidad de reacción.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Condición física**. Velocidad explosiva, aceleración, juego de pies, capacidad de reacción.</span>
 <span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Técnica y golpeo**. Variedad de recursos, potencia de golpeo, consistencia (minimizando errores no forzados)</span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Inteligencia táctica y fortaleza mental**. Anticipación, adaptabilidad, gestión emocional, resiliencia.</span>
 <span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
@@ -1063,96 +1154,133 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Reconocimiento de patrones visuales**. Intuición para identificar patrones tácticos.</span>
 <span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>:::</span>
 <span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>En relación con el análisis de sistemas de gestión de la información, podríamos hablar de dos tipos de calidades o dimensiones de la misma:</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>Pero además de variar según el tipo de objeto analizado, la calidad también puede variar según quién la juzgue. No es lo mismo preguntar si un sistema cumple su función que preguntar si quien lo usa queda satisfecho.En relación con el análisis de sistemas de gestión de la información, podríamos hablar de dos tipos de calidades o dimensiones de la misma:</span>
 <span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>**Calidad como requisito**. Se trataría de la capacidad del sistema de responder a los objetivos para los que fue diseñado. Por ejemplo, en el ca</span>
-<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>**Calidad como adecuación al uso**. En este caso nos centraríamos en la experiencia del usuario. Un ejemplo sería la satisfacción de los clientes de una compañía de telefonía con el servicio de atención al cliente.</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>**Calidad como requisito**. Se trataría de la capacidad del sistema de responder a los objetivos para los que fue diseñado. Por ejemplo, un sistema de gestión de la información que permite archivar, clasificar y recuperar la información, cumpliría de manera formal con las expectativas que se tiene del mismo, independientemente de si la experiencia del usuario es mejor o peor.</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>**Calidad como adecuación al uso**. En este caso nos centraríamos en la experiencia del usuario. Un ejemplo sería la satisfacción de los clientes de una compañía de telefonía con el servicio de atención al cliente.</span>
 <span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>Como podéis ver hay un aspecto que se podría definir como _objetivo_ (un sistema cumple con las funciones para las que se implantó o no funciona) y otro _subjetivo_ (la satisfacción percibida)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>Como podéis ver hay un aspecto que se podría definir como *objetivo*, [un sistema cumple con las funciones para las que se implantó o no funciona]{.mark}, y otro *subjetivo*, [la satisfacción percibida]{.mark}. Ninguna de las dos dimensiones sustituye a la otra: un sistema puede cumplir perfectamente su especificación técnica y aun así generar insatisfacción en sus usuarios, o al contrario, ser percibido como satisfactorio pese a no cumplir del todo los requisitos para los que fue diseñado. [**Evaluar la calidad de un sistema de información exige, por tanto, atender a ambas caras por separado**]{.underline}.</span>
 <span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a>Antes de entrar en modelos formales, conviene fijar por qué "calidad" es un término resbaladizo en sistemas de información: no es una propiedad única del sistema, sino el resultado de comparar el sistema con algo — una expectativa, un estándar, una necesidad. Esto ya lo intuyeron con el diagrama entrada-proceso-salida-retroalimentación de Tema 1: la calidad vive precisamente en ese bucle de retroalimentación, no en ninguna de las cajas del sistema por separado.</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu"># Los niveles de comunicación</span></span>
 <span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>Dos maneras clásicas de acotar el concepto:</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>Para poder identificar esas distintas propiedades que tiene un servicio de gestión de la información, acudimos a la Teoría de la Comunicación de Shannon y Weaver<span class="ot">[^1]</span>, que identifica tres niveles de comunicación: nivel técnico, semántico y efectivo.</span>
 <span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Calidad como conformidad** (Crosby): el sistema cumple lo que dijo que iba a cumplir. Es medible sin preguntar a nadie — es la cara objetiva.</span>
-<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Calidad como adecuación al uso** (Juran): el sistema sirve para lo que el usuario necesita, independientemente de si cumple una especificación formal. Es la cara subjetiva, y depende de a quién le preguntes.</span>
-<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>Esta doble cara — objetiva/subjetiva — es el hilo que van a encontrar en todo el tema, primero en Shannon &amp; Weaver, después en DeLone &amp; McLean, y en la Sesión 2 en Wang &amp; Strong frente a ServQual.</span>
-<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>**Pregunta para abrir el debate en clase**: si les preguntáramos por separado a un estudiante de Comunicación y Documentación y a uno de Odontología qué es "un buen servicio" en la Biblioteca del Colegio Máximo, ¿responderían lo mismo? Dejar la pregunta abierta, sin resolverla — se resuelve más adelante, cuando lleguen a Service Quality/User Satisfaction.</span>
-<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="fu">## 2. Los niveles de comunicación (Shannon &amp; Weaver, 1949)</span></span>
-<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>Shannon y Weaver, trabajando sobre teoría de la información y transmisión de señales, distinguieron tres niveles en los que un acto comunicativo puede fallar o tener éxito. No hablaban de bibliotecas ni de empresas, pero el esquema se ha convertido en la base de cómo entendemos "calidad de la información" en cualquier sistema:</span>
-<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2.1 Nivel técnico</span></span>
-<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>¿Se transmite la señal con precisión? Problema de infraestructura: ¿llega el dato del emisor al receptor sin pérdida, sin ruido, sin caídas? En un sistema de información real: ¿funciona el catálogo, hay ancho de banda suficiente, se cae el servidor?</span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2.2 Nivel semántico</span></span>
-<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>¿Se interpreta correctamente el significado transmitido? No basta con que la señal llegue intacta — el receptor tiene que entender lo que se le quiso decir. Un catálogo que funciona perfectamente (nivel técnico resuelto) pero cuya clasificación temática es incomprensible para el usuario falla en el nivel semántico.</span>
-<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2.3 Nivel efectivo (o de influencia)</span></span>
-<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a>¿Provoca el mensaje el efecto deseado en el receptor? Es el nivel más exigente: no basta con transmitir bien ni con que se entienda — tiene que cambiar algo en el comportamiento o la decisión del receptor. Un informe de biblioteca que se entiende perfectamente pero que nadie usa para tomar ninguna decisión ha fallado en el nivel efectivo, aunque los dos anteriores estén resueltos.</span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>**Por qué importa esta jerarquía**: cada nivel presupone el anterior — no puede haber éxito semántico si falla el técnico, ni éxito efectivo si falla el semántico. Esto es exactamente lo que van a reencontrar en D&amp;M.</span>
-<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="fu">## 3. El modelo DeLone &amp; McLean (1992, actualizado 2003)</span></span>
-<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3.1 Las seis dimensiones del modelo</span></span>
-<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>DeLone y McLean revisaron 180 estudios sobre "éxito de sistemas de información" y propusieron seis dimensiones para ordenar ese campo disperso:</span>
-<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Dimensión <span class="pp">|</span> Qué mide <span class="pp">|</span> Nivel de Shannon &amp; Weaver <span class="pp">|</span></span>
-<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="pp">|------------------------|------------------------|------------------------|</span></span>
-<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **System Quality** <span class="pp">|</span> Rendimiento técnico del sistema (fiabilidad, tiempo de respuesta, facilidad de uso) <span class="pp">|</span> Técnico <span class="pp">|</span></span>
-<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Information Quality** <span class="pp">|</span> Calidad del contenido que produce el sistema (exactitud, relevancia, formato) <span class="pp">|</span> Semántico <span class="pp">|</span></span>
-<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Use** <span class="pp">|</span> Grado y forma en que se usa el sistema <span class="pp">|</span> Efectivo (inicio) <span class="pp">|</span></span>
-<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **User Satisfaction** <span class="pp">|</span> Grado de satisfacción del usuario con el sistema <span class="pp">|</span> Efectivo <span class="pp">|</span></span>
-<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Individual Impact** <span class="pp">|</span> Efecto del sistema en el desempeño de un usuario concreto <span class="pp">|</span> Efectivo <span class="pp">|</span></span>
-<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Organizational Impact** <span class="pp">|</span> Efecto del sistema en el desempeño de la organización <span class="pp">|</span> Efectivo <span class="pp">|</span></span>
-<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>System Quality e Information Quality son las dos dimensiones objetivas — se pueden medir sin encuestar a nadie. Las cuatro restantes son, en distinto grado, subjetivas o dependientes del usuario.</span>
-<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3.2 De un modelo de procesos a un modelo causal</span></span>
-<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>La versión de 1992 presentaba las dimensiones como un **proceso**: System Quality e Information Quality influyen en Use y en User Satisfaction, que a su vez influyen en Individual Impact, que finalmente influye en Organizational Impact. Es una cadena, no una lista.</span>
-<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a>La actualización de 2003 introdujo dos cambios importantes: - Añadió **Service Quality** como tercera dimensión objetivo/técnica (calidad del soporte y la atención que rodea al sistema, no solo el sistema en sí) — nótese que aquí es donde D&amp;M se conecta con ServQual, que verán en Sesión 2. - Colapsó Individual Impact y Organizational Impact en una única dimensión, **Net Benefits**, y cerró el modelo con una flecha de retroalimentación desde Net Benefits hacia Use y User Satisfaction — formalizando explícitamente el bucle que ya intuyeron en el diagrama de Tema 1.</span>
-<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="fu">### 3.3 Relación entre dimensiones</span></span>
-<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>El punto que conviene remarcar en clase: las dimensiones **no son intercambiables ni sustituibles**. Un sistema puede tener System Quality alta (funciona rápido, sin caídas) y aun así fracasar si su Information Quality es mala (los datos que produce no sirven para nada) o si su Service Quality es mala (nadie ayuda al usuario a usarlo). El modelo obliga a evaluar por separado cada eslabón de la cadena en vez de conformarse con una valoración global de "funciona bien/mal".</span>
-<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a>**Conexión con bibliometría** (mencionar, no desarrollar): la misma tensión objetivo/subjetivo aparece en evaluación de la investigación — indicadores bibliométricos (citas, factor de impacto) son la cara "System/Information Quality" de evaluar un sistema científico, mientras que peer review es la cara "Service Quality/User Satisfaction". Ningún evaluador serio sustituye una por la otra; se usan como piezas complementarias, igual que aquí.</span>
-<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
-<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="fu">## Entregable</span></span>
-<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>::: ejercicio</span>
-<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>**Trabajo en parejas, en el wiki del caso (`01-calidad/00-definicion.qmd`).**</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="ot">[^1]: </span>Shannon, C., &amp; Weaver, W. (1949). The Mathematical Theory of Communication. Urbana: University of Illinois Press.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="fu">## Nivel técnico</span></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a>Este nivel tiene que ver con la capacidad del sistema de información para producir información. Es decir, analizará cuestiones tales como si se transmite una señal con precisión, si la información llega al receptor sin pérdida de calidad, sin caídas de red o ruido.</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a>::: consejo</span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>En un contexto de telecomunicaciones serían cosas tan básicas como si el servicio de videollamadas es estable y no corta la recepción, si el ancho de banda tiene la suficiente potencia para poder transmitir o si el sistema de recuperación de un catálogo carga rápido a la hora de responder a búsquedas de información.</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="fu">## Nivel semántico</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a>Aquí pasamos a contenido, y lo que queremos evaluar no es sólo si el mensaje se ha transmitido y ha llegado del emisor al receptor, sino si el mensaje ha sido interpretado correctamente. Es decir, no basta con que la señal llegue intacta: el receptor tiene que entender lo que se le quiso decir.</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>::: consejo</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>Un clásico ejemplo sería cuando intentas entrar en una página web y aparece el mensaje <span class="in">`Error 404`</span>. Un usuario que no entienda el significado de este error puede pensar que se ha quedado sin Internet o que su ordenador está fallando y no que simplemente está intentando acceder a una página web que no existe. Para evitar este tipo de problemas a nivel semántico, mucho sitios rediseñan la página de error con mensajes tipo *Ups, no encontramos esta página*.</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="fu">## Nivel efectivo (o de influencia)</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a>¿Provoca el mensaje el efecto deseado en el receptor? Es el nivel más exigente: no basta con transmitir bien un mensaje ni con que se entienda, debería cambiar algo en el comportamiento o la decisión del receptor.</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>::: consejo</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>La biblioteca publica anualmente un informe analizando a su comunidad de usuarios, identificando necesidades, proponiendo nuevas iniciativas y planes de acción, pero la dirección de la biblioteca no utiliza dicho documento para la toma de decisiones. Esto sería un fallo a nivel efectivo.</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>  A[Nivel técnico] --&gt; B[Nivel semántico] --&gt; C[Nivel efectivo]</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>**Por qué importa esta jerarquía**</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>: Cada nivel presupone el anterior, no puede haber éxito a nivel semántico si falla el nivel técnico, ni éxito en el nivel efectivo si falla el semántico.</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="fu"># El modelo de éxito de DeLone &amp; McCLean</span></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a>Delone y McClean<span class="ot">[^2]</span> se basan en estos niveles de comunicación para diseñar un modelo de evaluación de la calidad de un sistema de información en la empresa.</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="ot">[^2]: </span>The DeLone and McLean Model of Information Systems Success: A Ten-Year Update. (2003). Journal of Management Information Systems, 19(4), 9-30. https://doi.org/10.1080/07421222.2003.11045748</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="fu">## Las seis dimensiones de la calidad</span></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Dimensión <span class="pp">|</span> Qué mide <span class="pp">|</span> Nivel de comunicación <span class="pp">|</span></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="pp">|------------------------|------------------------|------------------------|</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **System Quality** <span class="pp">|</span> Rendimiento técnico del sistema (fiabilidad, tiempo de respuesta, facilidad de uso) <span class="pp">|</span> Técnico <span class="pp">|</span></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Information Quality** <span class="pp">|</span> Calidad del contenido que produce el sistema (exactitud, relevancia, formato) <span class="pp">|</span> Semántico <span class="pp">|</span></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Use** <span class="pp">|</span> Grado y forma en que se usa el sistema <span class="pp">|</span> Efectivo <span class="pp">|</span></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **User Satisfaction** <span class="pp">|</span> Grado de satisfacción del usuario con el sistema <span class="pp">|</span> Efectivo <span class="pp">|</span></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Net benefits** <span class="pp">|</span> Impacto neto, positivo o negativo para cada tipo de usuario <span class="pp">|</span> Efectivo <span class="pp">|</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>*System Quality* e *Information Quality* son las dos dimensiones objetivas de la calidad</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a>Las cuatro restantes son, en distinto grado, subjetivas o dependientes del usuario.</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="fu">## Relación entre dimensiones</span></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>Las seis dimensiones del modelo no son una lista de aspectos independientes que se evalúan por separado y se suman: están conectadas en una **secuencia causal**.</span>
 <span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="fu">### Parte 1 — Caracterizar flujos y servicios por nivel</span></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="al">![Modelo de Delone &amp; McLean.](/images/t2-delonemclean.png)</span>{fig-align="center" width="561"}</span>
 <span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>Para al menos tres flujos o servicios reales de la biblioteca (por ejemplo: préstamo, catalogación, consulta al catálogo online, formación de usuarios), identificar:</span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>**Las tres calidades preceden al uso y la satisfacción**</span>
 <span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Un elemento del **nivel técnico**: ¿qué tendría que fallar en la infraestructura para que este flujo no funcionara?</span>
-<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Un elemento del **nivel semántico**: ¿qué podría hacer que, funcionando técnicamente, el usuario no entendiera o interpretara mal la información?</span>
-<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Un elemento del **nivel efectivo**: ¿qué decisión o comportamiento del usuario depende de que este flujo funcione bien en los dos niveles anteriores?</span>
-<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="fu">### Parte 2 — Inventario de documentación disponible por dimensión</span></span>
-<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>Usando las fuentes ya localizadas en Tema 1 (ficha oficial, memorias, cualquier estadística publicada), clasificar qué documentación existe que permita evaluar cada una de las seis dimensiones de D&amp;M para el caso. Formato sugerido: tabla con columnas *Dimensión \| Hay datos reales (sí/no) \| Fuente*.</span>
-<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a>Si usan IA (NotebookLM u otra) para ayudarse a rastrear o resumir esta documentación, condición explícita: **deben marcar qué dimensiones se quedan sin dato real**, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.</span>
-<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="fu">### Cierre de la sesión</span></span>
-<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>Anticipar que en Sesión 2 van a retomar exactamente esta tabla para clasificar los datos objetivos según Wang &amp; Strong, y que los huecos que dejen sin cubrir aquí son los que van a tener que resolver con un instrumento de encuesta en Sesión 3.</span>
-<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>: *System Quality*, *Information Quality* y *Service Quality* son las variables de entrada del modelo. Describen el sistema tal como es, antes de que nadie lo use. Estas tres dimensiones influyen conjuntamente en dos variables:</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**Use**: en qué medida y de qué forma se usa el sistema.</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="ss">  - </span>**User Satisfaction**: el grado de satisfacción del usuario con esa experiencia.</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>: *Use* y *User Satisfaction* se retroalimentan entre sí: <span class="co">[</span><span class="ot">usar más o mejor un sistema tiende a aumentar la satisfacción, y una mayor satisfacción tiende a incrementar el uso</span><span class="co">]</span>{.underline}. No son la misma variable, pero tampoco son independientes.</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a>**De ahí a los beneficios**</span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a>: El uso y la satisfacción, combinados, generan **Net Benefits**: el impacto neto del sistema, positivo o negativo, para quien lo use.</span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a>  La pregunta a responder sería *"¿beneficio para quién, y a qué nivel de análisis?"*. Puede ser un usuario individual, un departamento, toda la organización o, en contextos como el e-commerce, clientes, proveedores o la sociedad en su conjunto. <span class="co">[</span><span class="ot">El nivel de análisis no es un detalle menor: cambia qué cuenta como "beneficio"</span><span class="co">]</span>{.mark}.</span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a>**El bucle de retroalimentación**</span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a>: El modelo no termina en *Net Benefits* como un punto final. Los beneficios obtenidos (o la falta de ellos) condicionan si el usuario sigue utilizando el sistema y cómo de satisfecho sigue estando con él. Por tanto afectan a las dimensiones de *Uso* y *Satisfacción del usuario*.</span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a>**La causalidad importa, no solo la lista**</span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a>: Un sistema puede fallar en distintos puntos de la cadena y el diagnóstico cambia según dónde falle. Si la *Calidad del sistema* es baja, el problema es técnico y hay que corregirlo ahí. no tiene sentido mejorar la *Calidad del servicio*. Si las tres calidades son altas pero *Uso* es bajo, el problema no está en el sistema sino en la adopción y ahí la solución no es técnica, sino de formación, comunicación o incentivos.</span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a>**Qué dimensión pesa más depende del contexto**</span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a>: Para evaluar un sistema concreto, la *Calidad del sistema* y la *Calidad de la información* son determinantes, pero la importancia de cada una de estas dimensiones siempre dependerá del Sistema de Información evaluado.</span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a>::: bonus</span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a>**🏪 Un ejemplo con e-commerce**</span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a>En una tienda online, *System Quality* (¿carga rápido, funciona sin errores?) e *Information Quality* (¿la ficha de producto es clara y completa?) determinan si el usuario navega y compra (*Use*) y si queda satisfecho con la experiencia (*User Satisfaction*).</span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a>*Service Quality* (¿responde bien el soporte si hay un problema con el pedido?) actúa en paralelo. El resultado (*Net Benefits*) se mide de forma distinta según para quién: ahorro de tiempo/dinero para el comprador, eficiencia de cadena de suministro para la empresa, crecimiento agregado si se mide a escala de toda una economía digital.</span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a>------------------------------------------------------------------------</span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a><span class="fu"># Entregable</span></span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a>::: ejercicio</span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a><span class="fu">## Parte 1 — Caracterizar flujos y servicios por nivel</span></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a>Para al menos tres flujos o servicios reales de la biblioteca (por ejemplo: préstamo, catalogación, consulta al catálogo online, formación de usuarios), identificar:</span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Un elemento del **nivel técnico**: ¿qué tendría que fallar en la infraestructura para que este flujo no funcionara?</span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Un elemento del **nivel semántico**: ¿qué podría hacer que, funcionando técnicamente, el usuario no entendiera o interpretara mal la información?</span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Un elemento del **nivel efectivo**: ¿qué decisión o comportamiento del usuario depende de que este flujo funcione bien en los dos niveles anteriores?</span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a><span class="fu">## Parte 2 — Inventario de documentación disponible por dimensión</span></span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a>Usando las fuentes ya localizadas en Tema 1 (ficha oficial, memorias, cualquier estadística publicada), clasificar qué documentación existe que permita evaluar cada una de las seis dimensiones de D&amp;M para el caso. Formato sugerido: tabla con columnas *Dimensión \| Hay datos reales (sí/no) \| Fuente*.</span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a>⚠️ Para esto podéis usar la IA siempre y cuando verifiquéis (yo recomendaría NotebookLM) para ayudaros a rastrear o resumir esta documentación, condición explícita: **deben marcar qué dimensiones se quedan sin dato real**, no rellenar el hueco con una estimación o suposición generada por la herramienta. El objetivo de este ejercicio es justamente detectar los huecos de información del caso, no disimularlos.</span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a>:::</span>
+</code></pre></div><button title="Copiar al portapapeles" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 
