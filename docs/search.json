@@ -672,5 +672,77 @@
     "title": "Del indicador al dashboard",
     "section": "Ejercicio: (titulo del ejercicio)",
     "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
+  },
+  {
+    "objectID": "tema2/sesion3.html",
+    "href": "tema2/sesion3.html",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "",
+    "text": "Esta sesión es de trabajo autónomo. No hay clase magistral — la profesora no está presente, pero una compañera os acompañará en el aula para resolver dudas prácticas (acceso al wiki, organización de grupos, plazos). Las instrucciones de esta página son autosuficientes: seguidlas en orden y no deberíais necesitar más contexto que el ya visto en Sesiones 1 y 2.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion3.html#paso-1-repasad-vuestros-huecos-de-sesión-2",
+    "href": "tema2/sesion3.html#paso-1-repasad-vuestros-huecos-de-sesión-2",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "Paso 1 — Repasad vuestros huecos de Sesión 2",
+    "text": "Paso 1 — Repasad vuestros huecos de Sesión 2\nCon la tabla de Wang & Strong delante, identificad qué dimensión (o dimensiones) se quedaron sin datos objetivos reales que las respaldaran. Esa es vuestra prioridad para el diseño de hoy.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion3.html#paso-2-diseñad-3-4-ítems-tipo-libqual",
+    "href": "tema2/sesion3.html#paso-2-diseñad-3-4-ítems-tipo-libqual",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "Paso 2 — Diseñad 3-4 ítems tipo LibQUAL+",
+    "text": "Paso 2 — Diseñad 3-4 ítems tipo LibQUAL+\nRedactad 3-4 preguntas de encuesta adaptadas al caso de la Biblioteca del Colegio Máximo, cubriendo al menos dos de las tres dimensiones de LibQUAL+ (Affect of Service, Information Control, Library as Place), priorizando las dimensiones que detectasteis sin cobertura objetiva en el Paso 1.\nFormato de cada ítem (igual que en el informe de la BUG que acabáis de leer): una afirmación breve, valorable en una escala (p. ej. 1-9 o 1-5), no una pregunta abierta. Ejemplo de estructura, no lo copiéis literal, adaptadlo:\n\n“El personal de la biblioteca me inspira confianza cuando le consulto una duda.” — Escala 1 (totalmente en desacuerdo) a 9 (totalmente de acuerdo).",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion3.html#paso-3-decidid-un-cuestionario-único-o-diferenciado-por-comunidad",
+    "href": "tema2/sesion3.html#paso-3-decidid-un-cuestionario-único-o-diferenciado-por-comunidad",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "Paso 3 — Decidid: ¿un cuestionario único o diferenciado por comunidad?",
+    "text": "Paso 3 — Decidid: ¿un cuestionario único o diferenciado por comunidad?\nRecordad el debate de Sesión 1 sobre las dos comunidades de usuarios (Comunicación y Documentación / Odontología) y sus culturas de uso distintas. Decidid, para cada ítem, si:\n\nVale un ítem común para ambas comunidades, o\nNecesita una redacción distinta (o una pregunta adicional) para que tenga sentido en las dos.\n\nJustificad la decisión por escrito — no basta con decidirlo, hay que explicar por qué.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion3.html#paso-4-reflexión-final-obligatoria",
+    "href": "tema2/sesion3.html#paso-4-reflexión-final-obligatoria",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "Paso 4 — Reflexión final (obligatoria)",
+    "text": "Paso 4 — Reflexión final (obligatoria)\nRespondé en el propio commit, con 3-5 líneas:\n\n¿Por qué elegisteis esas dimensiones y no otras, dado lo que sabéis del caso?",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion3.html#footnotes",
+    "href": "tema2/sesion3.html#footnotes",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "Notas",
+    "text": "Notas\n\n\nhttps://biblioteca.ugr.es/sites/serv/biblioteca/public/inline-files/Encuestas%20Libqual/libqual_2015.pdf↩︎",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
   }
 ]

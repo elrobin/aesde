@@ -37,6 +37,7 @@ website:
         contents:
           - tema2/sesion1.qmd
           - tema2/sesion2.qmd
+          - tema2/sesion3.qmd
       # - section: "3. Benchmarking"
       #   contents:
       #     - tema3/sesion1.qmd

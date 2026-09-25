@@ -1,0 +1,79 @@
+---
+title: "Diseño del instrumento de calidad percibida"
+---
+
+::: consejo
+**Esta sesión es de trabajo autónomo.** No hay clase magistral — la profesora no está presente, pero una compañera os acompañará en el aula para resolver dudas prácticas (acceso al wiki, organización de grupos, plazos). Las instrucciones de esta página son autosuficientes: seguidlas en orden y no deberíais necesitar más contexto que el ya visto en Sesiones 1 y 2.
+:::
+
+# Antes de empezar: dónde estáis
+
+En la Sesión 2 reclasificasteis los datos objetivos de la Biblioteca del Colegio Máximo según las 4 dimensiones de Wang & Strong, y detectasteis qué dimensiones **no** tenían datos reales que las respaldaran. Ese hueco es exactamente lo que vais a cubrir hoy — no con más búsqueda documental, sino diseñando un instrumento de encuesta que mida la calidad **percibida**, que por definición no se puede sacar de una memoria o estadística ya publicada: hay que preguntársela directamente al usuario.
+
+Recuperad vuestra tabla de la Sesión 2 (`01-calidad/01-datos-disponibles.qmd`) antes de continuar — la vais a necesitar en el Paso 2.
+
+# Material a consultar (20-25 min)
+
+Antes de diseñar nada, leed el informe real de LibQUAL+ aplicado por la propia Biblioteca Universitaria de Granada:
+
+- Biblioteca Universitaria de Granada (2015). *Informe encuesta LibQUAL+*[^1].
+
+[^1]: https://biblioteca.ugr.es/sites/serv/biblioteca/public/inline-files/Encuestas%20Libqual/libqual_2015.pdf
+
+No hace falta leerlo entero. Centraos en:
+
+1.  **Qué preguntas concretas se hicieron** (normalmente hay un anexo con el cuestionario completo, con ítems tipo escala 1-9 preguntando expectativa mínima, expectativa deseada y percepción real).
+2.  **Cómo se agrupan esas preguntas en las tres dimensiones de LibQUAL+** (*Affect of Service*, *Information Control*, *Library as Place*) — repasad Sesión 2 si no recordáis qué cubre cada una.
+3.  **Cómo se presentan los resultados** (gráficos de brecha, medias por dimensión) — no para replicarlo, solo para entender qué aspecto tiene un instrumento LibQUAL+ ya aplicado de verdad, no solo en teoría.
+
+::: consejo
+Si el PDF es largo, id directos al índice y buscad "cuestionario" o "anexo" — no necesitáis leer la metodología estadística completa del informe, solo el instrumento en sí y cómo se agrupan las preguntas.
+:::
+
+# Tarea dirigida (50-60 min)
+
+## Paso 1 — Repasad vuestros huecos de Sesión 2
+
+Con la tabla de Wang & Strong delante, identificad qué dimensión (o dimensiones) se quedaron sin datos objetivos reales que las respaldaran. Esa es vuestra prioridad para el diseño de hoy.
+
+## Paso 2 — Diseñad 3-4 ítems tipo LibQUAL+
+
+Redactad 3-4 preguntas de encuesta adaptadas al caso de la Biblioteca del Colegio Máximo, cubriendo **al menos dos** de las tres dimensiones de LibQUAL+ (*Affect of Service*, *Information Control*, *Library as Place*), priorizando las dimensiones que detectasteis sin cobertura objetiva en el Paso 1.
+
+Formato de cada ítem (igual que en el informe de la BUG que acabáis de leer): una afirmación breve, valorable en una escala (p. ej. 1-9 o 1-5), no una pregunta abierta. Ejemplo de estructura, **no lo copiéis literal, adaptadlo**:
+
+> *"El personal de la biblioteca me inspira confianza cuando le consulto una duda."* — Escala 1 (totalmente en desacuerdo) a 9 (totalmente de acuerdo).
+
+## Paso 3 — Decidid: ¿un cuestionario único o diferenciado por comunidad?
+
+Recordad el debate de Sesión 1 sobre las dos comunidades de usuarios (Comunicación y Documentación / Odontología) y sus culturas de uso distintas. Decidid, para cada ítem, si:
+
+- Vale un ítem común para ambas comunidades, o
+- Necesita una redacción distinta (o una pregunta adicional) para que tenga sentido en las dos.
+
+Justificad la decisión por escrito — no basta con decidirlo, hay que explicar por qué.
+
+## Paso 4 — Reflexión final (obligatoria)
+
+Respondé en el propio commit, con 3-5 líneas:
+
+> **¿Por qué elegisteis esas dimensiones y no otras, dado lo que sabéis del caso?**
+
+# Entregable
+
+::: ejercicio
+Commit a `01-calidad/02-servqual-diseno.qmd` con:
+
+1.  Los 3-4 ítems diseñados, indicando a qué dimensión de LibQUAL+ pertenece cada uno.
+2.  Para cada ítem, si es común o diferenciado por comunidad de usuarios, y la justificación.
+3.  La respuesta a la pregunta de reflexión del Paso 4.
+
+**Antes de dar la sesión por terminada**, comprobad con la checklist:
+
+- [ ] ¿Cada ítem tiene su dimensión de LibQUAL+ identificada?
+- [ ] ¿Habéis priorizado las dimensiones que en Sesión 2 quedaron sin datos objetivos?
+- [ ] ¿Está justificada la decisión de ítem común/diferenciado por comunidad?
+- [ ] ¿Está respondida la pregunta de reflexión?
+
+Si alguna casilla queda sin marcar, no está completo — resolvedlo antes de salir del aula. Si tenéis dudas sobre el contenido (no solo el wiki/commit), dejad la duda anotada en el propio commit; se resolverá al inicio de la Sesión 4.
+:::
