@@ -22,7 +22,13 @@ Ejemplo: un archivo revisa manualmente cada expediente antes de darlo por cerrad
 
 ## Del control a la gestión de la calidad
 
-El salto siguiente es conceptual, no solo técnico: la calidad del sistema de información deja de ser un problema de un departamento (quien revisa) y pasa a entenderse como una responsabilidad de toda la organización que genera y usa esa información. Tres autores marcan este tránsito:
+El salto siguiente es conceptual, no solo técnico: la calidad del sistema de información deja de resolverse solo con procedimientos de revisión y control y empieza a apoyarse en principios de gestión más amplios.
+
+Tres autores marcan este tránsito, introduciendo cada uno de ellos diferentes piezas de lo que se denominará **Gestión Total de la Calidad**: una forma de organizar los procesos de calidad, un ciclo de mejora y una motivación para invertir en este tipo de sistemas. Ninguno de los tres formula la filosofía completa de gestión, eso vendrá más adelante:
+
+[**Joseph Juran**](https://en.wikipedia.org/wiki/Joseph_M._Juran)
+
+: Introduce la **trilogía de la calidad**: [planificación, control y mejora de la calidad]{.mark} como tres procesos de gestión interrelacionados, y populariza la definición de calidad como "adecuación al uso" que ya vimos en Sesión 1, su foco está en entender qué necesita realmente quien va a consultar o usar la información antes de fijar cómo debe organizarse o documentarse.
 
 [**W. Edwards Deming**](https://en.wikipedia.org/wiki/W._Edwards_Deming)
 
@@ -30,9 +36,14 @@ El salto siguiente es conceptual, no solo técnico: la calidad del sistema de in
 
 ![Ciclo iterativo PDCA](/images/t2-pdca.png){fig-align="center" width="529"}
 
-[**Joseph Juran**](https://en.wikipedia.org/wiki/Joseph_M._Juran)
+::: bonus
+Un ejemplo de PDCA aplicado a una biblioteca:
 
-: Introduce la **trilogía de la calidad**: planificación, control y mejora de la calidad como tres procesos de gestión interrelacionados, y populariza la definición de calidad como "adecuación al uso" que ya vimos en Sesión 1 — su foco está en entender qué necesita realmente quien va a consultar o usar la información antes de fijar cómo debe organizarse o documentarse.
+- **Plan**. La biblioteca diseña un nuevo procedimiento de catalogación con campos obligatorios
+- **Do.** Se aplica durante un curso académico
+- **Check.** Se audita el porcentaje de registros nuevos con campos incompletos
+- **Act.** Se ajusta el procedimiento para reducir dicho porcentaje (e.g., formación al personal, rediseño del formulario) y se vuelve al inicio.
+:::
 
 [**Philip Crosby**](https://en.wikipedia.org/wiki/Philip_B._Crosby)
 
@@ -60,7 +71,9 @@ La inspección revisa el resultado; el control de calidad vigila el proceso; TQM
 
 ## Etapas y principios
 
-TQM no es una técnica única, sino un conjunto de principios que se aplican de forma conjunta^[Dale, B. G., Van der Wiele, T., & Van Iwaarden, J. (2007). *Managing Quality* (5th ed.). Blackwell]. Los más citados en la literatura son:
+TQM no es una técnica única, sino un conjunto de principios que se aplican de forma conjunta[^1]. Los más citados en la literatura son:
+
+[^1]: Dale, B. G., Van der Wiele, T., & Van Iwaarden, J. (2007). *Managing Quality* (5th ed.). Blackwell
 
 **Orientación al cliente/usuario**
 
@@ -92,14 +105,15 @@ Aplicado al caso que estáis trabajando: un sistema de información con TQM no s
 
 # Instrumentos de medida de la calidad
 
-Hasta ahora hemos hablado de calidad de forma conceptual, TQM como filosofía de gestión. Pero para evaluar realmente un sistema de información necesitamos
-instrumentos concretos que permitan medirla. 
+Hasta ahora hemos hablado de calidad de forma conceptual, TQM como filosofía de gestión. Pero para evaluar realmente un sistema de información necesitamos instrumentos concretos que permitan medirla.
 
 ⚠️ Recuerda: [la calidad tiene una cara objetiva y otra subjetiva, y cada una requiere un instrumento distinto]{.mark}.
 
 ## Calidad de rendimiento
 
-Aquí nos centramos en la calidad como una serie de propiedades objetivas. Para poder identificar esas propiedades seguimos el modelo de Wang y Strong (1996)^[Wang, R. Y., & Strong, D. M. (1996). Beyond accuracy: What data quality means to data consumers. *Journal of Management Information Systems*, 12(4), 5–33. https://doi.org/10.1080/07421222.1996.11518099], que se compone de **4 dimensiones**:
+Aquí nos centramos en la calidad como una serie de propiedades objetivas. Para poder identificar esas propiedades seguimos el modelo de Wang y Strong (1996)[^2], que se compone de **4 dimensiones**:
+
+[^2]: Wang, R. Y., & Strong, D. M. (1996). Beyond accuracy: What data quality means to data consumers. *Journal of Management Information Systems*, 12(4), 5–33. https://doi.org/10.1080/07421222.1996.11518099
 
 **Calidad intrínseca**
 
@@ -107,8 +121,7 @@ Aquí nos centramos en la calidad como una serie de propiedades objetivas. Para 
 
 **Calidad contextual**
 
-: La calidad depende de la tarea concreta para la que se necesita el dato: relevancia, valor añadido, oportunidad (que esté disponible cuando se
-necesita), completitud, cantidad adecuada de datos.
+: La calidad depende de la tarea concreta para la que se necesita el dato: relevancia, valor añadido, oportunidad (que esté disponible cuando se necesita), completitud, cantidad adecuada de datos.
 
 **Calidad representacional**
 
@@ -122,7 +135,9 @@ necesita), completitud, cantidad adecuada de datos.
 
 ### ServQual
 
-Aquí nos centramos en la calidad como una serie de propiedades percibidas por el usuario. Para poder evaluarla, uno de los modelos más difundidos es **ServQual**^[Parasuraman, A., Zeithaml, V. A., & Berry, L. L. (1988). SERVQUAL: A multiple-item scale for measuring consumer perceptions of service quality. Journal of Retailing, 64(1), 12–40.]. ServQual nace originalmente para evaluar bancos, telecomunicaciones o empresas de reparación. Se basa en un modelo de brechas (gap model): la calidad percibida es la diferencia entre lo que el usuario esperaba del servicio y lo que percibe haber recibido.
+Aquí nos centramos en la calidad como una serie de propiedades percibidas por el usuario. Para poder evaluarla, uno de los modelos más difundidos es **ServQual**[^3]. ServQual nace originalmente para evaluar bancos, telecomunicaciones o empresas de reparación. Se basa en un modelo de brechas (gap model): la calidad percibida es la diferencia entre lo que el usuario esperaba del servicio y lo que percibe haber recibido.
+
+[^3]: Parasuraman, A., Zeithaml, V. A., & Berry, L. L. (1988). SERVQUAL: A multiple-item scale for measuring consumer perceptions of service quality. Journal of Retailing, 64(1), 12–40.
 
 ```{mermaid}
 flowchart LR
@@ -136,31 +151,30 @@ flowchart LR
 
 El modelo se compone de 5 dimensiones:
 
-- **Fiabilidad** (*Reliability*): capacidad de prestar el servicio prometido  de forma consistente y precisa.
-- **Capacidad de respuesta** (*Responsiveness*): disposición a ayudar a los  usuarios y ofrecer un servicio rápido.
-- **Seguridad** (*Assurance*): conocimiento y cortesía del personal, y su  capacidad de transmitir confianza.
-- **Empatía** (*Empathy*): atención individualizada que se ofrece a cada  usuario.
-- **Elementos tangibles** (*Tangibles*): apariencia de las instalaciones,  equipos, personal y materiales de comunicación.
+- **Fiabilidad** (*Reliability*): capacidad de prestar el servicio prometido de forma consistente y precisa.
+- **Capacidad de respuesta** (*Responsiveness*): disposición a ayudar a los usuarios y ofrecer un servicio rápido.
+- **Seguridad** (*Assurance*): conocimiento y cortesía del personal, y su capacidad de transmitir confianza.
+- **Empatía** (*Empathy*): atención individualizada que se ofrece a cada usuario.
+- **Elementos tangibles** (*Tangibles*): apariencia de las instalaciones, equipos, personal y materiales de comunicación.
 
 ### LibQual+
 
-Para el contexto bibliotecario existe un modelo adaptado, el cual se denomina **LibQUAL+**^[Association of Research Libraries. LibQUAL+. https://www.libqual.org/]. Este instrumento fue diseñado por la ARL (Association of Research Libraries) específicamente para bibliotecas
-universitarias y reorganiza las dimensiones anteriores en tres:
+Para el contexto bibliotecario existe un modelo adaptado, el cual se denomina **LibQUAL+**[^4]. Este instrumento fue diseñado por la ARL (Association of Research Libraries) específicamente para bibliotecas universitarias y reorganiza las dimensiones anteriores en tres:
+
+[^4]: Association of Research Libraries. LibQUAL+. https://www.libqual.org/
 
 - *Trato con el personal* (**Affect of Service**), que fusiona de ServQual las dimensiones de fiabilidad, capacidad de respuesta, empatía y seguridad
 - *Control de la información* (**Information Control**), que consiste en la facilidad para encontrar y acceder a la información que se necesita)
 - *La biblioteca como espacio* (**Library as Place**), que sería el espacio físico o virtual como lugar de estudio y trabajo; lo equivalente a los Elementos tangibles de ServQual.
 
 ::: bonus
-LibQUAL+ fusiona varias dimensiones de ServQual en una sola (*Affect
-of Service*) al observar en distintos estudios empíricos con usuarios que esas
-dimensiones tendían a percibirse juntas. 
+LibQUAL+ fusiona varias dimensiones de ServQual en una sola (*Affect of Service*) al observar en distintos estudios empíricos con usuarios que esas dimensiones tendían a percibirse juntas.
 
-Los usuarios rara vez distinguían entre si el personal fue fiable o si era  empático al valorar el trato recibido. Es un ejemplo de cómo un instrumento genérico se ajusta con datos reales del sector al que se aplica, no solo por intuición.
+Los usuarios rara vez distinguían entre si el personal fue fiable o si era empático al valorar el trato recibido. Es un ejemplo de cómo un instrumento genérico se ajusta con datos reales del sector al que se aplica, no solo por intuición.
 :::
 
-| | **Wang & Strong** | **ServQual / LibQUAL+** |
-|---|---|---|
+|   | **Wang & Strong** | **ServQual / LibQUAL+** |
+|------------------------|------------------------|------------------------|
 | **Qué mide** | Calidad del dato/sistema en sí | Calidad percibida por el usuario |
 | **Tipo** | Objetiva | Subjetiva |
 | **Cómo se mide** | Análisis directo del sistema/datos | Encuesta (expectativa vs. percepción) |
@@ -168,7 +182,7 @@ Los usuarios rara vez distinguían entre si el personal fue fiable o si era  emp
 | **Origen** | Sistemas de información (MIT, 1996) | Marketing de servicios (1988), adaptado a bibliotecas por la ARL |
 | **Enlace** | [Texto completo (MIT)](https://web.mit.edu/tdqm/www/tdqmpub/beyondaccuracy_files/beyondaccuracy.html) | [libqual.org](https://www.libqual.org/) |
 
----
+------------------------------------------------------------------------
 
 # Entregable
 
@@ -177,22 +191,12 @@ Los usuarios rara vez distinguían entre si el personal fue fiable o si era  emp
 
 Sobre la Biblioteca del Colegio Máximo, identificar:
 
-- Qué etapa/principio de TQM reconocen ya en lo que saben del caso (por
-  ejemplo: mejora continua vía memorias anuales, orientación a las dos
-  comunidades de usuarios de Documentación y Odontología).
-- Qué principio falta por completo, o no hay evidencia de que se aplique
-  (por ejemplo: implicación de todo el personal, relaciones con proveedores
-  externos).
+- ¿Qué etapa/principio de TQM reconocéis ya en lo que sabéis de la biblioteca ? Por ejemplo: mejora continua vía memorias anuales, orientación a las dos comunidades de usuarios de Documentación y Odontología.
+- ¿Qué principio falta por completo, o no hay evidencia de que se aplique? Por ejemplo: implicación de todo el personal, relaciones con proveedores externos.
 
 ## Parte 2 — Reclasificar los datos objetivos según Wang & Strong
 
-Usando los datos objetivos ya recogidos (ficha oficial, memorias,
-estadísticas de Tema 1 y de la Sesión 1 de este tema), clasificarlos según
-las 4 dimensiones de Wang & Strong. Formato sugerido: tabla con columnas
-*Dimensión | Hay datos reales que la respalden (sí/no) | Fuente*.
+Usando los datos objetivos ya recogidos (ficha oficial, memorias, estadísticas de Tema 1 y de la Sesión 1 de este tema), clasifícalos según las 4 dimensiones de Wang & Strong. Formato sugerido: tabla con columnas *Dimensión \| Hay datos reales que la respalden (sí/no) \| Fuente*.
 
-El objetivo es identificar qué dimensión tiene datos reales y cuál no tiene
-ninguno. Ese hueco es la base directa de la tarea de Sesión 3, donde
-diseñaréis un instrumento tipo LibQUAL+ para cubrir precisamente lo que aquí
-quede sin dato objetivo.
+El objetivo es identificar qué dimensión tiene datos reales y cuál no tiene ninguno. Ese hueco es la base directa de la tarea de Sesión 3, donde diseñaréis un instrumento tipo LibQUAL+ para cubrir precisamente lo que aquí quede sin dato objetivo.
 :::
