@@ -1,0 +1,137 @@
+---
+title: "ISO 9001 como sistema documental"
+subtitle: "Tema 3 · Sesión 2"
+---
+
+::: {.diapo-box}
+Diapositivas de clase — *(enlace a las slides de este tema)*
+:::
+
+## Contenidos teóricos
+
+### ¿Por qué esta norma es cosa de documentalistas?
+
+Un sistema de gestión de la calidad solo existe si se puede **demostrar**.
+El auditor no ve la calidad: ve **evidencias**, y casi todas las evidencias
+son documentos y registros. Por eso, implantar la ISO 9001 es, en buena
+medida, **diseñar y mantener un sistema documental**: decidir qué se
+documenta, cómo se identifica, quién lo aprueba, dónde se guarda, cuánto
+tiempo se conserva y cómo se controlan sus versiones.
+
+> **Pregunta para abrir:** pensad en vuestra biblioteca. Si mañana un
+> auditor os pidiera demostrar que el préstamo funciona como dice la carta
+> de servicios, ¿qué le enseñaríais?
+
+### La cláusula 7.5: información documentada
+
+La ISO 9001 agrupa todo lo documental bajo el término **información
+documentada**: información que la organización debe controlar y mantener,
+en cualquier formato y soporte. La norma distingue dos usos:
+
+| La norma dice... | Equivale a... | Ejemplos en una biblioteca |
+|---|---|---|
+| **Mantener** información documentada | **Documentos** (describen cómo se hacen las cosas; se actualizan) | Política de calidad, carta de servicios, procedimiento de préstamo, manual de catalogación |
+| **Conservar** información documentada | **Registros** (prueban lo que se ha hecho; no se modifican) | Estadísticas de préstamo, actas de reuniones, resultados de encuestas, informes de auditoría, quejas y sugerencias |
+
+<!-- VERIFICAR: que la distinción mantener/conservar se conserva en la
+     redacción de ISO 9001:2026 -->
+
+La cláusula se divide en tres partes:
+
+- **7.5.1 Generalidades.** Qué debe documentarse: lo que exige la norma y
+  lo que la propia organización considere necesario. El volumen depende del
+  tamaño de la organización, la complejidad de sus procesos y la competencia
+  de su personal.
+- **7.5.2 Creación y actualización.** Cada documento debe estar
+  **identificado** (título, fecha, autor, código), tener un **formato** y un
+  soporte adecuados, y pasar por **revisión y aprobación**.
+- **7.5.3 Control.** La información debe estar **disponible** donde y cuando
+  se necesita y **protegida** (confidencialidad, uso indebido, pérdida de
+  integridad). Hay que gestionar su distribución, acceso, recuperación,
+  almacenamiento, preservación, **control de cambios**, conservación y
+  disposición final.
+
+> **Pregunta:** releed la lista de 7.5.3. ¿Os suena de alguna asignatura de
+> la carrera? *(Es, casi palabra por palabra, el ciclo de vida del
+> documento de la gestión documental y archivística.)*
+
+### Otros requisitos con alma documental
+
+La 7.5 no es la única cláusula que interesa a un profesional de la
+información:
+
+- **7.1.6 Conocimientos de la organización.** La norma pide identificar,
+  mantener y poner a disposición el conocimiento necesario para operar.
+  Es gestión del conocimiento dentro de un requisito certificable, y conecta
+  con la evolución de sistemas documentales a sistemas de conocimiento del
+  Tema 1.
+- **7.4 Comunicación.** Qué se comunica, a quién, cuándo y por qué canal.
+  Son los flujos de información formales e informales del Tema 1.
+- **9.1 Seguimiento, medición, análisis y evaluación.** Es la puerta de
+  entrada a los **indicadores**, que trabajaremos a fondo en los Temas 6 y 7.
+
+### ISO 9001 no está sola: el puente con la gestión documental
+
+Como todas las normas de sistemas de gestión comparten estructura, existe
+una norma "hermana" de la ISO 9001 específica para documentos:
+
+| Norma | Qué hace |
+|---|---|
+| **ISO 15489-1** | Conceptos y principios de la gestión de documentos (*records management*) |
+| **ISO 30301** | **Requisitos** de un sistema de gestión para los documentos. Tiene la misma estructura de capítulos que la ISO 9001 y es certificable |
+
+La consecuencia práctica: una organización puede integrar en un único
+sistema la gestión de la calidad (ISO 9001) y la de sus documentos (ISO
+30301), con un mismo esquema de contexto, liderazgo, planificación,
+apoyo, operación, evaluación y mejora.
+
+### La auditoría y la no conformidad
+
+Para el ejercicio necesitáis tres conceptos de la auditoría (ISO 19011):
+
+- **Evidencia**: registro o información verificable que demuestra algo.
+- **Hallazgo**: resultado de comparar la evidencia con un requisito.
+- **No conformidad**: incumplimiento de un requisito. Una buena no
+  conformidad tiene siempre tres partes: **requisito** (qué cláusula),
+  **evidencia** (qué habéis visto o no habéis visto) y **descripción** (en
+  qué consiste el incumplimiento).
+
+Ejemplo:
+
+> *Requisito:* 7.5.2, los documentos deben estar identificados y aprobados.
+> *Evidencia:* el procedimiento de préstamo interbibliotecario publicado en
+> la web no tiene fecha, versión ni responsable de aprobación.
+> *Descripción:* no puede determinarse si el procedimiento está vigente ni
+> quién lo ha validado.
+
+<!-- Ejemplo inventado: sustituir por uno real si aparece en clase -->
+
+## Ejercicio: Pre-auditoría documental de vuestra biblioteca
+
+::: {.ejercicio}
+**Objetivo.** Aplicar los requisitos de la ISO 9001 sobre información
+documentada a una organización real, detectando huecos con evidencias.
+
+**Instrucciones.**
+
+1. **Mapa de procesos.** Identificad entre 4 y 6 procesos de la biblioteca
+   (p. ej., adquisición, catalogación, préstamo, formación de usuarios,
+   atención de quejas). Clasificadlos en estratégicos, operativos y de
+   apoyo, y representadlos en un diagrama.
+2. **Inventario de información documentada.** Para **dos** de esos
+   procesos, listad qué documentos y qué registros deberían existir según
+   la norma, y comprobad cuáles existen y son accesibles. Usad una tabla:
+   `proceso | documento o registro | ¿mantener o conservar? | ¿existe? | fuente`.
+3. **No conformidades.** Redactad entre **3 y 5 no conformidades**
+   siguiendo el formato requisito / evidencia / descripción. Al menos una
+   debe referirse a la cláusula 7.5.
+4. **Reflexión individual** (en vuestra página del wiki): la BUG estuvo
+   certificada con ISO 9001 y hoy trabaja con EFQM. ¿Qué parte de lo que
+   habéis encontrado es herencia de aquel sistema documental?
+
+**Limitación a tener en cuenta.** Solo vemos lo que la biblioteca publica.
+Una "no evidencia" puede significar que el documento no existe o que existe
+pero es interno. Indicad siempre cuál de los dos casos sospecháis.
+
+**Entrega.** Commit al repositorio antes de que acabe la clase.
+:::

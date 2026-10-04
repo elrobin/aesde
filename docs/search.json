@@ -42,25 +42,85 @@
     "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
   },
   {
-    "objectID": "tema3/sesion1.html",
-    "href": "tema3/sesion1.html",
-    "title": "El benchmarking como herramienta de evaluación comparativa",
+    "objectID": "tema3/sesion2.html",
+    "href": "tema3/sesion2.html",
+    "title": "ISO 9001 como sistema documental",
     "section": "",
     "text": "Diapositivas de clase — (enlace a las slides de este tema)"
   },
   {
-    "objectID": "tema3/sesion1.html#contenidos-teoricos",
-    "href": "tema3/sesion1.html#contenidos-teoricos",
-    "title": "El benchmarking como herramienta de evaluación comparativa",
-    "section": "Contenidos teoricos",
-    "text": "Contenidos teoricos\n(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)\n\n# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)\n# library(tidyverse)"
+    "objectID": "tema3/sesion2.html#contenidos-teóricos",
+    "href": "tema3/sesion2.html#contenidos-teóricos",
+    "title": "ISO 9001 como sistema documental",
+    "section": "Contenidos teóricos",
+    "text": "Contenidos teóricos\n\n¿Por qué esta norma es cosa de documentalistas?\nUn sistema de gestión de la calidad solo existe si se puede demostrar. El auditor no ve la calidad: ve evidencias, y casi todas las evidencias son documentos y registros. Por eso, implantar la ISO 9001 es, en buena medida, diseñar y mantener un sistema documental: decidir qué se documenta, cómo se identifica, quién lo aprueba, dónde se guarda, cuánto tiempo se conserva y cómo se controlan sus versiones.\n\nPregunta para abrir: pensad en vuestra biblioteca. Si mañana un auditor os pidiera demostrar que el préstamo funciona como dice la carta de servicios, ¿qué le enseñaríais?\n\n\n\nLa cláusula 7.5: información documentada\nLa ISO 9001 agrupa todo lo documental bajo el término información documentada: información que la organización debe controlar y mantener, en cualquier formato y soporte. La norma distingue dos usos:\n\n\n\n\n\n\n\n\nLa norma dice…\nEquivale a…\nEjemplos en una biblioteca\n\n\n\n\nMantener información documentada\nDocumentos (describen cómo se hacen las cosas; se actualizan)\nPolítica de calidad, carta de servicios, procedimiento de préstamo, manual de catalogación\n\n\nConservar información documentada\nRegistros (prueban lo que se ha hecho; no se modifican)\nEstadísticas de préstamo, actas de reuniones, resultados de encuestas, informes de auditoría, quejas y sugerencias\n\n\n\n\nLa cláusula se divide en tres partes:\n\n7.5.1 Generalidades. Qué debe documentarse: lo que exige la norma y lo que la propia organización considere necesario. El volumen depende del tamaño de la organización, la complejidad de sus procesos y la competencia de su personal.\n7.5.2 Creación y actualización. Cada documento debe estar identificado (título, fecha, autor, código), tener un formato y un soporte adecuados, y pasar por revisión y aprobación.\n7.5.3 Control. La información debe estar disponible donde y cuando se necesita y protegida (confidencialidad, uso indebido, pérdida de integridad). Hay que gestionar su distribución, acceso, recuperación, almacenamiento, preservación, control de cambios, conservación y disposición final.\n\n\nPregunta: releed la lista de 7.5.3. ¿Os suena de alguna asignatura de la carrera? (Es, casi palabra por palabra, el ciclo de vida del documento de la gestión documental y archivística.)\n\n\n\nOtros requisitos con alma documental\nLa 7.5 no es la única cláusula que interesa a un profesional de la información:\n\n7.1.6 Conocimientos de la organización. La norma pide identificar, mantener y poner a disposición el conocimiento necesario para operar. Es gestión del conocimiento dentro de un requisito certificable, y conecta con la evolución de sistemas documentales a sistemas de conocimiento del Tema 1.\n7.4 Comunicación. Qué se comunica, a quién, cuándo y por qué canal. Son los flujos de información formales e informales del Tema 1.\n9.1 Seguimiento, medición, análisis y evaluación. Es la puerta de entrada a los indicadores, que trabajaremos a fondo en los Temas 6 y 7.\n\n\n\nISO 9001 no está sola: el puente con la gestión documental\nComo todas las normas de sistemas de gestión comparten estructura, existe una norma “hermana” de la ISO 9001 específica para documentos:\n\n\n\n\n\n\n\nNorma\nQué hace\n\n\n\n\nISO 15489-1\nConceptos y principios de la gestión de documentos (records management)\n\n\nISO 30301\nRequisitos de un sistema de gestión para los documentos. Tiene la misma estructura de capítulos que la ISO 9001 y es certificable\n\n\n\nLa consecuencia práctica: una organización puede integrar en un único sistema la gestión de la calidad (ISO 9001) y la de sus documentos (ISO 30301), con un mismo esquema de contexto, liderazgo, planificación, apoyo, operación, evaluación y mejora.\n\n\nLa auditoría y la no conformidad\nPara el ejercicio necesitáis tres conceptos de la auditoría (ISO 19011):\n\nEvidencia: registro o información verificable que demuestra algo.\nHallazgo: resultado de comparar la evidencia con un requisito.\nNo conformidad: incumplimiento de un requisito. Una buena no conformidad tiene siempre tres partes: requisito (qué cláusula), evidencia (qué habéis visto o no habéis visto) y descripción (en qué consiste el incumplimiento).\n\nEjemplo:\n\nRequisito: 7.5.2, los documentos deben estar identificados y aprobados. Evidencia: el procedimiento de préstamo interbibliotecario publicado en la web no tiene fecha, versión ni responsable de aprobación. Descripción: no puede determinarse si el procedimiento está vigente ni quién lo ha validado."
   },
   {
-    "objectID": "tema3/sesion1.html#ejercicio-titulo-del-ejercicio",
-    "href": "tema3/sesion1.html#ejercicio-titulo-del-ejercicio",
-    "title": "El benchmarking como herramienta de evaluación comparativa",
-    "section": "Ejercicio: (titulo del ejercicio)",
-    "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
+    "objectID": "tema3/sesion2.html#ejercicio-pre-auditoría-documental-de-vuestra-biblioteca",
+    "href": "tema3/sesion2.html#ejercicio-pre-auditoría-documental-de-vuestra-biblioteca",
+    "title": "ISO 9001 como sistema documental",
+    "section": "Ejercicio: Pre-auditoría documental de vuestra biblioteca",
+    "text": "Ejercicio: Pre-auditoría documental de vuestra biblioteca\n\nObjetivo. Aplicar los requisitos de la ISO 9001 sobre información documentada a una organización real, detectando huecos con evidencias.\nInstrucciones.\n\nMapa de procesos. Identificad entre 4 y 6 procesos de la biblioteca (p. ej., adquisición, catalogación, préstamo, formación de usuarios, atención de quejas). Clasificadlos en estratégicos, operativos y de apoyo, y representadlos en un diagrama.\nInventario de información documentada. Para dos de esos procesos, listad qué documentos y qué registros deberían existir según la norma, y comprobad cuáles existen y son accesibles. Usad una tabla: proceso | documento o registro | ¿mantener o conservar? | ¿existe? | fuente.\nNo conformidades. Redactad entre 3 y 5 no conformidades siguiendo el formato requisito / evidencia / descripción. Al menos una debe referirse a la cláusula 7.5.\nReflexión individual (en vuestra página del wiki): la BUG estuvo certificada con ISO 9001 y hoy trabaja con EFQM. ¿Qué parte de lo que habéis encontrado es herencia de aquel sistema documental?\n\nLimitación a tener en cuenta. Solo vemos lo que la biblioteca publica. Una “no evidencia” puede significar que el documento no existe o que existe pero es interno. Indicad siempre cuál de los dos casos sospecháis.\nEntrega. Commit al repositorio antes de que acabe la clase."
+  },
+  {
+    "objectID": "tema2/sesion3.html",
+    "href": "tema2/sesion3.html",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "",
+    "text": "Esta sesión es de trabajo autónomo. No hay clase magistral. Las instrucciones de esta página son autosuficientes: seguidlas en orden y no deberíais necesitar más contexto que el ya visto en Sesiones 1 y 2.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion3.html#paso-1-repasad-vuestros-huecos-de-sesión-2",
+    "href": "tema2/sesion3.html#paso-1-repasad-vuestros-huecos-de-sesión-2",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "Paso 1 — Repasad vuestros huecos de Sesión 2",
+    "text": "Paso 1 — Repasad vuestros huecos de Sesión 2\nCon la tabla de Wang & Strong delante, identificad qué dimensión (o dimensiones) se quedaron sin datos objetivos reales que las respaldaran. Esa es vuestra prioridad para el diseño de hoy.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion3.html#paso-2-diseñad-3-4-ítems-tipo-libqual",
+    "href": "tema2/sesion3.html#paso-2-diseñad-3-4-ítems-tipo-libqual",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "Paso 2 — Diseñad 3-4 ítems tipo LibQUAL+",
+    "text": "Paso 2 — Diseñad 3-4 ítems tipo LibQUAL+\nRedactad 3-4 preguntas de encuesta adaptadas al caso de la Biblioteca del Colegio Máximo, cubriendo al menos dos de las tres dimensiones de LibQUAL+ (Affect of Service, Information Control, Library as Place), priorizando las dimensiones que detectasteis sin cobertura objetiva en el Paso 1.\nFormato de cada ítem (igual que en el informe de la BUG que acabáis de leer): una afirmación breve, valorable en una escala (p. ej. 1-9 o 1-5), no una pregunta abierta. Ejemplo de estructura, no lo copiéis literal, adaptadlo:\n\n“El personal de la biblioteca me inspira confianza cuando le consulto una duda.” — Escala 1 (totalmente en desacuerdo) a 9 (totalmente de acuerdo).",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion3.html#paso-3-decidid-un-cuestionario-único-o-diferenciado-por-comunidad",
+    "href": "tema2/sesion3.html#paso-3-decidid-un-cuestionario-único-o-diferenciado-por-comunidad",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "Paso 3 — Decidid: ¿un cuestionario único o diferenciado por comunidad?",
+    "text": "Paso 3 — Decidid: ¿un cuestionario único o diferenciado por comunidad?\nRecordad el debate de Sesión 1 sobre las dos comunidades de usuarios (Comunicación y Documentación / Odontología) y sus culturas de uso distintas. Decidid, para cada ítem, si:\n\nVale un ítem común para ambas comunidades, o\nNecesita una redacción distinta (o una pregunta adicional) para que tenga sentido en las dos.\n\nJustificad la decisión por escrito — no basta con decidirlo, hay que explicar por qué.",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
+  },
+  {
+    "objectID": "tema2/sesion3.html#paso-4-reflexión-final",
+    "href": "tema2/sesion3.html#paso-4-reflexión-final",
+    "title": "Diseño del instrumento de calidad percibida",
+    "section": "Paso 4 — Reflexión final",
+    "text": "Paso 4 — Reflexión final\nRespondé en el propio commit, con 3-5 líneas:\n\n¿Por qué elegisteis esas dimensiones y no otras, dado lo que sabéis del caso?",
+    "crumbs": [
+      "Más sobre mí",
+      "T2 Calidad: concepto y evaluación",
+      "Diseño del instrumento de calidad percibida"
+    ]
   },
   {
     "objectID": "tema2/sesion1.html",
@@ -127,7 +187,7 @@
     "href": "tema2/sesion1.html#relación-entre-dimensiones",
     "title": "El concepto de calidad y sus dimensiones",
     "section": "Relación entre dimensiones",
-    "text": "Relación entre dimensiones\nLas seis dimensiones del modelo no son una lista de aspectos independientes que se evalúan por separado y se suman: están conectadas en una secuencia causal.\n\n\n\nModelo de Delone & McLean.\n\n\n\nLas tres calidades preceden al uso y la satisfacción\n\nSystem Quality, Information Quality y Service Quality son las variables de entrada del modelo. Describen el sistema tal como es, antes de que nadie lo use. Estas tres dimensiones influyen conjuntamente en dos variables:\n\n\n\nUse: en qué medida y de qué forma se usa el sistema.\nUser Satisfaction: el grado de satisfacción del usuario con esa experiencia.\n\n: Use y User Satisfaction se retroalimentan entre sí: usar más o mejor un sistema tiende a aumentar la satisfacción, y una mayor satisfacción tiende a incrementar el uso. No son la misma variable, pero tampoco son independientes.\n\nDe ahí a los beneficios\n\nEl uso y la satisfacción, combinados, generan Net Benefits: el impacto neto del sistema, positivo o negativo, para quien lo use.\n\n\nLa pregunta a responder sería “¿beneficio para quién, y a qué nivel de análisis?”. Puede ser un usuario individual, un departamento, toda la organización o, en contextos como el e-commerce, clientes, proveedores o la sociedad en su conjunto. El nivel de análisis no es un detalle menor: cambia qué cuenta como “beneficio”.\n\nEl bucle de retroalimentación\n\nEl modelo no termina en Net Benefits como un punto final. Los beneficios obtenidos (o la falta de ellos) condicionan si el usuario sigue utilizando el sistema y cómo de satisfecho sigue estando con él. Por tanto afectan a las dimensiones de Uso y Satisfacción del usuario.\n\nLa causalidad importa, no solo la lista\n\nUn sistema puede fallar en distintos puntos de la cadena y el diagnóstico cambia según dónde falle. Si la Calidad del sistema es baja, el problema es técnico y hay que corregirlo ahí. no tiene sentido mejorar la Calidad del servicio. Si las tres calidades son altas pero Uso es bajo, el problema no está en el sistema sino en la adopción y ahí la solución no es técnica, sino de formación, comunicación o incentivos.\n\nQué dimensión pesa más depende del contexto\n\nPara evaluar un sistema concreto, la Calidad del sistema y la Calidad de la información son determinantes, pero la importancia de cada una de estas dimensiones siempre dependerá del Sistema de Información evaluado.\n\n\n\n🏪 Un ejemplo con e-commerce\nEn una tienda online, System Quality (¿carga rápido, funciona sin errores?) e Information Quality (¿la ficha de producto es clara y completa?) determinan si el usuario navega y compra (Use) y si queda satisfecho con la experiencia (User Satisfaction).\nService Quality (¿responde bien el soporte si hay un problema con el pedido?) actúa en paralelo. El resultado (Net Benefits) se mide de forma distinta según para quién: ahorro de tiempo/dinero para el comprador, eficiencia de cadena de suministro para la empresa, crecimiento agregado si se mide a escala de toda una economía digital.",
+    "text": "Relación entre dimensiones\nLas seis dimensiones del modelo no son una lista de aspectos independientes que se evalúan por separado y se suman: están conectadas en una secuencia causal.\n\n\n\nModelo de Delone & McLean.\n\n\n\nLas tres calidades preceden al uso y la satisfacción\n\nSystem Quality, Information Quality y Service Quality son las variables de entrada del modelo. Describen el sistema tal como es, antes de que nadie lo use. Estas tres dimensiones influyen conjuntamente en dos variables:\n\nUse: en qué medida y de qué forma se usa el sistema.\nUser Satisfaction: el grado de satisfacción del usuario con esa experiencia.\n\n\n\nUse y User Satisfaction se retroalimentan entre sí: usar más o mejor un sistema tiende a aumentar la satisfacción, y una mayor satisfacción tiende a incrementar el uso. No son la misma variable, pero tampoco son independientes.\n\nDe ahí a los beneficios\n\nEl uso y la satisfacción, combinados, generan Net Benefits: el impacto neto del sistema, positivo o negativo, para quien lo use.\nLa pregunta a responder sería “¿beneficio para quién, y a qué nivel de análisis?”. Puede ser un usuario individual, un departamento, toda la organización o, en contextos como el e-commerce, clientes, proveedores o la sociedad en su conjunto. El nivel de análisis no es un detalle menor: cambia qué cuenta como “beneficio”.\n\nEl bucle de retroalimentación\n\nEl modelo no termina en Net Benefits como un punto final. Los beneficios obtenidos (o la falta de ellos) condicionan si el usuario sigue utilizando el sistema y cómo de satisfecho sigue estando con él. Por tanto afectan a las dimensiones de Uso y Satisfacción del usuario.\n\nLa causalidad importa, no solo la lista\n\nUn sistema puede fallar en distintos puntos de la cadena y el diagnóstico cambia según dónde falle. Si la Calidad del sistema es baja, el problema es técnico y hay que corregirlo ahí. no tiene sentido mejorar la Calidad del servicio. Si las tres calidades son altas pero Uso es bajo, el problema no está en el sistema sino en la adopción y ahí la solución no es técnica, sino de formación, comunicación o incentivos.\n\nQué dimensión pesa más depende del contexto\n\nPara evaluar un sistema concreto, la Calidad del sistema y la Calidad de la información son determinantes, pero la importancia de cada una de estas dimensiones siempre dependerá del Sistema de Información evaluado.\n\n\n\n🏪 Un ejemplo con e-commerce\nEn una tienda online, System Quality (¿carga rápido, funciona sin errores?) e Information Quality (¿la ficha de producto es clara y completa?) determinan si el usuario navega y compra (Use) y si queda satisfecho con la experiencia (User Satisfaction).\nService Quality (¿responde bien el soporte si hay un problema con el pedido?) actúa en paralelo. El resultado (Net Benefits) se mide de forma distinta según para quién: ahorro de tiempo/dinero para el comprador, eficiencia de cadena de suministro para la empresa, crecimiento agregado si se mide a escala de toda una economía digital.",
     "crumbs": [
       "Más sobre mí",
       "T2 Calidad: concepto y evaluación",
@@ -632,6 +692,27 @@
     ]
   },
   {
+    "objectID": "tema3/sesion1.html",
+    "href": "tema3/sesion1.html",
+    "title": "La familia de normas ISO 9000/9001",
+    "section": "",
+    "text": "Diapositivas de clase — (enlace a las slides de este tema)"
+  },
+  {
+    "objectID": "tema3/sesion1.html#contenidos-teóricos",
+    "href": "tema3/sesion1.html#contenidos-teóricos",
+    "title": "La familia de normas ISO 9000/9001",
+    "section": "Contenidos teóricos",
+    "text": "Contenidos teóricos\n\nDe la gestión de la calidad a la norma\nEn el Tema 2 vimos que la calidad puede entenderse de varias formas y que autores como Deming, Juran o Crosby propusieron métodos para gestionarla. El problema práctico es que cada organización aplicaba esos métodos a su manera, sin que un cliente o un socio pudiera saber desde fuera si un proveedor gestionaba bien su calidad. La normalización resuelve ese problema: fija un conjunto de requisitos comunes, acordados internacionalmente, contra los que cualquier organización puede ser comparada.\n\nPregunta para abrir: si ya tenemos el ciclo PDCA, ¿para qué necesitamos una norma? ¿Qué añade un documento firmado por ISO que no aporte Deming?\n\n\n\n¿Quién hace las normas?\n\nISO (International Organization for Standardization) elabora las normas a través de comités técnicos. La familia 9000 es responsabilidad del comité ISO/TC 176.\nCEN las adopta como normas europeas (EN).\nUNE (Asociación Española de Normalización) las publica en España como UNE-EN ISO. Por eso la norma que consultaréis se llama UNE-EN ISO 9001.\n\nUna norma es voluntaria: nadie está obligado por ley a cumplir la ISO 9001. Su fuerza viene del mercado y de las instituciones que la exigen (clientes, administraciones, convocatorias).\n\n\nLa familia ISO 9000\n\n\n\n\n\n\n\n\nNorma\nQué es\n¿Certificable?\n\n\n\n\nISO 9000\nFundamentos y vocabulario. Define los conceptos y los 7 principios\nNo\n\n\nISO 9001\nRequisitos de un sistema de gestión de la calidad (SGC)\nSí\n\n\nISO 9004\nOrientaciones para el éxito sostenido de la organización, más allá de los requisitos\nNo\n\n\nISO 19011\nDirectrices para auditar sistemas de gestión\nNo\n\n\n\nLa clave está en la palabra requisitos: la ISO 9001 es la única que dice qué debe cumplirse (en ella aparece el verbo “debe” en cada requisito). Las demás orientan, explican o definen.\n\n\n\n\n\n\nNotaUna norma recién estrenada\n\n\n\nLa ISO 9001 se ha revisado en 2026 (la anterior era de 2015) y la ISO 9000 en mayo de 2026. Los cambios son evolutivos: más peso a la cultura de la calidad y el comportamiento ético de la dirección, una redacción más clara sobre riesgos y oportunidades, y un nuevo anexo que aclara términos. Las organizaciones certificadas tienen tres años para adaptarse. Durante ese tiempo conviven ambas versiones.\n\n\n\n\n\nLos 7 principios de la gestión de la calidad\nRecogidos en ISO 9000, son la base sobre la que se construyen los requisitos de la ISO 9001:\n\nEnfoque al cliente\nLiderazgo\nCompromiso de las personas\nEnfoque a procesos\nMejora\nToma de decisiones basada en la evidencia\nGestión de las relaciones (con proveedores, socios y otras partes interesadas)\n\n\nPregunta: ¿qué principio os resulta más familiar después del Tema 2? ¿Cuál conecta directamente con lo que hace un documentalista? (Pista: el 6, y veremos en la sesión 2 que no es el único.)\n\n\n\n\nLa estructura de la ISO 9001: el PDCA hecho norma\nDesde 2015 todas las normas ISO de sistemas de gestión (calidad, medio ambiente, seguridad de la información, gestión documental…) comparten la misma estructura de capítulos. Eso permite integrar varios sistemas en una misma organización. Los requisitos están en los capítulos 4 a 10, y se reparten sobre el ciclo PDCA que ya conocéis:\n\n\n\n\n\nflowchart LR\n  C4[\"4. Contexto de la organización\"] --&gt; C5\n  C5[\"5. Liderazgo&lt;br/&gt;(centro del ciclo)\"]\n  C5 --&gt; P[\"PLANIFICAR&lt;br/&gt;6. Planificación\"]\n  P --&gt; D[\"HACER&lt;br/&gt;7. Apoyo&lt;br/&gt;8. Operación\"]\n  D --&gt; K[\"VERIFICAR&lt;br/&gt;9. Evaluación del desempeño\"]\n  K --&gt; A[\"ACTUAR&lt;br/&gt;10. Mejora\"]\n  A --&gt; P\n\n\n\n\n\n\n\n\n\n\n\n\n\nCapítulo\nQué pide, en una frase\n\n\n\n\n4. Contexto\nEntender la organización, su entorno y sus partes interesadas, y delimitar el alcance del sistema\n\n\n5. Liderazgo\nQue la dirección asuma el sistema, fije una política de calidad y reparta responsabilidades\n\n\n6. Planificación\nIdentificar riesgos y oportunidades y fijar objetivos de calidad medibles\n\n\n7. Apoyo\nRecursos, personas competentes, conocimiento, comunicación e información documentada\n\n\n8. Operación\nPlanificar y controlar los procesos que producen el producto o servicio\n\n\n9. Evaluación\nMedir, analizar, auditar internamente y revisar por la dirección. Incluye la satisfacción del cliente\n\n\n10. Mejora\nTratar las no conformidades, corregir causas y mejorar de forma continua\n\n\n\nFijaos en dos conexiones con lo ya visto: el capítulo 4 retoma el entorno del sistema del Tema 1, y la satisfacción del cliente del capítulo 9 es el lugar natural de herramientas como ServQual o LibQual+ del Tema 2.\nDos ideas transversales que recorren toda la norma:\n\nEnfoque a procesos: la organización se gestiona como una red de procesos con entradas y salidas, no como una suma de departamentos.\nPensamiento basado en riesgos: anticipar lo que puede salir mal (y lo que puede salir bien) en lugar de limitarse a corregir errores.\n\n\n\nCertificar no es lo mismo que acreditar\n\n\n\n\n\nflowchart TB\n  IAF[\"IAF&lt;br/&gt;Foro internacional de acreditación\"] --&gt; ENAC\n  ENAC[\"ENAC&lt;br/&gt;Entidad Nacional de Acreditación\"] -- acredita a --&gt; CB\n  CB[\"Entidades de certificación&lt;br/&gt;(AENOR, Bureau Veritas, SGS...)\"] -- certifican a --&gt; ORG\n  ORG[\"Organización&lt;br/&gt;(p. ej., un servicio universitario)\"]\n\n\n\n\n\n\n\nCertificar: una entidad independiente audita a la organización y declara que su sistema cumple los requisitos de la ISO 9001. El certificado se renueva cada tres años con auditorías de seguimiento anuales.\nAcreditar: un organismo oficial (en España, ENAC) reconoce que la entidad certificadora es competente para certificar.\nISO no certifica a nadie; solo escribe las normas.\n\n\n\nUna mirada crítica\nLa ISO 9001 es la norma de gestión más extendida del mundo, con más de un millón de certificados. Pero conviene tener claro qué garantiza y qué no:\n\nCertifica el sistema, no el producto. Un certificado dice que la organización hace lo que dice que hace y lo documenta, no que lo que haga sea excelente. Se puede certificar un proceso mediocre si es estable y está documentado.\nAdopción ceremonial frente a adopción real. Boiral (2003) entrevistó a casi 50 empleados de organizaciones certificadas fuera de su lugar de trabajo y encontró actitudes muy críticas: en muchos casos el apoyo al sistema era superficial y la norma se cumplía “para el auditor”.\nBurocratización. El riesgo de convertir la calidad en papeleo. Es una crítica clásica, y la norma de 2015 respondió reduciendo los documentos obligatorios.\n¿Mejora el rendimiento? La literatura empírica es mixta: hay beneficios en algunos contextos y efectos nulos en otros. La revisión de Heras-Saizarbitoria y Boiral (2013) es un buen punto de partida.\n\n\nPregunta para cerrar: la Biblioteca Universitaria de Granada se certificó con ISO 9001 en 2007 y después pasó al modelo EFQM, donde hoy tiene el Sello 600+. ¿Por qué creéis que una organización da ese paso? ¿Qué le da EFQM que no le daba la ISO 9001?\n\n\n\nLecturas\n\nObligatoria: Franch León, K. y Guerra Bretaña, R. (2016). La Norma ISO 9000: una mirada desde la gestión del conocimiento, la información, innovación y el aprendizaje organizacional. Cofin, 10(2), 29–54.\nPara el caso: Moreno Pascual, L. El proceso de evaluación según el modelo EFQM: experiencia en la Biblioteca Universitaria de Granada (DIGIBUG).\nPara ir más allá: Boiral, O. (2003). ISO 9000: Outside the iron cage. Organization Science, 14(6), 720–737. https://doi.org/10.1287/orsc.14.6.720.24873"
+  },
+  {
+    "objectID": "tema3/sesion1.html#ejercicio-los-7-principios-en-vuestra-biblioteca",
+    "href": "tema3/sesion1.html#ejercicio-los-7-principios-en-vuestra-biblioteca",
+    "title": "La familia de normas ISO 9000/9001",
+    "section": "Ejercicio: Los 7 principios en vuestra biblioteca",
+    "text": "Ejercicio: Los 7 principios en vuestra biblioteca\n\nObjetivo. Pasar de los principios abstractos de la ISO 9000 a evidencias concretas en una organización real.\nInstrucciones.\n\nLocalizad la documentación pública de calidad de la Biblioteca Universitaria de Granada (memorias EFQM, carta de servicios, política de calidad, resultados de encuestas).\nPara cada uno de los 7 principios, buscad una evidencia concreta de que la biblioteca lo aplica, indicando el documento y la página o URL de donde la sacáis. Si no la encontráis, decidlo: la ausencia también es un resultado.\nValorad brevemente cada evidencia: ¿demuestra que el principio se aplica o solo que se declara?\nRecogedlo en una tabla en el repositorio del caso práctico (principio | evidencia | fuente | ¿se aplica o se declara?) y anotad en vuestra página individual del wiki qué principio os ha costado más documentar y por qué.\n\nEntrega. Commit al repositorio antes de que acabe la clase."
+  },
+  {
     "objectID": "tema4/sesion1.html",
     "href": "tema4/sesion1.html",
     "title": "La organización y su entorno",
@@ -672,89 +753,5 @@
     "title": "Del indicador al dashboard",
     "section": "Ejercicio: (titulo del ejercicio)",
     "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
-  },
-  {
-    "objectID": "tema2/sesion3.html",
-    "href": "tema2/sesion3.html",
-    "title": "Diseño del instrumento de calidad percibida",
-    "section": "",
-    "text": "Esta sesión es de trabajo autónomo. No hay clase magistral. Las instrucciones de esta página son autosuficientes: seguidlas en orden y no deberíais necesitar más contexto que el ya visto en Sesiones 1 y 2.",
-    "crumbs": [
-      "Más sobre mí",
-      "T2 Calidad: concepto y evaluación",
-      "Diseño del instrumento de calidad percibida"
-    ]
-  },
-  {
-    "objectID": "tema2/sesion3.html#paso-1-repasad-vuestros-huecos-de-sesión-2",
-    "href": "tema2/sesion3.html#paso-1-repasad-vuestros-huecos-de-sesión-2",
-    "title": "Diseño del instrumento de calidad percibida",
-    "section": "Paso 1 — Repasad vuestros huecos de Sesión 2",
-    "text": "Paso 1 — Repasad vuestros huecos de Sesión 2\nCon la tabla de Wang & Strong delante, identificad qué dimensión (o dimensiones) se quedaron sin datos objetivos reales que las respaldaran. Esa es vuestra prioridad para el diseño de hoy.",
-    "crumbs": [
-      "Más sobre mí",
-      "T2 Calidad: concepto y evaluación",
-      "Diseño del instrumento de calidad percibida"
-    ]
-  },
-  {
-    "objectID": "tema2/sesion3.html#paso-2-diseñad-3-4-ítems-tipo-libqual",
-    "href": "tema2/sesion3.html#paso-2-diseñad-3-4-ítems-tipo-libqual",
-    "title": "Diseño del instrumento de calidad percibida",
-    "section": "Paso 2 — Diseñad 3-4 ítems tipo LibQUAL+",
-    "text": "Paso 2 — Diseñad 3-4 ítems tipo LibQUAL+\nRedactad 3-4 preguntas de encuesta adaptadas al caso de la Biblioteca del Colegio Máximo, cubriendo al menos dos de las tres dimensiones de LibQUAL+ (Affect of Service, Information Control, Library as Place), priorizando las dimensiones que detectasteis sin cobertura objetiva en el Paso 1.\nFormato de cada ítem (igual que en el informe de la BUG que acabáis de leer): una afirmación breve, valorable en una escala (p. ej. 1-9 o 1-5), no una pregunta abierta. Ejemplo de estructura, no lo copiéis literal, adaptadlo:\n\n“El personal de la biblioteca me inspira confianza cuando le consulto una duda.” — Escala 1 (totalmente en desacuerdo) a 9 (totalmente de acuerdo).",
-    "crumbs": [
-      "Más sobre mí",
-      "T2 Calidad: concepto y evaluación",
-      "Diseño del instrumento de calidad percibida"
-    ]
-  },
-  {
-    "objectID": "tema2/sesion3.html#paso-3-decidid-un-cuestionario-único-o-diferenciado-por-comunidad",
-    "href": "tema2/sesion3.html#paso-3-decidid-un-cuestionario-único-o-diferenciado-por-comunidad",
-    "title": "Diseño del instrumento de calidad percibida",
-    "section": "Paso 3 — Decidid: ¿un cuestionario único o diferenciado por comunidad?",
-    "text": "Paso 3 — Decidid: ¿un cuestionario único o diferenciado por comunidad?\nRecordad el debate de Sesión 1 sobre las dos comunidades de usuarios (Comunicación y Documentación / Odontología) y sus culturas de uso distintas. Decidid, para cada ítem, si:\n\nVale un ítem común para ambas comunidades, o\nNecesita una redacción distinta (o una pregunta adicional) para que tenga sentido en las dos.\n\nJustificad la decisión por escrito — no basta con decidirlo, hay que explicar por qué.",
-    "crumbs": [
-      "Más sobre mí",
-      "T2 Calidad: concepto y evaluación",
-      "Diseño del instrumento de calidad percibida"
-    ]
-  },
-  {
-    "objectID": "tema2/sesion3.html#paso-4-reflexión-final-obligatoria",
-    "href": "tema2/sesion3.html#paso-4-reflexión-final-obligatoria",
-    "title": "Diseño del instrumento de calidad percibida",
-    "section": "Paso 4 — Reflexión final (obligatoria)",
-    "text": "Paso 4 — Reflexión final (obligatoria)\nRespondé en el propio commit, con 3-5 líneas:\n\n¿Por qué elegisteis esas dimensiones y no otras, dado lo que sabéis del caso?",
-    "crumbs": [
-      "Más sobre mí",
-      "T2 Calidad: concepto y evaluación",
-      "Diseño del instrumento de calidad percibida"
-    ]
-  },
-  {
-    "objectID": "tema2/sesion3.html#footnotes",
-    "href": "tema2/sesion3.html#footnotes",
-    "title": "Diseño del instrumento de calidad percibida",
-    "section": "Notas",
-    "text": "Notas\n\n\nhttps://biblioteca.ugr.es/sites/serv/biblioteca/public/inline-files/Encuestas%20Libqual/libqual_2015.pdf↩︎",
-    "crumbs": [
-      "Más sobre mí",
-      "T2 Calidad: concepto y evaluación",
-      "Diseño del instrumento de calidad percibida"
-    ]
-  },
-  {
-    "objectID": "tema2/sesion3.html#paso-4-reflexión-final",
-    "href": "tema2/sesion3.html#paso-4-reflexión-final",
-    "title": "Diseño del instrumento de calidad percibida",
-    "section": "Paso 4 — Reflexión final",
-    "text": "Paso 4 — Reflexión final\nRespondé en el propio commit, con 3-5 líneas:\n\n¿Por qué elegisteis esas dimensiones y no otras, dado lo que sabéis del caso?",
-    "crumbs": [
-      "Más sobre mí",
-      "T2 Calidad: concepto y evaluación",
-      "Diseño del instrumento de calidad percibida"
-    ]
   }
 ]

@@ -1,26 +1,205 @@
 ---
-title: "El benchmarking como herramienta de evaluación comparativa"
+title: "La familia de normas ISO 9000/9001"
+subtitle: "Tema 3 · Sesión 1"
 ---
 
 ::: {.diapo-box}
 Diapositivas de clase — *(enlace a las slides de este tema)*
 :::
 
-## Contenidos teoricos
+## Contenidos teóricos
 
-*(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)*
+### De la gestión de la calidad a la norma
 
-```{r}
-#| eval: false
-#| echo: true
-# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)
-# library(tidyverse)
+En el Tema 2 vimos que la calidad puede entenderse de varias formas y que
+autores como Deming, Juran o Crosby propusieron *métodos* para gestionarla.
+El problema práctico es que cada organización aplicaba esos métodos a su
+manera, sin que un cliente o un socio pudiera saber desde fuera si un
+proveedor gestionaba bien su calidad. **La normalización resuelve ese
+problema**: fija un conjunto de requisitos comunes, acordados
+internacionalmente, contra los que cualquier organización puede ser
+comparada.
+
+> **Pregunta para abrir:** si ya tenemos el ciclo PDCA, ¿para qué
+> necesitamos una norma? ¿Qué añade un documento firmado por ISO que no
+> aporte Deming?
+
+### ¿Quién hace las normas?
+
+- **ISO** (*International Organization for Standardization*) elabora las
+  normas a través de comités técnicos. La familia 9000 es responsabilidad
+  del comité **ISO/TC 176**.
+- **CEN** las adopta como normas europeas (EN).
+- **UNE** (Asociación Española de Normalización) las publica en España
+  como **UNE-EN ISO**. Por eso la norma que consultaréis se llama
+  *UNE-EN ISO 9001*.
+
+Una norma es **voluntaria**: nadie está obligado por ley a cumplir la ISO
+9001. Su fuerza viene del mercado y de las instituciones que la exigen
+(clientes, administraciones, convocatorias).
+
+### La familia ISO 9000
+
+| Norma | Qué es | ¿Certificable? |
+|---|---|---|
+| **ISO 9000** | Fundamentos y vocabulario. Define los conceptos y los 7 principios | No |
+| **ISO 9001** | **Requisitos** de un sistema de gestión de la calidad (SGC) | **Sí** |
+| **ISO 9004** | Orientaciones para el *éxito sostenido* de la organización, más allá de los requisitos | No |
+| **ISO 19011** | Directrices para auditar sistemas de gestión | No |
+
+La clave está en la palabra **requisitos**: la ISO 9001 es la única que dice
+*qué debe cumplirse* (en ella aparece el verbo "debe" en cada requisito). Las
+demás orientan, explican o definen.
+
+::: {.callout-note}
+## Una norma recién estrenada
+La ISO 9001 se ha revisado en 2026 (la anterior era de 2015) y la ISO 9000
+en mayo de 2026. Los cambios son evolutivos: más peso a la **cultura de la
+calidad** y el **comportamiento ético** de la dirección, una redacción más
+clara sobre **riesgos y oportunidades**, y un nuevo anexo que aclara
+términos. Las organizaciones certificadas tienen tres años para adaptarse.
+Durante ese tiempo conviven ambas versiones.
+:::
+
+<!-- VERIFICAR con el texto de la norma: lista final de cambios 2026 y si
+     la versión UNE en español está ya disponible -->
+
+### Los 7 principios de la gestión de la calidad
+
+Recogidos en ISO 9000, son la base sobre la que se construyen los
+requisitos de la ISO 9001:
+
+1. **Enfoque al cliente**
+2. **Liderazgo**
+3. **Compromiso de las personas**
+4. **Enfoque a procesos**
+5. **Mejora**
+6. **Toma de decisiones basada en la evidencia**
+7. **Gestión de las relaciones** (con proveedores, socios y otras partes
+   interesadas)
+
+> **Pregunta:** ¿qué principio os resulta más familiar después del Tema 2?
+> ¿Cuál conecta directamente con lo que hace un documentalista?
+> *(Pista: el 6, y veremos en la sesión 2 que no es el único.)*
+
+<!-- VERIFICAR: nombres exactos de los principios en ISO 9000:2026 -->
+
+### La estructura de la ISO 9001: el PDCA hecho norma
+
+Desde 2015 todas las normas ISO de sistemas de gestión (calidad, medio
+ambiente, seguridad de la información, gestión documental...) comparten la
+**misma estructura de capítulos**. Eso permite integrar varios sistemas en
+una misma organización. Los requisitos están en los capítulos 4 a 10, y se
+reparten sobre el ciclo PDCA que ya conocéis:
+
+```{mermaid}
+flowchart LR
+  C4["4. Contexto de la organización"] --> C5
+  C5["5. Liderazgo<br/>(centro del ciclo)"]
+  C5 --> P["PLANIFICAR<br/>6. Planificación"]
+  P --> D["HACER<br/>7. Apoyo<br/>8. Operación"]
+  D --> K["VERIFICAR<br/>9. Evaluación del desempeño"]
+  K --> A["ACTUAR<br/>10. Mejora"]
+  A --> P
 ```
 
-## Ejercicio: *(titulo del ejercicio)*
+| Capítulo | Qué pide, en una frase |
+|---|---|
+| 4. Contexto | Entender la organización, su entorno y sus partes interesadas, y delimitar el alcance del sistema |
+| 5. Liderazgo | Que la dirección asuma el sistema, fije una política de calidad y reparta responsabilidades |
+| 6. Planificación | Identificar riesgos y oportunidades y fijar objetivos de calidad medibles |
+| 7. Apoyo | Recursos, personas competentes, conocimiento, comunicación e **información documentada** |
+| 8. Operación | Planificar y controlar los procesos que producen el producto o servicio |
+| 9. Evaluación | Medir, analizar, **auditar** internamente y revisar por la dirección. Incluye la **satisfacción del cliente** |
+| 10. Mejora | Tratar las no conformidades, corregir causas y mejorar de forma continua |
+
+Fijaos en dos conexiones con lo ya visto: el capítulo 4 retoma el **entorno**
+del sistema del Tema 1, y la satisfacción del cliente del capítulo 9 es el
+lugar natural de herramientas como **ServQual o LibQual+** del Tema 2.
+
+Dos ideas transversales que recorren toda la norma:
+
+- **Enfoque a procesos**: la organización se gestiona como una red de
+  procesos con entradas y salidas, no como una suma de departamentos.
+- **Pensamiento basado en riesgos**: anticipar lo que puede salir mal (y lo
+  que puede salir bien) en lugar de limitarse a corregir errores.
+
+### Certificar no es lo mismo que acreditar
+
+```{mermaid}
+flowchart TB
+  IAF["IAF<br/>Foro internacional de acreditación"] --> ENAC
+  ENAC["ENAC<br/>Entidad Nacional de Acreditación"] -- acredita a --> CB
+  CB["Entidades de certificación<br/>(AENOR, Bureau Veritas, SGS...)"] -- certifican a --> ORG
+  ORG["Organización<br/>(p. ej., un servicio universitario)"]
+```
+
+- **Certificar**: una entidad independiente audita a la organización y
+  declara que su sistema **cumple los requisitos** de la ISO 9001. El
+  certificado se renueva cada tres años con auditorías de seguimiento
+  anuales.
+- **Acreditar**: un organismo oficial (en España, ENAC) reconoce que la
+  entidad certificadora es **competente** para certificar.
+- ISO **no certifica a nadie**; solo escribe las normas.
+
+### Una mirada crítica
+
+La ISO 9001 es la norma de gestión más extendida del mundo, con más de un
+millón de certificados. Pero conviene tener claro qué garantiza y qué no:
+
+- **Certifica el sistema, no el producto.** Un certificado dice que la
+  organización hace lo que dice que hace y lo documenta, no que lo que haga
+  sea excelente. Se puede certificar un proceso mediocre si es estable y
+  está documentado.
+- **Adopción ceremonial frente a adopción real.** Boiral (2003) entrevistó
+  a casi 50 empleados de organizaciones certificadas fuera de su lugar de
+  trabajo y encontró actitudes muy críticas: en muchos casos el apoyo al
+  sistema era superficial y la norma se cumplía "para el auditor".
+- **Burocratización.** El riesgo de convertir la calidad en papeleo. Es
+  una crítica clásica, y la norma de 2015 respondió reduciendo los
+  documentos obligatorios.
+- **¿Mejora el rendimiento?** La literatura empírica es mixta: hay
+  beneficios en algunos contextos y efectos nulos en otros. La revisión de
+  Heras-Saizarbitoria y Boiral (2013) es un buen punto de partida.
+
+> **Pregunta para cerrar:** la Biblioteca Universitaria de Granada se
+> certificó con ISO 9001 en 2007 y después pasó al modelo **EFQM**, donde
+> hoy tiene el Sello 600+. ¿Por qué creéis que una organización da ese
+> paso? ¿Qué le da EFQM que no le daba la ISO 9001?
+
+### Lecturas
+
+- **Obligatoria:** Franch León, K. y Guerra Bretaña, R. (2016). La Norma ISO
+  9000: una mirada desde la gestión del conocimiento, la información,
+  innovación y el aprendizaje organizacional. *Cofin*, 10(2), 29–54.
+- **Para el caso:** Moreno Pascual, L. *El proceso de evaluación según el
+  modelo EFQM: experiencia en la Biblioteca Universitaria de Granada*
+  (DIGIBUG).
+- **Para ir más allá:** Boiral, O. (2003). ISO 9000: Outside the iron cage.
+  *Organization Science*, 14(6), 720–737.
+  <https://doi.org/10.1287/orsc.14.6.720.24873>
+
+## Ejercicio: Los 7 principios en vuestra biblioteca
 
 ::: {.ejercicio}
-**Objetivo.** *(que debe aprender/practicar el alumno)*
+**Objetivo.** Pasar de los principios abstractos de la ISO 9000 a
+evidencias concretas en una organización real.
 
-**Instrucciones.** *(enunciado del ejercicio, tabla o pasos a seguir)*
+**Instrucciones.**
+
+1. Localizad la documentación pública de calidad de la Biblioteca
+   Universitaria de Granada (memorias EFQM, carta de servicios, política de
+   calidad, resultados de encuestas).
+2. Para cada uno de los **7 principios**, buscad **una evidencia concreta**
+   de que la biblioteca lo aplica, indicando el documento y la página o URL
+   de donde la sacáis. Si no la encontráis, decidlo: la ausencia también es
+   un resultado.
+3. Valorad brevemente cada evidencia: ¿demuestra que el principio se aplica
+   o solo que se declara?
+4. Recogedlo en una tabla en el repositorio del caso práctico
+   (`principio | evidencia | fuente | ¿se aplica o se declara?`) y anotad en
+   vuestra página individual del wiki qué principio os ha costado más
+   documentar y por qué.
+
+**Entrega.** Commit al repositorio antes de que acabe la clase.
 :::
