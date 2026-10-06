@@ -1,137 +1,180 @@
 ---
-title: "ISO 9001 como sistema documental"
-subtitle: "Tema 3 · Sesión 2"
+title: "ISO 9001, ISO 9004 y EFQM"
 ---
 
-::: {.diapo-box}
+::: diapo-box
 Diapositivas de clase — *(enlace a las slides de este tema)*
 :::
 
 ## Contenidos teóricos
 
-### ¿Por qué esta norma es cosa de documentalistas?
+### ISO 9001: lo que se exige
 
-Un sistema de gestión de la calidad solo existe si se puede **demostrar**.
-El auditor no ve la calidad: ve **evidencias**, y casi todas las evidencias
-son documentos y registros. Por eso, implantar la ISO 9001 es, en buena
-medida, **diseñar y mantener un sistema documental**: decidir qué se
-documenta, cómo se identifica, quién lo aprueba, dónde se guarda, cuánto
-tiempo se conserva y cómo se controlan sus versiones.
+La ISO 9001 es la única norma certificable de la familia. Todos sus requisitos están en los capítulos 4 a 10, que siguen el ciclo PDCA del Tema 2:
 
-> **Pregunta para abrir:** pensad en vuestra biblioteca. Si mañana un
-> auditor os pidiera demostrar que el préstamo funciona como dice la carta
-> de servicios, ¿qué le enseñaríais?
+```{mermaid}
+flowchart LR
+  C4["4. Contexto"] --> C5
+  C5["5. Liderazgo<br/>(centro del ciclo)"]
+  C5 --> P["PLANIFICAR<br/>6. Planificación"]
+  P --> D["HACER<br/>7. Apoyo<br/>8. Operación"]
+  D --> K["VERIFICAR<br/>9. Evaluación del desempeño"]
+  K --> A["ACTUAR<br/>10. Mejora"]
+  A --> P
+```
 
-### La cláusula 7.5: información documentada
+| Capítulo | Qué pide, en una frase |
+|----|----|
+| 4\. Contexto | Entender la organización, su entorno y sus partes interesadas, y **delimitar el alcance** del sistema |
+| 5\. Liderazgo | Que la dirección asuma el sistema, fije una política de calidad y reparta responsabilidades |
+| 6\. Planificación | Identificar riesgos y oportunidades y fijar objetivos medibles |
+| 7\. Apoyo | Recursos, personas competentes, conocimiento, comunicación e **información documentada** |
+| 8\. Operación | Planificar y controlar los procesos que producen el servicio |
+| 9\. Evaluación | Medir, analizar, auditar y revisar. Incluye la **satisfacción del cliente** (aquí encajan ServQual y LibQual+) |
+| 10\. Mejora | Tratar las no conformidades y mejorar de forma continua |
 
-La ISO 9001 agrupa todo lo documental bajo el término **información
-documentada**: información que la organización debe controlar y mantener,
-en cualquier formato y soporte. La norma distingue dos usos:
+### La frontera: alcance y procesos (4.3 y 4.4)
 
-| La norma dice... | Equivale a... | Ejemplos en una biblioteca |
-|---|---|---|
-| **Mantener** información documentada | **Documentos** (describen cómo se hacen las cosas; se actualizan) | Política de calidad, carta de servicios, procedimiento de préstamo, manual de catalogación |
-| **Conservar** información documentada | **Registros** (prueban lo que se ha hecho; no se modifican) | Estadísticas de préstamo, actas de reuniones, resultados de encuestas, informes de auditoría, quejas y sugerencias |
+Dos requisitos del capítulo 4 responden a una duda que habéis tenido en los temas anteriores: **¿dónde está la frontera entre la BUG y el Colegio Máximo?**
 
-<!-- VERIFICAR: que la distinción mantener/conservar se conserva en la
+- **4.3 Alcance.** La organización debe **decidir y declarar** qué cubre su sistema. La frontera no viene dada: alguien la fija y la justifica.
+- **4.4 Procesos.** La organización debe identificar sus procesos y **las interacciones entre ellos**.
+
+La consecuencia práctica: **un servicio no pertenece a un nivel; lo atraviesa.** Lo que se asigna a un nivel es cada **flujo**, y para hacerlo basta con tres preguntas: **¿quién lo emite? ¿quién lo recibe? ¿quién lo decide?**
+
+#### Ejemplo resuelto: el préstamo
+
+| Flujo | De → a | Quién decide | Tipo |
+|----|----|----|----|
+| Normas de préstamo (plazos, número de ejemplares, sanciones) | BUG → Colegio Máximo | BUG | Descendente |
+| Petición y devolución en el mostrador | Usuario ↔ Colegio Máximo | Colegio Máximo, dentro de las normas de la BUG | Local |
+| Registro de la transacción en el sistema de gestión | Colegio Máximo → BUG | BUG (configura el sistema) | Ascendente |
+| Avisos de vencimiento por correo | BUG → usuario | BUG | No pasa por el Colegio Máximo |
+| Traslado de ejemplares entre bibliotecas | Colegio Máximo ↔ otra biblioteca de la BUG | BUG | Horizontal |
+| Préstamo interbibliotecario y entre universidades | BUG ↔ entorno | BUG y acuerdos externos | Externo |
+| Estadísticas para la memoria anual y EFQM | Colegio Máximo → BUG | BUG | Ascendente |
+
+```{mermaid}
+flowchart TB
+  subgraph ENT["Entorno"]
+    U["Usuario"]
+    EXT["Otras universidades<br/>y bibliotecas"]
+  end
+  subgraph BUG["BUG"]
+    NOR["Normas de préstamo"]
+    SIG["Sistema de gestión<br/>bibliotecaria"]
+    EST["Memoria y EFQM"]
+    OTR["Otras bibliotecas<br/>de la BUG"]
+  end
+  subgraph CM["Colegio Máximo"]
+    MOS["Mostrador de préstamo"]
+  end
+  NOR -- descendente --> MOS
+  U <-- local --> MOS
+  MOS -- ascendente --> SIG
+  SIG -- avisos --> U
+  MOS <-- horizontal --> OTR
+  SIG <-- externo --> EXT
+  SIG -- ascendente --> EST
+```
+
+```{=html}
+<!-- VERIFICAR: si el sistema de gestión se comparte a nivel del Consorcio
+     de Bibliotecas Universitarias de Andalucía (CBUA), añadir ese nivel
+     por encima de la BUG en la tabla y el diagrama -->
+```
+
+> **Pregunta:** ¿qué flujos del préstamo **no pasan nunca** por el Colegio Máximo, aunque afecten a sus usuarios?
+
+### La cláusula 7.5: por qué esta norma es cosa de documentalistas
+
+El auditor no ve la calidad: ve **evidencias**, y casi todas son documentos y registros. Implantar la ISO 9001 es, en buena medida, diseñar y mantener un **sistema documental**.
+
+| La norma dice... | Equivale a... | Ejemplos |
+|----|----|----|
+| **Mantener** información documentada | **Documentos**: describen cómo se hacen las cosas y se actualizan | Política de calidad, carta de servicios, procedimiento de préstamo |
+| **Conservar** información documentada | **Registros**: prueban lo que se ha hecho y no se modifican | Estadísticas, actas, encuestas, quejas, informes de auditoría |
+
+La cláusula exige que la información esté **identificada** (título, fecha, versión, responsable), **revisada y aprobada**, **disponible** cuando se necesita y **protegida**. También exige controlar su distribución, acceso, almacenamiento, preservación, cambios, conservación y disposición final.
+
+> **Pregunta:** ¿os suena esta lista? *(Es el ciclo de vida del documento de la gestión documental. Existe incluso una norma "hermana" de la ISO 9001 para documentos, la **ISO 30301**, con la misma estructura de capítulos.)*
+
+```{=html}
+<!-- VERIFICAR: que la distinción mantener/conservar se mantiene en la
      redacción de ISO 9001:2026 -->
+```
 
-La cláusula se divide en tres partes:
+### Lo que la ISO 9001 no garantiza
 
-- **7.5.1 Generalidades.** Qué debe documentarse: lo que exige la norma y
-  lo que la propia organización considere necesario. El volumen depende del
-  tamaño de la organización, la complejidad de sus procesos y la competencia
-  de su personal.
-- **7.5.2 Creación y actualización.** Cada documento debe estar
-  **identificado** (título, fecha, autor, código), tener un **formato** y un
-  soporte adecuados, y pasar por **revisión y aprobación**.
-- **7.5.3 Control.** La información debe estar **disponible** donde y cuando
-  se necesita y **protegida** (confidencialidad, uso indebido, pérdida de
-  integridad). Hay que gestionar su distribución, acceso, recuperación,
-  almacenamiento, preservación, **control de cambios**, conservación y
-  disposición final.
+- **Certifica el sistema, no el servicio.** El certificado dice que la organización hace lo que dice que hace y puede demostrarlo, no que lo que haga sea excelente.
+- **Adopción ceremonial.** Boiral (2003) entrevistó a casi 50 empleados de organizaciones certificadas y encontró que a menudo el apoyo al sistema era superficial: se cumplía la norma "para el auditor".
+- **Es un mínimo.** El resultado es binario: se cumple o no se cumple. No dice cuánto mejor que el mínimo es una organización.
 
-> **Pregunta:** releed la lista de 7.5.3. ¿Os suena de alguna asignatura de
-> la carrera? *(Es, casi palabra por palabra, el ciclo de vida del
-> documento de la gestión documental y archivística.)*
+### ISO 9004 y EFQM: lo que orienta
 
-### Otros requisitos con alma documental
+Para medir cuánto se supera el mínimo hacen falta otros instrumentos:
 
-La 7.5 no es la única cláusula que interesa a un profesional de la
-información:
+|   | ISO 9001 | ISO 9004 | EFQM |
+|----|----|----|----|
+| Quién lo hace | ISO | ISO | Fundación europea privada |
+| Qué es | Requisitos mínimos | Orientaciones para el éxito sostenido | Modelo de excelencia |
+| Pregunta que responde | ¿Cumples? | ¿Cómo puedes mejorar? | ¿Cómo de bien lo haces? |
+| Resultado | Certificado: **sí o no** | Autoevaluación por niveles de madurez | **Puntuación**, que en España da sellos de 200+ a 600+ |
+| ¿Certificable? | Sí | No | Sello concedido tras evaluación externa |
 
-- **7.1.6 Conocimientos de la organización.** La norma pide identificar,
-  mantener y poner a disposición el conocimiento necesario para operar.
-  Es gestión del conocimiento dentro de un requisito certificable, y conecta
-  con la evolución de sistemas documentales a sistemas de conocimiento del
-  Tema 1.
-- **7.4 Comunicación.** Qué se comunica, a quién, cuándo y por qué canal.
-  Son los flujos de información formales e informales del Tema 1.
-- **9.1 Seguimiento, medición, análisis y evaluación.** Es la puerta de
-  entrada a los **indicadores**, que trabajaremos a fondo en los Temas 6 y 7.
+**Analogía:** la ISO 9001 es el **carné de conducir**, que demuestra el mínimo y se tiene o no se tiene. EFQM es una **clasificación de pilotos**, que mide cuánto destacas y siempre se puede subir. La ISO 9004 sería la autoescuela avanzada: orienta, pero no da título.
 
-### ISO 9001 no está sola: el puente con la gestión documental
+No son excluyentes. Muchas organizaciones mantienen la ISO 9001 como base y usan EFQM encima.
 
-Como todas las normas de sistemas de gestión comparten estructura, existe
-una norma "hermana" de la ISO 9001 específica para documentos:
+#### El recorrido de la BUG
 
-| Norma | Qué hace |
-|---|---|
-| **ISO 15489-1** | Conceptos y principios de la gestión de documentos (*records management*) |
-| **ISO 30301** | **Requisitos** de un sistema de gestión para los documentos. Tiene la misma estructura de capítulos que la ISO 9001 y es certificable |
+| Año  | Hito                                                 |
+|------|------------------------------------------------------|
+| 2006 | Implanta su sistema de gestión de la calidad         |
+| 2007 | Obtiene la certificación ISO 9001                    |
+| 2010 | Inicia la evaluación con el modelo EFQM              |
+| 2024 | Obtiene el Sello EFQM 600+, válido durante tres años |
 
-La consecuencia práctica: una organización puede integrar en un único
-sistema la gestión de la calidad (ISO 9001) y la de sus documentos (ISO
-30301), con un mismo esquema de contexto, liderazgo, planificación,
-apoyo, operación, evaluación y mejora.
+Además, todas las unidades administrativas y servicios de la UGR están certificados con ISO 9001:2015.
 
-### La auditoría y la no conformidad
+> **Pregunta para cerrar:** con la nueva ISO 9001:2026, ¿tiene que hacer algo la BUG? *(Depende de si tiene certificado propio o está dentro del alcance del certificado de la UGR. Es una de las preguntas del ejercicio.)*
 
-Para el ejercicio necesitáis tres conceptos de la auditoría (ISO 19011):
+```{=html}
+<!-- VERIFICAR: alcance actual del certificado ISO 9001 de la UGR y si
+     incluye a la BUG -->
+```
 
-- **Evidencia**: registro o información verificable que demuestra algo.
-- **Hallazgo**: resultado de comparar la evidencia con un requisito.
-- **No conformidad**: incumplimiento de un requisito. Una buena no
-  conformidad tiene siempre tres partes: **requisito** (qué cláusula),
-  **evidencia** (qué habéis visto o no habéis visto) y **descripción** (en
-  qué consiste el incumplimiento).
+### Lecturas
 
-Ejemplo:
+- **Recomendada:** Información documentada y gestión del conocimiento en la ISO 9001:2015: aportación del profesional (2017). *Anuario ThinkEPI*.
+- **Para ir más allá:** Boiral, O. (2003). ISO 9000: Outside the iron cage. *Organization Science, 14*(6), 720–737. <https://doi.org/10.1287/orsc.14.6.720.24873>
 
-> *Requisito:* 7.5.2, los documentos deben estar identificados y aprobados.
-> *Evidencia:* el procedimiento de préstamo interbibliotecario publicado en
-> la web no tiene fecha, versión ni responsable de aprobación.
-> *Descripción:* no puede determinarse si el procedimiento está vigente ni
-> quién lo ha validado.
+## Ejercicio: Flujos, documentos y niveles
 
-<!-- Ejemplo inventado: sustituir por uno real si aparece en clase -->
+::: ejercicio
+**Objetivo.** Aplicar los requisitos de alcance, procesos e información documentada de la ISO 9001 a un servicio real, separando los niveles BUG y Colegio Máximo.
 
-## Ejercicio: Pre-auditoría documental de vuestra biblioteca
+**Instrucciones.** Cada grupo elige un servicio distinto del préstamo: formación de usuarios, adquisición o atención de quejas y sugerencias.
 
-::: {.ejercicio}
-**Objetivo.** Aplicar los requisitos de la ISO 9001 sobre información
-documentada a una organización real, detectando huecos con evidencias.
+1.  **Flujos.** Descomponed el servicio en flujos siguiendo el ejemplo del préstamo:
 
-**Instrucciones.**
+    | Flujo | De → a | Quién decide | Tipo (descendente / ascendente / horizontal / local / externo) |
+    |----|----|----|----|
 
-1. **Mapa de procesos.** Identificad entre 4 y 6 procesos de la biblioteca
-   (p. ej., adquisición, catalogación, préstamo, formación de usuarios,
-   atención de quejas). Clasificadlos en estratégicos, operativos y de
-   apoyo, y representadlos en un diagrama.
-2. **Inventario de información documentada.** Para **dos** de esos
-   procesos, listad qué documentos y qué registros deberían existir según
-   la norma, y comprobad cuáles existen y son accesibles. Usad una tabla:
-   `proceso | documento o registro | ¿mantener o conservar? | ¿existe? | fuente`.
-3. **No conformidades.** Redactad entre **3 y 5 no conformidades**
-   siguiendo el formato requisito / evidencia / descripción. Al menos una
-   debe referirse a la cláusula 7.5.
-4. **Reflexión individual** (en vuestra página del wiki): la BUG estuvo
-   certificada con ISO 9001 y hoy trabaja con EFQM. ¿Qué parte de lo que
-   habéis encontrado es herencia de aquel sistema documental?
+2.  **Diagrama.** Representad los flujos en un diagrama Mermaid con tres bloques: entorno, BUG y Colegio Máximo.
 
-**Limitación a tener en cuenta.** Solo vemos lo que la biblioteca publica.
-Una "no evidencia" puede significar que el documento no existe o que existe
-pero es interno. Indicad siempre cuál de los dos casos sospecháis.
+3.  **Información documentada.** Listad qué documentos y registros deberían existir para ese servicio y comprobad cuáles son accesibles:
+
+    | Documento o registro | ¿Mantener o conservar? | Nivel | ¿Existe y es accesible? | Fuente |
+    |----|----|----|----|----|
+
+    Si no encontráis algo, indicad si sospecháis que no existe o que existe pero es interno.
+
+4.  **No conformidades.** Redactad **2 o 3** con el formato *requisito / evidencia / descripción*. Al menos una debe referirse a la cláusula 7.5.
+
+5.  **Investigación.** ¿Tiene la BUG certificado ISO 9001 propio o está dentro del alcance del de la UGR? ¿Qué le exige la ISO 9001:2026? ¿Qué le aporta EFQM que no le dé la norma?
+
+6.  **Reflexión individual** (en el wiki): ¿qué flujo os ha costado más situar y cómo lo habéis resuelto?
 
 **Entrega.** Commit al repositorio antes de que acabe la clase.
 :::
