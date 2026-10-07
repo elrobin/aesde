@@ -2,179 +2,94 @@
 title: "ISO 9001, ISO 9004 y EFQM"
 ---
 
-::: diapo-box
-Diapositivas de clase — *(enlace a las slides de este tema)*
-:::
+## De los principios a la certificación: la ISO 9001
 
-## Contenidos teóricos
+En la sesión anterior vimos que la familia ISO 9000 agrupa varias normas
+con funciones distintas, y que solo una de ellas es **certificable**:
+la ISO 9001. También vimos los siete principios de la gestión de la
+calidad, que la ISO 9001 declara como su fundamento (apartado 0.2):
 
-### ISO 9001: lo que se exige
-
-La ISO 9001 es la única norma certificable de la familia. Todos sus requisitos están en los capítulos 4 a 10, que siguen el ciclo PDCA del Tema 2:
-
-```{mermaid}
-flowchart LR
-  C4["4. Contexto"] --> C5
-  C5["5. Liderazgo<br/>(centro del ciclo)"]
-  C5 --> P["PLANIFICAR<br/>6. Planificación"]
-  P --> D["HACER<br/>7. Apoyo<br/>8. Operación"]
-  D --> K["VERIFICAR<br/>9. Evaluación del desempeño"]
-  K --> A["ACTUAR<br/>10. Mejora"]
-  A --> P
-```
-
-| Capítulo | Qué pide, en una frase |
+| Principio | En una frase |
 |----|----|
-| 4\. Contexto | Entender la organización, su entorno y sus partes interesadas, y **delimitar el alcance** del sistema |
-| 5\. Liderazgo | Que la dirección asuma el sistema, fije una política de calidad y reparta responsabilidades |
-| 6\. Planificación | Identificar riesgos y oportunidades y fijar objetivos medibles |
-| 7\. Apoyo | Recursos, personas competentes, conocimiento, comunicación e **información documentada** |
-| 8\. Operación | Planificar y controlar los procesos que producen el servicio |
-| 9\. Evaluación | Medir, analizar, auditar y revisar. Incluye la **satisfacción del cliente** (aquí encajan ServQual y LibQual+) |
-| 10\. Mejora | Tratar las no conformidades y mejorar de forma continua |
+| Enfoque al cliente | La calidad la define quien recibe el servicio |
+| Liderazgo | La dirección fija el rumbo y crea las condiciones |
+| Compromiso de las personas | Personas competentes, implicadas y reconocidas |
+| Enfoque a procesos | Gestionar actividades interrelacionadas como un sistema |
+| Mejora | El sistema nunca está terminado |
+| Decisiones basadas en la evidencia | Decidir con datos analizados, no con intuiciones |
+| Gestión de las relaciones | Cuidar a proveedores, socios y demás partes interesadas |
 
-### La frontera: alcance y procesos (4.3 y 4.4)
+Pero un principio no se puede auditar. "La dirección debe liderar" no
+es algo que un auditor pueda comprobar con un sí o un no. Para que una
+organización pueda **certificarse**, los principios tienen que
+convertirse en algo verificable. Eso es lo que hace la ISO 9001, en
+cuatro pasos:
 
-Dos requisitos del capítulo 4 responden a una duda que habéis tenido en los temas anteriores: **¿dónde está la frontera entre la BUG y el Colegio Máximo?**
+> **Principio** (ISO 9000: *por qué*) → **Requisito** (ISO 9001:
+> *qué debe hacer* la organización) → **Evidencia** (información
+> documentada que lo demuestra) → **Auditoría** (alguien externo lo
+> comprueba)
 
-- **4.3 Alcance.** La organización debe **decidir y declarar** qué cubre su sistema. La frontera no viene dada: alguien la fija y la justifica.
-- **4.4 Procesos.** La organización debe identificar sus procesos y **las interacciones entre ellos**.
+A lo largo de esta sesión recorreremos esa cadena de principio a fin.
 
-La consecuencia práctica: **un servicio no pertenece a un nivel; lo atraviesa.** Lo que se asigna a un nivel es cada **flujo**, y para hacerlo basta con tres preguntas: **¿quién lo emite? ¿quién lo recibe? ¿quién lo decide?**
+### Cómo está organizada la norma
 
-#### Ejemplo resuelto: el préstamo
-
-| Flujo | De → a | Quién decide | Tipo |
-|----|----|----|----|
-| Normas de préstamo (plazos, número de ejemplares, sanciones) | BUG → Colegio Máximo | BUG | Descendente |
-| Petición y devolución en el mostrador | Usuario ↔ Colegio Máximo | Colegio Máximo, dentro de las normas de la BUG | Local |
-| Registro de la transacción en el sistema de gestión | Colegio Máximo → BUG | BUG (configura el sistema) | Ascendente |
-| Avisos de vencimiento por correo | BUG → usuario | BUG | No pasa por el Colegio Máximo |
-| Traslado de ejemplares entre bibliotecas | Colegio Máximo ↔ otra biblioteca de la BUG | BUG | Horizontal |
-| Préstamo interbibliotecario y entre universidades | BUG ↔ entorno | BUG y acuerdos externos | Externo |
-| Estadísticas para la memoria anual y EFQM | Colegio Máximo → BUG | BUG | Ascendente |
-
-```{mermaid}
-flowchart TB
-  subgraph ENT["Entorno"]
-    U["Usuario"]
-    EXT["Otras universidades<br/>y bibliotecas"]
-  end
-  subgraph BUG["BUG"]
-    NOR["Normas de préstamo"]
-    SIG["Sistema de gestión<br/>bibliotecaria"]
-    EST["Memoria y EFQM"]
-    OTR["Otras bibliotecas<br/>de la BUG"]
-  end
-  subgraph CM["Colegio Máximo"]
-    MOS["Mostrador de préstamo"]
-  end
-  NOR -- descendente --> MOS
-  U <-- local --> MOS
-  MOS -- ascendente --> SIG
-  SIG -- avisos --> U
-  MOS <-- horizontal --> OTR
-  SIG <-- externo --> EXT
-  SIG -- ascendente --> EST
-```
-
-```{=html}
-<!-- VERIFICAR: si el sistema de gestión se comparte a nivel del Consorcio
-     de Bibliotecas Universitarias de Andalucía (CBUA), añadir ese nivel
-     por encima de la BUG en la tabla y el diagrama -->
-```
-
-> **Pregunta:** ¿qué flujos del préstamo **no pasan nunca** por el Colegio Máximo, aunque afecten a sus usuarios?
-
-### La cláusula 7.5: por qué esta norma es cosa de documentalistas
-
-El auditor no ve la calidad: ve **evidencias**, y casi todas son documentos y registros. Implantar la ISO 9001 es, en buena medida, diseñar y mantener un **sistema documental**.
-
-| La norma dice... | Equivale a... | Ejemplos |
+| Capítulos | Contenido | ¿Contiene requisitos? |
 |----|----|----|
-| **Mantener** información documentada | **Documentos**: describen cómo se hacen las cosas y se actualizan | Política de calidad, carta de servicios, procedimiento de préstamo |
-| **Conservar** información documentada | **Registros**: prueban lo que se ha hecho y no se modifican | Estadísticas, actas, encuestas, quejas, informes de auditoría |
+| 0–3 | Introducción, objeto, normas de consulta, términos y definiciones | No |
+| 4–10 | Contexto, liderazgo, planificación, apoyo, operación, evaluación del desempeño, mejora | **Sí**: es lo que se audita |
 
-La cláusula exige que la información esté **identificada** (título, fecha, versión, responsable), **revisada y aprobada**, **disponible** cuando se necesita y **protegida**. También exige controlar su distribución, acceso, almacenamiento, preservación, cambios, conservación y disposición final.
+Los capítulos 4 a 10 siguen una estructura común a todas las normas ISO
+de sistemas de gestión: la ISO 14001 (medio ambiente), la ISO 27001
+(seguridad de la información) o la ISO 30301 (gestión de documentos)
+se organizan igual. Quien conoce una, sabe moverse por todas.
 
-> **Pregunta:** ¿os suena esta lista? *(Es el ciclo de vida del documento de la gestión documental. Existe incluso una norma "hermana" de la ISO 9001 para documentos, la **ISO 30301**, con la misma estructura de capítulos.)*
+> **Pregunta:** si los capítulos 0 a 3 no contienen requisitos,
+> ¿para qué sirven?
 
-```{=html}
-<!-- VERIFICAR: que la distinción mantener/conservar se mantiene en la
-     redacción de ISO 9001:2026 -->
-```
+## El ciclo PHVA aplicado a un sistema de gestión de la calidad
 
-### Lo que la ISO 9001 no garantiza
+La norma representa su propia estructura con este esquema (Figura 2 de
+la ISO 9001:2026, adaptada):
 
-- **Certifica el sistema, no el servicio.** El certificado dice que la organización hace lo que dice que hace y puede demostrarlo, no que lo que haga sea excelente.
-- **Adopción ceremonial.** Boiral (2003) entrevistó a casi 50 empleados de organizaciones certificadas y encontró que a menudo el apoyo al sistema era superficial: se cumplía la norma "para el auditor".
-- **Es un mínimo.** El resultado es binario: se cumple o no se cumple. No dice cuánto mejor que el mínimo es una organización.
+![](images/iso9001-phva.png)
 
-### ISO 9004 y EFQM: lo que orienta
+Si lo miráis con los ojos del Tema 1, es un **diagrama de sistema**:
+tiene entradas, una frontera, un proceso de transformación, salidas y
+un circuito de retroalimentación. Lo que hace la norma es decir qué
+elementos de gestión de la calidad tienen que estar en cada parte.
 
-Para medir cuánto se supera el mínimo hacen falta otros instrumentos:
+| Parte del sistema | En el gráfico | Capítulo | Qué introduce la norma | Principio que se nota |
+|----|----|----|----|----|
+| **Entradas** | Flechas de la izquierda | 4.1, 4.2 | Conocer el contexto de la organización y las necesidades de las partes interesadas | Enfoque al cliente, gestión de las relaciones |
+| **Frontera** | Círculo discontinuo | 4.3 | Decidir y declarar el **alcance**: qué entra en el sistema y qué no | Enfoque a procesos |
+| **Centro** | Hexágono central | 5 | Compromiso de la dirección, política de la calidad, roles y responsabilidades | Liderazgo |
+| **Planificar** | Hexágono izquierdo | 6 | Riesgos y oportunidades, **objetivos de la calidad medibles**, planificación de cambios | Mejora, decisiones basadas en la evidencia |
+| **Hacer** | Hexágono superior | 7, 8 | Recursos, competencia, conocimiento, comunicación, **información documentada** (7); prestación del servicio y control de proveedores (8) | Compromiso de las personas, enfoque a procesos |
+| **Verificar** | Hexágono derecho | 9 | Seguimiento y medición, **satisfacción del cliente**, auditoría interna, revisión por la dirección | Decisiones basadas en la evidencia |
+| **Actuar** | Hexágono inferior | 10 | No conformidades, acciones correctivas, mejora continua | Mejora |
+| **Salidas** | Flechas de la derecha | — | Productos y servicios, satisfacción del cliente, resultados del sistema | Enfoque al cliente |
 
-|   | ISO 9001 | ISO 9004 | EFQM |
-|----|----|----|----|
-| Quién lo hace | ISO | ISO | Fundación europea privada |
-| Qué es | Requisitos mínimos | Orientaciones para el éxito sostenido | Modelo de excelencia |
-| Pregunta que responde | ¿Cumples? | ¿Cómo puedes mejorar? | ¿Cómo de bien lo haces? |
-| Resultado | Certificado: **sí o no** | Autoevaluación por niveles de madurez | **Puntuación**, que en España da sellos de 200+ a 600+ |
-| ¿Certificable? | Sí | No | Sello concedido tras evaluación externa |
+Tres detalles del gráfico que no son decorativos:
 
-**Analogía:** la ISO 9001 es el **carné de conducir**, que demuestra el mínimo y se tiene o no se tiene. EFQM es una **clasificación de pilotos**, que mide cuánto destacas y siempre se puede subir. La ISO 9004 sería la autoescuela avanzada: orienta, pero no da título.
+- **El liderazgo está en el centro**, conectado con las cuatro fases.
+  No es una fase más: es lo que hace girar el ciclo.
+- **La flecha doble de "Verificar"** apunta a las salidas: se mide lo
+  que sale del sistema, y esa información vuelve a entrar en el ciclo.
+  Es la **retroalimentación** del Tema 1.
+- **El ciclo no tiene final.** Tras "Actuar" se vuelve a "Planificar".
+  Por eso la certificación se renueva y se audita periódicamente.
 
-No son excluyentes. Muchas organizaciones mantienen la ISO 9001 como base y usan EFQM encima.
+> **Pregunta:** ¿dónde encajaría en este gráfico la encuesta LibQUAL+
+> que vimos en el Tema 2? ¿Y el resultado de esa encuesta?
 
-#### El recorrido de la BUG
+## Tarea A
 
-| Año  | Hito                                                 |
-|------|------------------------------------------------------|
-| 2006 | Implanta su sistema de gestión de la calidad         |
-| 2007 | Obtiene la certificación ISO 9001                    |
-| 2010 | Inicia la evaluación con el modelo EFQM              |
-| 2024 | Obtiene el Sello EFQM 600+, válido durante tres años |
+En la sesión 1 del Tema 1 describisteis la Biblioteca del Colegio
+Máximo como un sistema. Ahora vais a situarla dentro del gráfico de la
+norma. En vuestra página del wiki, completad:
 
-Además, todas las unidades administrativas y servicios de la UGR están certificados con ISO 9001:2015.
-
-> **Pregunta para cerrar:** con la nueva ISO 9001:2026, ¿tiene que hacer algo la BUG? *(Depende de si tiene certificado propio o está dentro del alcance del certificado de la UGR. Es una de las preguntas del ejercicio.)*
-
-```{=html}
-<!-- VERIFICAR: alcance actual del certificado ISO 9001 de la UGR y si
-     incluye a la BUG -->
-```
-
-### Lecturas
-
-- **Recomendada:** Información documentada y gestión del conocimiento en la ISO 9001:2015: aportación del profesional (2017). *Anuario ThinkEPI*.
-- **Para ir más allá:** Boiral, O. (2003). ISO 9000: Outside the iron cage. *Organization Science, 14*(6), 720–737. <https://doi.org/10.1287/orsc.14.6.720.24873>
-
-## Ejercicio: Flujos, documentos y niveles
-
-::: ejercicio
-**Objetivo.** Aplicar los requisitos de alcance, procesos e información documentada de la ISO 9001 a un servicio real, separando los niveles BUG y Colegio Máximo.
-
-**Instrucciones.** Cada grupo elige un servicio distinto del préstamo: formación de usuarios, adquisición o atención de quejas y sugerencias.
-
-1.  **Flujos.** Descomponed el servicio en flujos siguiendo el ejemplo del préstamo:
-
-    | Flujo | De → a | Quién decide | Tipo (descendente / ascendente / horizontal / local / externo) |
-    |----|----|----|----|
-
-2.  **Diagrama.** Representad los flujos en un diagrama Mermaid con tres bloques: entorno, BUG y Colegio Máximo.
-
-3.  **Información documentada.** Listad qué documentos y registros deberían existir para ese servicio y comprobad cuáles son accesibles:
-
-    | Documento o registro | ¿Mantener o conservar? | Nivel | ¿Existe y es accesible? | Fuente |
-    |----|----|----|----|----|
-
-    Si no encontráis algo, indicad si sospecháis que no existe o que existe pero es interno.
-
-4.  **No conformidades.** Redactad **2 o 3** con el formato *requisito / evidencia / descripción*. Al menos una debe referirse a la cláusula 7.5.
-
-5.  **Investigación.** ¿Tiene la BUG certificado ISO 9001 propio o está dentro del alcance del de la UGR? ¿Qué le exige la ISO 9001:2026? ¿Qué le aporta EFQM que no le dé la norma?
-
-6.  **Reflexión individual** (en el wiki): ¿qué flujo os ha costado más situar y cómo lo habéis resuelto?
-
-**Entrega.** Commit al repositorio antes de que acabe la clase.
-:::
+| Parte del sistema | ¿Qué es en el Colegio Máximo? | ¿Quién lo decide: el Colegio Máximo, la BUG o la UGR? |
+|----|----|----|
+| Entradas | | |
+| Frontera
