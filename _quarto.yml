@@ -41,6 +41,7 @@ website:
       - section: "T3 La familia ISO 9000"
         contents:
           - tema3/sesion1.qmd
+          - tema3/sesion2.qmd
       # - section: "4. La organización y su entorno"
       #   contents:
       #     - tema4/sesion1.qmd

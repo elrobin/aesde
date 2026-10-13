@@ -2,15 +2,12 @@
 title: "ISO 9001, ISO 9004 y EFQM"
 ---
 
-## De los principios a la certificación: la ISO 9001
+# De los principios a la certificación: la ISO 9001
 
-En la sesión anterior vimos que la familia ISO 9000 agrupa varias normas
-con funciones distintas, y que solo una de ellas es **certificable**:
-la ISO 9001. También vimos los siete principios de la gestión de la
-calidad, que la ISO 9001 declara como su fundamento (apartado 0.2):
+En la sesión anterior vimos que la familia ISO 9000 agrupa varias normas con funciones distintas, y que solo una de ellas es **certificable**: la ISO 9001. También vimos los siete principios de la gestión de la calidad, que la ISO 9001 declara como su fundamento (apartado 0.2):
 
 | Principio | En una frase |
-|----|----|
+|------------------------------------|------------------------------------|
 | Enfoque al cliente | La calidad la define quien recibe el servicio |
 | Liderazgo | La dirección fija el rumbo y crea las condiciones |
 | Compromiso de las personas | Personas competentes, implicadas y reconocidas |
@@ -19,48 +16,31 @@ calidad, que la ISO 9001 declara como su fundamento (apartado 0.2):
 | Decisiones basadas en la evidencia | Decidir con datos analizados, no con intuiciones |
 | Gestión de las relaciones | Cuidar a proveedores, socios y demás partes interesadas |
 
-Pero un principio no se puede auditar. "La dirección debe liderar" no
-es algo que un auditor pueda comprobar con un sí o un no. Para que una
-organización pueda **certificarse**, los principios tienen que
-convertirse en algo verificable. Eso es lo que hace la ISO 9001, en
-cuatro pasos:
+Pero un principio no se puede auditar. "La dirección debe liderar" no es algo que un auditor pueda comprobar con un sí o un no. Para que una organización pueda **certificarse**, los principios tienen que convertirse en algo verificable. Eso es lo que hace la ISO 9001, en cuatro pasos:
 
-> **Principio** (ISO 9000: *por qué*) → **Requisito** (ISO 9001:
-> *qué debe hacer* la organización) → **Evidencia** (información
-> documentada que lo demuestra) → **Auditoría** (alguien externo lo
-> comprueba)
+> **Principio** (ISO 9000: *por qué*) → **Requisito** (ISO 9001: *qué debe hacer* la organización) → **Evidencia** (información documentada que lo demuestra) → **Auditoría** (alguien externo lo comprueba)
 
 A lo largo de esta sesión recorreremos esa cadena de principio a fin.
 
 ### Cómo está organizada la norma
 
 | Capítulos | Contenido | ¿Contiene requisitos? |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | 0–3 | Introducción, objeto, normas de consulta, términos y definiciones | No |
 | 4–10 | Contexto, liderazgo, planificación, apoyo, operación, evaluación del desempeño, mejora | **Sí**: es lo que se audita |
 
-Los capítulos 4 a 10 siguen una estructura común a todas las normas ISO
-de sistemas de gestión: la ISO 14001 (medio ambiente), la ISO 27001
-(seguridad de la información) o la ISO 30301 (gestión de documentos)
-se organizan igual. Quien conoce una, sabe moverse por todas.
+Los capítulos 4 a 10 siguen una estructura común a todas las normas ISO de sistemas de gestión: la ISO 14001 (medio ambiente), la ISO 27001 (seguridad de la información) o la ISO 30301 (gestión de documentos) se organizan igual. Quien conoce una, sabe moverse por todas.
 
-> **Pregunta:** si los capítulos 0 a 3 no contienen requisitos,
-> ¿para qué sirven?
+## El ciclo PDCA aplicado a un sistema de gestión de la calidad
 
-## El ciclo PHVA aplicado a un sistema de gestión de la calidad
+La norma representa su propia estructura con este esquema (Figura 2 de la ISO 9001:2026, adaptada):
 
-La norma representa su propia estructura con este esquema (Figura 2 de
-la ISO 9001:2026, adaptada):
+![](/images/t3-pdca-enfoqueaprocesos.jpg){width="542"}
 
-![](images/iso9001-phva.png)
-
-Si lo miráis con los ojos del Tema 1, es un **diagrama de sistema**:
-tiene entradas, una frontera, un proceso de transformación, salidas y
-un circuito de retroalimentación. Lo que hace la norma es decir qué
-elementos de gestión de la calidad tienen que estar en cada parte.
+Si lo miráis con los ojos del Tema 1, es un **diagrama de sistema**: tiene entradas, una frontera, un proceso de transformación, salidas y un circuito de retroalimentación. Lo que hace la norma es decir qué elementos de gestión de la calidad tienen que estar en cada parte.
 
 | Parte del sistema | En el gráfico | Capítulo | Qué introduce la norma | Principio que se nota |
-|----|----|----|----|----|
+|---------------|---------------|---------------|---------------|---------------|
 | **Entradas** | Flechas de la izquierda | 4.1, 4.2 | Conocer el contexto de la organización y las necesidades de las partes interesadas | Enfoque al cliente, gestión de las relaciones |
 | **Frontera** | Círculo discontinuo | 4.3 | Decidir y declarar el **alcance**: qué entra en el sistema y qué no | Enfoque a procesos |
 | **Centro** | Hexágono central | 5 | Compromiso de la dirección, política de la calidad, roles y responsabilidades | Liderazgo |
@@ -72,24 +52,339 @@ elementos de gestión de la calidad tienen que estar en cada parte.
 
 Tres detalles del gráfico que no son decorativos:
 
-- **El liderazgo está en el centro**, conectado con las cuatro fases.
-  No es una fase más: es lo que hace girar el ciclo.
-- **La flecha doble de "Verificar"** apunta a las salidas: se mide lo
-  que sale del sistema, y esa información vuelve a entrar en el ciclo.
-  Es la **retroalimentación** del Tema 1.
-- **El ciclo no tiene final.** Tras "Actuar" se vuelve a "Planificar".
-  Por eso la certificación se renueva y se audita periódicamente.
+- **El liderazgo está en el centro**, conectado con las cuatro fases. No es una fase más: es lo que hace girar el ciclo.
+- **La flecha doble de "Verificar"** apunta a las salidas: se mide lo que sale del sistema, y esa información vuelve a entrar en el ciclo. Es la **retroalimentación** del Tema 1.
+- **El ciclo no tiene final.** Tras "Actuar" se vuelve a "Planificar". Por eso la certificación se renueva y se audita periódicamente.
 
-> **Pregunta:** ¿dónde encajaría en este gráfico la encuesta LibQUAL+
-> que vimos en el Tema 2? ¿Y el resultado de esa encuesta?
+> **Pregunta:** ¿dónde encajaría en este gráfico la encuesta LibQUAL+ que vimos en el Tema 2? ¿Y el resultado de esa encuesta?
 
+::: ejercicio
 ## Tarea A
 
-En la sesión 1 del Tema 1 describisteis la Biblioteca del Colegio
-Máximo como un sistema. Ahora vais a situarla dentro del gráfico de la
-norma. En vuestra página del wiki, completad:
+En la sesión 1 del Tema 1 describisteis la Biblioteca del Colegio Máximo como un sistema. Ahora vais a situarla dentro del gráfico de la norma. En vuestra página del wiki, completad:
 
-| Parte del sistema | ¿Qué es en el Colegio Máximo? | ¿Quién lo decide: el Colegio Máximo, la BUG o la UGR? |
+| Parte del sistema | ¿Qué entra dentro del Colegio Máximo? | ¿Quién lo decide: el Colegio Máximo, la BUG o la UGR? |
+|------------------------|------------------------|------------------------|
+| Entradas |  |  |
+| Frontera (alcance) |  |  |
+| Liderazgo |  |  |
+| Planificar |  |  |
+| Hacer |  |  |
+| Verificar |  |  |
+| Actuar |  |  |
+| Salidas |  |  |
+
+Para la frontera, tened en cuenta esto: la BUG no tiene un certificado ISO 9001 propio. Se certifica cada año **dentro del certificado de la UGR**, junto con el resto de servicios y unidades, con auditorías a distintas bibliotecas de los centros (Anuario BUG 2024, p. 39).
+:::
+> **Pregunta para la puesta en común:** si el alcance lo fija la UGR, ¿está el Colegio Máximo dentro del círculo o es solo una parte de lo que hay dentro?
+
+## Lo que la norma exige (y lo que no)
+
+### El *debe* y el *cómo*
+
+Toda la ISO 9001 está redactada con la misma fórmula: **"la organización
+debe..."**. Cada "debe" es un **requisito**, y es lo que se audita.
+Pero la norma casi nunca dice **cómo** cumplirlo. Eso lo decide cada
+organización, y la propia norma lo deja escrito:
+
+| Dónde | Qué dice la norma | Qué significa |
 |----|----|----|
-| Entradas | | |
-| Frontera
+| 4.4.1 d) | La organización debe *determinar y aplicar los criterios y los métodos* de sus procesos | Los métodos los elige la organización |
+| 7.5.1, nota | La extensión de la información documentada *puede variar de una organización a otra* según su tamaño, la complejidad de sus procesos y la competencia de su personal | No hay una cantidad "correcta" de documentos |
+| Anexo A | La estructura de la norma no pretende ser un modelo para documentar los procesos de la organización | Nadie tiene que organizar sus documentos por capítulos de la ISO |
+
+#### Ejemplo: la satisfacción del cliente (9.1.2)
+
+| | |
+|----|----|
+| **Lo que debe** | Hacer seguimiento de la satisfacción del cliente |
+| **Lo que no dice** | Con qué método. La nota cita como *posibles* fuentes las encuestas, las quejas, las felicitaciones, las reuniones o las redes sociales |
+| **Lo que decidió la BUG** | La encuesta LibQUAL+, que aplica desde 2006 |
+
+ServQual o LibQUAL+ (Tema 2) no aparecen en la norma. Son la respuesta
+de cada organización al "cómo".
+
+> **Pregunta:** si mañana la BUG sustituyera LibQUAL+ por un buzón de
+> sugerencias, ¿seguiría cumpliendo el 9.1.2? ¿Sería igual de útil?
+
+### La evidencia: información documentada (7.5)
+
+Si la norma no dice cómo, ¿cómo comprueba el auditor que se cumple?
+**Pidiendo evidencias**, y casi todas son **información documentada**.
+La norma distingue dos tipos, y en la edición de 2026 los nombra con
+dos fórmulas distintas:
+
+| La norma dice... | Tipo | Para qué sirve | Ejemplos en la BUG |
+|----|----|----|----|
+| "debe estar **disponible como información documentada**" | **Documento** | Describe cómo se hacen las cosas. Se revisa y actualiza | Política de calidad, carta de servicios, normativa de préstamo |
+| "debe estar disponible como información documentada **como evidencia de**..." | **Evidencia de resultados** (registro) | Prueba lo que se ha hecho. No se modifica | Anuario estadístico, informes LibQUAL+, actas, informes de auditoría |
+
+::: callout-note
+## Cambio de vocabulario en 2026
+La ISO 9001:2015 llamaba *mantener* a lo primero y *conservar* a lo
+segundo. La edición de 2026 cambia la redacción (anexo A.2), no la
+idea. En la bibliografía anterior a 2026 encontraréis mantener/conservar.
+:::
+
+Además, la 7.5 exige que esa información esté **identificada** (título,
+fecha, autor, referencia), **revisada y aprobada**, **disponible** cuando
+se necesita y **protegida**, con control de versiones y de su
+conservación y eliminación.
+
+> **Pregunta:** ¿os suena esta lista? ¿De qué asignatura?
+
+### De principios a evidencias: la cadena completa
+
+Ya tenemos los cuatro eslabones. Recorrámoslos con un ejemplo:
+
+| Eslabón | Ejemplo |
+|----|----|
+| **Principio** (ISO 9000) | Decisiones basadas en la evidencia |
+| **Requisito** (ISO 9001) | 9.1.3: la organización *debe analizar y evaluar* los datos del seguimiento y la medición |
+| **Evidencia** (7.5) | El Anuario estadístico de la BUG y los informes de LibQUAL+ (evidencias de resultados) |
+| **Auditoría** | El auditor pide el anuario y comprueba que los datos se analizan y [que ese análisis se usa para decidir]{.underlined} |
+
+Un principio no corresponde a una sola cláusula: se reparte por
+varias. Esta tabla indica **dónde se nota** cada uno, no una
+equivalencia exacta:
+
+| Principio | Dónde se concreta en la ISO 9001 |
+|----|----|
+| Enfoque al cliente | 5.1.2, 8.2, 9.1.2 |
+| Liderazgo | Capítulo 5 |
+| Compromiso de las personas | 7.1.2, 7.2, 7.3, 7.4 |
+| Enfoque a procesos | 4.4, 8.1 |
+| Mejora | Capítulo 10 |
+| Decisiones basadas en la evidencia | 9.1, 9.3 |
+| Gestión de las relaciones | 4.2, 8.4 |
+
+> Dos piezas no son principios, pero atraviesan toda la norma: el
+**pensamiento basado en riesgos** (6.1) y la **información
+documentada** (7.5).
+
+
+::: .bonus
+Un ejemplo de riesgo en nuestro caso sería la formación de becarios para el uso del Bibliomaker, ya que no se está considerando qué pasará una vez los becarios acaben su periodo de prácticas. Un pensamiento basado en riesgos incluiría medidas _a priori_ para evitar este problema. Por ejemplo, solapando periodos de prácticas.
+:::
+::: ejercicio
+
+## Tarea B
+
+En la sesión 1 encontrasteis en la web de la BUG una evidencia por
+principio. Os faltaba el eslabón del medio: **¿qué *debe* demuestra
+cada documento?**
+
+En vuestra página del wiki, completad:
+
+| Evidencia (sesión 1) | Principio | Cláusula que demuestra | ¿Documento o evidencia de resultados? |
+|----|----|----|----|
+
+Si una evidencia no demuestra ningún requisito concreto, anotadlo:
+también es un resultado. Y fijaos en lo contrario: **¿qué cláusulas se
+han quedado sin ninguna evidencia?** Son las candidatas a no
+conformidad.
+
+**Commit** con el mensaje `T3S2 cadena de evidencias`.
+
+:::
+
+# Certificación vs. evaluación
+
+## El experimento Deming
+
+### El problema
+
+Imaginad que dirigís **Cuentas Blancas S.A.** Vuestros clientes solo
+compran cuentas blancas; las rojas son defectuosas. Cada trabajador
+saca cada día un lote de 50 cuentas siguiendo un procedimiento
+estricto, y un inspector cuenta las rojas de cada lote.
+
+> **¿Cómo evaluaríais el rendimiento de vuestros
+> trabajadores? ¿Qué haríais con el mejor? ¿Y con el peor?**
+
+{{< video https://www.youtube.com/watch?v=geiC4UgpDyw >}}
+
+W. Edwards Deming usó este experimento en sus seminarios durante años. La gran pregunta es si el modelo de evaluación realmente mide el rendimiento de los trabajadores o no. Como se observa, **el resultado lo determina el sistema**, y el sistema lo diseña la dirección.
+
+### Volvemos a la pizarra
+
+> **Preguntas:**
+>
+> 1. ¿De quién depende el número de cuentas rojas que saca cada trabajador?
+> 2. Entonces, con vuestra propuesta de antes, ¿qué estabais midiendo?
+> 3. ¿Qué habría que medir? ¿Y qué habría que cambiar para tener menos
+>    cuentas rojas?
+
+El porcentaje de cuentas rojas no es un mal indicador: describe bien
+el **proceso**. Lo que falla es **cómo se usa**: atribuirlo a las
+personas, ordenarlas en un ranking y premiarlas o castigarlas. Es la
+calidad entendida como **control** del resultado final, frente a la
+**gestión** del sistema que lo produce.
+
+### ¿Podría estar certificada Cuentas Blancas S.A.?
+
+| Lo que tiene | Requisito que cumpliría |
+|----|----|
+| Un procedimiento escrito y aplicado a rajatabla | 8.1, 7.5 |
+| Un objetivo medible ("máximo 3 rojas por lote") | 6.2 |
+| Inspección y registro de cada lote | 9.1, 7.5 |
+
+Sobre el papel, **probablemente sí**. Un buen auditor podría tirar de
+dos hilos:
+
+- **9.1.1 b):** los métodos de medición deben asegurar **resultados
+  válidos**. Un ranking de trabajadores construido sobre azar no lo es.
+- **10.2.1:** ante una no conformidad hay que **analizar sus causas** y
+  actuar sobre ellas. Despedir al peor no toca la causa: el recipiente.
+
+Pero que un auditor lo detecte depende de su criterio. La norma no
+pregunta si las decisiones son buenas, sino si existen el análisis y
+la acción.
+
+::: callout-important
+## Certificar no es evaluar
+
+La certificación comprueba que la organización **mide, analiza y
+mejora**. No comprueba **cuánto** ni **cómo de bien** lo hace. El
+resultado es binario (se cumple o no) y no se compara con nadie.
+
+Medir cómo de bien funciona un sistema es otra cosa, y es lo que
+haremos en en los siguientes temas: comparar (benchmarking), vigilar el entorno,
+diseñar indicadores y construir dashboards.
+:::
+
+## El rol del documentalista
+
+Hemos visto que la norma descansa sobre **evidencias**, y que casi
+todas son información documentada. Eso convierte la implantación de
+la ISO 9001 en un problema que conocéis bien: diseñar, controlar y
+mantener un **sistema documental**.
+
+[Elisa García-Morales](https://doi.org/10.3145/thinkepi.2017.52), documentalista de Infoárea, describe su participación en la certificación de
+una multinacional de ingeniería y extrajo varias lecciones:
+
+1. La norma exige un sistema de calidad **documentado**, no un **sistema
+  de gestión de documentos**. Cada organización decide qué información
+  necesita para demostrar que su sistema funciona (el *debe* y el *cómo*,
+  otra vez).
+2. Crear documentación aparte **solo para pasar la auditoría** genera
+  copias, silos y criterios dispares, y dificulta el acceso a la
+  información.
+3. El documentalista aporta lo que otros perfiles no tienen: gestión
+  documental, gestión del conocimiento y un lenguaje común con los
+  responsables de calidad. Existe incluso una norma de sistemas de
+  gestión para documentos, la **ISO 30301**, con la misma estructura
+  que la ISO 9001.
+
+La segunda lección tiene nombre en la investigación: **adopción
+ceremonial**. Muchas organizaciones certificadas cumplen
+la norma _para el auditor_, sin que cambie su forma de trabajar. Como
+los trabajadores de Cuentas Blancas: procedimiento impecable, resultado
+idéntico.
+
+> **Pregunta:** en la web de la BUG, ¿la documentación de calidad está
+> integrada con el resto de la información o vive en un apartado
+> propio? ¿Qué os dice eso?
+
+::: ejercicio
+### Tarea voluntaria (para subir nota)
+
+Leed el artículo completo de García-Morales (2017) y responded en una
+página nueva de vuestro wiki:
+
+1. ¿Qué dos apartados de la ISO 9001:2008 desaparecen en 2015 y cuál
+   los sustituye? ¿Qué problema resuelve el cambio?
+2. ¿Qué diferencia hay entre un sistema de calidad *documentado* y un
+   *sistema de gestión de documentos*?
+3. ¿Qué ocurre, según la autora, cuando se crea documentación aparte
+   para las auditorías?
+4. El artículo es de 2017. Comparad su definición de información
+   documentada y la distinción documento/registro con la ISO 9001:2026.
+   ¿Cambia la idea o solo las palabras?
+5. ¿Hay riesgo de silos entre la documentación de la BUG y la del
+   Colegio Máximo? Poned un ejemplo concreto.
+
+**Commit** sólo en vuestro Wiki.
+:::
+
+## Más allá del mínimo: ISO 9004 y EFQM
+
+Si la certificación no mide cómo de bien funciona un sistema, ¿quién
+lo hace? Hay instrumentos pensados para eso:
+
+|   | ISO 9001 | ISO 9004 | EFQM |
+|----|----|----|----|
+| Qué es | Requisitos mínimos | Orientaciones para el éxito sostenido | Modelo de excelencia |
+| Pregunta que responde | ¿Cumples? | ¿Cómo puedes mejorar? | ¿Cómo de bien lo haces? |
+| Resultado | Certificado: **sí o no** | Autoevaluación por niveles de madurez | **Puntuación** (sellos 200+ a 600+) |
+| ¿Certificable? | Sí | No | Sello tras evaluación externa |
+
+**Analogía:** la ISO 9001 es el **carné de conducir**: demuestra el
+mínimo y se tiene o no se tiene. EFQM es una **clasificación de
+pilotos**: mide cuánto destacas, y siempre se puede subir.
+
+No son excluyentes. Ya lo visteis en el artículo sobre el recorrido de
+la BUG hacia la excelencia: usa las dos a la vez.
+
+- **ISO 9001:** la BUG no tiene certificado propio. Lo renueva cada año
+  **dentro del certificado de la UGR**, con auditorías internas y
+  externas a distintas bibliotecas de los centros.
+- **EFQM:** renovó el **Sello 600+** en diciembre de 2024.
+- **Más allá:** en 2024 creó un grupo de trabajo de **Cuadro de Mando
+  Integral** (lo veremos en el Tema 6) y participa en un grupo de
+  bibliotecas universitarias EFQM que comparten datos para hacer
+  **benchmarking** (Tema 4).
+
+*(Fuente: Anuario BUG 2024)*
+
+> **Pregunta:** ¿es excelente la BUG por estar certificada? ¿Y por
+> tener un sello EFQM 600+? ¿Qué os haría falta para responder?
+
+## Tarea C · Inventario de evidencias y datos del caso
+
+Cerramos el Tema 3 con un producto que vais a necesitar en el
+Bloque II. Unid vuestras tablas de la Tarea B en **una sola tabla** en
+la página del caso y añadid cuatro columnas:
+
+| Evidencia | Cláusula | Principio | Tipo (documento / evidencia de resultados) | Nivel (UGR / BUG / Colegio Máximo) | ¿Dato desagregado por biblioteca? | ¿Serie temporal? | Acceso (público / interno) |
+|----|----|----|----|----|----|----|----|
+
+La columna clave es la de **desagregación**. Un documento puede ser de
+la BUG y, aun así, traer datos biblioteca por biblioteca. Mirad los
+anexos del Anuario. De esa columna dependen tres cosas:
+
+- **Tema 4:** si podéis comparar el Colegio Máximo con otras
+  bibliotecas de la BUG.
+- **Tema 6:** si podéis calcular indicadores propios del Colegio Máximo.
+- **Tema 7:** si el dashboard puede mostrar evolución (serie temporal)
+  o solo una foto fija.
+
+Debajo de la tabla, un párrafo de **huecos detectados**:
+
+1. ¿Qué cláusulas no tienen ninguna evidencia? (candidatas a no conformidad)
+2. ¿Qué datos solo existen a nivel BUG?
+
+**Cómo trabajar sin conflictos:** una persona integra la tabla en la
+página del caso; las demás revisan sus filas y redactan los huecos.
+**Commit** final con el mensaje `T3 cierre inventario`.
+
+<!-- RESPUESTAS ORIENTATIVAS (Anuario BUG 2024):
+     Desagregado por biblioteca (anexos): exclusividad de la colección,
+     reservas, incremento de ejemplares, espacios y equipamientos, plantilla.
+     Solo BUG: préstamo (total global) y satisfacción (LibQUAL+ global).
+     Serie de anuarios 2001-2024 (comprobar si los anexos por biblioteca
+     existen todos los años).
+     Hueco interesante para el T4: se puede comparar colección y espacios,
+     pero no uso ni satisfacción. -->
+
+## Lecturas recomendadas
+
+- García-Morales, E. (2017). Información documentada y
+  gestión del conocimiento en la ISO 9001:2015: aportación del
+  profesional de la información. *Anuario ThinkEPI, 11*, 269–273.
+  <https://doi.org/10.3145/thinkepi.2017.52>
+- Boiral, O. (2003). ISO 9000: Outside the iron
+  cage. *Organization Science, 14*(6), 720–737.
+  <https://doi.org/10.1287/orsc.14.6.720.24873>
+- [The Red Bead Experiment](https://deming.org/explore/red-bead-experiment/).
+  The W. Edwards Deming Institute.
