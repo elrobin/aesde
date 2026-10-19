@@ -4,19 +4,24 @@ title: "El origen del 'benchmarking'"
 
 ## Definición
 
-Compararse con otros para mejorar es tan antiguo como las propias organizaciones. Lo que es reciente es su formalización como método de gestión. Antes de llegar a ella, conviene ver de dónde viene la palabra y quién lo hacía sin llamarlo así.
+*Benchmarking* significa básicamente comparar. Compararse con otros para mejorar es tan antiguo como las propias organizaciones. Desde la versión más extrema de compararse para copiar hasta otras maneras más éticas de comparación. Sin embargo, no será hasta finales de los 70, principios de los 80 que se formaliza dentro de las empresas.
 
 ### El origen del término
 
-*Benchmark* es un término de **topografía**. Los topógrafos tallaban en piedra (en iglesias, puentes o muros) una marca horizontal con una flecha debajo. En esa marca se encajaba un hierro en ángulo que servía de soporte, el *bench*, para la mira de nivelación. Así se podía volver a medir exactamente desde el mismo punto años después. La palabra está documentada en este sentido desde 1838.
+*Benchmark* es un término que viene de la **topografía**. Los topógrafos tallaban en piedra (en iglesias, puentes o muros) una marca horizontal con una flecha debajo. En esa marca se encajaba un hierro en ángulo que servía de soporte, el *bench*, para la mira de nivelación. Así se podía volver a medir exactamente desde el mismo punto años después. La palabra está documentada en este sentido desde 1838.
 
-![Marca de nivelación de la Ordnance Survey británica en el contrafuerte de una iglesia](/images/t4-benchmark-os.jpg){width="60%"}
-
-<!-- Foto: https://www.geograph.org.uk/photo/6118353 (© Richard Law, licencia Creative Commons; comprobar versión). Poner atribución en el pie si se usa. -->
+![Marca de nivelación de la Ordnance Survey británica en el contrafuerte de una iglesia. © [Richard Law](https://www.geograph.org.uk/photo/6118353), licencia Creative Commons](/images/t4-benchmark-os.jpg){width="60%"}
 
 Lo interesante es que **la altura de cada marca no tiene valor por sí misma**: se calcula respecto a las marcas vecinas, en una red que parte de un punto de referencia fundamental (el nivel medio del mar). Un *benchmark* es, literalmente, [un punto de referencia con el que compararse]{.mark}.
 
-### Florence Nightingale y los hospitales de Londres
+### Las primeras comparativas entre organizaciones
+
+Una de las pioneras en establecer comparaciones con el fin de mejorar procesos y evaluar fue Florence Nightingale. En su libro *Notes on Hospitals* (1859, 3.ª ed. 1863), Nightingale hizo dos cosas que hoy podríamos considerar como *benchmarking*:
+
+1.  **Comparó prácticas.** Analizó cómo se construían y gestionaban los hospitales de Londres y de París (ventilación, distribución de las salas, cocinas, lavanderías) y propuso modelos a imitar, como el hospital Lariboisière de París.
+2.  **Comparó resultados.** Usó tasas de mortalidad para argumentar que los hospitales de Londres eran mucho más peligrosos que los de provincias.
+
+Al intentarlo se encontró con un problema: [cada hospital registraba y clasificaba sus datos a su manera]{.mark}, así que no había forma de compararlos. Por eso diseñó un **formulario estadístico uniforme** para hospitales, que presentó en el Congreso Internacional de Estadística de 1860.
 
 ::: {.callout-note collapse="true"}
 ## ¿Quién fue Florence Nightingale?
@@ -28,20 +33,9 @@ Menos conocida es su faceta de **estadística**. A su vuelta utilizó los datos 
 [Florence Nightingale en Wikipedia](https://es.wikipedia.org/wiki/Florence_Nightingale)
 :::
 
-En su libro *Notes on Hospitals* (1859, 3.ª ed. 1863), Nightingale hizo dos cosas que hoy llamaríamos benchmarking:
+![Diagrama de las causas de la mortalidad del ejército en el Este, por Florence Nightingale.](/images/t4-nightingale.jpg){fig-align="center"}
 
-1.  **Comparó prácticas.** Analizó cómo se construían y gestionaban los hospitales de Londres y de París (ventilación, distribución de las salas, cocinas, lavanderías) y propuso modelos a imitar, como el hospital Lariboisière de París.
-2.  **Comparó resultados.** Usó tasas de mortalidad para argumentar que los hospitales de Londres eran mucho más peligrosos que los de provincias.
-
-Al intentarlo se encontró con un problema: [cada hospital registraba y clasificaba sus datos a su manera]{.mark}, así que no había forma de compararlos. Por eso diseñó un **formulario estadístico uniforme** para hospitales, que presentó en el Congreso Internacional de Estadística de 1860.
-
-::: callout-warning
-## Un aviso para la próxima sesión
-
-Las tasas de mortalidad que publicó Nightingale para algunos hospitales londinenses superaban el **90%**. Calculadas de otra manera, se quedaban en torno al **10%**. ¿Cómo es posible? Lo veremos en la Sesión 2.
-:::
-
-### La industria japonesa
+### La comparación como método de aprendizaje
 
 Tras la Segunda Guerra Mundial, Japón puso en marcha con Estados Unidos el **Programa de Productividad**. Desde 1955, miles de directivos, ingenieros y sindicalistas japoneses viajaron a EE. UU. para ver cómo trabajaban sus fábricas y oficinas. Cuando la financiación estadounidense terminó, las empresas japonesas siguieron pagando estos viajes de su bolsillo: aprender de los mejores se había convertido en una costumbre.
 
@@ -51,8 +45,8 @@ Treinta años después, las empresas japonesas, con Toyota a la cabeza, superaba
 
 Copiar y hacer benchmarking pueden parecer lo mismo, pero no lo son:
 
-| | Copiar | Benchmarking |
-|------------------|------------------|------------------|
+|   | Copiar | Benchmarking |
+|------------------------|------------------------|------------------------|
 | **Qué se obtiene** | El resultado (un producto, un diseño) | El proceso que produce ese resultado |
 | **Cómo se obtiene** | Sin consentimiento, o desmontando el producto del otro | Con consentimiento e intercambio de información |
 | **Qué se entiende** | *Qué* hace el otro | *Cómo* y *por qué* lo hace |
@@ -66,16 +60,14 @@ Obtener información de otra empresa sin su consentimiento no es benchmarking: e
 El benchmarking se basa en la **reciprocidad**: el socio comparte información porque también aprende algo a cambio. Cuando se compara con competidores directos, se recurre a menudo a **terceros** que recogen los datos y los anonimizan, para que nadie vea la información confidencial del otro.
 :::
 
-## La formalización: Xerox, 1979-1981
+## La formalización del benchmarking: Xerox, 1979-1981
 
 Se considera que entre **1979 y 1981** se establece en Xerox el primer procedimiento formal de benchmarking en una empresa: con nombre, pasos definidos y carácter continuo. En 1981 la dirección de Xerox lo declaró procedimiento estándar en toda la empresa.
 
 ::: {.callout-note collapse="true"}
 ## Robert Camp y la crisis de Xerox
 
-![](/images/t4-camp-portada.jpg){width="30%" fig-align="left"}
-
-<!-- Portada de Camp (1989). -->
+![Portada del libro de Robert C. Camp sobre Benchmarking](/images/t4-camp-portada.jpg){fig-align="center" width="30%"}
 
 **Robert C. Camp** fue el responsable de introducir el benchmarking en la logística de Xerox en 1981. Ingeniero civil por Cornell y doctor en logística, está considerado el padre del benchmarking moderno. En 1989 publicó el libro de referencia de la disciplina.
 
@@ -89,8 +81,8 @@ Se considera que entre **1979 y 1981** se establece en Xerox el primer procedimi
 
 **Referencias**
 
--   Camp, R. C. (1989). *Benchmarking: The search for industry best practices that lead to superior performance*. ASQC Quality Press.
--   Flower, J. (1993). The source [Entrevista a Robert Camp]. *The Healthcare Forum Journal*, 36(1). [Leer la entrevista](https://web.archive.org/web/20230807042416/people.well.com/~bbear/camp.html)
+- Camp, R. C. (1989). *Benchmarking: The search for industry best practices that lead to superior performance*. ASQC Quality Press.
+- Flower, J. (1993). The source \[Entrevista a Robert Camp\]. *The Healthcare Forum Journal*, 36(1). [Leer la entrevista](https://web.archive.org/web/20230807042416/people.well.com/~bbear/camp.html)
 :::
 
 ::: callout-important
@@ -105,8 +97,8 @@ Dentro de Xerox lo resumían así: [encontrar e implantar las mejores prácticas
 
 Camp distingue tres cosas que se pueden comparar, y recomienda **empezar siempre por las prácticas**, porque son lo que realmente se puede cambiar.
 
-| | Qué es | Ejemplo en un supermercado |
-|------------------|------------------|------------------|
+|   | Qué es | Ejemplo en un supermercado |
+|------------------------|------------------------|------------------------|
 | **Proceso** | Lo que se hace | El cobro en caja |
 | **Paso del proceso** | Una de sus partes | Registrar los productos |
 | **Práctica** | *Cómo* se hace ese paso | Escanear el código de barras (frente a teclear el precio a mano) |
@@ -129,7 +121,7 @@ Camp cuenta que el código de barras se puso a punto en los supermercados y que 
 ### Ejemplos
 
 | Tipo | Ejemplo (Xerox, según Camp) | Ejemplo en evaluación de la investigación |
-|------------------|------------------|------------------|
+|------------------------|------------------------|------------------------|
 | **Interno** | Xerox tenía 65 distritos comerciales en EE. UU. haciendo lo mismo. ¿Por qué unos rendían más que otros? | Comparar la producción científica de distintos departamentos de una misma universidad |
 | **Competitivo** | Xerox frente a los fabricantes japoneses de fotocopiadoras, empezando por su propia filial, Fuji-Xerox | Una universidad frente a otras universidades públicas españolas |
 | **Funcional** | El almacén de Xerox frente al de L.L. Bean, una empresa de venta por catálogo | La oficina de transferencia de una universidad frente al departamento de transferencia de una empresa tecnológica |
@@ -155,17 +147,17 @@ Xerox adaptó la idea: si en tres años el cliente no estaba satisfecho, le camb
 Camp organizó el proceso en **10 pasos agrupados en 4 fases**:
 
 | Fase | Paso | Pregunta clave |
-|------------------|------------------|------------------|
-| **Planificación** | 1. Identificar qué se va a comparar | ¿Qué proceso queremos mejorar? |
-| | 2. Identificar con quién compararse | ¿Quién lo hace mejor? |
-| | 3. Decidir cómo recoger los datos y recogerlos | ¿Qué fuentes hay? ¿Hay que visitar al socio? |
-| **Análisis** | 4. Determinar la brecha actual de rendimiento | ¿A qué distancia estamos? |
-| | 5. Proyectar el rendimiento futuro | Si no hacemos nada, ¿la distancia crecerá o se reducirá? |
-| **Integración** | 6. Comunicar los resultados y conseguir que se acepten | ¿Lo aceptan quienes tienen que cambiar? |
-| | 7. Establecer objetivos | ¿Qué queremos conseguir, y cuándo? |
-| **Acción** | 8. Elaborar planes de acción | ¿Qué hay que hacer exactamente? |
-| | 9. Implantar las acciones y hacer seguimiento | ¿Está funcionando? |
-| | 10. Recalibrar los benchmarks | ¿Siguen siendo los mejores? ¿Hay alguien mejor ahora? |
+|------------------------|------------------------|------------------------|
+| **Planificación** | 1\. Identificar qué se va a comparar | ¿Qué proceso queremos mejorar? |
+|  | 2\. Identificar con quién compararse | ¿Quién lo hace mejor? |
+|  | 3\. Decidir cómo recoger los datos y recogerlos | ¿Qué fuentes hay? ¿Hay que visitar al socio? |
+| **Análisis** | 4\. Determinar la brecha actual de rendimiento | ¿A qué distancia estamos? |
+|  | 5\. Proyectar el rendimiento futuro | Si no hacemos nada, ¿la distancia crecerá o se reducirá? |
+| **Integración** | 6\. Comunicar los resultados y conseguir que se acepten | ¿Lo aceptan quienes tienen que cambiar? |
+|  | 7\. Establecer objetivos | ¿Qué queremos conseguir, y cuándo? |
+| **Acción** | 8\. Elaborar planes de acción | ¿Qué hay que hacer exactamente? |
+|  | 9\. Implantar las acciones y hacer seguimiento | ¿Está funcionando? |
+|  | 10\. Recalibrar los benchmarks | ¿Siguen siendo los mejores? ¿Hay alguien mejor ahora? |
 
 Cuando el benchmarking se integra en los procesos habituales y se repite de forma continua, se alcanza una quinta fase, la **madurez**. Como dice Camp, en el benchmarking [no hay línea de meta]{.mark}.
 
@@ -175,57 +167,48 @@ El paso 2 es el más delicado. Xerox elaboraba una lista de 40 a 60 posibles soc
 
 Es decir, los indicadores no son el objetivo del benchmarking, pero [sirven para saber dónde mirar]{.mark}.
 
-::: {.callout-note}
+::: callout-note
 ## Qué comparar y cómo compararlo: dos ejemplos
 
 **Universidades.** Abrid el [SCImago Institutions Rankings](https://www.scimagoir.com) y buscad la Universidad de Granada.
 
--   ¿Con qué universidades aparece comparada? ¿Son comparables?
--   ¿Qué pasa con su posición si cambiáis el país, el sector o el indicador?
--   ¿El ranking compara productos, servicios o prácticas?
+- ¿Con qué universidades aparece comparada? ¿Son comparables?
+- ¿Qué pasa con su posición si cambiáis el país, el sector o el indicador?
+- ¿El ranking compara productos, servicios o prácticas?
 
 **Medios de comunicación.** Abrid el [SCImago Media Rankings](https://www.scimagomedia.com).
 
--   ¿Qué se está midiendo exactamente?
--   ¿Tiene sentido comparar un periódico generalista con un medio especializado?
--   Si fuerais un medio, ¿os serviría este ranking para mejorar?
+- ¿Qué se está midiendo exactamente?
+- ¿Tiene sentido comparar un periódico generalista con un medio especializado?
+- Si fuerais un medio, ¿os serviría este ranking para mejorar?
 
 **Para los dos.** Ambos rankings se presentan a sí mismos como herramientas de *benchmarking*. Según la definición de Camp, ¿lo son?
 :::
 
-## Tarea: socios de benchmarking para la Biblioteca del Colegio Máximo
+## Tarea
 
 ::: ejercicio
+**¿Con quién comparar la Biblioteca del Colegio Máximo?**
+
 Primero lo discutimos en clase. Después lo incorporáis a la web del grupo.
 
 Para cada tipo de benchmarking, proponed **un socio** para la Biblioteca del Colegio Máximo:
 
 | Tipo | Socio | Qué se compara | ¿Producto, servicio o práctica? | Por qué este socio | Indicador para validar el socio | Fuente de los datos |
-|---------|---------|---------|---------|---------|---------|---------|
-| Interno | | | | | | |
-| Competitivo | | | | | | |
-| Funcional | | | | | | |
-| Genérico | | | | | | |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+| Interno |  |  |  |  |  |  |
+| Competitivo |  |  |  |  |  |  |
+| Funcional |  |  |  |  |  |  |
+| Genérico |  |  |  |  |  |  |
 
 Recordad la pregunta de control del Tema 3: *si cerrara el Colegio Máximo, ¿esto seguiría existiendo?* Algunos socios tendrán sentido para el Colegio Máximo y otros solo para el conjunto de la BUG.
 
 **Antes de dar la tarea por terminada**, comprobad:
 
--   [ ] ¿Hay un socio para cada uno de los cuatro tipos?
--   [ ] ¿Está claro en cada caso si se compara un producto, un servicio o una práctica?
--   [ ] ¿Hay al menos una práctica (no solo resultados)?
--   [ ] ¿Cada socio tiene un indicador y una fuente de datos que existan de verdad?
+- [ ] ¿Hay un socio para cada uno de los cuatro tipos?
+- [ ] ¿Está claro en cada caso si se compara un producto, un servicio o una práctica?
+- [ ] ¿Hay al menos una práctica (no solo resultados)?
+- [ ] ¿Cada socio tiene un indicador y una fuente de datos que existan de verdad?
 
 **Entrega.** Commit en la web del grupo, cada una con su usuario.
 :::
-
-## Para la próxima sesión
-
-Hoy hemos hecho los **pasos 1 y 2** del proceso: qué comparar y con quién. En la Sesión 2 pasaremos al **paso 3**: buscar los datos. Spoiler: los datos públicos existen ([Anuario de REBIUN](https://rebiun.um.es)), pero [no al nivel del Colegio Máximo]{.mark}. Antes de la próxima clase, entrad en la aplicación de REBIUN y mirad qué datos hay de la UGR.
-
-## Lecturas
-
--   Camp, R. C. (1989). *Benchmarking: The search for industry best practices that lead to superior performance*. ASQC Quality Press.
--   Flower, J. (1993). The source [Entrevista a Robert Camp]. *The Healthcare Forum Journal*, 36(1). [Enlace](https://web.archive.org/web/20230807042416/people.well.com/~bbear/camp.html)
--   Iezzoni, L. I. (1996). 100 apples divided by 15 red herrings: A cautionary tale from the mid-19th century on comparing hospital mortality rates. *Annals of Internal Medicine*, 124(12), 1079-1085.
--   Nightingale, F. (1863). *Notes on hospitals* (3.ª ed.). Longman, Green, Longman, Roberts, and Green. [Archive.org](https://archive.org/download/b21297721/b21297721.pdf)

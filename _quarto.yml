@@ -42,9 +42,9 @@ website:
         contents:
           - tema3/sesion1.qmd
           - tema3/sesion2.qmd
-      # - section: "4. La organización y su entorno"
-      #   contents:
-      #     - tema4/sesion1.qmd
+      - section: "4. Benchmarking"
+        contents:
+          - tema4/sesion1.qmd
       # - section: "5. Sistemas de indicadores"
       #   contents:
       #     - tema5/sesion1.qmd
