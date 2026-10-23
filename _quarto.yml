@@ -56,7 +56,8 @@ website:
       #     - tema7/sesion1.qmd
       - href: TallerA/taller-github.qmd
         text: "Taller Github+Quarto"
-
+      - href: Seminarios/2026_ec3metrics.qmd
+        text: "Seminario sobre certificación ISO"
 format:
   html:
     theme:

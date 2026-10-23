@@ -1,0 +1,19 @@
+---
+title: "Seminario sobre certificación"
+---
+
+## Descripción de la sesión
+
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                    |                                                                                                                                                                                                                                                                                                                                                   |
++====================================+===================================================================================================================================================================================================================================================================================================================================================+
+| ![](/images/s1-enrique-fuente.jpg) | **Impartido por:** Enrique de la Fuente, gerente de la spin-off [EC3metrics](https://ec3metrics.com).                                                                                                                                                                                                                                             |
+|                                    |                                                                                                                                                                                                                                                                                                                                                   |
+|                                    | Enrique de la Fuente es doctorando de la Universidad de Granada, miembro fundador y gerente de la consultora en bibliometría y evaluación de la ciencia EC3metrics y miembro del [grupo de investigación EC3](https://ec3investigacion.ugr.es) y de la [Unit for Computational Humanities and Social Sciences (U\^CHASS)](https://uchass.ugr.es). |
+|                                    |                                                                                                                                                                                                                                                                                                                                                   |
+|                                    | En este seminario, Enrique nos presenta la intranet de EC3metrics así como el proceso de adecuación del sistema documental de la empresa para integrar procesos de gestión de la calidad y certificar la empresa con la ISO 9001.                                                                                                                 |
++------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+## Materiales
+
+Glosario de terminología básica extraído de la ISO 9001. [\[Descarga PDF aquí\]](Seminarios/diagramas_ISO9001%20-%20Presentaciones%20de%20Google_%20alumnos.pdf)
