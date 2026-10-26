@@ -45,6 +45,7 @@ website:
       - section: "4. Benchmarking"
         contents:
           - tema4/sesion1.qmd
+          - tema4/sesion2.qmd
       # - section: "5. Sistemas de indicadores"
       #   contents:
       #     - tema5/sesion1.qmd

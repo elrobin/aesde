@@ -1,0 +1,255 @@
+---
+title: "Planificación y análisis para benchmarking"
+---
+
+::: callout-note
+## Objetivos de la sesión
+
+Al terminar esta sesión deberíais ser capaces de:
+
+- Justificar la necesidad de un benchmarking a partir de una situación de la organización.
+- Distinguir si lo que se compara es un producto, un servicio o un proceso.
+- Seleccionar las fuentes de información adecuadas según lo que se compara.
+- Diferenciar una aproximación cuantitativa de una cualitativa y saber cuándo conviene cada una.
+:::
+
+En la sesión anterior vimos que el benchmarking se organiza en un proceso de cuatro fases: 1) planificación, 2) análisis, 3) integración y 4) acción. En esta sesión nos detenemos en las dos primeras, que son las que determinan si una comparación tiene sentido o no. Todo parte de una pregunta aparentemente sencilla: **¿cómo sé si mi organización está funcionando bien en comparación con otros?**
+
+Un dato aislado no responde a esa pregunta. Saber que una biblioteca presta 200.000 documentos al año, o que una consultora tarda tres semanas en entregar un informe, no dice nada si no hay un punto de referencia con el que compararlo. Recordad el origen topográfico del término: [un benchmark solo tiene valor en relación con otro punto]{.mark}.
+
+```{mermaid}
+flowchart LR
+    A[Planificación] --> B[Análisis]
+    B --> C[Integración]
+    C --> D[Acción]
+    D -. recalibración .-> A
+    style A fill:#f5c518
+    style B fill:#f5c518
+```
+
+## Planificación
+
+### Motivaciones
+
+Ninguna organización hace benchmarking por curiosidad. Siempre hay un motivo, y ese motivo condiciona todo lo demás: qué se compara, con quién y con qué datos. Podemos agrupar las motivaciones en dos grandes tipos:
+
+| Tipo | Situación de partida | Ejemplo |
+|------------------------|------------------------|------------------------|
+| **Reactiva** | Se ha detectado un problema: pérdida de competitividad, quejas de los usuarios, costes que se disparan, un indicador que empeora | Xerox en 1979, perdiendo cuota de mercado frente a los fabricantes japoneses |
+| **Proactiva** | No hay un problema visible, pero se quiere anticipar riesgos o preparar a la organización para cambios futuros | Una biblioteca que se pregunta cómo adaptar sus espacios a nuevos usos antes de que bajen las visitas |
+
+Camp señalaba algunas señales típicas que indican que conviene hacer benchmarking: comentarios negativos de los clientes, un problema de costes o un indicador financiero insatisfactorio. Son todas motivaciones reactivas. Lo deseable, sin embargo, es que el benchmarking forme parte de la **mejora continua** y no solo de la gestión de crisis.
+
+::: callout-tip
+## Conexión con la ISO 9001
+
+La ISO 9001 obliga a las organizaciones certificadas a medir su desempeño y a mejorar de forma continua, pero no les dice con quién deben compararse para saber si lo hacen bien. El benchmarking responde precisamente a esa pregunta.
+:::
+
+### Objeto de comparación: producto, servicio o proceso
+
+Una vez clara la motivación, hay que decidir **qué** se va a comparar. La norma ISO 9000:2026, que fija el vocabulario de la gestión de la calidad, nos da los criterios para distinguir tres objetos posibles.
+
+::: callout-important
+## Definiciones (ISO 9000:2026)
+
+**Proceso.** Conjunto de actividades interrelacionadas o que interactúan que utilizan o transforman entradas para proporcionar un resultado.
+
+**Servicio.** Salida de una organización en la que se realiza necesariamente al menos una actividad entre la organización y el cliente.
+
+**Producto.** Salida de una organización cuya producción se lleva a cabo sin que tenga que producirse necesariamente ninguna transacción entre el proveedor y el cliente, aunque a menudo incluye un elemento de servicio en el momento de su entrega.
+:::
+
+De estas definiciones se desprenden dos ideas importantes:
+
+1.  **Producto y servicio son resultados; el proceso es lo que los produce.** Por eso la norma señala que llamar a un resultado «producto» o «servicio» depende del contexto.
+2.  **La frontera entre producto y servicio no es nítida.** La norma indica que la clasificación depende de qué características predominan. Un informe es un producto, pero si incluye una reunión para explicar los resultados al cliente, tiene un componente de servicio.
+
+Para distinguirlos en la práctica, podéis aplicar estas preguntas:
+
+| Pregunta | Si la respuesta es sí… |
+|------------------------------------|------------------------------------|
+| ¿Existe con independencia de que el cliente esté presente? ¿Se puede almacenar, copiar o enviar? | Probablemente es un **producto** |
+| ¿Requiere necesariamente una interacción con el cliente? ¿Se produce y se consume a la vez? | Probablemente es un **servicio** |
+| ¿Es una secuencia de actividades interna que transforma entradas en un resultado? | Es un **proceso** |
+
+Los servicios tienen, además, unas características clásicas que los hacen más difíciles de comparar que los productos: son **intangibles** (no se pueden tocar ni probar antes de recibirlos), **heterogéneos** (cada prestación es distinta), **inseparables** (se producen y consumen al mismo tiempo) y **caducos** (no se pueden almacenar). Son las mismas razones por las que, en el Tema 2, vimos que su calidad se evalúa a través de la percepción del usuario con modelos como ServQual.
+
+::: callout-warning
+## Proceso y práctica
+
+En la sesión anterior vimos que lo que realmente se compara de un proceso son sus **prácticas**: el *cómo* se hace cada paso. Comparar procesos significa, en la práctica, comparar las prácticas que los componen.
+:::
+
+### Socios de comparación
+
+El tipo de benchmarking (interno, competitivo, funcional o genérico) depende de con quién nos comparemos, y está muy ligado a lo que comparamos:
+
+- Los **productos** se comparan con frecuencia con los de los **competidores**, porque es lo que el cliente compara al elegir.
+- Los **procesos** son los que más se prestan al benchmarking **funcional y genérico**: un proceso de facturación o de almacén se parece mucho de un sector a otro, aunque los productos sean distintos.
+- Los **servicios** admiten todos los tipos, pero cuanto más lejos del propio sector, más hay que adaptar lo aprendido.
+
+### Fuentes de información
+
+El último paso de la planificación es decidir **con qué datos** se va a hacer la comparación. Camp sostenía que la inmensa mayoría de la información necesaria ya está disponible en el dominio público, y que las visitas a otras organizaciones sirven sobre todo para validar lo que ya se ha preparado.
+
+#### Fuentes primarias y secundarias
+
+|   | Fuentes secundarias | Fuentes primarias |
+|------------------------|------------------------|------------------------|
+| **Qué son** | Información que ya existe, recogida por otros | Información que se genera expresamente para el benchmarking |
+| **Ejemplos** | Estadísticas oficiales, memorias anuales, webs, informes sectoriales | Encuestas, entrevistas, visitas, observación |
+| **Ventaja** | Coste bajo, disponibilidad inmediata | Se ajustan exactamente a lo que queremos saber |
+| **Inconveniente** | Las definiciones las ha decidido otro | Coste alto y, a menudo, necesitan la colaboración del socio |
+
+#### Una guía orientativa
+
+| Tipo de fuente | Ejemplos | Útil sobre todo para |
+|------------------------|------------------------|------------------------|
+| **Estadísticas oficiales** | INE, Eurostat, CULTURABase (Ministerio de Cultura), REBIUN | Resultados y recursos del sector público |
+| **Información económica de empresas** | Registro Mercantil, bases de datos de información empresarial | Resultados económicos de empresas |
+| **Documentos de las propias organizaciones** | Memorias anuales, cartas de servicios, portales de transparencia, webs | Oferta de servicios, compromisos de calidad, recursos |
+| **Informes sectoriales** | Asociaciones profesionales, observatorios, consultoras | Tendencias y prácticas de un sector |
+| **Fuentes primarias** | Encuestas a usuarios, entrevistas, visitas, cliente misterioso | Servicios y prácticas que no aparecen en los documentos |
+
+La regla general es sencilla: **cuanto más tangible es lo que comparamos, más fácil es encontrarlo en fuentes secundarias**. Los resultados y los productos suelen estar en estadísticas y memorias. Las prácticas y la experiencia del servicio casi nunca están escritas: hay que ir a buscarlas.
+
+En el Tema 5 veremos con detalle las fuentes de información sobre el entorno de la organización.
+
+::: callout-important
+## Leer la ficha metodológica
+
+Usar una fuente secundaria significa aceptar las definiciones de otro. Antes de comparar, hay que saber exactamente qué se está contando. Por ejemplo: cuando una estadística habla de **préstamos**, ¿incluye las renovaciones?, ¿y los préstamos de libros electrónicos?, ¿y los interbibliotecarios? Dos bibliotecas que cuenten los préstamos de forma distinta no son comparables, aunque los números parezcan decir lo contrario.
+:::
+
+## Análisis
+
+Con la planificación hecha, el análisis consiste en **medir la brecha**: la distancia entre lo que hace nuestra organización y lo que hacen aquellas con las que nos comparamos. Esa brecha puede ser positiva (lo hacemos mejor), negativa (lo hacemos peor) o inexistente.
+
+```{mermaid}
+flowchart LR
+    A["Nuestra organización"] -- "brecha" --> B["Referencia (benchmark)"]
+    B --> C{"¿Por qué existe la diferencia?"}
+    C --> D["Prácticas a adaptar"]
+```
+
+### Aproximación cuantitativa y cualitativa
+
+La brecha se puede medir de dos formas, y la elección depende en gran parte de lo que estemos comparando:
+
+|   | Aproximación cuantitativa | Aproximación cualitativa |
+|------------------------|------------------------|------------------------|
+| **Pregunta** | ¿Cuánto? | ¿Cómo? |
+| **Resultado** | Una cifra: préstamos por habitante, tiempo de entrega, coste por informe | Una descripción: qué ofrece cada uno, cómo lo hace, qué diferencias hay |
+| **Fuentes habituales** | Estadísticas, datos económicos | Documentos, webs, entrevistas, observación |
+| **Adecuada para** | Resultados y productos | Servicios y prácticas |
+| **Riesgo principal** | Comparar cifras que no se han calculado igual | Que la comparación sea subjetiva si no se fijan criterios |
+
+Las dos aproximaciones no se excluyen. Lo habitual es que la cuantitativa detecte **dónde** hay una brecha y la cualitativa explique **por qué** existe.
+
+### Un caso cualitativo: comparar servicios
+
+::: {.callout-note collapse="true"}
+## El caso de EC3metrics
+
+**EC3metrics** es una consulta de bibliometría y evaluación de la ciencia, surgida del ámbito universitario, que ofrece servicios de evaluación de la investigación, entre ellos el asesoramiento a investigadores para solicitar sexenios y acreditaciones.
+
+La empresa no hace en principio benchmarking porque no siente presión competitiva, porque hay mercado suficiente para todos. Además, entendía el benchmarking como una comparación de **precios**, y sus competidores nacionales no publican esa información.
+:::
+
+Esta actitud ilustra dos ideas importantes:
+
+1.  **La motivación condiciona el benchmarking.** Sin una motivación reactiva (no hay pérdida de clientes), solo queda la proactiva: prepararse para un mercado que puede cambiar.
+2.  **Las fuentes condicionan el objeto.** Si los precios no son públicos, la comparación de precios no es viable. Pero el precio es solo una dimensión del servicio.
+
+Un benchmarking de servicios no tiene por qué ser una comparación de precios. Lo que una empresa de este tipo ofrece es en buena medida **público**: está en sus webs, sus folletos y sus informes de ejemplo. Además, el mercado no es solo nacional: existen servicios internacionales de evaluación de la investigación, como CWTS BV en los Países Bajos, Science-Metrix en Canadá o SCImago en España, con los que comparar la oferta.
+
+Un benchmarking cualitativo de este servicio podría seguir estos pasos:
+
+1.  **Definir el servicio** que se compara: por ejemplo, el asesoramiento para acreditaciones.
+2.  **Seleccionar los socios**: competidores nacionales e internacionales con servicios equivalentes.
+3.  **Fijar las dimensiones de comparación** antes de mirar a nadie, para que la comparación no sea arbitraria.
+4.  **Recoger la información** de las fuentes públicas y, si es posible, de fuentes primarias.
+5.  **Construir una matriz comparativa** y leer las diferencias.
+
+| Dimensión | Pregunta | Empresa A | Empresa B | Empresa C |
+|---------------|---------------|---------------|---------------|---------------|
+| Catálogo | ¿Qué servicios ofrece? |  |  |  |
+| Destinatarios | ¿A quién se dirige: investigadores, universidades, gobiernos? |  |  |  |
+| Metodología | ¿Explica cómo trabaja y con qué fuentes de datos? |  |  |  |
+| Entregable | ¿Qué recibe el cliente: un informe, una plataforma, una reunión? |  |  |  |
+| Plazos | ¿Cuánto tarda? ¿Lo garantiza? |  |  |  |
+| Atención | ¿Qué canales ofrece? ¿Hay seguimiento posterior? |  |  |  |
+
+Las dimensiones de ServQual que vimos en el Tema 2 (elementos tangibles, fiabilidad, capacidad de respuesta, seguridad y empatía) son un buen punto de partida para elegir las dimensiones de comparación de cualquier servicio.
+
+::: callout-tip
+## El cliente misterioso
+
+Una técnica habitual para comparar servicios es el **cliente misterioso**: una persona solicita el servicio como un cliente más y registra su experiencia con unos criterios fijados de antemano. Permite conocer cómo funciona el servicio en la práctica, que es algo que casi nunca está escrito en ningún documento.
+:::
+
+### Un caso cuantitativo: comparar resultados
+
+En la sesión anterior adelantamos que algunas de las tasas de mortalidad que publicó **Florence Nightingale** para hospitales londinenses superaban el 90%, y que calculadas de otra manera se quedaban en torno al 10%. Veamos cómo es posible.
+
+En la tercera edición de *Notes on Hospitals* (1863), Nightingale defendía que los hospitales de Londres eran peligrosos, sobre todo frente a los de provincias. Se apoyaba en las cifras de William Farr, según las cuales 24 hospitales de Londres tenían una mortalidad superior al 90%, frente al 13% de los hospitales rurales.
+
+El problema estaba en el cálculo. Farr había dividido **las muertes de todo un año** entre **los pacientes ingresados un solo día**. Si se dividían las muertes del año entre todos los pacientes atendidos durante ese año, la mortalidad de los hospitales de Londres bajaba al 10%. Un crítico de la época lo comparó con preguntar a un escolar cuánto da dividir cien manzanas entre quince arenques.
+
+El denominador no era el único problema:
+
+- **Los pacientes no eran comparables.** Muchos hospitales de provincias rechazaban a enfermos de tuberculosis, de fiebres o moribundos, mientras que los de Londres admitían a todos.
+- **Los numeradores no eran comparables.** Algunos hospitales no contaban a quienes llegaban ya muertos, y otros excluían a quienes morían en las primeras 24 horas.
+- **Había incentivos perversos.** La propia Nightingale denunció que algunos hospitales daban de alta a enfermos incurables para que murieran en otro hospital, rebajando su mortalidad a costa del segundo.
+
+::: callout-important
+## Lo que nos enseña Nightingale
+
+1.  **Una comparación cuantitativa es tan buena como su numerador y su denominador.** Dos cifras solo son comparables si se han calculado igual.
+2.  **Sin definiciones comunes no hay comparación.** Por eso Nightingale propuso un formulario estadístico uniforme para todos los hospitales. Las estadísticas oficiales actuales, como las de REBIUN o CULTURABase, se basan en el mismo principio: un cuestionario común para todas las organizaciones.
+3.  **La cifra tiene que medir el propósito.** La propia Nightingale reconocía que la mortalidad no medía la función del hospital, que es devolver la salud a los enfermos. Lo que debía medirse era la proporción de pacientes recuperados y el tiempo que tardaban en recuperarse.
+:::
+
+Recordad que Nightingale no solo comparó resultados: también comparó prácticas, como el diseño de los hospitales de Londres y de París. Es un buen ejemplo de cómo las dos aproximaciones se complementan.
+
+## Integración y acción
+
+Medir la brecha no sirve de nada si no lleva a un cambio. Las dos últimas fases del proceso convierten el análisis en mejora:
+
+- **Integración.** Comunicar los resultados a quienes tienen que cambiar y conseguir que los acepten, y fijar objetivos concretos. Es la fase más difícil desde el punto de vista humano: nadie acepta con facilidad que otros lo hacen mejor.
+- **Acción.** Elaborar un plan, implantarlo, hacer seguimiento y **recalibrar**: volver a compararse, porque los socios también mejoran.
+
+Recordad el ejemplo de la garantía de Xerox: la buena práctica de L.L. Bean no se copió, se adaptó y se mejoró. Ese es el objetivo final de todo el proceso.
+
+## Tarea
+
+::: ejercicio
+A partir de la información que ya habéis incorporado a la web del grupo (el sistema de información del Tema 1, el análisis de calidad del Tema 2, la auditoría del Tema 3 y los socios de la sesión anterior), elaborad un plan de benchmarking para la Biblioteca del Colegio Máximo.
+
+**1. Motivación.** En un párrafo: ¿por qué debería la biblioteca hacer benchmarking?
+
+**2. Objetos de comparación.** Seleccionad **2 productos, 2 servicios y 2 3 procesos** de la biblioteca cada uno.
+
+**3. Plan de comparación.** Para cada objeto, proponed entre **2 o 3 organizaciones** con las que lo compararíais:
+
+| Objeto | Tipo de objeto | Criterio de clasificación | Organización de comparación | Tipo de benchmarking |
+|---------|---------|---------|---------|---------|
+| | Producto | | | |
+| | Servicio | | | |
+| | Proceso | | | |
+
+-   **Criterio de clasificación**: por qué es un producto, un servicio o un proceso, según las definiciones de la ISO 9000:2026.
+-   **Fuentes de información**: dónde encontraríais los datos. Indicad si son primarias o secundarias y si la aproximación sería cuantitativa o cualitativa.
+
+**Antes de dar la tarea por terminada**, comprobad:
+
+-   [ ] ¿Hay al menos dos productos, dos servicios y dos procesos?
+-   [ ] ¿Cada clasificación está justificada con un criterio, no por intuición?
+-   [ ] ¿Aparecen los cuatro tipos de benchmarking en el conjunto del plan?
+-   [ ] ¿Las fuentes que proponéis existen de verdad y ofrecen datos al nivel que necesitáis (Colegio Máximo o BUG)?
+-   [ ] ¿Hay al menos un objeto que requiera una aproximación cualitativa?
+-   [ ] ¿El plan es coherente con la motivación del punto 1?
+
+**Entrega.** Poned en común e integrad en la web del grupo.
+:::
