@@ -13,7 +13,14 @@ Al terminar esta sesión deberíais ser capaces de:
 - Diferenciar una aproximación cuantitativa de una cualitativa y saber cuándo conviene cada una.
 :::
 
-En la sesión anterior vimos que el benchmarking se organiza en un proceso de cuatro fases: 1) planificación, 2) análisis, 3) integración y 4) acción. En esta sesión nos detenemos en las dos primeras, que son las que determinan si una comparación tiene sentido o no. Todo parte de una pregunta aparentemente sencilla: **¿cómo sé si mi organización está funcionando bien en comparación con otros?**
+En la sesión anterior vimos que el benchmarking se organiza en un proceso de cuatro fases: 
+
+1) **Planificación**
+2) **Análisis**
+3) **Integración**
+4) **Acción**. 
+
+En esta sesión nos detenemos en las dos primeras, que son las que determinan si una comparación tiene sentido o no. Todo parte de una pregunta aparentemente sencilla: **¿cómo sé si mi organización está funcionando bien en comparación con otros?**
 
 Un dato aislado no responde a esa pregunta. Saber que una biblioteca presta 200.000 documentos al año, o que una consultora tarda tres semanas en entregar un informe, no dice nada si no hay un punto de referencia con el que compararlo. Recordad el origen topográfico del término: [un benchmark solo tiene valor en relación con otro punto]{.mark}.
 
@@ -38,7 +45,7 @@ Ninguna organización hace benchmarking por curiosidad. Siempre hay un motivo, y
 | **Reactiva** | Se ha detectado un problema: pérdida de competitividad, quejas de los usuarios, costes que se disparan, un indicador que empeora | Xerox en 1979, perdiendo cuota de mercado frente a los fabricantes japoneses |
 | **Proactiva** | No hay un problema visible, pero se quiere anticipar riesgos o preparar a la organización para cambios futuros | Una biblioteca que se pregunta cómo adaptar sus espacios a nuevos usos antes de que bajen las visitas |
 
-Camp señalaba algunas señales típicas que indican que conviene hacer benchmarking: comentarios negativos de los clientes, un problema de costes o un indicador financiero insatisfactorio. Son todas motivaciones reactivas. Lo deseable, sin embargo, es que el benchmarking forme parte de la **mejora continua** y no solo de la gestión de crisis.
+Camp señalaba algunas señales típicas que indican que conviene hacer benchmarking: comentarios negativos de los clientes, un problema de costes o un indicador financiero insatisfactorio. Son todas motivaciones reactivas. **Lo deseable, sin embargo, es que el benchmarking forme parte de la mejora continua** y no solo de la gestión de crisis.
 
 ::: callout-tip
 ## Conexión con la ISO 9001
@@ -81,7 +88,7 @@ Los servicios tienen, además, unas características clásicas que los hacen má
 En la sesión anterior vimos que lo que realmente se compara de un proceso son sus **prácticas**: el *cómo* se hace cada paso. Comparar procesos significa, en la práctica, comparar las prácticas que los componen.
 :::
 
-### Socios de comparación
+### Con quién compararse
 
 El tipo de benchmarking (interno, competitivo, funcional o genérico) depende de con quién nos comparemos, y está muy ligado a lo que comparamos:
 
@@ -95,12 +102,12 @@ El último paso de la planificación es decidir **con qué datos** se va a hacer
 
 #### Fuentes primarias y secundarias
 
-|   | Fuentes secundarias | Fuentes primarias |
+|   | Fuentes primarias | Fuentes secundarias |
 |------------------------|------------------------|------------------------|
-| **Qué son** | Información que ya existe, recogida por otros | Información que se genera expresamente para el benchmarking |
-| **Ejemplos** | Estadísticas oficiales, memorias anuales, webs, informes sectoriales | Encuestas, entrevistas, visitas, observación |
-| **Ventaja** | Coste bajo, disponibilidad inmediata | Se ajustan exactamente a lo que queremos saber |
-| **Inconveniente** | Las definiciones las ha decidido otro | Coste alto y, a menudo, necesitan la colaboración del socio |
+| **Qué son** | Información original que se genera expresamente para el benchmarking | Información que ya existe, recogida por otros |
+| **Ejemplos** |  Encuestas, entrevistas, visitas, observación | Estadísticas oficiales, memorias anuales, webs, informes sectoriales |
+| **Ventaja** | Se ajustan exactamente a lo que queremos saber y es información *exclusiva* | Coste bajo, disponibilidad inmediata |
+| **Inconveniente** | Coste alto y, a menudo, necesitan la colaboración del socio | Las definiciones las ha decidido otro y tal vez no se ajuste del todo a lo que queremos analizar |
 
 #### Una guía orientativa
 
@@ -120,6 +127,8 @@ En el Tema 5 veremos con detalle las fuentes de información sobre el entorno de
 ## Leer la ficha metodológica
 
 Usar una fuente secundaria significa aceptar las definiciones de otro. Antes de comparar, hay que saber exactamente qué se está contando. Por ejemplo: cuando una estadística habla de **préstamos**, ¿incluye las renovaciones?, ¿y los préstamos de libros electrónicos?, ¿y los interbibliotecarios? Dos bibliotecas que cuenten los préstamos de forma distinta no son comparables, aunque los números parezcan decir lo contrario.
+
+**Ejemplo:** La metodología de los rankings de universidades
 :::
 
 ## Análisis
@@ -129,11 +138,11 @@ Con la planificación hecha, el análisis consiste en **medir la brecha**: la di
 ```{mermaid}
 flowchart LR
     A["Nuestra organización"] -- "brecha" --> B["Referencia (benchmark)"]
-    B --> C{"¿Por qué existe la diferencia?"}
+    B --> C("¿Por qué existe la diferencia?")
     C --> D["Prácticas a adaptar"]
 ```
 
-### Aproximación cuantitativa y cualitativa
+### Tipos de análisis: cuantitativo vs. cualitativo
 
 La brecha se puede medir de dos formas, y la elección depende en gran parte de lo que estemos comparando:
 
@@ -191,17 +200,18 @@ Una técnica habitual para comparar servicios es el **cliente misterioso**: una 
 
 ### Un caso cuantitativo: comparar resultados
 
+En el caso de las aproximaciones cuantitativas, hay que prestar especial atención a los datos que se emplean (sobretodo si son secundarios): entender cómo se obtuvieron, cómo se calcularon, qué sesgos pueden incluir.
+
 En la sesión anterior adelantamos que algunas de las tasas de mortalidad que publicó **Florence Nightingale** para hospitales londinenses superaban el 90%, y que calculadas de otra manera se quedaban en torno al 10%. Veamos cómo es posible.
 
 En la tercera edición de *Notes on Hospitals* (1863), Nightingale defendía que los hospitales de Londres eran peligrosos, sobre todo frente a los de provincias. Se apoyaba en las cifras de William Farr, según las cuales 24 hospitales de Londres tenían una mortalidad superior al 90%, frente al 13% de los hospitales rurales.
 
-El problema estaba en el cálculo. Farr había dividido **las muertes de todo un año** entre **los pacientes ingresados un solo día**. Si se dividían las muertes del año entre todos los pacientes atendidos durante ese año, la mortalidad de los hospitales de Londres bajaba al 10%. Un crítico de la época lo comparó con preguntar a un escolar cuánto da dividir cien manzanas entre quince arenques.
+Sin embargo, estos datos tenían varios problemas serios:
 
-El denominador no era el único problema:
-
-- **Los pacientes no eran comparables.** Muchos hospitales de provincias rechazaban a enfermos de tuberculosis, de fiebres o moribundos, mientras que los de Londres admitían a todos.
-- **Los numeradores no eran comparables.** Algunos hospitales no contaban a quienes llegaban ya muertos, y otros excluían a quienes morían en las primeras 24 horas.
-- **Había incentivos perversos.** La propia Nightingale denunció que algunos hospitales daban de alta a enfermos incurables para que murieran en otro hospital, rebajando su mortalidad a costa del segundo.
+1. **El cálculo**. Farr había dividido **las muertes de todo un año** entre **los pacientes ingresados un solo día**. Si se dividían las muertes del año entre todos los pacientes atendidos durante ese año, la mortalidad de los hospitales de Londres bajaba al 10%. Un crítico de la época lo comparó con preguntar a un escolar cuánto da dividir cien manzanas entre quince arenques.
+2. **Los pacientes no eran comparables.** Muchos hospitales de provincias rechazaban a enfermos de tuberculosis, de fiebres o moribundos, mientras que los de Londres admitían a todos.
+3. **Los numeradores no eran comparables.** Algunos hospitales no contaban a quienes llegaban ya muertos, y otros excluían a quienes morían en las primeras 24 horas.
+4. **Había incentivos perversos.** La propia Nightingale denunció que algunos hospitales daban de alta a enfermos incurables para que murieran en otro hospital, rebajando su mortalidad a costa del segundo.
 
 ::: callout-important
 ## Lo que nos enseña Nightingale
@@ -229,7 +239,7 @@ A partir de la información que ya habéis incorporado a la web del grupo (el si
 
 **1. Motivación.** En un párrafo: ¿por qué debería la biblioteca hacer benchmarking?
 
-**2. Objetos de comparación.** Seleccionad **2 productos, 2 servicios y 2 3 procesos** de la biblioteca cada uno.
+**2. Objetos de comparación.** Seleccionad **2 productos, 2 servicios y 2 procesos** de la biblioteca cada uno.
 
 **3. Plan de comparación.** Para cada objeto, proponed entre **2 o 3 organizaciones** con las que lo compararíais:
 
@@ -240,14 +250,12 @@ A partir de la información que ya habéis incorporado a la web del grupo (el si
 | | Proceso | | | |
 
 -   **Criterio de clasificación**: por qué es un producto, un servicio o un proceso, según las definiciones de la ISO 9000:2026.
--   **Fuentes de información**: dónde encontraríais los datos. Indicad si son primarias o secundarias y si la aproximación sería cuantitativa o cualitativa.
 
 **Antes de dar la tarea por terminada**, comprobad:
 
 -   [ ] ¿Hay al menos dos productos, dos servicios y dos procesos?
 -   [ ] ¿Cada clasificación está justificada con un criterio, no por intuición?
 -   [ ] ¿Aparecen los cuatro tipos de benchmarking en el conjunto del plan?
--   [ ] ¿Las fuentes que proponéis existen de verdad y ofrecen datos al nivel que necesitáis (Colegio Máximo o BUG)?
 -   [ ] ¿Hay al menos un objeto que requiera una aproximación cualitativa?
 -   [ ] ¿El plan es coherente con la motivación del punto 1?
 

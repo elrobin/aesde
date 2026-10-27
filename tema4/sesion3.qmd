@@ -1,0 +1,345 @@
+---
+title: "Práctica guiada de benchmarking"
+---
+
+::: callout-note
+## Objetivos de la sesión
+
+Al terminar esta sesión deberíais ser capaces de:
+
+- Localizar y descargar datos de una fuente estadística oficial en un formato adecuado para trabajar con ellos.
+- Preparar los datos en Excel y organizarlos con tablas dinámicas.
+- Comparar una organización con la media de su grupo y consigo misma a lo largo del tiempo.
+- Leer críticamente una comparación cuantitativa y detectar cuándo un indicador engaña.
+:::
+
+En la sesión anterior vimos cómo se planifica un benchmarking y las dos aproximaciones posibles al análisis. En esta sesión hacemos un benchmarking cuantitativo completo, paso a paso, con datos reales. El objetivo no es solo obtener un resultado, sino aprender el procedimiento para poder aplicarlo después a cualquier organización.
+
+::: bonus
+## El caso de las bibliotecas en Andalucía
+
+Vamos a imaginar que queremos analizar hasta qué punto se emplea el servicio de préstamo en Andalucía y si es un servicio que está siendo empleado o no por los usuarios. Esto puede dar pie a futuras acciones como:
+
+- Análisis de la adecuación de las colecciones
+- Estudio de usuarios y localización y número de bibliotecas
+
+Para ello, vamos a hacer un benchmarking competitivo con otras comunidades autónomas. Utilizaremos fuentes de información secundario y utilizaremos una aproximación cuantitativa: número total de préstamos.
+:::
+
+## El flujo de trabajo
+
+Un análisis cuantitativo sigue siempre la misma secuencia, desde que se localiza la fuente hasta que se comunican los resultados a quien tiene que tomar decisiones:
+
+```{mermaid}
+flowchart LR
+    A[Recogida de datos] --> B[Procesamiento]
+    B --> C[Exploración]
+    C --> D[Interpretación]
+    D --> E[Comunicación]
+```
+
+Cada etapa corresponde a una fase del proceso de benchmarking y requiere sus propias herramientas:
+
+| Etapa | Fase del benchmarking | Qué se hace | Herramientas |
+|------------------|------------------|------------------|------------------|
+| **Recogida de datos** | Planificación | Localizar la fuente, leer su metodología y descargar los datos | CULTURABase |
+| **Procesamiento** | Análisis | Limpiar los datos y darles una estructura con la que se pueda trabajar | Excel |
+| **Exploración** | Análisis | Organizar los datos y calcular comparaciones | Tablas dinámicas |
+| **Interpretación** | Análisis | Leer qué dicen y qué no dicen los resultados | Preguntas de control |
+| **Comunicación** | Integración | Presentar los resultados a quien tiene que decidir | Gráficos de Excel |
+
+## Diseño del estudio
+
+Antes de abrir ninguna fuente, hay que definir el estudio con los elementos que vimos en la planificación:
+
+| Elemento | En nuestro caso |
+|------------------------------------|------------------------------------|
+| **Organización** | Las bibliotecas de Andalucía |
+| **Pregunta** | ¿Funciona bien el servicio de préstamo de las bibliotecas andaluzas? |
+| **Objeto de comparación** | El préstamo domiciliario, un servicio, a través de su resultado: el número de préstamos |
+| **Socios de comparación** | El resto de comunidades autónomas y la media nacional |
+| **Tipo de benchmarking** | Competitivo, con un matiz: las bibliotecas de distintas comunidades no compiten entre sí, pero prestan el mismo servicio en condiciones comparables |
+| **Fuente** | Estadística de Bibliotecas del Ministerio de Cultura (CULTURABase) |
+| **Aproximación** | Cuantitativa |
+
+## Recogida de datos
+
+### La fuente
+
+**CULTURABase** es la base de datos estadística del Ministerio de Cultura. Entre sus operaciones estadísticas está la **Estadística de Bibliotecas**, que se publica cada dos años y ofrece resultados nacionales, por comunidad autónoma, por provincia y por tamaño de municipio.
+
+Vamos a trabajar con la tabla **2.3. Principales indicadores por comunidad autónoma**, que reúne 18 indicadores para las ediciones de 2018, 2020, 2022 y 2024.
+
+![Estadística de Bibliotecas en CULTURABase](/images/t4-culturabase.png){width="80%"}
+
+![Selección de indicadores y años en la tabla 2.3](/images/t4-culturabse2.png){width="80%"}
+
+### La ficha metodológica
+
+Antes de descargar nada, hay que saber exactamente qué mide cada dato. Una lectura atenta de la tabla 2.3 revela tres aspectos que condicionan todo el análisis:
+
+1.  **La tabla incluye todos los tipos de biblioteca**: públicas, universitarias, especializadas, escolares… No se puede filtrar por tipo. Por eso nuestra organización son *las bibliotecas de Andalucía*, y no la red de bibliotecas públicas.
+2.  **Los indicadores son «por biblioteca»**, no por habitante. Préstamos por biblioteca, visitas por biblioteca, usuarios por biblioteca. El denominador es el número de bibliotecas.
+3.  **Las notas al pie avisan de cambios de definición.** Desde 2020, los usuarios inscritos de las bibliotecas universitarias incluyen a quienes tienen acceso gracias a acuerdos de consorcio. Volveremos sobre esto.
+
+::: callout-important
+## Las notas al pie no son decoración
+
+Las notas de una tabla estadística explican qué se ha contado y cómo, y sobre todo qué ha cambiado de una edición a otra. Una comparación que ignora las notas puede estar comparando cosas distintas sin saberlo.
+:::
+
+### La descarga
+
+CULTURABase permite descargar los datos en varios formatos. **La elección del formato no es indiferente**: conviene elegirlo pensando en lo que vamos a hacer después.
+
+- La descarga en **Excel** reproduce la tabla tal como se ve en pantalla: un formato **ancho**, con los indicadores en celdas combinadas y cuatro columnas de años debajo de cada uno. Es cómodo para leer, pero no para trabajar.
+- La descarga en **CSV** ofrece los datos en formato **largo**: una fila por cada combinación de comunidad, indicador y año. Es el formato que necesitan las tablas dinámicas.
+
+| Formato ancho |                    |                    |       |
+|---------------|--------------------|--------------------|-------|
+| **Comunidad** | **Préstamos 2018** | **Préstamos 2020** | **…** |
+| Andalucía     | 4.773              | 2.846              | …     |
+
+| Formato largo |                           |         |           |
+|---------------|---------------------------|---------|-----------|
+| **Comunidad** | **Indicador**             | **Año** | **Valor** |
+| Andalucía     | Préstamos… por biblioteca | 2018    | 4.773     |
+| Andalucía     | Préstamos… por biblioteca | 2020    | 2.846     |
+
+::: ejercicio
+**Paso 1.** En la tabla 2.3, pulsad el icono de descarga y elegid el formato **CSV separado por punto y coma**.
+:::
+
+![Opciones de descarga de CULTURABase](/images/t4-descargacsv.png){width="70%"}
+
+## Procesamiento
+
+### Abrir los datos
+
+::: ejercicio
+**Paso 2.** Abrid el CSV con Excel. Al estar separado por punto y coma, cada dimensión aparece en su propia columna.
+
+Comprobad que los **decimales** se han leído bien. Por ejemplo, la titularidad pública de Andalucía en 2024 debe ser **86,8**, no 868 ni una fecha.
+
+Guardad inmediatamente el archivo como **Libro de Excel (.xlsx)**. Un CSV solo guarda datos: al cerrarlo se perderían las tablas dinámicas y los formatos.
+:::
+
+### Los datos que faltan
+
+Algunos valores aparecen como `..`, que es la forma que tiene la fuente de indicar que no hay dato. Por ejemplo, el número de días de cierre por la COVID-19 solo existe para 2020.
+
+::: callout-warning
+## Un dato que falta no es un cero
+
+Si sustituimos `..` por 0, estamos afirmando que hubo cero días de cierre, cuando lo que ocurre es que no se midió. Los ceros entran en los cálculos y distorsionan las medias. La celda debe quedar **vacía**.
+:::
+
+::: ejercicio
+**Paso 3.** Seleccionad la columna de los valores y abrid **Buscar y reemplazar** (Ctrl + L).
+
+1.  En **Buscar**, escribid `..` y dejad **Reemplazar con** vacío.
+2.  Pulsad **Opciones** y marcad **Coincidir con el contenido de toda la celda**.
+3.  Pulsad **Reemplazar todos**.
+
+Comprobad que todos los valores están alineados a la derecha. Si alguno queda a la izquierda, Excel lo está tratando como texto.
+:::
+
+![Buscar y reemplazar con la opción de coincidir con toda la celda](/images/t4-buscarreemplazar.png){width="60%"}
+
+## Exploración
+
+### La tabla dinámica
+
+Una tabla dinámica permite reorganizar los datos en formato largo de muchas maneras sin modificar los datos originales.
+
+::: ejercicio
+**Paso 4.** Haced clic en cualquier celda de los datos y elegid **Insertar \> Tabla dinámica \> Nueva hoja de cálculo**. En el panel de campos, colocad:
+
+| Área         | Campo              |
+|--------------|--------------------|
+| **Filtros**  | Indicador          |
+| **Filas**    | Comunidad autónoma |
+| **Columnas** | Año                |
+| **Valores**  | Total (el valor)   |
+:::
+
+![Panel de campos de la tabla dinámica](/images/t4-tbldinamica.png){fig-align="center" width="49%"}
+
+Antes de filtrar el indicador, mirad la tabla. Excel ha sumado los 18 indicadores de cada comunidad: número de bibliotecas, más porcentajes de titularidad, más préstamos por biblioteca… El resultado es una cifra que no significa nada.
+
+![La tabla dinámica sin filtrar: totales sin sentido](/images/t4-tblsinsentido.png){width="80%"}
+
+::: callout-important
+## Excel suma lo que le pidas
+
+Una hoja de cálculo no sabe si una operación tiene sentido. Sumar porcentajes con número de bibliotecas es, de nuevo, dividir manzanas entre arenques. **El filtro del indicador no es opcional.**
+:::
+
+::: ejercicio
+**Paso 5.** Ajustad la tabla:
+
+1.  En el filtro **Indicador**, elegid **Préstamos domiciliarios de libros impresos por biblioteca**.
+2.  Desactivad los totales generales: **Diseño \> Totales generales \> Desactivado para filas y columnas**. Sumarían préstamos por biblioteca de distintos años o comunidades, y eso tampoco tiene sentido.
+3.  Ordenad los años cronológicamente, de 2018 a 2024.
+4.  Ordenad las comunidades de mayor a menor según 2024: clic derecho en un valor de esa columna \> **Ordenar \> De mayor a menor**.
+5.  Dad formato a los números: clic derecho \> **Configuración de campo de valor \> Formato de número**.
+
+Mantened la fila **TOTAL**: es la media nacional y será nuestro punto de referencia.
+:::
+
+![La tabla de préstamos por biblioteca ordenada](/images/t4-prestamos.png){width="80%"}
+
+::: callout-tip
+## ¿Suma o promedio?
+
+En esta tabla, cada celda contiene un solo dato (una comunidad, un año, un indicador), así que **Suma** y **Promedio** devuelven el mismo valor: el de la fuente. La diferencia solo importa cuando una celda agrupa varios datos.
+:::
+
+En 2024, Andalucía presta **5.021 libros por biblioteca**, frente a una media nacional de **8.312**. Solo Melilla, Extremadura, Ceuta y Castilla-La Mancha prestan menos.
+
+### Comparación con la media
+
+Las cifras absolutas no dicen a qué distancia estamos de la referencia. Para eso, la tabla dinámica permite expresar cada valor en relación con otro.
+
+::: ejercicio
+**Paso 6.** Clic derecho en cualquier valor \> **Mostrar valores como \> % de diferencia de…**
+
+- **Campo base:** Comunidad autónoma.
+- **Elemento base:** TOTAL.
+:::
+
+![Mostrar valores como, con TOTAL como elemento base](/images/t4-mostravalores.png){width="60%"}
+
+Ahora el **0% es la media nacional**: los valores negativos están por debajo y los positivos por encima.
+
+![Diferencia de cada comunidad respecto a la media nacional](/images/t4-diferenciadeltotal.png){width="80%"}
+
+Andalucía estaba un **31% por debajo** de la media en 2018 y un **40% por debajo** en 2024.
+
+### Comparación en el tiempo
+
+La segunda comparación posible es la de la organización consigo misma.
+
+::: ejercicio
+**Paso 7.** Clic derecho \> **Mostrar valores como \> % de…**
+
+- **Campo base:** Año.
+- **Elemento base:** 2018.
+:::
+
+![Evolución de cada comunidad respecto a 2018](/images/t4-ref2017.png){width="80%"}
+
+Cada fila parte del 100% en 2018. Andalucía llega al **105%** en 2024: ha mejorado un 5%. Pero la media nacional ha mejorado un **20%**. **Andalucía mejora, pero la distancia con el resto se agranda.** Un dato propio aislado («hemos mejorado») no dice si lo hacemos bien.
+
+Fijaos también en 2020: todas las comunidades se hunden. Es el efecto de los cierres por la pandemia. **Un año anómalo no sirve como punto de referencia**: si comparásemos con 2020, cualquier comunidad parecería haber crecido de forma espectacular.
+
+## Interpretación
+
+### ¿Por qué Ceuta crece un 83%?
+
+En la tabla anterior, la comunidad que más crece es Ceuta: un 83% entre 2018 y 2024. Pero recordad que el indicador es **por biblioteca**, y la tabla 2.3 también nos da el número de bibliotecas. Si multiplicamos uno por otro, obtenemos una aproximación a los **préstamos totales**:
+
+| Ceuta | Bibliotecas | Préstamos por biblioteca | Préstamos totales (aprox.) |
+|-------|-------------|--------------------------|----------------------------|
+| 2018  | 11          | 2.126                    | 23.386                     |
+| 2024  | 6           | 3.895                    | 23.370                     |
+
+Ceuta presta exactamente lo mismo que en 2018. Lo que ha cambiado es el **denominador**: tiene la mitad de bibliotecas. El crecimiento del 83% es un efecto aritmético.
+
+### Reconstruir los préstamos totales
+
+::: ejercicio
+**Paso 8.** Vamos a hacer este cálculo para todas las comunidades.
+
+1.  **Duplicad la hoja** de la tabla dinámica: clic derecho en la pestaña \> **Mover o copiar \> Crear una copia**.
+2.  En la primera tabla, volved a los valores originales: clic derecho \> **Mostrar valores como \> Sin cálculo**.
+3.  En la segunda, cambiad el filtro a **Número de bibliotecas**.
+4.  **Ordenad las dos tablas alfabéticamente** por comunidad. Si cada una sigue un orden distinto, las filas no coinciden y multiplicaríais datos de comunidades diferentes.
+5.  Copiad cada tabla y pegadla en una hoja nueva con **Pegado especial \> Valores**.
+:::
+
+![Pegado especial con la opción Valores](/images/t4-pegarvalores.png){width="60%"}
+
+::: callout-tip
+## ¿Por qué pegar como valores?
+
+Si escribís una fórmula pinchando en una celda de una tabla dinámica, Excel inserta automáticamente la función `IMPORTARDATOSDINAMICOS`, y la fórmula no se puede arrastrar al resto de celdas. Pegar como valores convierte la tabla en números normales.
+:::
+
+::: ejercicio
+**Paso 9.** En la hoja nueva, con los préstamos por biblioteca en las columnas B a E y el número de bibliotecas en G a J:
+
+1.  Calculad los **préstamos totales** de cada año: `=B2*G2`, y arrastrad la fórmula a la derecha y hacia abajo.
+2.  Calculad la **variación entre 2018 y 2024** de las tres magnitudes: préstamos por biblioteca, número de bibliotecas y préstamos totales. Por ejemplo: `=(E2-B2)/B2`.
+3.  Dad formato de porcentaje a las variaciones y colocad las tres columnas juntas.
+:::
+
+![Variación de los préstamos por biblioteca, del número de bibliotecas y de los préstamos totales](/images/t4-variacion-prestamos-bibliotecas.png){width="80%"}
+
+Los totales son aproximados, porque los indicadores de la fuente vienen redondeados, pero el orden de magnitud no cambia las conclusiones.
+
+### Lo que dicen los datos
+
+| 2018-2024 | Préstamos por biblioteca | Número de bibliotecas | Préstamos totales |
+|------------------|------------------|------------------|------------------|
+| **Andalucía** | +5,2% | −15,2% | −10,8% |
+| **Navarra** | −2,3% | +12,4% | +9,8% |
+| **Total nacional** | +19,7% | −14,0% | +2,9% |
+
+- **Andalucía** presta hoy un 11% menos que en 2018. Pero como el número de bibliotecas ha bajado todavía más, el indicador por biblioteca sube. [Quien mirase solo el indicador diría que Andalucía ha mejorado, y en realidad presta menos que en 2018.]{.mark}
+- **Navarra** es el caso contrario: es la única comunidad donde aumenta el número de bibliotecas, y su indicador baja, aunque presta un 10% más. Abrir bibliotecas «empeora» el indicador aunque el servicio llegue a más gente.
+- **El conjunto de España** muestra que el fenómeno es general: el indicador sube un 20%, pero los préstamos totales apenas un 3%.
+
+Queda una pregunta que esta tabla no puede responder: ¿han cerrado bibliotecas, o ha cambiado la forma de contarlas? Para saberlo, hay que volver a la fuente y leer su metodología.
+
+### Otro aviso: los usuarios inscritos
+
+Si filtráis la tabla dinámica por **Usuarios inscritos por biblioteca**, veréis que los usuarios de Andalucía pasan de **2.976 en 2018 a 6.453 en 2020**: se duplican en plena pandemia. La explicación está en la nota al pie de la tabla: desde 2020, los usuarios de las bibliotecas universitarias incluyen a quienes tienen acceso gracias a acuerdos de consorcio. No hay más usuarios: **ha cambiado la forma de contarlos**. Es lo que se llama una **ruptura de serie**, y hace que los datos anteriores y posteriores al cambio no sean comparables.
+
+### Preguntas de control
+
+Antes de sacar conclusiones de cualquier comparación cuantitativa, conviene responder a estas preguntas:
+
+- [ ] **¿Qué cuenta exactamente la fuente?** ¿Qué tipos de organización incluye? ¿Cómo define cada variable?
+- [ ] **¿Cuál es el denominador?** ¿Por biblioteca, por habitante, por usuario? ¿Ha cambiado entre los periodos que comparo?
+- [ ] **¿Son comparables las unidades?** ¿Tiene sentido comparar una comunidad con 821 bibliotecas con una ciudad con 6?
+- [ ] **¿Son comparables los periodos?** ¿Hay algún año anómalo? ¿Hay rupturas de serie avisadas en las notas?
+- [ ] **¿Qué no dice el dato?** Un indicador de resultados no explica por qué una organización lo hace mejor o peor: para eso hay que comparar prácticas.
+
+## Comunicación
+
+El último paso es comunicar los resultados a quien tiene que tomar decisiones. Un mismo resultado puede presentarse de muchas maneras, y la elección no es neutral. Algunos principios básicos:
+
+- **Una idea por gráfico.** Antes de hacerlo, escribid en una frase qué queréis que se entienda.
+- **Barras ordenadas para comparar unidades.** Ordenadas de mayor a menor y con la organización propia y la media destacadas.
+- **Líneas para la evolución en el tiempo.** Con los años en orden cronológico, de izquierda a derecha.
+- **El eje de las barras empieza en cero.** Si no, las diferencias parecen mayores de lo que son.
+- **Pensad en quién lo va a leer.** No es lo mismo un gráfico para explorar los datos que uno para convencer a la dirección.
+
+En el Tema 7 veremos con detalle la visualización de datos y los cuadros de mando.
+
+## Hacia la eficiencia
+
+Hasta aquí hemos comparado **resultados**: cuánto presta cada comunidad. Pero una comunidad que presta más puede estar gastando mucho más para conseguirlo. Si relacionamos los resultados con los **recursos** invertidos, ya no medimos solo el rendimiento, sino la **eficiencia**. Lo veremos con la *potencia del sistema* en el Tema 6 y en el Seminario 1.
+
+## Tarea: análisis cuantitativo de la Biblioteca del Colegio Máximo
+
+::: ejercicio
+Retomad el plan de benchmarking de la sesión anterior y seleccionad los objetos que admiten una **aproximación cuantitativa**.
+
+1.  **Recogida.** Localizad los datos en el Anuario de REBIUN. Explicad qué datos hay al nivel del Colegio Máximo y cuáles solo al nivel de la Biblioteca de la Universidad de Granada, y cómo afecta ese salto de escala a vuestro análisis.
+2.  **Procesamiento.** Descargad los datos, preparadlos y organizadlos en una tabla dinámica.
+3.  **Exploración.** Comparad la UGR con un grupo de universidades que justifiquéis como comparables, en relación con la media del grupo y a lo largo del tiempo.
+4.  **Interpretación.** Responded a las preguntas de control para cada comparación.
+5.  **Comunicación.** Elaborad al menos un gráfico que resuma vuestra conclusión principal.
+
+**Antes de dar la tarea por terminada**, comprobad:
+
+- [ ] ¿Habéis leído la definición de cada indicador que usáis?
+- [ ] ¿Habéis identificado el denominador de cada indicador?
+- [ ] ¿Habéis comprobado si hay rupturas de serie o años anómalos?
+- [ ] ¿Habéis justificado por qué el grupo de comparación es comparable?
+- [ ] ¿El gráfico transmite una sola idea y se entiende sin explicación?
+
+**Entrega.** Commit en la web del grupo, cada una con su usuario, con el archivo Excel incluido.
+:::
