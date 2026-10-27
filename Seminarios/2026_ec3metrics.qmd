@@ -16,4 +16,4 @@ title: "Seminario sobre certificación"
 
 ## Materiales
 
-Glosario de terminología básica extraído de la ISO 9001. [\[Descarga PDF aquí\]](Seminarios/diagramas_ISO9001%20-%20Presentaciones%20de%20Google_%20alumnos.pdf)
+Glosario de terminología básica extraído de la ISO 9001. [\[Descarga PDF aquí\]](https://github.com/elrobin/aesde/blob/cf8c257a8e6cf110f25b3bbcd4df4d5e2104d3b2/Seminarios/diagramas_ISO9001%20-%20Presentaciones%20de%20Google_%20alumnos.pdf)

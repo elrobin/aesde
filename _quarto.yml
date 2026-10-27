@@ -42,7 +42,7 @@ website:
         contents:
           - tema3/sesion1.qmd
           - tema3/sesion2.qmd
-      - section: "4. Benchmarking"
+      - section: "T4 Benchmarking"
         contents:
           - tema4/sesion1.qmd
           - tema4/sesion2.qmd
