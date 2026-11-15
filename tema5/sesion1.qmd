@@ -2,33 +2,6 @@
 title: "El contexto de la organización"
 ---
 
---objetivos
-definición de contexto
-- Aquí habría que incidir más en las diferentes partes internas y externas que define la norma.
-  - Contexto
-  - Partes interesadas
-  - Alcance
-Contexto externo a la organización
-- el caso de la Wikipedia
-Contexto interno de la organización
-- el caso de kodak
-
-[Cambio climático meterlo en una callout]
-
-Identificación de necesidades y expectativas de las partes interesadas
--quiénes son las partes interesadas
-- como identificarlas
-
-Técnicas para analizar el contexto
-- PESTEL
-- DAFO
-- Vigilancia e inteligencia competitiva (push pull?)
-Posibles competidores de la biblioteca
-(Para hacer con los alumnos en vivo)
-
-Tarea, con lo que ya tinen, hacer un pestel y/o dafo
---
-
 ::: callout-note
 ## Objetivos de la sesión
 
@@ -41,63 +14,31 @@ Al terminar esta sesión deberíais ser capaces de:
 - Situar la vigilancia como el mecanismo que mantiene vivo el análisis del contexto.
 :::
 
-Hasta ahora hemos mirado casi siempre **hacia dentro**. En el Tema 1 describimos el sistema de información de la Biblioteca del Colegio Máximo; en el Tema 2 nos preguntamos por su calidad; en el Tema 3 lo auditamos contra la ISO 9001. El benchmarking del Tema 4 nos obligó a asomarnos fuera, pero solo para mirar a **organizaciones parecidas** a la nuestra: otras bibliotecas universitarias andaluzas.
+## ¿Qué es el contexto de la organización?
 
-Hoy vamos a mirar **todo lo demás que hay fuera**. Y empezamos con una pregunta que parece sencilla:
+Para ello deberemos de irnos a la norma [ISO 9000](https://elrobin.github.io/aesde/lecturas/UNE-EN_ISO_9000=2026.pdf) donde aparecen las definiciones relacionadas con la gestión de la calidad y la [ISO 9001](https://elrobin.github.io/aesde/lecturas/UNE-EN_ISO_9001=2026.pdf) donde indica cómo auditar la calidad de una organización.
 
-> **¿Quién le hace la competencia a la biblioteca del Colegio Máximo?**
+**Contexto**
 
-Pensadlo un minuto antes de seguir leyendo. Si vuestra respuesta ha sido «otras bibliotecas», guardadla; volveremos a ella al final de la sesión.
+: La organización debe determinar las **cuestiones externas e internas** que son pertinentes para su propósito y su dirección estratégica y que afectan a su capacidad para lograr los resultados previstos de su sistema de gestión de la calidad.
 
-<!-- IMAGEN: algo que funcione como gancho visual, p. ej. una sala de estudio vacía frente a una pantalla con Google Scholar o un chat de IA abierto. Lo vemos juntos. -->
+También indica que "la organización debe determinar si el cambio climático es una cuestión pertinente". Por último "debe realizar el seguimiento y la revisión de la información sobre estas cuestiones externas e internas".
 
-## Dos historias sobre no mirar bien alrededor
+Hasta ahora hemos mirado casi siempre **hacia dentro**:
 
-### Britannica: el competidor que no era el que parecía
+- **Tema 1** - Describimos el sistema de información de la organizaicón
+- **Tema 2** - Nos preguntamos por la calidad del sistema
+- **Tema 3** - Auditamos el sistema contra la ISO 9001.
+- **Tema 4** - El único momento en el que nos asomamos a otras organizaciones, aunque con el fin de comparar procesos, servicios y productos.
 
-La *Encyclopaedia Britannica* se publicó por primera vez en Edimburgo en 1768. En marzo de 2012 anunció que dejaba de imprimirse después de **244 años**. Por entonces la edición impresa suponía menos del 1% de sus ingresos.
+En este caso no se trata de medir una brecha con respecto a otras organizaciones que se toman de referencia, sino de identificar factores que puedan afectar a la organización tanto en positivo como en negativo.
 
-La explicación habitual es que **la mató Wikipedia**, nacida en 2001. Pero hay una lectura más interesante: en un artículo de *Wired* de 2012 titulado «Wikipedia no mató a Britannica, lo hizo Windows», Tim Carmody sostenía que el golpe llegó antes. Microsoft había ofrecido a Britannica hacer una versión para ordenador en los años 80; acabó lanzando su propia enciclopedia, **Encarta**, en 1993. Cuando el ordenador ocupó en el salón el lugar donde antes estaba la enciclopedia, Britannica ya era un gigante debilitado. Wikipedia llegó después.
+En este sentido es importante tener en mente los siguientes aspectos:
 
-Lo curioso es que la propia Encarta duró solo 17 años: Microsoft la cerró en 2009.
-
-::: callout-important
-## Lo que nos enseña Britannica
-
-1. **La amenaza no siempre es un competidor del mismo tipo.** Britannica se medía con otras enciclopedias impresas. El cambio vino de una **tecnología** (el ordenador personal) y de un **cambio social** (la información gratuita y colaborativa).
-2. **El entorno cambia más deprisa que la organización.** Doscientos años de éxito no protegen de veinte años de cambio.
-3. **La misma lógica se aplica a una biblioteca.** Si Britannica solo hubiera vigilado a otras enciclopedias, habría estado mirando en la dirección equivocada. ¿A quién vigila una biblioteca universitaria?
-:::
-
-### Kodak: tenerlo dentro y no verlo
-
-En diciembre de 1975, un ingeniero de Kodak de 24 años, **Steven Sasson**, construyó la primera cámara digital autónoma. Pesaba 3,6 kilos, hacía fotos de 100 × 100 píxeles en blanco y negro y tardaba 23 segundos en guardar cada imagen en una cinta de casete.
-
-{{< video https://vimeo.com/22180298 >}}
-
-*Inventor Portrait: Steven Sasson* (David Friedman, 2011). Unos tres minutos.
-
-Sasson resumió años después la reacción de la dirección con una frase famosa: «*Es bonito, pero no se lo cuentes a nadie*». Kodak vivía de vender carretes y revelado, y la cámara digital amenazaba exactamente ese negocio. En enero de 2012, el mismo año en que Britannica dejó de imprimirse, Kodak se declaró en quiebra.
-
-::: callout-warning
-## Ojo con la historia demasiado redonda
-
-La versión «Kodak inventó la cámara digital y la escondió en un cajón» es demasiado simple. Sasson siguió trabajando en imagen digital durante toda su carrera en Kodak, la empresa desarrolló productos digitales e incluso **lideró el mercado estadounidense de cámaras digitales en 2004 y 2005**. Además, la frase de Sasson es un recuerdo contado décadas después, no una cita textual.
-
-El problema no fue tanto la falta de información como la **incapacidad de la organización para actuar sobre ella**: su cultura, su modelo de negocio y sus incentivos. Es decir, **cuestiones internas**.
-:::
-
-Las dos historias se complementan:
-
-| | Britannica | Kodak |
-|---|---|---|
-| **Qué falló** | Mirar fuera en la dirección equivocada | Ver el cambio y no reaccionar |
-| **Tipo de cuestión** | Sobre todo **externa**: tecnología, hábitos sociales | Sobre todo **interna**: cultura, modelo de negocio |
-| **Pregunta para la biblioteca** | ¿Qué cambios fuera del sector pueden vaciar nuestras salas? | ¿Qué sabemos ya que no estamos usando? |
-
-## Lo que pide la ISO 9001: la cláusula 4
-
-En el Tema 3 vimos que la cláusula 4 es el punto de partida del sistema de gestión de la calidad, y trabajamos sobre todo el **alcance** (4.3): la frontera entre la BUG y el Colegio Máximo. Hoy vamos a los dos apartados que van **antes** del alcance, porque sin ellos el alcance no se puede justificar.
+1.  **Partes interesadas.** Identificar a las partes interesadas que son pertinentes para el sistema y comprender cuáles son sus necesidades y expectativas
+2.  **Tiempo**. Tener en cuenta que las cuestiones internas y externas cambian con el tiempo.
+3.  **Alcance**. En el caso de que una organización sea parte de una entidad mayor, delimitar los límites competenciales
+4.  **Riesgo/Oportunidad**. Identificar los riesgos y oportunidades que se presentan y contrastarlos con las fortalezas y debilidades del sistema.
 
 ```{mermaid}
 flowchart LR
@@ -109,120 +50,185 @@ flowchart LR
     style B fill:#f5c518
 ```
 
-### 4.1 Comprensión de la organización y de su contexto
+> **¿Qué factores identificáis que puedan afectar a la biblioteca del Colegio Máximo?**
+
+![](/images/t5-amenazas.png){fig-align="center" width="462"}
+
+## Contexto externo e interno
+
+### El caso de la Encyclopaedia Britannica
+
+> ¿Sabéis qué es la *Encyclopaedia Britannica*?
+
++---------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                             |                                                                                                                                                                                                                                                                                                                          |
++=============================================+==========================================================================================================================================================================================================================================================================================================================+
+| ![](/images/t5-britannica.png){width="214"} | La *Encyclopaedia Britannica* se publicó por primera vez en Edimburgo en 1768. En marzo de 2012 anunció que dejaba de imprimirse después de **244 años**. Por entonces la edición impresa suponía menos del 1% de sus ingresos.                                                                                          |
+|                                             |                                                                                                                                                                                                                                                                                                                          |
+|                                             | La explicación habitual es que **la mató Wikipedia**, nacida en 2001. Pero en un artículo de *Wired* de 2012 titulado [*Wikipedia Didn't Kill Britannica. Windows Did*](https://www.wired.com/2012/03/wikipedia-didnt-kill-brittanica-windows-did/), sostiene que se trata de un error de cálculo que llegó mucho antes: |
+|                                             |                                                                                                                                                                                                                                                                                                                          |
+|                                             | - Microsoft había ofrecido a Britannica hacer una versión para ordenador en los años 80 que Britannica rechazó.                                                                                                                                                                                                          |
+|                                             |                                                                                                                                                                                                                                                                                                                          |
+|                                             | - En 1993, Microsoft lanzó su propia enciclopedia, **Encarta**, que se vendía en CD.                                                                                                                                                                                                                                     |
+|                                             |                                                                                                                                                                                                                                                                                                                          |
+|                                             | - Una vez la gente se acostumbró a consultar la enciclopedia a través del ordenador, la Britannica tenía ya sus días contados. Wikipedia llegó después.                                                                                                                                                                  |
+|                                             |                                                                                                                                                                                                                                                                                                                          |
+|                                             | Lo curioso es que la propia Encarta duró solo 17 años: Microsoft la cerró en 2009. El caso español sería la Espasa, otro viejo clásico de las casas.                                                                                                                                                                     |
++---------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ::: callout-important
-## UNE-EN ISO 9001:2026, apartado 4.1
+## Lo que nos enseña Britannica
 
-La organización debe determinar las cuestiones externas e internas que son pertinentes para su propósito y su dirección estratégica y que afectan a su capacidad para lograr los resultados previstos de su sistema de gestión de la calidad.
-
-La organización debe determinar si el cambio climático es una cuestión pertinente.
-
-La organización debe realizar el seguimiento y la revisión de la información sobre estas cuestiones externas e internas.
+1.  **La amenaza no siempre es un competidor del mismo tipo.** Britannica se medía con otras enciclopedias impresas. El cambio vino de una **tecnología** (el ordenador personal) y de un **cambio social** (la información gratuita y colaborativa).
+2.  **El entorno cambia más deprisa que la organización.** Doscientos años de éxito no protegen de veinte años de cambio.
+3.  **La misma lógica se aplica a una biblioteca.** Si Britannica solo hubiera vigilado a otras enciclopedias, habría estado mirando en la dirección equivocada. ¿A quién vigila una biblioteca universitaria?
 :::
+
+### El caso de Kodak
+
+En diciembre de 1975, un ingeniero de Kodak de 24 años, **Steven Sasson**, construyó la primera cámara digital autónoma. Pesaba 3,6 kilos, hacía fotos de 100 × 100 píxeles en blanco y negro y tardaba 23 segundos en guardar cada imagen en una cinta de casete.
+
+{{< video https://vimeo.com/22180298 >}}
+
+*Inventor Portrait: Steven Sasson* (David Friedman, 2011). Unos tres minutos.
+
+Pero Kodak vivía de vender carretes y revelarlos y vieron en la cámara digital una amenaza a su negocio.
+
+> *\[M\]anagement' reaction was, that's cute -- but don't tell anyone about it.'*
+
+En [este artículo](https://chunkamui.medium.com/how-kodak-failed-e1f929e12aa7) cuentan las razones por las que Kodak acabó fracasando y quebrando en 2012.
+
+- A principios de los 80, Kodak encargó un estudio de mercado que concluyó que tenía unos diez años para prepararse para la fotografía digital. Identificó bien el factor externo
+- En lugar de verlo como oportunidad, lo identificó como amenaza a su modelo de negocio.
+- Cuando apostó por lo digital, llegó a liderar la venta de cámaras digitales en Estados Unidos en 2004 y 2005.
+- En 2007 otra nueva tecnología, el *iPhone*, le comió la tostada otra vez.
+- En enero de 2012 se declaró en quiebra. Ahora Kodak es mucho más pequeña y se dedica a la impresión comercial.
+
+El problema no fue tanto la falta de información como la **incapacidad de la organización para actuar sobre ella**: su cultura, su modelo de negocio y sus incentivos. Es decir, **cuestiones internas**.
+
+Las dos historias se complementan:
+
++---------------------------------+-------------------------------------------------------------+----------------------------------------------------+
+|                                 | Britannica                                                  | Kodak                                              |
++=================================+=============================================================+====================================================+
+| **Qué falló**                   | Mirar fuera en la dirección equivocada                      | Ver el cambio y no reaccionar                      |
++---------------------------------+-------------------------------------------------------------+----------------------------------------------------+
+| **Tipo de cuestión**            | Sobre todo **externa**: tecnología, hábitos sociales        | Sobre todo **interna**: cultura, modelo de negocio |
++---------------------------------+-------------------------------------------------------------+----------------------------------------------------+
+| **Pregunta para la biblioteca** | ¿Qué cambios fuera del sector pueden vaciar nuestras salas? | ¿Qué sabemos ya que no estamos usando?             |
++---------------------------------+-------------------------------------------------------------+----------------------------------------------------+
+
+::: bonus
+## La novedad: el cambio climático
+
+Una de las grandes novedades de la ISO 9001:2026 es la inclusión de la frase **determinar si el cambio climático es una cuestión pertinente**. Y también cuando indica que las partes interesadas pertinentes **pueden tener requisitos relacionados con el cambio climático**.
+
+**No** obliga a tener un plan climático ni a medir la huella de carbono. Solo obliga a **decidir si es pertinente** y a poder justificarlo.
+:::
+
+> ¿Qué tiene que ver el cambio climático con la Biblioteca del Colegio Máximo? ¿Es pertinente o no?
+
+## Necesidades y expectativas de las partes interesadas
 
 Tres ideas clave:
 
-1. **No es «todo lo que pasa en el mundo».** Solo lo que es **pertinente** y **afecta a los resultados**. Una buena lista de cuestiones es corta.
-2. **Hay cuestiones internas y externas, positivas y negativas.** Las notas de la norma dan pistas de dónde buscar. Para el contexto **externo**: cuestiones legales, tecnológicas, competitivas, de mercado, culturales, políticas, sociales, económicas y ambientales, a escala internacional, nacional, regional o local. Para el **interno**: dirección estratégica, valores, cultura, recursos, conocimientos y desempeño. Fijaos en que la lista externa es, casi palabra por palabra, el PESTEL que veremos después.
-3. **No es una foto, es una película.** El anexo A de la norma lo dice expresamente: las cuestiones externas e internas **cambian con el tiempo**, y darse cuenta de esos cambios es lo que mantiene la eficacia del sistema. Aquí es donde entra la **vigilancia**, a la que volveremos al final.
+1.  **No hay que ser exhaustivo.** Solo lo que es *pertinente* y *afecta a los resultados*.
+2.  **Hay cuestiones internas y externas, positivas y negativas.** El que sean positivas o negativas también depende de cómo se encaren.
 
-### La novedad: el cambio climático
+| Contexto externo | Contexto interno      |
+|------------------|-----------------------|
+| Legal            | Dirección estratégica |
+| Tecnológico      | Valores               |
+| Competitivo      | Cultura               |
+| De mercado       | Recursos              |
+| Cultural         | Conocimientos         |
+| Político         | Desempeño             |
+| Social           |                       |
+| Económico        |                       |
+| Ambiental        |                       |
 
-En febrero de 2024, ISO publicó una enmienda a la ISO 9001:2015 que añade una sola frase al 4.1: la organización debe **determinar si el cambio climático es una cuestión pertinente**. Y una nota al 4.2: las partes interesadas pertinentes **pueden tener requisitos relacionados con el cambio climático**. La misma frase se añadió a unas 30 normas de sistemas de gestión, y la ISO 9001:2026 la incorpora a su texto.
+3.  **Es necesaria una vigilancia constante.** Lo que hoy puede no ser una oportunidad o amenaza, mañana sí, aquí es donde entra el concepto de **Vigilancia**.
 
-Fijaos en lo que **no** pide: no obliga a tener un plan climático ni a medir la huella de carbono. Solo obliga a **decidir si es pertinente** y a poder justificarlo. Es el «debe, no cómo» que vimos en el Tema 3.
+### Definiciones de la ISO 9000
 
-> **Pregunta para debatir:** ¿qué tiene que ver el cambio climático con la Biblioteca del Colegio Máximo? ¿Es pertinente o no? Pensad en el verano de Granada, en la sala de estudio, en la conservación del fondo, en la factura de climatización…
+**Parte interesada**
 
-::: {.callout-note collapse="true"}
-## Una pista: las bibliotecas como refugio climático
+: La persona u organización que puede **afectar**, **verse afectada** o **percibirse como afectada** por una decisión o actividad. La ISO 9001 pide determinar tres cosas:
 
-Barcelona puso en marcha en 2020 una **red de refugios climáticos**: espacios públicos con climatización, agua y sitio para sentarse, a los que cualquier persona puede ir durante una ola de calor. Empezó con unos 70 espacios y en el verano de 2026 superaba los 500. Muchos de ellos son **bibliotecas**. Sevilla y Zaragoza tienen redes parecidas, y el Ministerio para la Transición Ecológica ha publicado una guía para crear una red estatal.
+a)  las partes interesadas que son **pertinentes** para el sistema de gestión de la calidad;
 
-La red también ha recibido críticas: muchas bibliotecas incluidas no tienen **horarios adaptados** y cierran justo cuando más calor hace, en agosto o por la tarde. En Barcelona, la presión de la síndica de greuges llevó a abrir más bibliotecas en agosto.
+b)  los **requisitos pertinentes** de estas partes interesadas;
 
-Fijaos en lo que ha pasado: una parte interesada nueva (el ayuntamiento, la población vulnerable) ha generado **requisitos nuevos** para un servicio que antes no los tenía (abrir en agosto, garantizar el confort térmico). Es exactamente lo que dice la nota del 4.2.
+c)  **cuáles de estos requisitos se abordarán** mediante el sistema de gestión de la calidad.
 
-**Para pensar:** ¿podría la biblioteca del Colegio Máximo verse en una situación parecida? ¿Qué partes interesadas podrían pedirlo?
-:::
-
-### 4.2 Comprensión de las necesidades y expectativas de las partes interesadas
-
-La ISO 9000:2026 (3.1.4) define **parte interesada** como la persona u organización que puede **afectar**, **verse afectada** o **percibirse como afectada** por una decisión o actividad. La ISO 9001 pide determinar tres cosas:
-
-a) las partes interesadas que son **pertinentes** para el sistema de gestión de la calidad;
-
-b) los **requisitos pertinentes** de estas partes interesadas;
-
-c) **cuáles de estos requisitos se abordarán** mediante el sistema de gestión de la calidad.
-
-El punto c) es importante: la organización no está obligada a atender todo lo que cada parte interesada quiera, pero sí a **decidir conscientemente** qué atiende y qué no. Y, igual que en el 4.1, tiene que hacer **seguimiento y revisión** de esta información, porque las partes interesadas y sus requisitos también cambian.
-
-Aquí es fácil quedarse corto: la parte interesada obvia de una biblioteca es el usuario. Pero no es la única, ni siempre la más poderosa.
+El punto c) es importante: la organización no está obligada a atender todo lo que cada parte interesada quiera, pero sí a **decidir conscientemente** qué atiende y qué no. Y, tiene que hacer **seguimiento y revisión** de esta información, porque las partes interesadas y sus requisitos también cambian.
 
 ## Herramientas para analizar el contexto
 
-La norma no dice cómo hay que analizar el contexto. En la práctica, casi todas las organizaciones usan alguna de estas tres herramientas, que se complementan.
+Hay tres herramientas que casi todas las organizaciones emplean para analizar el contexto al tratarse de herramientas sencillas que y complementarias:
 
-### PESTEL: ordenar el entorno externo
+- **PESTEL** sirve para **ordenar el entorno externo**. Es una lista de comprobación que obliga a repasar todas sus dimensiones (política, económica, social, tecnológica, ecológica y legal) para no dejarse ninguna fuera.
+- **DAFO** sirve para **cruzar lo externo con lo interno**. Toma las oportunidades y amenazas del entorno, muchas de ellas detectadas con el PESTEL, y las pone frente a las fortalezas y debilidades de la propia organización.
+- **Matriz de poder e interés** que sirve para medir hasta qué punto ese factor **es prioritario o no en base a la parte interesada** a la que le afecta.
 
-PESTEL es una lista de comprobación para no olvidarse de ninguna dimensión del entorno externo. Su origen está en el libro de Francis Aguilar *Scanning the Business Environment* (1967), que es también uno de los textos fundacionales de lo que hoy llamamos **vigilancia del entorno** (*environmental scanning*).
+Dicho de otro modo: el PESTEL nos ayuda a ver qué pasa fuera, y la DAFO a decidir qué significa eso para nosotros.
 
-| Dimensión | Pregunta | Ejemplo para una biblioteca universitaria |
-|---|---|---|
-| **P**olítica | ¿Qué decisiones de gobiernos e instituciones nos afectan? | Financiación autonómica de las universidades; prioridades del equipo de gobierno de la UGR |
-| **E**conómica | ¿Cómo evolucionan costes y presupuestos? | Subida continua del precio de las suscripciones a revistas |
-| **S**ocial | ¿Cómo cambian los hábitos de los usuarios? | El estudiante que va a la biblioteca a estudiar, no a consultar fondos |
-| **T**ecnológica | ¿Qué tecnologías cambian la forma de acceder a la información? | Google Scholar, la IA generativa, los sistemas de gestión en la nube |
-| **E**cológica | ¿Qué condiciones ambientales nos afectan? | Olas de calor; consumo energético de los edificios |
-| **L**egal | ¿Qué normas nos obligan? | Ley de la Ciencia (acceso abierto), protección de datos, propiedad intelectual |
+### PESTEL
 
-::: {.callout-note collapse="true"}
-## Un dato para la dimensión tecnológica: ¿dónde empieza a buscar el profesorado?
+PESTEL es una lista de comprobación para no olvidarse de ninguna dimensión del entorno externo. Para cada dimensión nos hacemos una pregunta y buscamos qué factores concretos afectan a nuestra organización.
 
-Ithaka S+R pregunta desde 2003 al profesorado universitario de Estados Unidos por dónde **empieza** a buscar bibliografía. Ciclo tras ciclo, ha bajado el porcentaje que empieza en el **edificio de la biblioteca** y ha subido el de los **buscadores generales**. En la encuesta de 2021, el 36% del profesorado de ciencias sociales empezaba en Google Scholar, frente al 30% de ciencias y el 12% de humanidades.
++-----------------+-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Dimensión       | Pregunta                                                    | Ejemplo                                                                                                                                              |
++=================+=============================================================+======================================================================================================================================================+
+| **P**olítica    | ¿Qué decisiones de gobiernos e instituciones nos afectan?   | Una cooperativa de aceite ve cómo los aranceles de un país importador encarecen sus exportaciones y la obligan a buscar otros mercados               |
++-----------------+-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **E**conómica   | ¿Cómo evolucionan costes y presupuestos?                    | Una inmobiliaria pierde compradores cuando la subida de los tipos de interés encarece las hipotecas                                                  |
++-----------------+-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **S**ocial      | ¿Cómo cambian los hábitos y la composición de la población? | Una farmacia de barrio recibe más demanda de servicios como la medición de la tensión o la entrega a domicilio por el envejecimiento de la población |
++-----------------+-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **T**ecnológica | ¿Qué tecnologías cambian la forma de producir o consumir?   | Una agencia de traducción recibe menos encargos de traducción y más de revisión por la traducción automática con IA                                  |
++-----------------+-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **E**cológica   | ¿Qué condiciones ambientales nos afectan?                   | Una estación de esquí tiene que depender de la nieve artificial o buscar actividades de verano porque los inviernos traen menos nieve                |
++-----------------+-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **L**egal       | ¿Qué normas nos obligan?                                    | Una plataforma de alquiler vacacional ve limitada su oferta por las restricciones municipales a los pisos turísticos                                 |
++-----------------+-------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Ese es el competidor de la biblioteca, y no es otra biblioteca. Y es anterior a la IA generativa.
-:::
+Si comparáis el PESTEL con la lista de la norma, veréis que la ISO 9001 incluye tres dimensiones que el PESTEL no tiene: lo **competitivo**, lo **de mercado** y lo **cultural**. PESTEL mira el entorno general, pero no a quién compite con nosotros.
 
-<!-- IMAGEN: gráfico de Ithaka S+R con la evolución de los "starting points" (US Faculty Survey). Lo buscamos juntos. -->
-
-### DAFO: cruzar lo interno y lo externo
+### DAFO
 
 La DAFO (en inglés, SWOT) cruza las dos dimensiones del 4.1:
 
-|   | **Positivo** | **Negativo** |
-|---|---|---|
-| **Interno** | **F**ortalezas | **D**ebilidades |
-| **Externo** | **O**portunidades | **A**menazas |
+|             | **Positivo**      | **Negativo**    |
+|-------------|-------------------|-----------------|
+| **Interno** | **F**ortalezas    | **D**ebilidades |
+| **Externo** | **O**portunidades | **A**menazas    |
 
 Es la herramienta más usada y la que más se usa **mal**. Dos errores típicos:
 
-1. **Confundir interno y externo.** «Hay mucha competencia» no es una debilidad, es una amenaza. «No tenemos personal formado en datos» no es una amenaza, es una debilidad.
-2. **Quedarse en la lista.** Una DAFO solo sirve si después se cruzan los cuadrantes: ¿qué fortaleza nos permite aprovechar esta oportunidad?, ¿qué debilidad nos deja expuestos a esta amenaza? Ese cruce es lo que la ISO 9001 llama, en el apartado 6.1, **riesgos y oportunidades**.
+1.  **Confundir interno y externo.** «Hay mucha competencia» no es una debilidad, es una amenaza. «No tenemos personal formado en datos» no es una amenaza, es una debilidad.
+2.  **Quedarse en la lista.** Una DAFO solo sirve si después se cruzan los cuadrantes: ¿qué fortaleza nos permite aprovechar esta oportunidad?, ¿qué debilidad nos deja expuestos a esta amenaza? Ese cruce es lo que la ISO 9001 llama, en el apartado 6.1, **riesgos y oportunidades**.
 
-::: callout-tip
-## Conexión con el Tema 3
+### La matriz de poder e interés
 
-Recordad la pregunta que usamos en el Tema 3: **¿se aplica o solo se declara?** Muchas organizaciones tienen una DAFO que se copia de un año a otro para que la vea el auditor. Una DAFO viva cambia cuando cambia el entorno; una DAFO de trámite, no.
-:::
+Una vez hemos identificado los factores del entorno (PESTEL y lo hemos calificado con respecto a la organización (DAFO), toca priorizar con respecto a las partes interesadas que hemos identificado. Una forma clásica es la de cruzar dos preguntas: **¿cuánto poder tiene sobre nosotros?** y **¿cuánto le interesa lo que hacemos?**
 
-### La matriz de poder e interés: ordenar las partes interesadas
-
-Para el 4.2 no basta con hacer una lista de partes interesadas: hay que decidir cuánta atención merece cada una. La herramienta clásica, atribuida a Mendelow, cruza dos preguntas: **¿cuánto poder tiene sobre nosotros?** y **¿cuánto le interesa lo que hacemos?**
-
-|   | **Poco interés** | **Mucho interés** |
-|---|---|---|
-| **Mucho poder** | **Mantener satisfecha.** Puede afectarnos mucho aunque no esté pendiente de nosotros | **Gestionar de cerca.** Implicarla en las decisiones |
-| **Poco poder** | **Seguimiento mínimo.** Vigilar por si cambia de posición | **Mantener informada.** Suele ser buena aliada y fuente de información |
++-----------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------+
+|                 | **Poco interés**                                                                     | **Mucho interés**                                                      |
++=================+======================================================================================+========================================================================+
+| **Mucho poder** | **Mantener satisfecha.** Puede afectarnos mucho aunque no esté pendiente de nosotros | **Gestionar de cerca.** Implicarla en las decisiones                   |
++-----------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------+
+| **Poco poder**  | **Seguimiento mínimo.** Vigilar por si cambia de posición                            | **Mantener informada.** Suele ser buena aliada y fuente de información |
++-----------------+--------------------------------------------------------------------------------------+------------------------------------------------------------------------+
 
 ::: {.callout-note collapse="true"}
 ## Caso: la Universidad de California contra Elsevier
 
-¿Quién tiene más poder sobre una biblioteca universitaria: sus usuarios o sus proveedores?
+*¿Quién tiene más poder sobre una biblioteca universitaria: sus usuarios o sus proveedores?*
 
-En febrero de 2019, la Universidad de California (10 campus, responsable de casi el 10% de la producción científica de Estados Unidos) **canceló sus suscripciones a Elsevier** después de meses de negociación. Pagaba unos 11 millones de dólares al año, el 25% de su gasto en revistas. Pedía dos cosas: bajar costes y que todo lo que publicaran sus autores en Elsevier fuera en **acceso abierto** por defecto. Según la universidad, Elsevier ofreció algo parecido, pero con un aumento de los pagos del 80%.
+- En febrero de 2019, la Universidad de California **canceló sus suscripciones a Elsevier** después de meses de negociación. Pagaba unos 11 millones de dólares al año, el 25% de su gasto en revistas. Pedía dos cosas: bajar costes y que todo lo que publicaran sus autores en Elsevier fuera en **acceso abierto** por defecto.
+
+- Elsevier ofreció algo parecido, pero con un aumento de los pagos del 80%.
 
 La negociación movilizó a muchas partes interesadas:
 
@@ -236,54 +242,50 @@ En marzo de 2021, las dos partes firmaron un acuerdo de acceso abierto.
 **Para pensar:** ¿dónde colocaríais a cada una de estas partes interesadas en la matriz? ¿Cambió su posición durante el conflicto?
 :::
 
-Para la Biblioteca del Colegio Máximo, la lista de partes interesadas no es solo «estudiantes y profesorado de las facultades». Pensad también en la BUG, el equipo de gobierno de la UGR, el CBUA, REBIUN, los proveedores de recursos electrónicos, el personal de la biblioteca o las facultades de Comunicación y Documentación y de Odontología como instituciones.
+## La vigilancia
 
-## Mantener vivo el contexto: la vigilancia
+Para **hacer seguimiento y revisar** la información sobre el contexto se suelen emplear técnicas de **vigilancia**, que conviene distinguir de la **inteligencia**:
 
-El 4.1 pide **hacer seguimiento y revisar** la información sobre el contexto. Una organización que analiza su entorno una vez y lo archiva acaba como Britannica: con un análisis impecable de un mundo que ya no existe.
++----------------------+------------------------------+---------------------------------------+
+|                      | Vigilancia                   | Inteligencia                          |
++======================+==============================+=======================================+
+| **Actitud**          | Más pasiva: captar y filtrar | Activa: analizar y recomendar         |
++----------------------+------------------------------+---------------------------------------+
+| **Punto de partida** | Un área que interesa vigilar | Un problema o una decisión concreta   |
++----------------------+------------------------------+---------------------------------------+
+| **Resultado**        | Información seleccionada     | Información interpretada para decidir |
++----------------------+------------------------------+---------------------------------------+
 
-El mecanismo para mantener vivo el análisis es la **vigilancia**, y conviene distinguirla de la **inteligencia**:
+La vigilancia tiene distintos tipos (tecnológica, competitiva, comercial, jurídica, del entorno…) y un ciclo propio: identificar necesidades, buscar, analizar, difundir y usar. Todo eso se trabaja a fondo en la optativa [**Vigilancia Tecnológica e Inteligencia Competitiva**](https://www.ugr.es/estudiantes/grados/grado-informacion-documentacion/vigilancia-tecnologica-inteligencia-competitiva/guia-docente).
 
-| | Vigilancia | Inteligencia |
-|---|---|---|
-| **Actitud** | Más pasiva: captar y filtrar | Activa: analizar y recomendar |
-| **Punto de partida** | Un área que interesa vigilar | Un problema o una decisión concreta |
-| **Resultado** | Información seleccionada | Información interpretada para decidir |
+Volvamos a la pregunta del principio:
 
-La vigilancia tiene tipos (tecnológica, competitiva, comercial, jurídica, del entorno…) y un ciclo propio: identificar necesidades, buscar, analizar, difundir y usar. Todo eso se trabaja a fondo en la optativa **Vigilancia Tecnológica e Inteligencia Competitiva**. Aquí nos basta con la idea central:
-
-::: callout-important
-## El contexto como proceso
-
-Para la ISO 9001, el análisis del contexto **no es un documento, es un proceso**: alguien tiene que decidir qué se vigila, con qué fuentes, cada cuánto y quién revisa si lo que se encuentra cambia la DAFO o la lista de partes interesadas. Las **fuentes** con las que se alimenta ese proceso son el tema de la próxima sesión.
-:::
-
-## Volviendo a la pregunta inicial
-
-¿Quién le hace la competencia a la biblioteca del Colegio Máximo? Después de esta sesión, la respuesta debería ser más larga que «otras bibliotecas»: Google Scholar, la IA generativa, el acceso abierto (que hace innecesario pasar por la biblioteca para conseguir un artículo), Sci-Hub, la sala de estudio de la residencia, el piso de estudiantes con buena conexión…
-
-Y algunas de esas «amenazas» son también **oportunidades**. El acceso abierto, por ejemplo, es una amenaza para el papel de la biblioteca como intermediaria y una oportunidad para su papel como apoyo a la publicación. Es justo el tipo de cruce que pide la DAFO.
+> **¿Qué factores identificáis que puedan afectar a la biblioteca del Colegio Máximo?** Distingue entre *amenazas* y *oportunidades.*
 
 ## Tarea
 
 ::: ejercicio
 **No hace falta buscar información nueva.** En vuestra web ya tenéis buena parte del material: la Carta de Servicios, la Estrategia BUG 2024–2031, el Mapa de Alianzas, el CBUA, REBIUN… Se trata de **reordenarlo** con las herramientas de hoy.
 
-**1. Cuestiones del contexto (4.1).** Una tabla de **5 filas como máximo**:
+**1. Cuestiones del contexto.** Una tabla de **5 filas como máximo**:
 
-| Cuestión | Interna o externa | Dimensión (PESTEL o interna) | ¿Fortaleza, debilidad, oportunidad o amenaza? | Fuente |
-|---|---|---|---|---|
-| | | | | |
++-------------+-------------------+------------------------------+-----------------------------------------------+
+| Cuestión    | Interna o externa | Dimensión (PESTEL o interna) | ¿Fortaleza, debilidad, oportunidad o amenaza? |
++=============+===================+==============================+===============================================+
+|             |                   |                              |                                               |
++-------------+-------------------+------------------------------+-----------------------------------------------+
 
 Al menos una cuestión tiene que referirse a un **competidor que no sea una biblioteca**.
 
 **2. Cambio climático.** Un párrafo: ¿es una cuestión pertinente para la biblioteca? Decidid sí o no y justificadlo. Las dos respuestas son válidas si están bien argumentadas.
 
-**3. Partes interesadas (4.2).** Una tabla de **5 filas como máximo**:
+**3. Partes interesadas.** Una tabla de **5 filas como máximo**:
 
-| Parte interesada | Requisito pertinente | Poder (alto/bajo) | Interés (alto/bajo) | Fuente |
-|---|---|---|---|---|
-| | | | | |
++------------------+----------------------------------------------------+-------------------+---------------------+
+| Parte interesada | Requisito pertinente ¿Qué espera de la biblioteca? | Poder (alto/bajo) | Interés (alto/bajo) |
++==================+====================================================+===================+=====================+
+|                  |                                                    |                   |                     |
++------------------+----------------------------------------------------+-------------------+---------------------+
 
 Al menos una parte interesada **no** puede ser usuaria de la biblioteca.
 
@@ -295,11 +297,5 @@ Al menos una parte interesada **no** puede ser usuaria de la biblioteca.
 - [ ] ¿La tabla de cuestiones incluye al menos un competidor que no sea una biblioteca?
 - [ ] ¿Hay al menos una parte interesada que no sea usuaria?
 
-**Entrega.** Commit al repositorio antes de que acabe la clase. En la próxima sesión revisaremos las **fuentes** que habéis usado.
+**Entrega.** Commit al repositorio antes de que acabe la clase.
 :::
-
-## Para saber más
-
-- **La norma.** UNE-EN ISO 9001:2026, cláusula 4. Accesible desde la red UGR a través de la [guía de AENOR de la Biblioteca](https://bibliotecaugr.libguides.com/aenor).
-- **El dato de Ithaka S+R.** Blankstein, M. (2022). *Ithaka S+R US Faculty Survey 2021*. Ithaka S+R. <https://doi.org/10.18665/sr.316896>
-- **El origen de la vigilancia del entorno.** Aguilar, F. J. (1967). *Scanning the Business Environment*. Macmillan.
