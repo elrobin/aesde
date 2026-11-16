@@ -1,0 +1,239 @@
+---
+title: "Vigilancia del contexto"
+---
+
+::: callout-note
+## Objetivos de la sesión
+
+Al terminar esta sesión deberíais ser capaces de:
+
+- Explicar qué es la vigilancia y qué tipos de vigilancia puede necesitar una organización.
+- Distinguir entre vigilancia e inteligencia.
+- Describir las etapas del ciclo de la vigilancia.
+- Diseñar un flujo de trabajo que automatice la captura de información sobre el contexto de una organización.
+- Valorar qué herramienta de automatización conviene en cada caso.
+:::
+
+En la sesión anterior identificamos las cuestiones internas y externas que afectan a la biblioteca del Colegio Máximo. Pero el apartado 4.1 de la ISO 9001 no se cumple con un análisis hecho una vez: exige además **realizar el seguimiento y la revisión** de la información sobre esas cuestiones. El contexto cambia, y un análisis que nadie actualiza describe una organización que ya no existe. El mecanismo para mantenerlo vivo es la **vigilancia**.
+
+## La vigilancia del contexto
+
+### Definición
+
+La vigilancia es el proceso sistemático de captura, análisis y difusión de información sobre el entorno de una organización, con el fin de detectar a tiempo cambios que puedan suponer oportunidades o amenazas. Tiene un carácter **anticipatorio**: no se trata de enterarse de lo que ya ha ocurrido, sino de captar las señales de lo que empieza a ocurrir.
+
+En España, la vigilancia está normalizada en la **UNE 166006:2018** *Gestión de la I+D+i: Sistema de vigilancia e inteligencia*, que es certificable y está alineada con la ISO 9001.
+
+### Tipos de vigilancia
+
+Según el objeto que se vigila, se suelen distinguir cuatro tipos ([Escorsa, 2001](https://www.uoc.edu/web/esp/art/uoc/escorsa0202/escorsa0202_imp.html)):
+
+| Tipo | Qué vigila | Ejemplo para una biblioteca universitaria |
+|---|---|---|
+| **Tecnológica** | Avances científicos y técnicos, nuevos productos y procesos | Herramientas de IA para la búsqueda de información, nuevos sistemas de gestión bibliotecaria |
+| **Competitiva** | Competidores actuales y potenciales: qué hacen, qué ofrecen | Servicios que ofrecen Google Scholar, las plataformas de IA o los repositorios abiertos |
+| **Comercial** | Clientes y proveedores: necesidades, mercado, precios | Evolución del precio de las suscripciones, cambios en los hábitos de los estudiantes |
+| **Del entorno** | Aspectos legales, políticos, sociales, económicos y ambientales | Normativa sobre acceso abierto o propiedad intelectual, financiación universitaria |
+
+Los tipos coinciden en buena parte con las dimensiones del PESTEL de la sesión anterior: la vigilancia del entorno cubre casi todo el PESTEL, la tecnológica su dimensión T, y la competitiva y la comercial añaden lo que el PESTEL no tiene y la ISO 9001 sí pide (el contexto competitivo y de mercado).
+
+## Vigilancia frente a inteligencia
+
+Los dos términos se usan a menudo juntos, pero no significan lo mismo:
+
+|  | Vigilancia | Inteligencia |
+|---|---|---|
+| **Actitud** | Más pasiva: captar y filtrar | Activa: analizar y recomendar |
+| **Punto de partida** | Un área que interesa seguir | Un problema o una decisión concreta |
+| **Resultado** | Información seleccionada | Información interpretada para decidir |
+
+Un ejemplo: detectar que se ha publicado en el BOE una norma sobre acceso abierto es vigilancia. Explicar qué cambia para la biblioteca y qué debería hacer en consecuencia es inteligencia. La vigilancia sin inteligencia acumula información que nadie usa; la inteligencia sin vigilancia se basa en lo que alguien sabe, no en lo que está pasando.
+
+## El ciclo de la vigilancia
+
+La UNE 166006 organiza el proceso en cinco etapas:
+
+```{mermaid}
+flowchart LR
+    A["Identificación de<br/>necesidades y fuentes"] --> B[Planificación]
+    B --> C["Búsqueda y<br/>tratamiento"]
+    C --> D["Puesta en valor"]
+    D --> E["Distribución y<br/>almacenamiento"]
+    E --> A
+```
+
+| Etapa | Qué se hace | En la práctica de hoy |
+|---|---|---|
+| **Identificación de necesidades, fuentes y medios de acceso** | Decidir qué se necesita saber, dónde está y cómo se accede | Elegir una dimensión del PESTEL y sus fuentes |
+| **Planificación** | Decidir quién vigila, con qué frecuencia y con qué medios | Diseñar el flujo de trabajo |
+| **Búsqueda y tratamiento** | Capturar la información y filtrarla | Consultas, alertas y volcado automático |
+| **Puesta en valor** | Analizar la información y extraer su significado | Seleccionar las novedades relevantes y valorar su implicación |
+| **Distribución y almacenamiento** | Hacer llegar los resultados a quien decide y conservarlos | Nota para la dirección y hoja de cálculo |
+
+El ciclo se cierra sobre sí mismo: lo que se aprende al analizar la información sirve para afinar las necesidades y las fuentes.
+
+## El modelo push y pull
+
+Hay dos formas de obtener información:
+
+- **Pull** (tirar): el usuario va a buscar la información cuando la necesita. Consultar una web cada semana, lanzar una búsqueda en una base de datos. Depende de la memoria y la disciplina de quien consulta, y es lo primero que se abandona cuando hay trabajo.
+- **Push** (empujar): la información llega al usuario sin que tenga que buscarla, mediante suscripciones, alertas o canales de sindicación. Una vez configurado, funciona solo.
+
+Montar un sistema de vigilancia consiste, en buena parte, en **convertir consultas pull en flujos push**.
+
+La tecnología básica del modelo push es el **RSS** (*Really Simple Syndication*), un formato estándar en el que una web publica sus novedades de forma estructurada (título, enlace, fecha, resumen) para que otras aplicaciones puedan leerlas. Su variante es el formato **Atom**. Muchas fuentes oficiales, medios y blogs ofrecen canales RSS, aunque no siempre los anuncian de forma visible.
+
+## Generación de flujos de trabajo
+
+Un sistema de vigilancia no es una herramienta: es un **flujo de trabajo** que conecta fuentes, consultas, herramientas de captura y un lugar donde se almacena y se revisa la información. Diseñarlo implica tomar cuatro decisiones.
+
+```{mermaid}
+flowchart LR
+    A["Fuentes"] --> B["Consulta"]
+    B --> C["Automatización"]
+    C --> D["Volcado y<br/>revisión"]
+```
+
+### 1. Identificar las fuentes
+
+Para cada necesidad de vigilancia hay que localizar las fuentes que la cubren y valorar:
+
+- **Pertinencia**: si la fuente cubre realmente lo que necesitamos saber.
+- **Fiabilidad**: quién la publica y con qué autoridad. Una fuente oficial no tiene la misma fiabilidad que un blog.
+- **Frecuencia de actualización**: una fuente que se actualiza una vez al año no necesita un sistema push.
+- **Forma de acceso**: si ofrece RSS, alertas por correo, una API o solo una página web. De esto depende qué se puede automatizar.
+
+### 2. Establecer la consulta
+
+Cuando la fuente permite búsquedas (Google Alerts, bases de datos, el BOE), hay que formular una **ecuación de búsqueda**, igual que en cualquier búsqueda documental: términos, sinónimos, operadores booleanos, comillas para frases exactas y exclusiones.
+
+La consulta determina el equilibrio entre dos problemas conocidos en recuperación de información:
+
+- **Ruido**: la consulta recupera mucho material irrelevante. En vigilancia es el problema más frecuente y el más dañino, porque un sistema que genera más información de la que se puede revisar acaba abandonándose.
+- **Silencio**: la consulta deja fuera material relevante.
+
+::: callout-warning
+## El ruido mata los sistemas de vigilancia
+
+Una alerta mal acotada puede generar decenas de resultados diarios. Antes de automatizar una consulta conviene probarla manualmente, revisar qué recupera y afinarla hasta que la mayoría de los resultados sean pertinentes. Es preferible vigilar pocas cosas bien que muchas mal.
+:::
+
+### 3. Automatizar
+
+La automatización convierte la consulta en un flujo push. Las herramientas disponibles se pueden agrupar por su nivel de complejidad:
+
+| Nivel | Herramientas | Qué permiten | Curva de aprendizaje |
+|---|---|---|---|
+| **Alertas nativas** | Mi BOE, Google Alerts, alertas de Scopus o Web of Science | Recibir novedades de una fuente por correo o RSS | Muy baja |
+| **Lectores de RSS** | Feedly, Inoreader, Thunderbird | Reunir muchos canales en un solo lugar | Baja |
+| **Hojas de cálculo** | `IMPORTFEED` e `IMPORTXML` en Google Sheets, Power Query en Excel | Volcar los canales en una tabla estructurada | Baja-media |
+| **Plataformas de automatización sin código** | IFTTT, Zapier, Make, Power Automate, n8n | Encadenar acciones entre aplicaciones: guardar, filtrar, notificar | Media |
+| **Programación** | R, Python, APIs como la de datos abiertos del BOE | Control total: filtrar, acumular histórico, analizar | Alta |
+
+::: callout-important
+## Las herramientas cambian
+
+Esta tabla es una foto de hoy. Las herramientas aparecen, cambian sus condiciones o desaparecen: Google cerró en 2013 Google Reader, el lector de RSS más usado de su época. Lo que hay que aprender no es una herramienta concreta, sino a **buscarlas y valorarlas**.
+:::
+
+Para elegir una herramienta conviene valorar:
+
+- **Coste y licencia**: si es gratuita, de pago o con límites en la versión gratuita.
+- **Curva de aprendizaje**: cuánto cuesta ponerla en marcha y quién podrá mantenerla.
+- **Integración**: si funciona con las herramientas que la organización ya usa.
+- **Dependencia del proveedor**: qué pasa con la información si la herramienta desaparece o cambia sus condiciones.
+- **Privacidad**: qué datos se ceden al usarla.
+- **Escalabilidad**: si sigue sirviendo cuando aumenta el número de fuentes.
+
+### 4. Volcar y revisar
+
+La información capturada tiene que acabar en un lugar donde se pueda **almacenar, ordenar y revisar**: una hoja de cálculo, un gestor documental o una base de datos. Y alguien tiene que revisarla periódicamente. Sin esa revisión, el sistema captura información pero no hay vigilancia.
+
+## Práctica guiada: un sistema de vigilancia para la biblioteca
+
+::: bonus
+## El caso
+
+Vamos a diseñar un sistema de vigilancia del contexto de la biblioteca del Colegio Máximo a partir del PESTEL de la sesión anterior. Cada persona se encarga de una dimensión. El resultado será una hoja de cálculo que se actualiza sola con las novedades de dos fuentes, y una nota para la dirección con lo más relevante.
+:::
+
+### Diseño del sistema
+
+| Elemento | En nuestro caso | Por qué |
+|---|---|---|
+| **Necesidad** | Una dimensión del PESTEL | Concreta lo que hay que vigilar y evita el ruido |
+| **Fuente oficial** | BOE (u otra fuente oficial con RSS) | Fiabilidad máxima y canales RSS gratuitos |
+| **Fuente abierta** | Google Alerts | Cubre casi cualquier tema y permite salida RSS |
+| **Captura y volcado** | Google Sheets con `IMPORTFEED` | Gratuito con la cuenta go.ugr.es, sin instalar nada, se comparte con un enlace y sus datos se podrán usar en el cuadro de mando del Tema 7 |
+| **Puesta en valor** | Pestaña de análisis | Separa lo capturado de lo valorado |
+| **Distribución** | Nota para la dirección | Convierte la vigilancia en inteligencia |
+
+### Paso 1. Definir la necesidad de vigilancia
+
+::: ejercicio
+**Paso 1.** Elegid la dimensión del PESTEL de la que os vais a encargar y formulad qué necesitáis saber sobre ella. Por ejemplo, para la dimensión legal: nueva normativa sobre acceso abierto, propiedad intelectual o bibliotecas universitarias.
+
+Cuanto más concreta sea la necesidad, más fácil será formular la consulta y menos ruido generará.
+:::
+
+### Paso 2. Configurar la fuente oficial
+
+Las fuentes oficiales son las más fiables, y muchas ofrecen canales RSS gratuitos. El BOE, por ejemplo, ofrece canales RSS de sus secciones y permite suscribirse a búsquedas personalizadas mediante el servicio Mi BOE.
+
+::: ejercicio
+**Paso 2.** Localizad en la fuente oficial pertinente para vuestra dimensión el canal RSS que mejor se ajuste a vuestra necesidad y copiad su dirección. Comprobad que es la dirección del canal (suele terminar en `.xml` o `/rss`) y no la de la página web.
+:::
+
+### Paso 3. Crear la alerta en Google Alerts
+
+Google Alerts rastrea la web y avisa de las páginas nuevas que coinciden con una consulta. Por defecto envía las alertas por correo, pero puede publicarlas como canal RSS, que es lo que necesitamos para volcarlas en la hoja de cálculo.
+
+::: ejercicio
+**Paso 3.**
+
+1. Antes de crear la alerta, probad la consulta en el buscador de Google. Usad comillas para frases exactas, `OR` para sinónimos y `-` para excluir términos. Afinadla hasta que la mayoría de los resultados sean pertinentes.
+2. Entrad en [Google Alerts](https://www.google.com/alerts) con vuestra cuenta, escribid la consulta y pulsad **Mostrar opciones**.
+3. En **Enviar a**, elegid **Feed RSS**. Ajustad el idioma y la región si es necesario.
+4. Cread la alerta y copiad la dirección del canal desde el icono de RSS que aparece junto a ella.
+:::
+
+### Paso 4. Volcar las fuentes en Google Sheets
+
+La función `IMPORTFEED` lee un canal RSS o Atom y devuelve sus elementos en forma de tabla.
+
+::: ejercicio
+**Paso 4.** Cread una hoja de cálculo en Google Sheets con una pestaña por fuente. En la celda A1 de cada pestaña escribid:
+
+```
+=IMPORTFEED("DIRECCIÓN_DEL_CANAL"; "items title")
+```
+
+Comprobad que se importan los títulos. Después, en las columnas siguientes, importad el enlace y la fecha cambiando el segundo argumento por `"items url"` y `"items created"`.
+
+Con la configuración regional en español, el separador de argumentos es el punto y coma.
+:::
+
+::: callout-warning
+## Lo que IMPORTFEED no hace
+
+`IMPORTFEED` muestra solo los elementos más recientes del canal y se actualiza sola, de modo que las novedades antiguas desaparecen de la tabla. Para conservar lo que interesa hay que copiarlo a otra pestaña como valores. Si se quisiera acumular un histórico completo, habría que recurrir a una plataforma de automatización o a la programación.
+:::
+
+### Paso 5. De la vigilancia a la inteligencia
+
+::: ejercicio
+**Paso 5.** Cread una pestaña **Análisis**. Revisad lo capturado en las dos fuentes, seleccionad las **5 novedades más relevantes** para la biblioteca y copiadlas como valores (Ctrl + Mayús + V). Añadid estas columnas:
+
+| Fecha | Título | Enlace | Dimensión | Amenaza u oportunidad | Implicación para la biblioteca |
+|---|---|---|---|---|---|
+
+La implicación se redacta en una frase y explica qué puede cambiar para la biblioteca.
+:::
+
+### Paso 6. Comunicar
+
+::: ejercicio
+**Paso 6.** Redactad una nota breve para la dirección de la biblioteca con el hallazgo principal, por qué es relevante y qué recomendáis hacer.
+:::
+
+**Entrega.** Página en el wiki con la necesidad de vigilancia, las fuentes y las consultas utilizadas, el enlace a la hoja de cálculo (compartida en modo lectura) y la nota para la dirección. Commit antes de que acabe la clase.

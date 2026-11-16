@@ -1266,5 +1266,61 @@
     "title": "Del indicador al dashboard",
     "section": "Ejercicio: (titulo del ejercicio)",
     "text": "Ejercicio: (titulo del ejercicio)\n\nObjetivo. (que debe aprender/practicar el alumno)\nInstrucciones. (enunciado del ejercicio, tabla o pasos a seguir)"
+  },
+  {
+    "objectID": "tema5/sesion2.html",
+    "href": "tema5/sesion2.html",
+    "title": "Vigilancia del contexto",
+    "section": "",
+    "text": "NotaObjetivos de la sesión\n\n\n\nAl terminar esta sesión deberíais ser capaces de:\n\nExplicar qué es la vigilancia y qué tipos de vigilancia puede necesitar una organización.\nDistinguir entre vigilancia e inteligencia.\nDescribir las etapas del ciclo de la vigilancia.\nDiseñar un flujo de trabajo que automatice la captura de información sobre el contexto de una organización.\nValorar qué herramienta de automatización conviene en cada caso.\nEn la sesión anterior identificamos las cuestiones internas y externas que afectan a la biblioteca del Colegio Máximo. Pero el apartado 4.1 de la ISO 9001 no se cumple con un análisis hecho una vez: exige además realizar el seguimiento y la revisión de la información sobre esas cuestiones. El contexto cambia, y un análisis que nadie actualiza describe una organización que ya no existe. El mecanismo para mantenerlo vivo es la vigilancia."
+  },
+  {
+    "objectID": "tema5/sesion2.html#la-vigilancia-del-contexto",
+    "href": "tema5/sesion2.html#la-vigilancia-del-contexto",
+    "title": "Vigilancia del contexto",
+    "section": "La vigilancia del contexto",
+    "text": "La vigilancia del contexto\n\nDefinición\nLa vigilancia es el proceso sistemático de captura, análisis y difusión de información sobre el entorno de una organización, con el fin de detectar a tiempo cambios que puedan suponer oportunidades o amenazas. Tiene un carácter anticipatorio: no se trata de enterarse de lo que ya ha ocurrido, sino de captar las señales de lo que empieza a ocurrir.\nEn España, la vigilancia está normalizada en la UNE 166006:2018 Gestión de la I+D+i: Sistema de vigilancia e inteligencia, que es certificable y está alineada con la ISO 9001.\n\n\nTipos de vigilancia\nSegún el objeto que se vigila, se suelen distinguir cuatro tipos (Escorsa, 2001):\n\n\n\n\n\n\n\n\nTipo\nQué vigila\nEjemplo para una biblioteca universitaria\n\n\n\n\nTecnológica\nAvances científicos y técnicos, nuevos productos y procesos\nHerramientas de IA para la búsqueda de información, nuevos sistemas de gestión bibliotecaria\n\n\nCompetitiva\nCompetidores actuales y potenciales: qué hacen, qué ofrecen\nServicios que ofrecen Google Scholar, las plataformas de IA o los repositorios abiertos\n\n\nComercial\nClientes y proveedores: necesidades, mercado, precios\nEvolución del precio de las suscripciones, cambios en los hábitos de los estudiantes\n\n\nDel entorno\nAspectos legales, políticos, sociales, económicos y ambientales\nNormativa sobre acceso abierto o propiedad intelectual, financiación universitaria\n\n\n\nLos tipos coinciden en buena parte con las dimensiones del PESTEL de la sesión anterior: la vigilancia del entorno cubre casi todo el PESTEL, la tecnológica su dimensión T, y la competitiva y la comercial añaden lo que el PESTEL no tiene y la ISO 9001 sí pide (el contexto competitivo y de mercado)."
+  },
+  {
+    "objectID": "tema5/sesion2.html#vigilancia-frente-a-inteligencia",
+    "href": "tema5/sesion2.html#vigilancia-frente-a-inteligencia",
+    "title": "Vigilancia del contexto",
+    "section": "Vigilancia frente a inteligencia",
+    "text": "Vigilancia frente a inteligencia\nLos dos términos se usan a menudo juntos, pero no significan lo mismo:\n\n\n\n\n\n\n\n\n\nVigilancia\nInteligencia\n\n\n\n\nActitud\nMás pasiva: captar y filtrar\nActiva: analizar y recomendar\n\n\nPunto de partida\nUn área que interesa seguir\nUn problema o una decisión concreta\n\n\nResultado\nInformación seleccionada\nInformación interpretada para decidir\n\n\n\nUn ejemplo: detectar que se ha publicado en el BOE una norma sobre acceso abierto es vigilancia. Explicar qué cambia para la biblioteca y qué debería hacer en consecuencia es inteligencia. La vigilancia sin inteligencia acumula información que nadie usa; la inteligencia sin vigilancia se basa en lo que alguien sabe, no en lo que está pasando."
+  },
+  {
+    "objectID": "tema5/sesion2.html#el-ciclo-de-la-vigilancia",
+    "href": "tema5/sesion2.html#el-ciclo-de-la-vigilancia",
+    "title": "Vigilancia del contexto",
+    "section": "El ciclo de la vigilancia",
+    "text": "El ciclo de la vigilancia\nLa UNE 166006 organiza el proceso en cinco etapas:\n\n\n\n\n\nflowchart LR\n    A[\"Identificación de&lt;br/&gt;necesidades y fuentes\"] --&gt; B[Planificación]\n    B --&gt; C[\"Búsqueda y&lt;br/&gt;tratamiento\"]\n    C --&gt; D[\"Puesta en valor\"]\n    D --&gt; E[\"Distribución y&lt;br/&gt;almacenamiento\"]\n    E --&gt; A\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEtapa\nQué se hace\nEn la práctica de hoy\n\n\n\n\nIdentificación de necesidades, fuentes y medios de acceso\nDecidir qué se necesita saber, dónde está y cómo se accede\nElegir una dimensión del PESTEL y sus fuentes\n\n\nPlanificación\nDecidir quién vigila, con qué frecuencia y con qué medios\nDiseñar el flujo de trabajo\n\n\nBúsqueda y tratamiento\nCapturar la información y filtrarla\nConsultas, alertas y volcado automático\n\n\nPuesta en valor\nAnalizar la información y extraer su significado\nSeleccionar las novedades relevantes y valorar su implicación\n\n\nDistribución y almacenamiento\nHacer llegar los resultados a quien decide y conservarlos\nNota para la dirección y hoja de cálculo\n\n\n\nEl ciclo se cierra sobre sí mismo: lo que se aprende al analizar la información sirve para afinar las necesidades y las fuentes."
+  },
+  {
+    "objectID": "tema5/sesion2.html#el-modelo-push-y-pull",
+    "href": "tema5/sesion2.html#el-modelo-push-y-pull",
+    "title": "Vigilancia del contexto",
+    "section": "El modelo push y pull",
+    "text": "El modelo push y pull\nHay dos formas de obtener información:\n\nPull (tirar): el usuario va a buscar la información cuando la necesita. Consultar una web cada semana, lanzar una búsqueda en una base de datos. Depende de la memoria y la disciplina de quien consulta, y es lo primero que se abandona cuando hay trabajo.\nPush (empujar): la información llega al usuario sin que tenga que buscarla, mediante suscripciones, alertas o canales de sindicación. Una vez configurado, funciona solo.\n\nMontar un sistema de vigilancia consiste, en buena parte, en convertir consultas pull en flujos push.\nLa tecnología básica del modelo push es el RSS (Really Simple Syndication), un formato estándar en el que una web publica sus novedades de forma estructurada (título, enlace, fecha, resumen) para que otras aplicaciones puedan leerlas. Su variante es el formato Atom. Muchas fuentes oficiales, medios y blogs ofrecen canales RSS, aunque no siempre los anuncian de forma visible."
+  },
+  {
+    "objectID": "tema5/sesion2.html#generación-de-flujos-de-trabajo",
+    "href": "tema5/sesion2.html#generación-de-flujos-de-trabajo",
+    "title": "Vigilancia del contexto",
+    "section": "Generación de flujos de trabajo",
+    "text": "Generación de flujos de trabajo\nUn sistema de vigilancia no es una herramienta: es un flujo de trabajo que conecta fuentes, consultas, herramientas de captura y un lugar donde se almacena y se revisa la información. Diseñarlo implica tomar cuatro decisiones.\n\n\n\n\n\nflowchart LR\n    A[\"Fuentes\"] --&gt; B[\"Consulta\"]\n    B --&gt; C[\"Automatización\"]\n    C --&gt; D[\"Volcado y&lt;br/&gt;revisión\"]\n\n\n\n\n\n\n\n1. Identificar las fuentes\nPara cada necesidad de vigilancia hay que localizar las fuentes que la cubren y valorar:\n\nPertinencia: si la fuente cubre realmente lo que necesitamos saber.\nFiabilidad: quién la publica y con qué autoridad. Una fuente oficial no tiene la misma fiabilidad que un blog.\nFrecuencia de actualización: una fuente que se actualiza una vez al año no necesita un sistema push.\nForma de acceso: si ofrece RSS, alertas por correo, una API o solo una página web. De esto depende qué se puede automatizar.\n\n\n\n2. Establecer la consulta\nCuando la fuente permite búsquedas (Google Alerts, bases de datos, el BOE), hay que formular una ecuación de búsqueda, igual que en cualquier búsqueda documental: términos, sinónimos, operadores booleanos, comillas para frases exactas y exclusiones.\nLa consulta determina el equilibrio entre dos problemas conocidos en recuperación de información:\n\nRuido: la consulta recupera mucho material irrelevante. En vigilancia es el problema más frecuente y el más dañino, porque un sistema que genera más información de la que se puede revisar acaba abandonándose.\nSilencio: la consulta deja fuera material relevante.\n\n\n\n\n\n\n\nAdvertenciaEl ruido mata los sistemas de vigilancia\n\n\n\nUna alerta mal acotada puede generar decenas de resultados diarios. Antes de automatizar una consulta conviene probarla manualmente, revisar qué recupera y afinarla hasta que la mayoría de los resultados sean pertinentes. Es preferible vigilar pocas cosas bien que muchas mal.\n\n\n\n\n3. Automatizar\nLa automatización convierte la consulta en un flujo push. Las herramientas disponibles se pueden agrupar por su nivel de complejidad:\n\n\n\n\n\n\n\n\n\nNivel\nHerramientas\nQué permiten\nCurva de aprendizaje\n\n\n\n\nAlertas nativas\nMi BOE, Google Alerts, alertas de Scopus o Web of Science\nRecibir novedades de una fuente por correo o RSS\nMuy baja\n\n\nLectores de RSS\nFeedly, Inoreader, Thunderbird\nReunir muchos canales en un solo lugar\nBaja\n\n\nHojas de cálculo\nIMPORTFEED e IMPORTXML en Google Sheets, Power Query en Excel\nVolcar los canales en una tabla estructurada\nBaja-media\n\n\nPlataformas de automatización sin código\nIFTTT, Zapier, Make, Power Automate, n8n\nEncadenar acciones entre aplicaciones: guardar, filtrar, notificar\nMedia\n\n\nProgramación\nR, Python, APIs como la de datos abiertos del BOE\nControl total: filtrar, acumular histórico, analizar\nAlta\n\n\n\n\n\n\n\n\n\nImportanteLas herramientas cambian\n\n\n\nEsta tabla es una foto de hoy. Las herramientas aparecen, cambian sus condiciones o desaparecen: Google cerró en 2013 Google Reader, el lector de RSS más usado de su época. Lo que hay que aprender no es una herramienta concreta, sino a buscarlas y valorarlas.\n\n\nPara elegir una herramienta conviene valorar:\n\nCoste y licencia: si es gratuita, de pago o con límites en la versión gratuita.\nCurva de aprendizaje: cuánto cuesta ponerla en marcha y quién podrá mantenerla.\nIntegración: si funciona con las herramientas que la organización ya usa.\nDependencia del proveedor: qué pasa con la información si la herramienta desaparece o cambia sus condiciones.\nPrivacidad: qué datos se ceden al usarla.\nEscalabilidad: si sigue sirviendo cuando aumenta el número de fuentes.\n\n\n\n4. Volcar y revisar\nLa información capturada tiene que acabar en un lugar donde se pueda almacenar, ordenar y revisar: una hoja de cálculo, un gestor documental o una base de datos. Y alguien tiene que revisarla periódicamente. Sin esa revisión, el sistema captura información pero no hay vigilancia."
+  },
+  {
+    "objectID": "tema5/sesion2.html#práctica-guiada-un-sistema-de-vigilancia-para-la-biblioteca",
+    "href": "tema5/sesion2.html#práctica-guiada-un-sistema-de-vigilancia-para-la-biblioteca",
+    "title": "Vigilancia del contexto",
+    "section": "Práctica guiada: un sistema de vigilancia para la biblioteca",
+    "text": "Práctica guiada: un sistema de vigilancia para la biblioteca"
+  },
+  {
+    "objectID": "tema5/sesion2.html#el-caso",
+    "href": "tema5/sesion2.html#el-caso",
+    "title": "Vigilancia del contexto",
+    "section": "El caso",
+    "text": "El caso\nVamos a diseñar un sistema de vigilancia del contexto de la biblioteca del Colegio Máximo a partir del PESTEL de la sesión anterior. Cada persona se encarga de una dimensión. El resultado será una hoja de cálculo que se actualiza sola con las novedades de dos fuentes, y una nota para la dirección con lo más relevante."
   }
 ]
