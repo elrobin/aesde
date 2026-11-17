@@ -22,8 +22,6 @@ En la sesión anterior identificamos las cuestiones internas y externas que afec
 
 La vigilancia es el proceso sistemático de captura, análisis y difusión de información sobre el entorno de una organización, con el fin de detectar a tiempo cambios que puedan suponer oportunidades o amenazas. Tiene un carácter **anticipatorio**: no se trata de enterarse de lo que ya ha ocurrido, sino de captar las señales de lo que empieza a ocurrir.
 
-En España, la vigilancia está normalizada en la **UNE 166006:2018** *Gestión de la I+D+i: Sistema de vigilancia e inteligencia*, que es certificable y está alineada con la ISO 9001.
-
 ### Tipos de vigilancia
 
 Según el objeto que se vigila, se suelen distinguir cuatro tipos ([Escorsa, 2001](https://www.uoc.edu/web/esp/art/uoc/escorsa0202/escorsa0202_imp.html)):
@@ -49,7 +47,7 @@ Los dos términos se usan a menudo juntos, pero no significan lo mismo:
 
 Un ejemplo: detectar que se ha publicado en el BOE una norma sobre acceso abierto es vigilancia. Explicar qué cambia para la biblioteca y qué debería hacer en consecuencia es inteligencia. La vigilancia sin inteligencia acumula información que nadie usa; la inteligencia sin vigilancia se basa en lo que alguien sabe, no en lo que está pasando.
 
-## El ciclo de la vigilancia
+### El ciclo de la vigilancia
 
 La UNE 166006 organiza el proceso en cinco etapas:
 
@@ -72,7 +70,7 @@ flowchart LR
 
 El ciclo se cierra sobre sí mismo: lo que se aprende al analizar la información sirve para afinar las necesidades y las fuentes.
 
-## El modelo push y pull
+### El modelo push y pull
 
 Hay dos formas de obtener información:
 
@@ -149,91 +147,117 @@ Para elegir una herramienta conviene valorar:
 
 La información capturada tiene que acabar en un lugar donde se pueda **almacenar, ordenar y revisar**: una hoja de cálculo, un gestor documental o una base de datos. Y alguien tiene que revisarla periódicamente. Sin esa revisión, el sistema captura información pero no hay vigilancia.
 
-## Práctica guiada: un sistema de vigilancia para la biblioteca
+## Tarea: un sistema de vigilancia social para la biblioteca
 
-::: bonus
-## El caso
+::: ejercicio
+### El caso
 
-Vamos a diseñar un sistema de vigilancia del contexto de la biblioteca del Colegio Máximo a partir del PESTEL de la sesión anterior. Cada persona se encarga de una dimensión. El resultado será una hoja de cálculo que se actualiza sola con las novedades de dos fuentes, y una nota para la dirección con lo más relevante.
-:::
+Vamos a montar un sistema de vigilancia de la **dimensión social** del contexto de la Biblioteca del Colegio Máximo, centrado en tres partes interesadas: el estudiantado y el profesorado de la Facultad de Comunicación y Documentación, los de la Facultad de Odontología, y la dirección de la Biblioteca Universitaria (BUG).
+
+El sistema tiene dos partes, que corresponden a dos etapas del ciclo de la vigilancia:
+
+1. **Captura** (búsqueda y tratamiento): una hoja de cálculo que recoge automáticamente las noticias de varias fuentes.
+2. **Análisis** (puesta en valor): un asistente de IA que filtra y clasifica esas noticias con instrucciones fijas, y una revisión humana de su trabajo.
 
 ### Diseño del sistema
 
 | Elemento | En nuestro caso | Por qué |
 |---|---|---|
-| **Necesidad** | Una dimensión del PESTEL | Concreta lo que hay que vigilar y evita el ruido |
-| **Fuente oficial** | BOE (u otra fuente oficial con RSS) | Fiabilidad máxima y canales RSS gratuitos |
-| **Fuente abierta** | Google Alerts | Cubre casi cualquier tema y permite salida RSS |
-| **Captura y volcado** | Google Sheets con `IMPORTFEED` | Gratuito con la cuenta go.ugr.es, sin instalar nada, se comparte con un enlace y sus datos se podrán usar en el cuadro de mando del Tema 7 |
-| **Puesta en valor** | Pestaña de análisis | Separa lo capturado de lo valorado |
-| **Distribución** | Nota para la dirección | Convierte la vigilancia en inteligencia |
+| **Dimensión** | Social | Cambios externos en hábitos, necesidades y características de los usuarios |
+| **Partes interesadas** | Comunicación y Documentación, Odontología, dirección de la BUG | Las identificadas en la sesión anterior |
+| **Fuente 1** | Noticias de la UGR | RSS nativo y oficial; cubre la actividad de ambas facultades |
+| **Fuente 2** | Periódico local mediante Google News | Recoge el contexto de Granada (vivienda, transporte, calor) que no aparece en las fuentes institucionales |
+| **Fuente 3** | Google News, búsqueda temática | Tendencias generales sobre estudiantes universitarios y bibliotecas |
+| **Fuente 4** | Noticias de la BUG | Lo que la organización cuenta de sí misma; sirve de contraste entre lo interno y lo externo |
+| **Captura** | Google Sheets con `IMPORTFEED` | Gratuito con la cuenta go.ugr.es, sin instalar nada, se actualiza solo y se comparte con un enlace |
+| **Análisis** | Gemini con instrucciones fijas | Filtra y clasifica un volumen de noticias que sería lento revisar a mano |
+| **Control** | Revisión humana | La IA puede equivocarse al seleccionar, clasificar o resumir |
 
-### Paso 1. Definir la necesidad de vigilancia
 
-::: ejercicio
-**Paso 1.** Elegid la dimensión del PESTEL de la que os vais a encargar y formulad qué necesitáis saber sobre ella. Por ejemplo, para la dimensión legal: nueva normativa sobre acceso abierto, propiedad intelectual o bibliotecas universitarias.
+**Paso 1.** En Google Sheets, con vuestra cuenta go.ugr.es, cread una hoja con estas pestañas: `UGR`, `Prensa`, `News`, `BUG` y `Análisis`.
 
-Cuanto más concreta sea la necesidad, más fácil será formular la consulta y menos ruido generará.
-:::
+En la fila 1 de las cuatro primeras escribid estos encabezados: **Fuente**, **Título**, **Enlace**, **Fecha** y **Resumen**.
 
-### Paso 2. Configurar la fuente oficial
+**Paso 2.** Fuente con RSS nativo: noticias de la UGR
 
-Las fuentes oficiales son las más fiables, y muchas ofrecen canales RSS gratuitos. El BOE, por ejemplo, ofrece canales RSS de sus secciones y permite suscribirse a búsquedas personalizadas mediante el servicio Mi BOE.
+La UGR publica sus noticias en un canal RSS: `https://www.ugr.es/rss.xml`. La función `IMPORTFEED` lee un canal RSS y devuelve sus elementos en forma de tabla; el segundo argumento indica qué campo se quiere y el cuarto, cuántos elementos.
 
-::: ejercicio
-**Paso 2.** Localizad en la fuente oficial pertinente para vuestra dimensión el canal RSS que mejor se ajuste a vuestra necesidad y copiad su dirección. Comprobad que es la dirección del canal (suele terminar en `.xml` o `/rss`) y no la de la página web.
-:::
-
-### Paso 3. Crear la alerta en Google Alerts
-
-Google Alerts rastrea la web y avisa de las páginas nuevas que coinciden con una consulta. Por defecto envía las alertas por correo, pero puede publicarlas como canal RSS, que es lo que necesitamos para volcarlas en la hoja de cálculo.
-
-::: ejercicio
-**Paso 3.**
-
-1. Antes de crear la alerta, probad la consulta en el buscador de Google. Usad comillas para frases exactas, `OR` para sinónimos y `-` para excluir términos. Afinadla hasta que la mayoría de los resultados sean pertinentes.
-2. Entrad en [Google Alerts](https://www.google.com/alerts) con vuestra cuenta, escribid la consulta y pulsad **Mostrar opciones**.
-3. En **Enviar a**, elegid **Feed RSS**. Ajustad el idioma y la región si es necesario.
-4. Cread la alerta y copiad la dirección del canal desde el icono de RSS que aparece junto a ella.
-:::
-
-### Paso 4. Volcar las fuentes en Google Sheets
-
-La función `IMPORTFEED` lee un canal RSS o Atom y devuelve sus elementos en forma de tabla.
-
-::: ejercicio
-**Paso 4.** Cread una hoja de cálculo en Google Sheets con una pestaña por fuente. En la celda A1 de cada pestaña escribid:
+En la pestaña `UGR`, escribid «UGR» en la columna A de las filas que vaya a ocupar el canal y estas fórmulas en la fila 2:
 
 ```
-=IMPORTFEED("DIRECCIÓN_DEL_CANAL"; "items title")
+B2: =IMPORTFEED("https://www.ugr.es/rss.xml"; "items title"; FALSO; 20)
+C2: =IMPORTFEED("https://www.ugr.es/rss.xml"; "items url"; FALSO; 20)
+D2: =IMPORTFEED("https://www.ugr.es/rss.xml"; "items created"; FALSO; 20)
+E2: =IMPORTFEED("https://www.ugr.es/rss.xml"; "items summary"; FALSO; 20)
 ```
 
-Comprobad que se importan los títulos. Después, en las columnas siguientes, importad el enlace y la fecha cambiando el segundo argumento por `"items url"` y `"items created"`.
+Comprobad que las cuatro columnas se corresponden: cada fila debe ser la misma noticia.
 
-Con la configuración regional en español, el separador de argumentos es el punto y coma.
+**Paso 3.** Fuentes sin RSS propio: búsquedas en Google News
+
+No todas las fuentes ofrecen un canal RSS con lo que necesitamos, y hay varias formas de resolverlo:
+
+- **Canales nativos de la propia fuente.** Muchos periódicos, revistas y organismos publican canales RSS, a menudo por secciones. Es la opción preferible, pero no siempre los anuncian de forma visible.
+- **Generadores de RSS y monitores de cambios.** Herramientas como PolitePol, FetchRSS o RSS.app crean un canal a partir de una página web; otras, como Distill, avisan cuando una página o una parte de ella cambia. Interpretan la página, así que pueden fallar cuando cambia su diseño.
+- **Canales de búsqueda.** Algunos buscadores generan un canal RSS a partir de una consulta. Es la opción que usaremos aquí, con Google News.
+
+1. En [Google News](https://news.google.com), probad y afinad estas consultas hasta que la mayoría de los resultados sean pertinentes:
+   - Prensa local: `site:ideal.es universidad estudiantes when:30d`
+   - Tendencias: `"estudiantes universitarios" inteligencia artificial when:30d`
+2. Construid la dirección del canal. En la consulta, los espacios se escriben `%20` y las comillas `%22`; al final se añaden el idioma y el país:
+
+```
+https://news.google.com/rss/search?q=site:ideal.es%20universidad%20estudiantes%20when:30d&hl=es&gl=ES&ceid=ES:es
+```
+
+3. Abrid la dirección en el navegador. Si aparece un documento XML con elementos `<item>`, el canal funciona.
+4. Volcad cada canal en su pestaña (`Prensa` y `News`) con las mismas fórmulas del Paso 2.
+
+
+**Paso 4.** Fuente sin RSS: noticias de la BUG
+
+Cuando una fuente pertinente no tiene canal RSS, se puede generar uno con herramientas como PolitePol o FetchRSS. Interpretan la página y extraen los elementos que se repiten. Un canal nativo es siempre preferible: los generados fallan cuando cambia el diseño de la página.
+
+1. Comprobad primero si la BUG tiene un canal nativo: probad `https://biblioteca.ugr.es/rss.xml` en el navegador.
+2. Si no lo tiene, entrad en [PolitePol](https://politepol.com) o [FetchRSS](https://fetchrss.com), pegad la dirección de las [noticias de la BUG](https://biblioteca.ugr.es/informacion/noticias/novedades), marcad el título de una noticia y generad el canal.
+3. Volcadlo en la pestaña `BUG` con las fórmulas del Paso 2.
+
+**Paso 5.** Análisis con Gemini
+
+El análisis se hace con unas **instrucciones** (*prompt*) que vosotras tenéis que construir. Su finalidad es que la IA haga siempre el mismo trabajo, con los mismos criterios, sobre cualquier lote de noticias: seleccionar las que pertenecen a la dimensión social, relacionarlas con las partes interesadas y valorar si suponen un riesgo o una oportunidad para la Biblioteca del Colegio Máximo.
+
+Unas buenas instrucciones tienen que dejar claro:
+
+- **El papel y el contexto**: para qué organización trabaja la IA y con qué marco (los apartados de la ISO 9001 que hemos visto).
+- **El criterio de selección**: qué cuenta como dimensión social y qué no. Aquí está la mayor dificultad, y conviene volver a la sesión anterior para distinguir lo externo de lo interno.
+- **Las partes interesadas** que interesan.
+- **La salida**: qué campos debe devolver para cada noticia y en qué formato, de modo que se pueda pegar en la hoja. Pensad qué necesitaréis después para redactar la nota y para comprobar el trabajo de la IA.
+- **Las reglas**: qué debe hacer cuando falta información o cuando no hay nada pertinente, y qué no debe hacer nunca.
+
+1. Redactad una primera versión de las instrucciones.
+2. Copiad un lote de noticias de las cuatro pestañas (no más de 30 o 40) y probadlas en [Gemini](https://gemini.google.com) con vuestra cuenta go.ugr.es.
+3. Revisad el resultado. ¿Ha seleccionado lo que esperabais? ¿Ha devuelto lo que necesitáis y en un formato que se pueda usar? Modificad las instrucciones y repetid hasta que el resultado sea fiable.
+4. Guardad cada versión: la primera rara vez funciona, y lo que cambiáis entre versiones es parte del trabajo.
+5. Pegad la tabla de la versión final en la pestaña `Análisis`.
+
+**Paso 6.** Revisión del trabajo de la IA
+
+- **Lo seleccionado:** abrid al menos cuatro enlaces y verificad que la noticia dice lo que la IA resume y que la fecha es correcta.
+- **Lo descartado:** revisad las noticias de la hoja que no aparecen en el análisis. ¿Se ha dejado fuera alguna social y relevante?
+- **Lo marcado como interno:** ¿las noticias de la BUG se han tratado como internas?
+
+Si detectáis errores sistemáticos, modificad las instrucciones y repetid el análisis. Anotad qué cambiasteis y por qué.
+
+**Paso 7.** De la vigilancia a la inteligencia
+
+Redactad una nota para la dirección de la biblioteca (máximo 200 palabras) con el hallazgo principal, por qué es relevante para la Biblioteca del Colegio Máximo y qué recomendáis hacer.
+
+**Entrega.** Página en el wiki con:
+
+- las consultas utilizadas en cada fuente y la dirección de los canales;
+- el enlace a la hoja de cálculo, compartida en modo lectura;
+- los errores detectados en la revisión del Paso 6 y los cambios hechos en las instrucciones, si los hubo;
+- la nota para la dirección.
+
+Commit antes de que acabe la clase.
 :::
-
-::: callout-warning
-## Lo que IMPORTFEED no hace
-
-`IMPORTFEED` muestra solo los elementos más recientes del canal y se actualiza sola, de modo que las novedades antiguas desaparecen de la tabla. Para conservar lo que interesa hay que copiarlo a otra pestaña como valores. Si se quisiera acumular un histórico completo, habría que recurrir a una plataforma de automatización o a la programación.
-:::
-
-### Paso 5. De la vigilancia a la inteligencia
-
-::: ejercicio
-**Paso 5.** Cread una pestaña **Análisis**. Revisad lo capturado en las dos fuentes, seleccionad las **5 novedades más relevantes** para la biblioteca y copiadlas como valores (Ctrl + Mayús + V). Añadid estas columnas:
-
-| Fecha | Título | Enlace | Dimensión | Amenaza u oportunidad | Implicación para la biblioteca |
-|---|---|---|---|---|---|
-
-La implicación se redacta en una frase y explica qué puede cambiar para la biblioteca.
-:::
-
-### Paso 6. Comunicar
-
-::: ejercicio
-**Paso 6.** Redactad una nota breve para la dirección de la biblioteca con el hallazgo principal, por qué es relevante y qué recomendáis hacer.
-:::
-
-**Entrega.** Página en el wiki con la necesidad de vigilancia, las fuentes y las consultas utilizadas, el enlace a la hoja de cálculo (compartida en modo lectura) y la nota para la dirección. Commit antes de que acabe la clase.

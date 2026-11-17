@@ -50,6 +50,7 @@ website:
       - section: "T5 La organización y su entorno"
         contents:
           - tema5/sesion1.qmd
+          - tema5/sesion2.qmd
       # - section: "6. Del indicador al dashboard"
       #   contents:
       #     - tema6/sesion1.qmd
