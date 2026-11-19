@@ -1,26 +1,207 @@
 ---
-title: "Del indicador al dashboard"
+title: "Del concepto al indicador"
 ---
 
-::: {.diapo-box}
-Diapositivas de clase — *(enlace a las slides de este tema)*
+::: callout-note
+## Objetivos de la sesión
+
+Al terminar esta sesión deberíais ser capaces de:
+
+- Distinguir un **dato** de un **indicador** y explicar qué le falta a un número para convertirse en indicador.
+- Explicar qué significa **operacionalizar** un concepto y por qué un indicador es siempre una aproximación (*proxy*).
+- Enunciar los tres criterios de Gingras para un buen indicador: **adecuación**, **sensibilidad** y **homogeneidad**.
+- Recorrer la cadena **servicio → objetivo → factor crítico de éxito → indicador → meta**.
+- Rellenar la **ficha** de un indicador.
 :::
 
-## Contenidos teoricos
+::: consejo
+**La idea de este tema** \| Del objetivo al dato, y cada paso hay que poder defenderlo sin la IA.
+:::
 
-*(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)*
+## De dónde venimos
 
-```{r}
-#| eval: false
-#| echo: true
-# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)
-# library(tidyverse)
+En el Tema 5 analizamos el **contexto** de la organización y sus **partes interesadas**. De ahí salen los objetivos: lo que la organización quiere conseguir teniendo en cuenta qué le afecta y a quién tiene que responder. Ahora toca la pregunta siguiente: **¿cómo sabemos si lo estamos consiguiendo?**
+
+## ¿Qué es un indicador?
+
+En el Tema 1 distinguimos entre dato, información y conocimiento. Un indicador se construye recorriendo ese camino. Lo vemos con un ejemplo de **EC3metrics**, la empresa que conocisteis en el seminario de certificación, en su servicio de **acreditación y sexenios** (*cifras inventadas*):
+
+| Paso | Lo que tenemos | ¿Qué le falta? |
+|----|----|----|
+| **Dato** | 40 | Todo: ¿40 qué? |
+| **Información** | 40 solicitudes de sexenio preparadas en la convocatoria de 2025 | ¿Es mucho o poco? ¿Salieron bien? |
+| **Información en relación** | 34 de esas 40 obtuvieron evaluación positiva: **85%** | ¿Respecto a qué? |
+| **Indicador** | Tasa de éxito del 85% frente a una **meta** del 80% y frente a la tasa general de la convocatoria | Ya podemos **decidir** algo |
+
+Un indicador es un dato puesto en relación con otros datos (un **denominador**), con una **referencia** (una meta, el año anterior u otra organización) y con un **objetivo** al que sirve. Sin objetivo es una estadística; sin referencia, un número que nadie sabe interpretar.
+
+### Operacionalizar: el indicador no es el concepto
+
+Lo que nos interesa casi nunca se puede medir directamente: calidad, satisfacción, eficiencia, éxito. **Operacionalizar** es decidir qué observación concreta vamos a usar en su lugar. Es lo que hicimos en el Tema 2:
+
+```{mermaid}
+flowchart LR
+    A["Concepto<br/>Calidad del servicio"] --> B["Dimensiones<br/>Rendimiento · Satisfacción"]
+    B --> C["Indicador<br/>% de evaluaciones positivas"]
+    C --> D["Dato<br/>34 de 40"]
 ```
 
-## Ejercicio: *(titulo del ejercicio)*
+Cada paso **pierde algo** del concepto. [Roger Cooke](https://doi.org/10.1016/j.ress.2004.03.019) lo plantea en el terreno del riesgo y la incertidumbre: solo se puede cuantificar y discutir con sentido aquello que se ha definido de forma operativa, es decir, sabiendo de qué observación concreta sale el número. La consecuencia para nosotros es doble: hay que **definir con precisión** qué medimos y hay que **saber qué se queda fuera**.
 
-::: {.ejercicio}
-**Objetivo.** *(que debe aprender/practicar el alumno)*
+La propia [ISO 9000](https://elrobin.github.io/aesde/lecturas/UNE-EN_ISO_9000=2026.pdf) da un ejemplo: las quejas son un indicador habitual de **baja** satisfacción, pero **no tener quejas no significa que haya satisfacción**. Puede que nadie se queje porque nadie confía en que sirva de algo.
 
-**Instrucciones.** *(enunciado del ejercicio, tabla o pasos a seguir)*
+> **Volviendo a EC3metrics:** ¿la tasa de éxito en sexenios mide la calidad del asesoramiento? ¿De qué más depende que un sexenio salga positivo?
+
+### Ejemplo y contraejemplo: las cuentas rojas
+
+Recordad el [experimento de las cuentas rojas](https://deming.org/explore/red-bead-experiment/) de Deming que vimos en el Tema 3. El porcentaje de cuentas rojas describe bien el **proceso**, pero no sirve para evaluar a los **trabajadores**, porque el resultado lo determina el sistema. **El mismo número puede ser un buen indicador o uno absurdo según el objeto al que se lo atribuyamos.**
+
+Con la tasa de éxito de los sexenios pasa algo parecido: depende sobre todo del currículum del investigador, no del trabajo de la consultora. Si EC3metrics solo aceptara los casos más sólidos, su tasa sería altísima sin que el asesoramiento fuera mejor.
+
+## ¿Qué hace bueno a un indicador?
+
+[Yves Gingras](https://wellcomecollection.org/works/spqg93qh), desde la evaluación de la investigación, propone tres criterios. Hoy los presentamos; en la próxima sesión los usaremos para revisar vuestros indicadores.
+
+| Criterio | Pregunta | Ejemplo de fallo |
+|----|----|----|
+| **Adecuación al objeto** | ¿Mide de verdad el concepto que dice medir? | Las cuentas rojas como medida del trabajador; la tasa de éxito de sexenios como medida del asesoramiento |
+| **Sensibilidad a la inercia del objeto** | ¿Cambia al ritmo al que cambia la realidad? | Una universidad que sube 50 puestos en un ranking en un año: la universidad no ha cambiado tanto, ha cambiado el método |
+| **Homogeneidad** | ¿Mide una sola cosa o mezcla varias en un número? | Sumar en una puntuación el número de cursos impartidos y la satisfacción de los asistentes |
+
+## Qué pide la ISO (y qué no)
+
+La [ISO 9001](https://elrobin.github.io/aesde/lecturas/UNE-EN_ISO_9001=2026.pdf) no dice **cómo** construir indicadores, pero sí exige dos cosas:
+
+- En el apartado de **Objetivos de la calidad y planificación para lograrlos**, que los objetivos sean **medibles** y objeto de seguimiento.
+- En el apartado de **Seguimiento, medición, análisis y evaluación**, que la organización decida qué mide, cuándo y con qué métodos, y que esos métodos aseguren **resultados válidos**.
+
+La ISO 9000 define la **métrica** como una medición verificable para cuantificar o evaluar un resultado, y pone como ejemplos el indicador, el indicador de desempeño y el indicador clave de desempeño (KPI). La norma pide que midamos bien; el **método** lo ponemos nosotros.
+
+## La cadena: del servicio al indicador
+
+Sigamos con EC3metrics y sus cuatro servicios. Para cada uno recorremos la misma cadena:
+
+1. **Servicio**: qué ofrece y qué **produce** (un curso, un informe, un expediente).
+2. **Objetivo**: qué quiere conseguir con él.
+3. **Factor crítico de éxito**: lo que tiene que salir bien para lograr el objetivo.
+4. **Indicador**: cómo sabremos si sale bien.
+5. **Meta**: qué valor consideramos aceptable.
+
+| Servicio | Produce | Objetivo | Factor crítico | Indicador | Meta |
+|----|----|----|----|----|----|
+| Formación a bibliotecarios e investigadores | Cursos y talleres | Que lo aprendido se aplique en el trabajo | Que los contenidos respondan a necesidades reales | % de asistentes que declaran haberlo aplicado a los 3 meses | ≥ 60% |
+| Acreditación y sexenios | Expedientes revisados | Que los expedientes lleguen sin errores formales | Revisión sistemática antes del envío | % de expedientes con requerimiento de subsanación | ≤ 5% |
+| Asesoría bibliométrica a instituciones | Informes | Entregar informes útiles a tiempo | Cumplir el calendario pactado | % de informes entregados en plazo | ≥ 90% |
+| Asesoría a revistas científicas | Diagnósticos y planes de mejora | Que las revistas mejoren su posicionamiento | Recomendaciones aplicables | % de revistas asesoradas que logran indexarse en una base de datos objetivo en 2 años | ≥ 30% |
+
+*Ejemplo ilustrativo: los objetivos y las metas no son los reales de EC3metrics.*
+
+Fijaos en que hay indicadores de **rendimiento** (plazos, errores) y de **satisfacción o percepción** (aplicación declarada). Son las dos caras de la calidad que vimos en el Tema 2.
+
+### SMART es para el objetivo, no para el indicador
+
+Seguramente habéis oído que los indicadores tienen que ser SMART (*específicos, medibles, alcanzables, relevantes y temporales*). En realidad, SMART se aplica a los **objetivos y las metas**:
+
+- ❌ «Mejorar la formación» → no es medible ni tiene plazo.
+- ✅ «Que en 2027 al menos el 60% de los asistentes aplique lo aprendido a los tres meses» → sí lo es.
+
+Al indicador le pedimos otras cosas: que sea **válido** (los criterios de Gingras), que esté **bien definido** y que sea **factible** obtener el dato.
+
+## La ficha del indicador
+
+Cada indicador se documenta en una ficha. Así cualquiera puede calcularlo igual, interpretarlo igual y saber de dónde salen los datos.
+
+| Campo | Ejemplo: informes en plazo |
+|----|----|
+| **Nombre** | Porcentaje de informes entregados en plazo |
+| **Servicio** | Asesoría bibliométrica a instituciones |
+| **Objetivo al que responde** | Entregar informes útiles a tiempo |
+| **Concepto y dimensión** | Calidad del servicio · rendimiento |
+| **Fórmula** | (Informes entregados en la fecha pactada o antes / Informes entregados) × 100 |
+| **Definiciones** | «Fecha pactada»: la del contrato o su última modificación aceptada por el cliente |
+| **Fuente de los datos** | Registro de proyectos de la intranet |
+| **Periodicidad** | Trimestral |
+| **Meta** | ≥ 90% |
+| **Sentido** | Cuanto más alto, mejor |
+| **Responsable** | Coordinación de proyectos |
+| **Limitaciones** | No dice nada de la utilidad del informe; si se pactan plazos holgados, sube sin que el servicio mejore |
+
+El campo de **limitaciones** es el más importante y el que más se olvida: escribir qué **no** mide el indicador es la mejor defensa contra usarlo mal.
+
+## Errores de diseño típicos
+
+| Error | Ejemplo | Cómo evitarlo |
+|----|----|----|
+| **Un dato suelto** | «Número de cursos» | Ponerlo en relación con algo: asistentes, plazas, objetivo |
+| **Medir lo fácil, no lo importante** | Contar asistentes porque es lo que hay | Partir del objetivo, no de los datos disponibles |
+| **Fórmula ambigua** | «Usuarios»: ¿inscritos, activos, potenciales? | Definir cada término en la ficha |
+| **Sin meta ni referencia** | «El 70% está satisfecho» | ¿Es bueno? ¿Comparado con qué? |
+| **Sin sentido** | «Tiempo medio en la web» | ¿Más tiempo es mejor (interés) o peor (no encuentran lo que buscan)? |
+
+## Tarea: fichas de indicadores para la Biblioteca del Colegio Máximo
+
+::: ejercicio
+### El encargo
+
+Vais a diseñar el sistema de indicadores que después mostraréis en vuestro dashboard para analizar el funcionamiento del sistema de información de la Biblioteca del Colegio Máximo. Para ello os repartiréis los servicios, productos o procesos de la biblioteca de manera que cada persona (o pareja) trabaje dos. Para cada uno fijaréis un objetivo y definiréis los indicadores que permiten saber si se cumple. En las próximas sesiones validaréis esos indicadores con criterios explícitos y organizaréis en una hoja de cálculo los datos disponibles para calcularlos, señalando también los que faltan.
+
+**Hoy no se usa IA.** La usaremos en la próxima sesión para revisar y mejorar lo que hagáis hoy.
+
+### Paso 1. Reparto
+
+Elegid **dos** servicios, productos o procesos de esta lista, sin repetir con nadie. Anotad el reparto en la página de inicio de la wiki antes de empezar.
+
+1. Préstamo domiciliario
+2. Préstamo intercampus y CBUA
+3. Préstamo de portátiles y otros dispositivos
+4. Sala de lectura y puestos de estudio
+5. Ordenadores y puestos de consulta
+6. Catálogo (Granatensis)
+7. Información y referencia en el mostrador
+8. Formación de usuarios
+9. Herramientas de apoyo (gestores bibliográficos, Turnitin, herramientas de IA)
+10. Colección y adquisiciones
+
+### Paso 2. La cadena
+
+Para cada uno de vuestros dos servicios, completad en vuestra wiki, bajo el encabezado **T6S1**:
+
+| Servicio | Produce | Objetivo | Factor crítico de éxito |
+|----|----|----|----|
+| | | | |
+
+El objetivo tiene que ser **SMART**.
+
+### Paso 3. Las fichas
+
+Para cada servicio, **2 o 3 indicadores**, cada uno con su ficha. Copiad esta plantilla:
+
+```
+| Campo | |
+|---|---|
+| Nombre | |
+| Servicio | |
+| Objetivo al que responde | |
+| Concepto y dimensión | |
+| Fórmula | |
+| Definiciones | |
+| Fuente de los datos | |
+| Periodicidad | |
+| Meta | |
+| Sentido | |
+| Limitaciones | |
+```
+
+Al menos un indicador de cada servicio tiene que ser de **rendimiento** y al menos uno, de **satisfacción o percepción**.
+
+**Antes de dar la tarea por terminada**, comprobad:
+
+- [ ] ¿Cada indicador responde a un objetivo y no a «lo que hay»?
+- [ ] ¿Cada fórmula tiene numerador y denominador, y cada término está definido?
+- [ ] ¿Cada indicador tiene meta y sentido?
+- [ ] ¿Habéis escrito al menos una limitación por indicador?
+- [ ] ¿La fuente es concreta (qué documento o registro, de quién) o al menos sabéis que **no** hay fuente?
+
+**Entrega.** En vuestra página de la wiki, bajo el encabezado **T6S1**. Commit antes de que acabe la clase.
 :::
+

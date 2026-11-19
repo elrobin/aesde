@@ -1,0 +1,167 @@
+---
+title: "Sistemas de indicadores"
+---
+
+::: callout-note
+## Objetivos de la sesión
+
+Al terminar esta sesión deberíais ser capaces de:
+
+- Explicar qué distingue un **sistema** de indicadores de una lista de indicadores.
+- **Seleccionar** un conjunto reducido y equilibrado de indicadores.
+- Organizar los datos en una hoja de cálculo en **formato largo** y explicar por qué es el que necesita un dashboard.
+- **Documentar** la recogida y el procesamiento de los datos para que cualquiera pueda repetirlos.
+:::
+
+## De dónde venimos
+
+Ya tenéis vuestras fichas revisadas por vosotras, por una compañera y por la IA. Entre todas tenéis unos veinte indicadores. Hoy toca convertirlos en **un sistema** y preparar los datos que alimentarán el dashboard del Tema 7.
+
+## ¿Qué es un sistema de indicadores?
+
+Un sistema de indicadores es un **conjunto reducido de indicadores que, juntos, permiten saber si la organización cumple sus objetivos**. Lo que lo diferencia de una lista es que los indicadores:
+
+- **Responden a los objetivos**, no a los datos que había a mano.
+- **Se complementan**: lo que uno no ve, lo ve otro (rendimiento y satisfacción, cantidad y calidad).
+- **Cubren varios niveles**: recursos (lo que entra), procesos, productos (lo que se hace) y resultados (lo que cambia para el usuario).
+- **Se equilibran entre sí**: si uno se puede manipular, otro lo delata (recordad Goodhart).
+
+## Cómo seleccionar y cuántos
+
+No hay un número mágico, pero un sistema que alguien tiene que mirar y entender de un vistazo rara vez supera los **5-7 indicadores**. Más que eso es una lista, y nadie la lee.
+
+Criterios para seleccionar:
+
+| Criterio | Pregunta |
+|----|----|
+| **Pertinencia** | ¿Responde a un objetivo importante para la biblioteca y sus partes interesadas? |
+| **Validez** | ¿Ha pasado la revisión de adecuación, sensibilidad y homogeneidad? |
+| **Cobertura** | ¿Entre todos cubrimos varios servicios y varios niveles? ¿Hay al menos uno de satisfacción y uno de eficiencia? |
+| **Factibilidad** | ¿Hay datos para calcularlo, o una forma realista de conseguirlos? |
+| **No redundancia** | ¿Dice algo que no digan ya los demás? |
+
+Un indicador valioso sin datos **no se descarta ni se inventa**: va a la lista de **huecos**, con la forma en que se podría conseguir el dato.
+
+## Recoger, procesar y describir datos
+
+Tres momentos que hay que separar:
+
+1. **Recogida**: de dónde sale cada dato (REBIUN, memorias de la BUG, la encuesta del Tema 2, la vigilancia del Tema 5...), cuándo se consultó y a qué ámbito se refiere (**Colegio Máximo o BUG**).
+2. **Procesamiento**: qué cálculos se hacen. Guardad siempre el **numerador y el denominador**, no solo el porcentaje: así se puede comprobar y recalcular.
+3. **Descripción**: qué significa cada columna, en qué unidad está y qué limitaciones tiene.
+
+Reglas básicas para una hoja de datos ([Broman y Woo](https://doi.org/10.1080/00031305.2017.1375989) las explican muy bien):
+
+- **Una celda, un dato.** Nada de «1.200 (aprox.)»: el número en una columna y la nota en otra.
+- **Nada de celdas combinadas** ni de colores que signifiquen algo: el ordenador no los lee.
+- **Faltante no es cero.** Si no hay dato, la celda queda vacía o con `NA`, nunca con `0`.
+- **Nombres de columna cortos, sin espacios ni tildes**: `prestamos_totales`, no `Nº de préstamos totales`.
+- **Fechas y periodos en un formato único**: `2025` o `2025-26`, siempre igual.
+
+## Formato ancho y formato largo
+
+Los mismos datos se pueden organizar de dos maneras. En **formato ancho**, cada año es una columna:
+
+| indicador | 2022 | 2023 | 2024 |
+|----|----|----|----|
+| Préstamos por usuario | 4,1 | 4,5 | 4,8 |
+| Satisfacción con la sala | 6,9 | | 7,2 |
+
+En **formato largo**, cada fila es **una observación**: un indicador, en un periodo, con un valor.
+
+| indicador | periodo | valor |
+|----|----|----|
+| Préstamos por usuario | 2022 | 4,1 |
+| Préstamos por usuario | 2023 | 4,5 |
+| Préstamos por usuario | 2024 | 4,8 |
+| Satisfacción con la sala | 2022 | 6,9 |
+| Satisfacción con la sala | 2024 | 7,2 |
+
+El ancho es más cómodo de **leer**; el largo es mejor para **trabajar** con los datos:
+
+- Añadir un año o un indicador nuevo es añadir filas, sin cambiar la estructura.
+- Cada fila puede llevar su **fuente**, su **ámbito** y sus **notas**.
+- Se filtra y se resume fácilmente con tablas dinámicas.
+- Es el formato que esperan las herramientas de dashboards (Looker Studio, Power BI, R...).
+
+Es lo que en análisis de datos se conoce como [datos ordenados (*tidy data*)](https://doi.org/10.18637/jss.v059.i10).
+
+## Documentar el trabajo: los protocolos
+
+Si solo una persona sabe cómo se ha calculado un indicador, el indicador muere cuando esa persona se va. Por eso la ISO 9001 exige conservar **información documentada** (lo vimos en el Tema 3): no basta con hacerlo, hay que poder demostrar **cómo** se hizo.
+
+Para cada indicador, el protocolo responde a:
+
+- **¿De dónde** sale cada dato? (fuente, enlace, tabla o página)
+- **¿Cuándo** se consultó?
+- **¿Quién** lo recogió?
+- **¿Qué transformaciones** se hicieron? (filtros, sumas, cambios de unidad)
+- **¿Qué problemas** hubo? (rupturas de serie, cambios de ámbito, datos que faltan)
+
+La prueba de que el protocolo funciona: **otra persona, siguiéndolo, obtiene el mismo número.**
+
+## Cómo organizarse
+
+Para que el trabajo en grupo no se atasque, os proponemos:
+
+**Roles** (rotad si queréis, pero que cada uno tenga dueña):
+
+- **Coordinación**: lleva el orden del día, controla el tiempo y cierra las decisiones.
+- **Datos**: mantiene el Excel y comprueba que cada fila cumple las reglas.
+- **Documentación**: escribe la página web con fichas, fuentes y limitaciones.
+
+**Regla de selección en dos rondas:**
+
+1. Cada persona propone y defiende en un minuto sus **dos mejores indicadores**.
+2. Con todos a la vista, comprobáis la cobertura (servicios, niveles, satisfacción, eficiencia) y **completáis los huecos**. Si sobran, se descartan primero los que no tienen datos ni forma de conseguirlos.
+
+## Tarea: el sistema de indicadores de la Biblioteca del Colegio Máximo
+
+::: ejercicio
+### Parte 1. El Excel
+
+Un **único fichero Excel**, en el repositorio, con **una sola pestaña** en formato largo y estas columnas:
+
+| Columna | Contenido |
+|----|----|
+| `id` | Código del indicador (`I01`, `I02`...) |
+| `indicador` | Nombre corto |
+| `servicio` | Servicio, producto o proceso |
+| `nivel` | Recurso, proceso, producto o resultado |
+| `dimension` | Rendimiento, satisfacción o eficiencia |
+| `ambito` | Colegio Máximo o BUG |
+| `periodo` | Año o curso |
+| `numerador` | Valor del numerador |
+| `denominador` | Valor del denominador |
+| `valor` | Resultado del indicador |
+| `unidad` | %, por usuario, escala 1-9... |
+| `meta` | Valor de la meta |
+| `fuente` | Nombre de la fuente |
+| `url` | Enlace a la fuente |
+| `fecha_consulta` | Cuándo se consultó |
+| `nota` | Rupturas, estimaciones, avisos |
+
+### Parte 2. La página web
+
+Una página en vuestra web con:
+
+1. **El sistema**: los indicadores seleccionados, con su ficha final, y por qué estos y no otros.
+2. **Fuentes y protocolo**: cómo se ha recogido y procesado cada dato.
+3. **Huecos**: los indicadores sin datos y cómo se podrían conseguir.
+4. **Interpretación y limitaciones**: qué se puede concluir con estos datos y qué no.
+
+**Antes de dar la tarea por terminada**, comprobad:
+
+- [ ] ¿Hay una sola pestaña y cada fila es un indicador en un periodo?
+- [ ] ¿Cada fila tiene fuente y fecha de consulta?
+- [ ] ¿Los datos que faltan están vacíos o como `NA`, y no como `0`?
+- [ ] ¿Cada indicador del Excel tiene su ficha en la web?
+- [ ] ¿Está claro en cada fila si el dato es del Colegio Máximo o de la BUG?
+- [ ] ¿Siguiendo vuestro protocolo, otra persona obtendría los mismos números?
+
+**Entrega.** Excel y página web en el repositorio del grupo. Commit antes de que acabe la clase.
+:::
+
+## Lo que viene
+
+En el Tema 7 convertiréis este Excel en un **dashboard**. Antes de empezar, pensad qué **preguntas** queréis que responda: un dashboard que no responde a ninguna pregunta es solo un conjunto de gráficos.

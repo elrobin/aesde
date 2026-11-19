@@ -1,0 +1,165 @@
+---
+title: "Validación e interpretación de indicadores"
+---
+
+::: callout-note
+## Objetivos de la sesión
+
+Al terminar esta sesión deberíais ser capaces de:
+
+- Aplicar los criterios de **adecuación**, **sensibilidad** y **homogeneidad** para decidir si un indicador se mantiene, se reformula o se descarta.
+- Reconocer los **efectos perversos** de los indicadores (Goodhart y Campbell) y algunas formas de mitigarlos.
+- Decidir qué hacer cuando **mejorar la medición** rompe la **comparabilidad** con años anteriores.
+- Distinguir indicadores **simples y compuestos**, **retrospectivos y prospectivos**, y **cuantitativos y cualitativos**.
+- Diferenciar **eficacia** y **eficiencia** y leer críticamente un indicador de eficiencia para bibliotecas.
+:::
+
+## De dónde venimos
+
+En la sesión anterior pasamos del concepto al indicador y cada una diseñó sus primeras fichas para la Biblioteca del Colegio Máximo. Hoy las vamos a poner a prueba.
+
+<!-- NICOLÁS: aquí 2-3 ejemplos reales (anónimos) de fallos de las fichas de la S1 -->
+
+## Malas brújulas
+
+[Yves Gingras](https://www.insidehighered.com/node/58119) compara a quien dirige una organización con malos indicadores con un capitán que navega con brújulas mal calibradas: cree que sabe hacia dónde va, pero no lo sabe. Un indicador malo **es peor que no tener ninguno**, porque da una falsa sensación de control.
+
+Por eso, de cada indicador hay que saber dos cosas: **qué mide** y **qué no mide**. Esa segunda parte es el campo de *limitaciones* de vuestras fichas, y es el que vamos a mirar con más atención hoy.
+
+## Uso responsable (e irresponsable) de las métricas
+
+Un indicador no solo **describe** una organización: también la **cambia**, porque la gente empieza a trabajar para el número.
+
+- **[Ley de Goodhart](https://en.wikipedia.org/wiki/Goodhart%27s_law)**: cuando una medida se convierte en objetivo, deja de ser una buena medida.
+- **[Ley de Campbell](https://en.wikipedia.org/wiki/Campbell%27s_law)**: cuanto más se usa un indicador cuantitativo para tomar decisiones, más presión hay para manipularlo y más distorsiona el proceso que pretendía medir.
+
+> **En la biblioteca:** si a la biblioteca se le asigna presupuesto según sus préstamos, ¿qué podría hacer para que los préstamos suban sin que el servicio mejore?
+
+Algunas formas de **mitigar** estos efectos:
+
+| Estrategia | En qué consiste |
+|----|----|
+| **Varios indicadores que se equilibren** | Si mido rapidez, mido también errores; si mido préstamos, también satisfacción |
+| **Indicadores para informar, no para sancionar** | No atar premios o castigos a un único número |
+| **Combinar con juicio experto** | El número abre la conversación, no la cierra |
+| **Transparencia** | Que se sepa cómo se calcula y se pueda reproducir |
+| **Revisión periódica** | Retirar los indicadores que ya se han «aprendido» a manipular |
+
+En evaluación de la investigación, estas ideas están recogidas en el [Manifiesto de Leiden](https://www.nature.com/articles/520429a), la [Declaración DORA](https://sfdora.org/read/) y el acuerdo europeo [CoARA](https://coara.eu).
+
+## Mejorar la medición frente a mantener la trazabilidad
+
+A veces el indicador cambia porque **cambia la forma de contar**, no la realidad. Ya lo visteis en el Tema 4:
+
+- **Ceuta** «creció» un 83% en préstamos por biblioteca porque se redujo a la mitad el número de bibliotecas: cambió el **denominador**.
+- Los **usuarios de REBIUN** se duplicaron en 2020 porque empezaron a contarse los usuarios de los consorcios: una **ruptura de serie**.
+
+<!-- NICOLÁS: aquí tu ejemplo de rankings de universidades -->
+
+Mejorar un indicador es legítimo, pero tiene un coste: se pierde la comparación con el pasado. Algunas pautas:
+
+1. **Documentar el cambio** en la ficha: qué cambió, cuándo y por qué.
+2. **Mantener las dos series** durante un tiempo, para poder ver el efecto del cambio.
+3. **No comparar a través de la ruptura** sin advertirlo.
+4. **Guardar los datos brutos** (numerador y denominador), no solo el resultado: así se puede recalcular.
+
+## Tipos de indicadores
+
+| Tipo | Qué es | Ejemplo en la biblioteca |
+|----|----|----|
+| **Simple** | Un solo dato puesto en relación con otro | Préstamos por usuario |
+| **Compuesto** | Combina varios indicadores en un único valor | Una puntuación global de calidad del servicio |
+| **Retrospectivo** | Indica el desempeño **pasado** (ISO 9000) | Préstamos del curso pasado |
+| **Prospectivo** | Indica el desempeño **esperado** (ISO 9000) | Inscripciones en los cursos de formación del próximo cuatrimestre |
+| **Cuantitativo** | Se expresa con un número en una escala | % de préstamos servidos sin reserva |
+| **Cualitativo** | Se expresa en categorías o niveles | Existencia de una carta de servicios actualizada (sí/no); nivel de accesibilidad de la web |
+
+Ojo: **cualitativo no significa subjetivo**. La existencia de una carta de servicios es un hecho comprobable; la satisfacción medida con una escala numérica es cuantitativa y subjetiva a la vez.
+
+Los indicadores **compuestos** resumen mucho en un solo número, pero son los más expuestos a fallar en **homogeneidad**: ¿cuánto pesa cada componente y quién lo ha decidido?
+
+## Eficacia y eficiencia en bibliotecas
+
+- **Eficacia**: ¿consigo lo que me propongo? Comparo resultados con objetivos.
+- **Eficiencia**: ¿a qué coste lo consigo? Comparo resultados con recursos.
+
+Los indicadores de eficiencia son de **segundo nivel**: se construyen a partir de otros indicadores (de primer nivel). Un ejemplo hecho en Granada es la **potencia del sistema** de la metodología Secaba-Rank, que ya os anunciamos en el Tema 4.
+
+### Lectura en clase
+
+Leed el apartado de **Materiales y metodología** de [Lázaro-Rodríguez, López-Gijón y Herrera-Viedma (2020)](http://bid.ub.edu/es/44/lazaro.htm) (unos 20 minutos) y responded en parejas:
+
+1. ¿Qué es la **entrada** del sistema y qué son las **salidas**?
+2. ¿Por qué se calcula todo **per cápita**? ¿Qué problema evita?
+3. ¿Qué es el **sistema base** y por qué se divide por él?
+4. ¿Qué significa que una red tenga una potencia **mayor, menor o igual a 1**?
+5. ¿Qué peso tiene cada salida? ¿Quién lo ha decidido y por qué?
+
+### Cómo funciona
+
+1. Se calcula cada indicador **per cápita** para cada comunidad autónoma (indicadores de primer nivel).
+2. Cada valor se divide por el de la media del conjunto (el **sistema base**): así se obtienen la **potencia de entrada** (presupuesto) y las **potencias de salida** (préstamos, visitas, uso de Internet y asistencia a actividades culturales).
+3. **Potencia del sistema = media de las potencias de salida / potencia de entrada**.
+
+Si el resultado es mayor que 1, la red «produce» más de lo que «recibe» en relación con la media: los autores hablan de **potencia** y la consideran eficiente. Si es menor que 1, de **dispotencia**.
+
+### Diseccionando la potencia con Gingras
+
+Algunos resultados del artículo (bibliotecas públicas, datos de 2016):
+
+| Comunidad | Potencia del sistema en préstamos | En actividades culturales | Total |
+|----|----|----|----|
+| Cataluña | 1,31 | 0,20 | 0,86 |
+| Canarias | 0,62 | 4,35 | **1,90** |
+| Andalucía | 0,58 | 0,20 | 0,67 |
+
+Cataluña es la comunidad que más presta por habitante y sale «dispotente»; Canarias presta poco y obtiene la potencia total más alta. ¿Por qué? La asistencia a actividades culturales es muy baja en el conjunto (0,10 por habitante), así que pequeñas diferencias se convierten en potencias muy grandes y arrastran la media.
+
+> **Para discutir:**
+>
+> - **Homogeneidad.** ¿Tiene sentido sumar con el mismo peso préstamos, visitas, sesiones de Internet y asistencia a actividades?
+> - **Sensibilidad.** ¿Una diferencia de 0,15 asistentes por habitante debería pesar más que duplicar los préstamos?
+> - **Adecuación.** Recordad las cuentas rojas: ¿una biblioteca es *eficiente* porque recibe muchas visitas? ¿Qué está midiendo realmente este indicador?
+
+No se trata de descartar el indicador, sino de **saber leerlo**: los propios autores presentan las potencias de cada salida por separado, además de la total, precisamente para ver en qué dimensión destaca cada red.
+
+## Tarea: validar vuestros indicadores
+
+::: ejercicio
+Seguimos con la práctica. Hoy revisáis las fichas de la sesión anterior en tres rondas. **Todo se documenta en vuestra wiki, bajo el encabezado T6S2.**
+
+### Ronda 1. Revisión propia (sin IA)
+
+Revisad cada uno de vuestros indicadores con los tres criterios:
+
+| Indicador | Adecuación | Sensibilidad | Homogeneidad | Decisión |
+|----|----|----|----|----|
+| | ¿Mide el concepto? | ¿Cambia al ritmo de la realidad? | ¿Mide una sola cosa? | Mantener / Reformular / Descartar |
+
+Cada celda, **una frase**. Si reformuláis, corregid la ficha.
+
+### Ronda 2. Revisión de una compañera (sin IA)
+
+Revisad las fichas de la compañera que os toque **directamente en su wiki**:
+
+- Marcad en **negrita** cada cambio que hagáis.
+- Junto a cada cambio, indicad entre corchetes el criterio que lo justifica: **\[A\]** adecuación, **\[S\]** sensibilidad o **\[H\]** homogeneidad, y una frase con el motivo.
+
+### Ronda 3. Revisión con IA
+
+Ahora sí, pedid a una IA que revise vuestras fichas con los mismos tres criterios. Documentad en vuestra wiki:
+
+1. Los **prompts** que habéis usado, tal cual.
+2. Lo que os ha propuesto la IA.
+3. Qué **aceptáis y qué rechazáis**, con una frase de por qué.
+
+**Antes de dar la tarea por terminada**, comprobad:
+
+- [ ] ¿Cada indicador tiene una decisión (mantener, reformular o descartar) justificada con los criterios?
+- [ ] ¿Los cambios en la wiki de vuestra compañera están en negrita y con su criterio?
+- [ ] ¿Están los prompts copiados tal cual?
+- [ ] ¿Habéis rechazado o matizado al menos una propuesta de la IA? Si la habéis aceptado toda, explicad por qué.
+- [ ] ¿Las fichas finales están actualizadas?
+
+**Entrega.** En vuestra wiki, bajo el encabezado **T6S2**. Commit antes de que acabe la clase.
+:::
