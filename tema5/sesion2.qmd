@@ -149,7 +149,7 @@ La información capturada tiene que acabar en un lugar donde se pueda **almacena
 
 ## Tarea: un sistema de vigilancia social para la biblioteca
 
-::: ejercicio
+
 ### El caso
 
 Vamos a montar un sistema de vigilancia de la **dimensión social** del contexto de la Biblioteca del Colegio Máximo, centrado en tres partes interesadas: el estudiantado y el profesorado de la Facultad de Comunicación y Documentación, los de la Facultad de Odontología, y la dirección de la Biblioteca Universitaria (BUG).
@@ -173,7 +173,7 @@ El sistema tiene dos partes, que corresponden a dos etapas del ciclo de la vigil
 | **Análisis** | Gemini con instrucciones fijas | Filtra y clasifica un volumen de noticias que sería lento revisar a mano |
 | **Control** | Revisión humana | La IA puede equivocarse al seleccionar, clasificar o resumir |
 
-
+::: ejercicio
 **Paso 1.** En Google Sheets, con vuestra cuenta go.ugr.es, cread una hoja con estas pestañas: `UGR`, `Prensa`, `News`, `BUG` y `Análisis`.
 
 En la fila 1 de las cuatro primeras escribid estos encabezados: **Fuente**, **Título**, **Enlace**, **Fecha** y **Resumen**.
