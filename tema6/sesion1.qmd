@@ -200,18 +200,13 @@ Vais a diseñar el sistema de indicadores que después mostraréis en vuestro da
 
 Elegid **dos** servicios, productos o procesos de esta lista, sin repetir con nadie. Anotad el reparto en la página de inicio de la wiki antes de empezar.
 
-1. Préstamo domiciliario
-2. Préstamo intercampus y CBUA
-3. Préstamo de portátiles y otros dispositivos
-4. Sala de lectura y puestos de estudio
-5. Ordenadores y puestos de consulta
-6. Catálogo (Granatensis)
-7. Información y referencia en el mostrador
-8. Formación de usuarios
-9. Herramientas de apoyo (gestores bibliográficos, Turnitin, herramientas de IA)
-10. Colección y adquisiciones
+1. Préstamo 
+2. Espacios
+3. Consulta y referencia
+4. Formación
+5. Bibliomaker
 
-*### **Paso 2. La cadena**
+**Paso 2. La cadena**
 
 Para cada uno de vuestros dos servicios, completad en vuestra wiki:
 
@@ -221,7 +216,7 @@ Para cada uno de vuestros dos servicios, completad en vuestra wiki:
 
 El objetivo tiene que ser **SMART**.
 
-### Paso 3. Las fichas
+**Paso 3. Las fichas**
 
 Para cada servicio, **2 o 3 indicadores**, cada uno con su ficha. Copiad esta plantilla:
 
@@ -231,13 +226,8 @@ Para cada servicio, **2 o 3 indicadores**, cada uno con su ficha. Copiad esta pl
 | Nombre | |
 | Servicio | |
 | Objetivo al que responde | |
-| Concepto y dimensión | |
-| Fórmula | |
 | Definiciones | |
 | Fuente de los datos | |
-| Periodicidad | |
-| Meta | |
-| Sentido | |
 | Limitaciones | |
 ```
 
