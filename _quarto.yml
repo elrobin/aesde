@@ -54,6 +54,7 @@ website:
       - section: "T6 Sistemas de indicadores"
         contents:
           - tema6/sesion1.qmd
+          - tema6/sesion2.qmd
       # - section: "7. Normativa ISO 9000/9001"
       #   contents:
       #     - tema7/sesion1.qmd
