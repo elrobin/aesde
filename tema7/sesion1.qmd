@@ -1,26 +1,136 @@
 ---
-title: "La familia de normas ISO 9000/9001"
+title: "Visualizar información cuantitativa y cualitativa"
 ---
 
-::: {.diapo-box}
-Diapositivas de clase — *(enlace a las slides de este tema)*
+::: callout-note
+## Objetivos de la sesión
+
+Al terminar esta sesión deberíais ser capaces de:
+
+- Elegir el gráfico adecuado según **lo que queréis mostrar**: comparar, ver una evolución, contrastar con una meta o mostrar partes de un todo.
+- Mostrar información **cualitativa** sin forzarla a ser un número.
+- Reconocer gráficos que **engañan aunque los datos sean correctos**.
+- Mostrar siempre la **referencia** de cada indicador: meta, año anterior u otra organización.
 :::
 
-## Contenidos teoricos
+## De dónde venimos
 
-*(Desarrolla aqui la teoria del tema. Si quieres codigo R ejecutable -p. ej. para el Tema 6, dashboards- usa un bloque de codigo R.)*
+En el Tema 6 construisteis el **sistema de indicadores** de la Biblioteca del Colegio Máximo y lo dejasteis en un Excel en formato largo. En este tema lo convertiremos en un **dashboard**. Antes de tocar ninguna herramienta, hay que saber **cómo se muestra** un dato para que se entienda bien.
 
-```{r}
-#| eval: false
-#| echo: true
-# Ejemplo de bloque de codigo R (desactivado por defecto con eval: false)
-# library(tidyverse)
-```
-
-## Ejercicio: *(titulo del ejercicio)*
-
-::: {.ejercicio}
-**Objetivo.** *(que debe aprender/practicar el alumno)*
-
-**Instrucciones.** *(enunciado del ejercicio, tabla o pasos a seguir)*
+::: consejo
+**Si vuestro Excel del T6S3 no está terminado**, empezad por ahí. Sin datos no hay dashboard.
 :::
+
+## Por qué visualizar
+
+Una tabla sirve para **consultar** un valor concreto. Un gráfico sirve para **ver** patrones: qué sube, qué baja, qué destaca, qué está lejos de la meta.
+
+El ejemplo clásico es el [cuarteto de Anscombe](https://es.wikipedia.org/wiki/Cuarteto_de_Anscombe): cuatro conjuntos de datos con la misma media, la misma varianza y la misma correlación que, al dibujarlos, no se parecen en nada.
+
+<!-- NICOLÁS: imagen del cuarteto de Anscombe -->
+
+Pero lo que hace visible un gráfico también lo puede **esconder o deformar**. Por eso elegir el gráfico es una decisión con consecuencias, como lo era elegir el indicador.
+
+## ¿Qué quiero mostrar? → ¿Qué gráfico?
+
+La pregunta no es «¿qué gráfico queda bonito?», sino **«¿qué tiene que ver quien lo mire?»**.
+
+### Información cuantitativa
+
+| Quiero mostrar... | Gráfico | Ejemplo en la biblioteca | Mejor evitar |
+|----|----|----|----|
+| **Comparación** entre categorías | Barras (horizontales si los nombres son largos), ordenadas de mayor a menor | Préstamos por servicio | Tartas con muchas porciones |
+| **Evolución** en el tiempo | Líneas (barras si hay muy pocos periodos) | Préstamos por usuario 2020-2025 | Unir con una línea categorías que no son tiempo |
+| **Valor frente a meta** | Número grande con la meta al lado, o barra de progreso | Satisfacción con la sala: 7,2 (meta: 7) | Velocímetros |
+| **Partes de un todo** | Barra apilada al 100% (o simplemente barras) | Préstamos por tipo de usuario | Tartas de más de 2-3 porciones; 3D |
+
+### Información cualitativa
+
+No todo indicador es un número. Recordad del T6S2: **cualitativo no significa subjetivo**.
+
+| Tipo | Cómo mostrarlo | Ejemplo |
+|----|----|----|
+| **Sí / no** | Tabla con iconos o texto | Carta de servicios actualizada: ✅ |
+| **Niveles ordenados** | Semáforo o escala de color de menos a más | Accesibilidad de la web: nivel medio 🟡 |
+| **Categorías sin orden** | Etiquetas o una tabla | Canales de atención disponibles: presencial, correo, chat |
+| **Texto** (opiniones, quejas) | Unas pocas citas seleccionadas y representativas | «No encuentro enchufes libres en la sala» |
+
+Cuidado con convertir categorías en números para poder hacer un gráfico. Si pasáis «bajo, medio, alto» a 1, 2 y 3 y calculáis una media, estáis suponiendo que la distancia entre «bajo» y «medio» es la misma que entre «medio» y «alto». Casi nunca lo es.
+
+## Gráficos que mienten con datos correctos
+
+Un gráfico puede engañar sin que ningún dato sea falso. El curso [*Calling Bullshit*](https://callingbullshit.org/syllabus.html#Visual), de Carl Bergstrom y Jevin West, dedica un módulo a esto. Los trucos más habituales:
+
+| Truco | Qué pasa | Regla |
+|----|----|----|
+| [**Eje truncado**](https://callingbullshit.org/tools/tools_misleading_axes.html) | Las barras no empiezan en 0 y una diferencia del 2% parece enorme | En **barras**, el eje empieza en 0. En líneas no hace falta, pero hay que indicarlo |
+| [**Tinta desproporcionada**](https://callingbullshit.org/tools/tools_proportional_ink.html) | El área o el volumen no es proporcional al valor (burbujas, iconos que crecen, 3D) | La cantidad de tinta tiene que ser proporcional al valor |
+| **Doble eje** | Dos escalas distintas hacen que dos series parezcan relacionadas | Mejor dos gráficos, uno al lado del otro |
+| **Elegir el periodo** | Empezar la serie justo en el peor año hace que todo parezca una mejora | Mostrar la serie completa o explicar por qué se corta |
+
+<!-- NICOLÁS: aquí tus ejemplos (prensa, Calling Bullshit) para comentar en clase -->
+
+### Patos y zapatos de cristal
+
+En el libro de [Bergstrom y West (2020)](https://www.callingbullshit.org/) aparecen dos figuras muy útiles:
+
+- **Patos**: gráficos tan decorados que la forma importa más que los datos. El nombre viene de Tufte y de un edificio con forma de pato que vende patos.
+- **Zapatos de cristal**: datos encajados a la fuerza en una forma pensada para otra cosa, como una «tabla periódica» de algo o un «mapa de metro» de algo. La forma sugiere una estructura (filas que significan algo, líneas que conectan) que los datos no tienen.
+
+<!-- NICOLÁS: un pato y un zapato de cristal -->
+
+> 🤔 Quien diseña un gráfico es responsable de que **se lea bien**, no solo de que los datos sean correctos.
+
+## Sin referencia no hay indicador
+
+Lo vimos en el T6: un número sin referencia no dice nada. En un gráfico, la referencia **tiene que verse**:
+
+| Referencia | Cómo se muestra |
+|----|----|
+| **Meta** | Una línea horizontal en el gráfico, o «meta: X» junto al número |
+| **Año anterior** | El valor anterior en gris, o una flecha ▲▼ con la variación |
+| **Otra organización** (benchmark, T4) | Una barra o línea de la media de REBIUN o de una biblioteca similar |
+
+Usad el **color con significado**: por ejemplo, en gris todo y en color solo lo que no cumple la meta. Si todo tiene color, nada destaca.
+
+La información cualitativa también tiene referencia: ¿se esperaba que la carta de servicios estuviera actualizada? Entonces un ❌ es una alarma.
+
+## Avisos en el propio gráfico
+
+Las limitaciones de vuestras fichas no se quedan en la ficha. Si el lector no las ve, el gráfico engaña:
+
+- **Rupturas de serie**: marcad el cambio (una línea vertical discontinua, una nota) y no unáis con una línea los puntos de antes y de después.
+- **Ámbito**: dejad claro si el dato es del **Colegio Máximo** o de la **BUG**. No los mezcléis en el mismo gráfico sin avisar.
+- **Datos que faltan**: el hueco se deja visible. Un hueco no es un cero.
+
+## Tarea: ¿cómo mostraríais vuestros indicadores?
+
+::: ejercicio
+Antes de construir el dashboard en la próxima sesión, vais a decidir **cómo se muestra cada indicador** de vuestro sistema. Hoy no hay código: papel, lápiz y criterio.
+
+**Paso 1. La tabla (en grupo)**
+
+En la wiki, bajo el encabezado **T7S1**, completad una fila por cada indicador del sistema:
+
+| id | Indicador | Cuanti / cuali | ¿Qué quiero mostrar? | Gráfico | Referencia que se muestra | Por qué | Aviso |
+|----|----|----|----|----|----|----|----|
+| I01 | | | Comparación / evolución / frente a meta / partes de un todo / categoría | | Meta / año anterior / benchmark | Una frase | Ruptura, ámbito, datos que faltan... (si lo hay) |
+
+**Paso 2. El boceto (individual)**
+
+Cada una elige los **3 indicadores** con los que hará su dashboard en la próxima sesión y los dibuja **a mano**: ejes, referencia, títulos y avisos. Haced una foto y subidla a la wiki con vuestro nombre.
+
+**Antes de dar la tarea por terminada**, comprobad:
+
+- [ ] ¿Cada indicador tiene un gráfico elegido según lo que se quiere mostrar, y no por estética?
+- [ ] ¿Los indicadores cualitativos se muestran sin convertirlos en números falsos?
+- [ ] ¿Cada indicador tiene una referencia visible?
+- [ ] ¿En los bocetos de barras, el eje empieza en 0?
+- [ ] ¿Están marcados los avisos (rupturas, ámbito, datos que faltan)?
+
+**Entrega.** Tabla y bocetos en la wiki. Commit antes de que acabe la clase.
+:::
+
+## Lo que viene
+
+En la próxima sesión convertiréis vuestros bocetos en un **dashboard con Quarto** que lee directamente vuestro Excel.
